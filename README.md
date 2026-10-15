@@ -33,10 +33,19 @@ Requieren Node.js 18 o posterior:
 node --test tests/*.test.cjs
 ```
 
-## Publicar
+## Sitio público
 
-Configurar `dist/` como directorio público del servidor de archivos estáticos. Se debe conservar su estructura completa.
+La aplicación está disponible en https://dospuntocero.github.io/boxcraft/.
 
-Para una publicación manual con GitHub Pages, copiar el contenido de `dist/` a la carpeta `docs/` del repositorio y seleccionar la rama `main` y la carpeta `/docs` en Settings → Pages. La aplicación utiliza rutas relativas y puede funcionar bajo el nombre del repositorio.
+## Publicar actualizaciones
+
+GitHub Pages sirve la rama `gh-pages`, cuyo contenido es exclusivamente la carpeta `dist/` de `main`. Después de confirmar los cambios:
+
+```sh
+git push origin main
+git subtree push --prefix dist origin gh-pages
+```
+
+También se puede configurar `dist/` como directorio público en otro servidor estático, conservando su estructura completa.
 
 Los catálogos de modelos y materiales incluyen restricciones de edición y compatibilidad. Comprobar el armado con una muestra antes de fabricar.
