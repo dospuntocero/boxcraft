@@ -1,0 +1,3286 @@
+{
+  "200010": {
+    "originalMaterialId": 3,
+    "originalThickness": 3,
+    "observedThicknessLimits": [
+      0.2,
+      9
+    ],
+    "verifiedThicknessRange": [
+      3,
+      3
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -4,
+        "W": -4,
+        "H": -8
+      },
+      "outer": {
+        "L": 2,
+        "W": 2,
+        "H": 4
+      }
+    },
+    "source": "geometria/knife.json",
+    "samples": [
+      {
+        "path": "geometria/experimentos/knife-00.json",
+        "sha256": "4ca8c13170e3757cb5b4005e609a4dec661616db914adf743d9e6a57d66479f7",
+        "manufacturing": {
+          "L": 434,
+          "W": 214,
+          "H": 278,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 430,
+          "W": 210,
+          "H": 270,
+          "D": 3,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 436,
+          "W": 216,
+          "H": 282,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 3
+      },
+      {
+        "path": "geometria/experimentos/knife-01.json",
+        "sha256": "dbbce2a5f3b61a3feccdcdedce2ca771c8362eb85e4d1db3c5b7c799aef0d8b3",
+        "manufacturing": {
+          "L": 434,
+          "W": 214,
+          "H": 278,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 430,
+          "W": 210,
+          "H": 270,
+          "D": 3,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 436,
+          "W": 216,
+          "H": 282,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 3
+      },
+      {
+        "path": "geometria/experimentos/knife-02.json",
+        "sha256": "8050a5ba6518e4fbc53a6d655ee950a9e131ddb20049a7edf8f6e1b99a3f672c",
+        "manufacturing": {
+          "L": 508,
+          "W": 214,
+          "H": 278,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 504,
+          "W": 210,
+          "H": 270,
+          "D": 3,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 510,
+          "W": 216,
+          "H": 282,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 3
+      },
+      {
+        "path": "geometria/experimentos/knife-03.json",
+        "sha256": "50e2e6dc8dab274443363e62583387530e00ae51a1db8294e8ccc8ffebfc3328",
+        "manufacturing": {
+          "L": 434,
+          "W": 214,
+          "H": 278,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 430,
+          "W": 210,
+          "H": 270,
+          "D": 3,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 436,
+          "W": 216,
+          "H": 282,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 3
+      },
+      {
+        "path": "geometria/experimentos/knife-04.json",
+        "sha256": "5d5630f3add208c219e93b785e6773afed5ea3a53c39dd1583885b8fd7e1179a",
+        "manufacturing": {
+          "L": 434,
+          "W": 254,
+          "H": 278,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 430,
+          "W": 250,
+          "H": 270,
+          "D": 3,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 436,
+          "W": 256,
+          "H": 282,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 3
+      },
+      {
+        "path": "geometria/experimentos/knife-05.json",
+        "sha256": "050a6178d4f21bcc7f0088a16a0e00b61be98f71d12f0ce174c56094a9e841f8",
+        "manufacturing": {
+          "L": 434,
+          "W": 214,
+          "H": 278,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 430,
+          "W": 210,
+          "H": 270,
+          "D": 3,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 436,
+          "W": 216,
+          "H": 282,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 3
+      },
+      {
+        "path": "geometria/experimentos/knife-06.json",
+        "sha256": "b96a38a8192dfef6974d14d05950005f721f0caaf0f42046586344eb00896f38",
+        "manufacturing": {
+          "L": 434,
+          "W": 214,
+          "H": 304.8,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 430,
+          "W": 210,
+          "H": 296.8,
+          "D": 3,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 436,
+          "W": 216,
+          "H": 308.8,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 3
+      },
+      {
+        "path": "geometria/experimentos/knife-07.json",
+        "sha256": "a8a5167e66ad69c9dc1347eefcb6e2b8d945626f283e73ce4aa9331dd3c7b9ac",
+        "manufacturing": {
+          "L": 434,
+          "W": 214,
+          "H": 278,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 430,
+          "W": 210,
+          "H": 270,
+          "D": 3,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 436,
+          "W": 216,
+          "H": 282,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 3
+      }
+    ],
+    "excludedSamples": [
+      {
+        "path": "geometria/experimentos/knife-08.json",
+        "sha256": "d9f51730bf957c23a1446facfcd4751bc812527da56d448d5b5fa7e157d78c63",
+        "manufacturing": {
+          "L": 434,
+          "W": 214,
+          "H": 278,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 431,
+          "W": 211,
+          "H": 271,
+          "D": 2.54,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 436.08,
+          "W": 216.08,
+          "H": 281.16,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 3
+      }
+    ],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  },
+  "10001029": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.2,
+      1.5
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -0.6,
+        "W": -0.6,
+        "H": -1.1
+      },
+      "outer": {
+        "L": 0.4,
+        "W": 0.4,
+        "H": 0.9
+      }
+    },
+    "source": "geometria/modelos/10001029/ajustes/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/10001029/ajustes/knife-00.json",
+        "sha256": "974a178e9f24b8ef8de507f2ea02fb3438dbd3728e814ac32e72d32539ee2ff5",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/ajustes/knife-01.json",
+        "sha256": "c319676f1314caa85278378b64be3189af6654b7fddd3e37920390d2be8368cf",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/ajustes/knife-02.json",
+        "sha256": "cd815d2b697272448e5fb42d5eba6fb74f477ca7fd538b104148fc503a6f1830",
+        "manufacturing": {
+          "L": 70,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 69.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 70.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/ajustes/knife-03.json",
+        "sha256": "e92d39b586e4872c31d3f9cbbc2cdd1335d4fe53844b4ca6981a15d0f6ce491d",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/ajustes/knife-04.json",
+        "sha256": "fc39ca9c86fcf072f77569a42fc87c398edb5679b395b72eedef30f84cc0b78f",
+        "manufacturing": {
+          "L": 60,
+          "W": 50,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 49.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 50.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/ajustes/knife-05.json",
+        "sha256": "bd72be6d1355a63079400e8e1d1ab44cada1b780ac821bc2f31bb70fe84f6b76",
+        "manufacturing": {
+          "L": 60,
+          "W": 55,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 54.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 55.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/ajustes/knife-06.json",
+        "sha256": "8b596df09d02deab859a033f6aca82faf632f05e9ca93301ebd03b80584d95e9",
+        "manufacturing": {
+          "L": 60,
+          "W": 60,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 59.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 60.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/muestras/knife-00.json",
+        "sha256": "5b1884ab04d2c2ae03716a7e423ec874592ed94e00b13c40672a2c5651b3f2ef",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/muestras/knife-01.json",
+        "sha256": "389ba13c118a4582e1a169f7d7493fc364721856c2b41dc44ff6401cbf0378e0",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/muestras/knife-02.json",
+        "sha256": "3859825faa210df270f11877f9a5b52760a1f34ad528d7153f94e3b6337d6a62",
+        "manufacturing": {
+          "L": 76.2,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 75.6,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 76.6,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/muestras/knife-03.json",
+        "sha256": "fb10431fbb5b211c7fd6b643c4aecbe134e83e30f6ee6931f78250fffba00a8d",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/muestras/knife-04.json",
+        "sha256": "8bc1cb93238daf7b38ea04aea8815cc6d9c18062c0419221c2bb3e6dbd79ff7e",
+        "manufacturing": {
+          "L": 60,
+          "W": 63.5,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 62.9,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 63.9,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/muestras/knife-05.json",
+        "sha256": "4dd3465baa816a995b7b9dc2ef859eff1263310fcfb4486636ffa053b3c37af6",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/muestras/knife-06.json",
+        "sha256": "afb204f3cb47a0ca8229ef6f7d2ee63ec8c645d5dfff1b1a7d6878cce6995680",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 152.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 151.3,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 153.3,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/muestras/knife-07.json",
+        "sha256": "38d7b4cd08b50d327cfa94471ea3b3e23214f7f77805fb897ffc5d72c77a51c1",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/validacion/knife-00.json",
+        "sha256": "9cca2d9d652ee95e4907e798a5ec8f8ebe508787b1e6337efd102f1ec09508dc",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/validacion/knife-01.json",
+        "sha256": "6f0f287f64397c873efea92dfc45f710c91491e762c534374745c0519c7057db",
+        "manufacturing": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 59.4,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 60.4,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/validacion/knife-02.json",
+        "sha256": "cec1845d5695a8266da181274156c7091a52c3895207bdbbdf57831449ed0b19",
+        "manufacturing": {
+          "L": 68.58,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 67.98,
+          "W": 44.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 68.98,
+          "W": 45.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/validacion/knife-03.json",
+        "sha256": "abc433f5d0f4d8f417856ceb00e097934171866259e18a67b9208f371d8e4662",
+        "manufacturing": {
+          "L": 68.58,
+          "W": 53.34,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 67.98,
+          "W": 52.74,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 68.98,
+          "W": 53.74,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10001029/validacion/knife-04.json",
+        "sha256": "a5a9ca302ac367dd872317a1130b96c176c41048f5097bc8ef709c5acff9adab",
+        "manufacturing": {
+          "L": 68.58,
+          "W": 53.34,
+          "H": 139.7,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 67.98,
+          "W": 52.74,
+          "H": 138.6,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 68.98,
+          "W": 53.74,
+          "H": 140.6,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  },
+  "102010": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.2,
+      3
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -0.6,
+        "W": -0.6,
+        "H": -1.1
+      },
+      "outer": {
+        "L": 0.4,
+        "W": 0.4,
+        "H": 0.9
+      }
+    },
+    "source": "geometria/modelos/102010/muestras/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/102010/muestras/knife-00.json",
+        "sha256": "8f2f75e17b2cf93176b7c9cf68c514a4c4a80b35749f39c0c0a069bd1b6afead",
+        "manufacturing": {
+          "L": 120.6,
+          "W": 60.6,
+          "H": 161.1,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 120,
+          "W": 60,
+          "H": 160,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 121,
+          "W": 61,
+          "H": 162,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/102010/muestras/knife-01.json",
+        "sha256": "d46eb98c678dd973892ecfe7166ae47d5ed23eee2be395490cd8667c613db0ee",
+        "manufacturing": {
+          "L": 120.6,
+          "W": 60.6,
+          "H": 161.1,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 120,
+          "W": 60,
+          "H": 160,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 121,
+          "W": 61,
+          "H": 162,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/102010/muestras/knife-02.json",
+        "sha256": "22bf055b058b3066757890b1b44ef3e909c5ed8e2525136a67b199615a765feb",
+        "manufacturing": {
+          "L": 139.7,
+          "W": 60.6,
+          "H": 161.1,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 139.1,
+          "W": 60,
+          "H": 160,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 140.1,
+          "W": 61,
+          "H": 162,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/102010/muestras/knife-03.json",
+        "sha256": "7f29696452b262e387ad498edfa732334cb6ffec88438428b437b3ba07365b82",
+        "manufacturing": {
+          "L": 139.7,
+          "W": 76.2,
+          "H": 161.1,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 139.1,
+          "W": 75.6,
+          "H": 160,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 140.1,
+          "W": 76.6,
+          "H": 162,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/102010/muestras/knife-04.json",
+        "sha256": "df6f1f63dfeac83a9b7e2ed3a5273034902081eeedb106225228159ae63e8e9a",
+        "manufacturing": {
+          "L": 139.7,
+          "W": 76.2,
+          "H": 190.5,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 139.1,
+          "W": 75.6,
+          "H": 189.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 140.1,
+          "W": 76.6,
+          "H": 191.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/102010/muestras/knife-05.json",
+        "sha256": "666d142baf6abd771ffa15548c7c06278828d460c2281945220348bd0757e01a",
+        "manufacturing": {
+          "L": 129.54,
+          "W": 76.2,
+          "H": 190.5,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 128.94,
+          "W": 75.6,
+          "H": 189.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 129.94,
+          "W": 76.6,
+          "H": 191.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/102010/muestras/knife-06.json",
+        "sha256": "cdbe290a8922b3a088d927af8a0da64450180665f0255240fb7152334ffbc511",
+        "manufacturing": {
+          "L": 129.54,
+          "W": 68.58,
+          "H": 190.5,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 128.94,
+          "W": 67.98,
+          "H": 189.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 129.94,
+          "W": 68.98,
+          "H": 191.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/102010/muestras/knife-07.json",
+        "sha256": "974fb9c6ddc3b389fd3696d7fad3f9d2c3f8e07eb9725612d4b80824c9f056e2",
+        "manufacturing": {
+          "L": 129.54,
+          "W": 68.58,
+          "H": 177.8,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 128.94,
+          "W": 67.98,
+          "H": 176.7,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 129.94,
+          "W": 68.98,
+          "H": 178.7,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "height-only"
+  },
+  "150010": {
+    "originalMaterialId": 5,
+    "originalThickness": 1.5,
+    "observedThicknessLimits": [
+      0.2,
+      5
+    ],
+    "verifiedThicknessRange": [
+      1.5,
+      1.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -15,
+        "W": -2,
+        "H": -2
+      },
+      "outer": {
+        "L": 1,
+        "W": 2.5,
+        "H": 1
+      }
+    },
+    "source": "geometria/modelos/150010/base-publica/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/150010/base-publica/knife-00.json",
+        "sha256": "e88e124cb87ef3fcd2be5a540d3c8cbea831433a255bc0392c84cab7a4dd0021",
+        "manufacturing": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 300,
+          "W": 200,
+          "H": 60,
+          "D": 1.5,
+          "id": 1,
+          "ed": 5,
+          "like": null
+        },
+        "outer": {
+          "L": 316,
+          "W": 204.5,
+          "H": 63,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/150010/parametricas/knife-00.json",
+        "sha256": "13a0b2215605d829b8442793bb45b85f5ff91d8c56a6650aa9c381c931d757ca",
+        "manufacturing": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 300,
+          "W": 200,
+          "H": 60,
+          "D": 1.5,
+          "id": 1,
+          "ed": 5,
+          "like": null
+        },
+        "outer": {
+          "L": 316,
+          "W": 204.5,
+          "H": 63,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/150010/parametricas/knife-01.json",
+        "sha256": "a36c1f81d5534783391dd63c0509eae3f2aae2cbc9e45649f3ba163ea843276f",
+        "manufacturing": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 300,
+          "W": 200,
+          "H": 60,
+          "D": 1.5,
+          "id": 1,
+          "ed": 5,
+          "like": null
+        },
+        "outer": {
+          "L": 316,
+          "W": 204.5,
+          "H": 63,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/150010/parametricas/knife-02.json",
+        "sha256": "a8c16c0d16485d5548eff6058b990406d282b5cf86b0d7c8b68f74d7b7db7b06",
+        "manufacturing": {
+          "L": 330,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 315,
+          "W": 200,
+          "H": 60,
+          "D": 1.5,
+          "id": 1,
+          "ed": 5,
+          "like": null
+        },
+        "outer": {
+          "L": 331,
+          "W": 204.5,
+          "H": 63,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/150010/parametricas/knife-03.json",
+        "sha256": "5ef939474c27cb33999cc552329876dccea5fd92f17b16d20ee57a9fef0ff38c",
+        "manufacturing": {
+          "L": 330,
+          "W": 212,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 315,
+          "W": 210,
+          "H": 60,
+          "D": 1.5,
+          "id": 1,
+          "ed": 5,
+          "like": null
+        },
+        "outer": {
+          "L": 331,
+          "W": 214.5,
+          "H": 63,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/150010/parametricas/knife-04.json",
+        "sha256": "974f713a9a9a079d1aeecec5f4d47557f09bcca6b9ad362e8f9ef245d87400f7",
+        "manufacturing": {
+          "L": 330,
+          "W": 212,
+          "H": 66,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 315,
+          "W": 210,
+          "H": 64,
+          "D": 1.5,
+          "id": 1,
+          "ed": 5,
+          "like": null
+        },
+        "outer": {
+          "L": 331,
+          "W": 214.5,
+          "H": 67,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/150010/parametricas/knife-05.json",
+        "sha256": "89489b18928d9c2e9a303b78dfaea23d1360200f6434f3b4c2c8fb30f7e4d080",
+        "manufacturing": {
+          "L": 322,
+          "W": 212,
+          "H": 66,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 307,
+          "W": 210,
+          "H": 64,
+          "D": 1.5,
+          "id": 1,
+          "ed": 5,
+          "like": null
+        },
+        "outer": {
+          "L": 323,
+          "W": 214.5,
+          "H": 67,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/150010/parametricas/knife-06.json",
+        "sha256": "18ce45728fa2dc9cbe8fc4752e90f01fd41744dd4ebbbec7a3f4ab5305917b07",
+        "manufacturing": {
+          "L": 322,
+          "W": 207,
+          "H": 66,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 307,
+          "W": 205,
+          "H": 64,
+          "D": 1.5,
+          "id": 1,
+          "ed": 5,
+          "like": null
+        },
+        "outer": {
+          "L": 323,
+          "W": 209.5,
+          "H": 67,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  },
+  "112047": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.2,
+      3
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -0.6,
+        "W": -0.6,
+        "H": -0.6
+      },
+      "outer": {
+        "L": 0.4,
+        "W": 0.4,
+        "H": 1.4
+      }
+    },
+    "source": "geometria/modelos/112047/base/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/112047/base/knife-00.json",
+        "sha256": "f6c7908e0d7a5f42072d5335926b647035363a85dd4fd1b755d37d84bf915685",
+        "manufacturing": {
+          "L": 70,
+          "W": 50,
+          "H": 60,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 69.4,
+          "W": 49.4,
+          "H": 59.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 70.4,
+          "W": 50.4,
+          "H": 61.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/112047/parametricas/knife-00.json",
+        "sha256": "5c86ee0a91814f5066bc7b66ac64fccd0753a556a6099fc52247394c82be5e8a",
+        "manufacturing": {
+          "L": 70,
+          "W": 50,
+          "H": 60,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 69.4,
+          "W": 49.4,
+          "H": 59.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 70.4,
+          "W": 50.4,
+          "H": 61.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/112047/parametricas/knife-01.json",
+        "sha256": "a45a51072502f8cc64945b86cdda1e95fbdafbe4739d48ebc3528e2e129bbad7",
+        "manufacturing": {
+          "L": 70,
+          "W": 50,
+          "H": 60,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 69.4,
+          "W": 49.4,
+          "H": 59.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 70.4,
+          "W": 50.4,
+          "H": 61.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/112047/parametricas/knife-02.json",
+        "sha256": "60e2eb3736ced240a833b7da44dbf0e08dda0d8e722bf82ea290c9e718564117",
+        "manufacturing": {
+          "L": 77,
+          "W": 50,
+          "H": 60,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 76.4,
+          "W": 49.4,
+          "H": 59.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 77.4,
+          "W": 50.4,
+          "H": 61.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/112047/parametricas/knife-03.json",
+        "sha256": "91d9a924eff2d32457ffe212811f6de4e062b2cca45428be6ec948af315767b9",
+        "manufacturing": {
+          "L": 77,
+          "W": 55,
+          "H": 60,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 76.4,
+          "W": 54.4,
+          "H": 59.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 77.4,
+          "W": 55.4,
+          "H": 61.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/112047/parametricas/knife-04.json",
+        "sha256": "425b8efd46442ea5f7a8f8a613e9c8bdec0926ef6f2de3a795a779dc1de46584",
+        "manufacturing": {
+          "L": 77,
+          "W": 55,
+          "H": 66,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 76.4,
+          "W": 54.4,
+          "H": 65.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 77.4,
+          "W": 55.4,
+          "H": 67.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/112047/parametricas/knife-05.json",
+        "sha256": "0759aa00bda54c01f41665fa8da8a1117afc7fa04b5a3d3fc58290cba6c13974",
+        "manufacturing": {
+          "L": 73.5,
+          "W": 55,
+          "H": 66,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 72.9,
+          "W": 54.4,
+          "H": 65.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 73.9,
+          "W": 55.4,
+          "H": 67.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/112047/parametricas/knife-06.json",
+        "sha256": "0a0c4a4ee3055bdc616b5e768a322963d8786aea3f46447579d935947a846f16",
+        "manufacturing": {
+          "L": 73.5,
+          "W": 52.5,
+          "H": 66,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 72.9,
+          "W": 51.9,
+          "H": 65.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 73.9,
+          "W": 52.9,
+          "H": 67.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/112047/parametricas/knife-07.json",
+        "sha256": "f051266ae4362604bafa542303763dfb750c84bb6d7aa91a45123153c1f8605b",
+        "manufacturing": {
+          "L": 73.5,
+          "W": 52.5,
+          "H": 63,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 72.9,
+          "W": 51.9,
+          "H": 62.4,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 73.9,
+          "W": 52.9,
+          "H": 64.4,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  },
+  "12109002": {
+    "originalMaterialId": 5,
+    "originalThickness": 1.5,
+    "observedThicknessLimits": [
+      0.2,
+      2
+    ],
+    "verifiedThicknessRange": [
+      1.5,
+      1.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -2,
+        "W": -2,
+        "H": -2
+      },
+      "outer": {
+        "L": 1,
+        "W": 1,
+        "H": 1
+      }
+    },
+    "source": "geometria/modelos/12109002/base/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/12109002/base/knife-00.json",
+        "sha256": "60372bc015241126b2b249f75f81b8668c5d09bdabf27b9195ff2dd77aa7370e",
+        "manufacturing": {
+          "L": 236,
+          "W": 170,
+          "H": 180,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 234,
+          "W": 168,
+          "H": 178,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 237,
+          "W": 171,
+          "H": 181,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/12109002/parametricas/knife-00.json",
+        "sha256": "772cd760cc27a780e26667b921c367c505428397c58332a8a9e6db77073f08cb",
+        "manufacturing": {
+          "L": 236,
+          "W": 170,
+          "H": 180,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 234,
+          "W": 168,
+          "H": 178,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 237,
+          "W": 171,
+          "H": 181,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/12109002/parametricas/knife-01.json",
+        "sha256": "5ef093107a2fe7398e550327cac5444b04f0b66a2cf65c1bd6169ec5968db7b1",
+        "manufacturing": {
+          "L": 236,
+          "W": 170,
+          "H": 180,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 234,
+          "W": 168,
+          "H": 178,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 237,
+          "W": 171,
+          "H": 181,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/12109002/parametricas/knife-02.json",
+        "sha256": "2610f73b13e1aa2eff81d9b04b6810eda529b929e8909a0ad7ef82f9b3b09a89",
+        "manufacturing": {
+          "L": 259.6,
+          "W": 170,
+          "H": 180,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 257.6,
+          "W": 168,
+          "H": 178,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 260.6,
+          "W": 171,
+          "H": 181,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/12109002/parametricas/knife-03.json",
+        "sha256": "afa389c5032a66e4e877fdde15581e735790c781deaf8a457d46e83c1062b9cc",
+        "manufacturing": {
+          "L": 259.6,
+          "W": 187,
+          "H": 180,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 257.6,
+          "W": 185,
+          "H": 178,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 260.6,
+          "W": 188,
+          "H": 181,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/12109002/parametricas/knife-04.json",
+        "sha256": "874bcf32bd74bc992a6ca4ade3b25562c5d73dbd804c68c9325c05c1de6e264a",
+        "manufacturing": {
+          "L": 259.6,
+          "W": 187,
+          "H": 198,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 257.6,
+          "W": 185,
+          "H": 196,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 260.6,
+          "W": 188,
+          "H": 199,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/12109002/parametricas/knife-05.json",
+        "sha256": "853575af40217e9220ee47f8dd5fbebaa6eb2abe52bb8890aacc4dcb52f03fe1",
+        "manufacturing": {
+          "L": 247.8,
+          "W": 187,
+          "H": 198,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 245.8,
+          "W": 185,
+          "H": 196,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 248.8,
+          "W": 188,
+          "H": 199,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/12109002/parametricas/knife-06.json",
+        "sha256": "a6784b15526486b815f410674f47867a34d80a04a3b8fa57b9b5be98beafdeb7",
+        "manufacturing": {
+          "L": 247.8,
+          "W": 178.5,
+          "H": 198,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 245.8,
+          "W": 176.5,
+          "H": 196,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 248.8,
+          "W": 179.5,
+          "H": 199,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/12109002/parametricas/knife-07.json",
+        "sha256": "dc9dadf76935bd974516acf2fa343ffe1c83fdcd8ca161b6f29020bda95dafa4",
+        "manufacturing": {
+          "L": 247.8,
+          "W": 178.5,
+          "H": 189,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 245.8,
+          "W": 176.5,
+          "H": 187,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 248.8,
+          "W": 179.5,
+          "H": 190,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  },
+  "112310": {
+    "originalMaterialId": 5,
+    "originalThickness": 1.5,
+    "observedThicknessLimits": [
+      0.2,
+      5
+    ],
+    "verifiedThicknessRange": [
+      1.5,
+      1.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -2,
+        "W": -2,
+        "H": -2
+      },
+      "outer": {
+        "L": 1,
+        "W": 1,
+        "H": 2.5
+      }
+    },
+    "source": "geometria/modelos/112310/base/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/112310/base/knife-00.json",
+        "sha256": "48a797d801bb61d884788da63976ff456f571d54e8cf8cc646b25273a5442520",
+        "manufacturing": {
+          "L": 302,
+          "W": 152,
+          "H": 182,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 300,
+          "W": 150,
+          "H": 180,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 303,
+          "W": 153,
+          "H": 184.5,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/112310/parametricas/knife-00.json",
+        "sha256": "a5735bcad64e2fe1f308f3d343e675a7120e822df2d6a31731e975aff864d096",
+        "manufacturing": {
+          "L": 302,
+          "W": 152,
+          "H": 182,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 300,
+          "W": 150,
+          "H": 180,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 303,
+          "W": 153,
+          "H": 184.5,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/112310/parametricas/knife-01.json",
+        "sha256": "2c6aedb258b558b27ccab8d71d6d030f5000231ed4bea7313103a130fbadbeca",
+        "manufacturing": {
+          "L": 302,
+          "W": 152,
+          "H": 182,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 300,
+          "W": 150,
+          "H": 180,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 303,
+          "W": 153,
+          "H": 184.5,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/112310/parametricas/knife-02.json",
+        "sha256": "d837dbbe600ddd88bd52af78cba9385142a1c535da2fcbb97f6a1e933bece1cf",
+        "manufacturing": {
+          "L": 332.2,
+          "W": 152,
+          "H": 182,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 330.2,
+          "W": 150,
+          "H": 180,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 333.2,
+          "W": 153,
+          "H": 184.5,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/112310/parametricas/knife-03.json",
+        "sha256": "1a6fc2dd0dbbd817dba30f564e1386c2ddfecd8e4897283fa277b02b75d448e5",
+        "manufacturing": {
+          "L": 332.2,
+          "W": 167.2,
+          "H": 182,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 330.2,
+          "W": 165.2,
+          "H": 180,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 333.2,
+          "W": 168.2,
+          "H": 184.5,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/112310/parametricas/knife-04.json",
+        "sha256": "436e718200285582d7b9cc7a4eb8c2b42b54a77be024f3740110513211e4d6c0",
+        "manufacturing": {
+          "L": 332.2,
+          "W": 167.2,
+          "H": 200.2,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 330.2,
+          "W": 165.2,
+          "H": 198.2,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 333.2,
+          "W": 168.2,
+          "H": 202.7,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/112310/parametricas/knife-05.json",
+        "sha256": "1a58487ad262aba2f999b43922586722286e0ee96029bdafc0c27f2a608a739b",
+        "manufacturing": {
+          "L": 317.1,
+          "W": 167.2,
+          "H": 200.2,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 315.1,
+          "W": 165.2,
+          "H": 198.2,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 318.1,
+          "W": 168.2,
+          "H": 202.7,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/112310/parametricas/knife-06.json",
+        "sha256": "8c2151ef3685d91364ef86e091e236856111cbf02d19a62ef073b9259693c8d4",
+        "manufacturing": {
+          "L": 317.1,
+          "W": 159.6,
+          "H": 200.2,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 315.1,
+          "W": 157.6,
+          "H": 198.2,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 318.1,
+          "W": 160.6,
+          "H": 202.7,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      },
+      {
+        "path": "geometria/modelos/112310/parametricas/knife-07.json",
+        "sha256": "8a6d13b2f1a70ba308778bae37227abe4fc409d8669726ff8476706956d3cba7",
+        "manufacturing": {
+          "L": 317.1,
+          "W": 159.6,
+          "H": 191.1,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 315.1,
+          "W": 157.6,
+          "H": 189.1,
+          "D": 1.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 318.1,
+          "W": 160.6,
+          "H": 193.6,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 1.5
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  },
+  "10001006": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.2,
+      1.5
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -0.6,
+        "W": -0.6,
+        "H": -1.1
+      },
+      "outer": {
+        "L": 0.4,
+        "W": 0.4,
+        "H": 0.9
+      }
+    },
+    "source": "geometria/modelos/10001006/base/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/10001006/base/knife-00.json",
+        "sha256": "7cbe93581a2b59b5c4ec0e579040cbca9c089357ff7f6e225e78dea7e0dd03cf",
+        "manufacturing": {
+          "L": 40,
+          "W": 40,
+          "H": 130,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 39.4,
+          "W": 39.4,
+          "H": 128.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 40.4,
+          "W": 40.4,
+          "H": 130.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  },
+  "10002003": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.2,
+      3
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -0.6,
+        "W": -0.6,
+        "H": -1.1
+      },
+      "outer": {
+        "L": 0.4,
+        "W": 0.4,
+        "H": 0.9
+      }
+    },
+    "source": "geometria/modelos/10002003/base/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/10002003/base/knife-00.json",
+        "sha256": "466232c1454135a76a0f9fb8abc8cf14d5d9a4ef3e9f2cf74761ce055aefff3a",
+        "manufacturing": {
+          "L": 100,
+          "W": 40,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 99.4,
+          "W": 39.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 100.4,
+          "W": 40.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10002003/parametricas/knife-00.json",
+        "sha256": "6464743e67d2f4589a1167743a817a30118b640c14d79a766a024c3bea08cc98",
+        "manufacturing": {
+          "L": 100,
+          "W": 40,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 99.4,
+          "W": 39.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 100.4,
+          "W": 40.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10002003/parametricas/knife-01.json",
+        "sha256": "024145df0e8b14afc80ca6282ad6322af82c16a8a8d2f75d1c7613bf739bbf13",
+        "manufacturing": {
+          "L": 100,
+          "W": 40,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 99.4,
+          "W": 39.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 100.4,
+          "W": 40.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10002003/parametricas/knife-02.json",
+        "sha256": "abcb54859d421a82bc4c5398231df991080cb32e0c47063329ec37fe519cf636",
+        "manufacturing": {
+          "L": 110,
+          "W": 40,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 109.4,
+          "W": 39.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 110.4,
+          "W": 40.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10002003/parametricas/knife-03.json",
+        "sha256": "3ebbd2af0dc82dbc8cc195fdc549742516e0a6fc3de970804b97cef762cfb877",
+        "manufacturing": {
+          "L": 110,
+          "W": 44,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 109.4,
+          "W": 43.4,
+          "H": 118.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 110.4,
+          "W": 44.4,
+          "H": 120.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10002003/parametricas/knife-04.json",
+        "sha256": "69ee4c954e4c657a6df6c0bc52413ad6ac31c58772d26cf18f96db1a8b4abcb6",
+        "manufacturing": {
+          "L": 110,
+          "W": 44,
+          "H": 132,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 109.4,
+          "W": 43.4,
+          "H": 130.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 110.4,
+          "W": 44.4,
+          "H": 132.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10002003/parametricas/knife-05.json",
+        "sha256": "537501138775729b191928b3be616eecbf9aaa39a0b3b9eb0ba1d0e75a008110",
+        "manufacturing": {
+          "L": 105,
+          "W": 44,
+          "H": 132,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 104.4,
+          "W": 43.4,
+          "H": 130.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 105.4,
+          "W": 44.4,
+          "H": 132.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10002003/parametricas/knife-06.json",
+        "sha256": "e3d6559cf96b77cc4185610d5af70fef5ee277c5088d6499fd382181f667c2ba",
+        "manufacturing": {
+          "L": 105,
+          "W": 42,
+          "H": 132,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 104.4,
+          "W": 41.4,
+          "H": 130.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 105.4,
+          "W": 42.4,
+          "H": 132.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      },
+      {
+        "path": "geometria/modelos/10002003/parametricas/knife-07.json",
+        "sha256": "18b16166eb093718c39fc77a64b0213eae7df426cb49c5928e1385bcbb60f245",
+        "manufacturing": {
+          "L": 105,
+          "W": 42,
+          "H": 126,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 104.4,
+          "W": 41.4,
+          "H": 124.9,
+          "D": 0.5,
+          "id": 0.3,
+          "ed": 0.2,
+          "like": null
+        },
+        "outer": {
+          "L": 105.4,
+          "W": 42.4,
+          "H": 126.9,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  },
+  "180370": {
+    "originalMaterialId": 101,
+    "originalThickness": 0.35,
+    "observedThicknessLimits": [
+      0.2,
+      0.8
+    ],
+    "verifiedThicknessRange": [
+      0.35,
+      0.35
+    ],
+    "onlyManufacturing": true,
+    "offsets": {
+      "inner": {
+        "L": 0,
+        "W": 0,
+        "H": 0
+      },
+      "outer": {
+        "L": 0,
+        "W": 0,
+        "H": 0
+      }
+    },
+    "source": "geometria/modelos/180370/base/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/180370/base/knife-00.json",
+        "sha256": "8854398fde94cf9864d6d9904b610c32937653acbf9069411d6443dcfb4a53fb",
+        "manufacturing": {
+          "L": 120,
+          "W": 80,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 120,
+          "W": 80,
+          "H": 160,
+          "D": 0.35,
+          "id": 0.2,
+          "ed": 0.15,
+          "like": null
+        },
+        "outer": {
+          "L": 120,
+          "W": 80,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.35
+      },
+      {
+        "path": "geometria/modelos/180370/parametricas/knife-00.json",
+        "sha256": "1c1ae2f8246688f6dac019f162d3d216305d02b6dfdd1904b20f425346e1c48a",
+        "manufacturing": {
+          "L": 120,
+          "W": 80,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 120,
+          "W": 80,
+          "H": 160,
+          "D": 0.35,
+          "id": 0.2,
+          "ed": 0.15,
+          "like": null
+        },
+        "outer": {
+          "L": 120,
+          "W": 80,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.35
+      },
+      {
+        "path": "geometria/modelos/180370/parametricas/knife-01.json",
+        "sha256": "9e8df38cbb23f172642dc65087a243a5609f1a1fef085307b67e1817ebffe98b",
+        "manufacturing": {
+          "L": 120,
+          "W": 80,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 120,
+          "W": 80,
+          "H": 160,
+          "D": 0.35,
+          "id": 0.2,
+          "ed": 0.15,
+          "like": null
+        },
+        "outer": {
+          "L": 120,
+          "W": 80,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.35
+      },
+      {
+        "path": "geometria/modelos/180370/parametricas/knife-02.json",
+        "sha256": "7d13df64fb8e50a6c2e4e2b5af4bac9d7911fea6310e4ca758d1d22ba3116df8",
+        "manufacturing": {
+          "L": 132,
+          "W": 80,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 132,
+          "W": 80,
+          "H": 160,
+          "D": 0.35,
+          "id": 0.2,
+          "ed": 0.15,
+          "like": null
+        },
+        "outer": {
+          "L": 132,
+          "W": 80,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.35
+      },
+      {
+        "path": "geometria/modelos/180370/parametricas/knife-03.json",
+        "sha256": "57f85c04f1ac62afa6dd83b97084f32a1fef48533d0d2df1c037109f14565647",
+        "manufacturing": {
+          "L": 132,
+          "W": 88,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 132,
+          "W": 88,
+          "H": 160,
+          "D": 0.35,
+          "id": 0.2,
+          "ed": 0.15,
+          "like": null
+        },
+        "outer": {
+          "L": 132,
+          "W": 88,
+          "H": 160,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.35
+      },
+      {
+        "path": "geometria/modelos/180370/parametricas/knife-04.json",
+        "sha256": "930d8e39508c3c1d442fb6631785ef30b77925acae78fe8ebccd991017adf566",
+        "manufacturing": {
+          "L": 132,
+          "W": 88,
+          "H": 176,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 132,
+          "W": 88,
+          "H": 176,
+          "D": 0.35,
+          "id": 0.2,
+          "ed": 0.15,
+          "like": null
+        },
+        "outer": {
+          "L": 132,
+          "W": 88,
+          "H": 176,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.35
+      },
+      {
+        "path": "geometria/modelos/180370/parametricas/knife-05.json",
+        "sha256": "2180f0b060487f60015d77e323a1431c2acfdefcaea24d73b9d41b2b69e5f9df",
+        "manufacturing": {
+          "L": 126,
+          "W": 88,
+          "H": 176,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 126,
+          "W": 88,
+          "H": 176,
+          "D": 0.35,
+          "id": 0.2,
+          "ed": 0.15,
+          "like": null
+        },
+        "outer": {
+          "L": 126,
+          "W": 88,
+          "H": 176,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.35
+      },
+      {
+        "path": "geometria/modelos/180370/parametricas/knife-06.json",
+        "sha256": "6f3b36966cf32a32bc215dcea0c78e9803afa1b744c38a8659d1bae89ad8fcf5",
+        "manufacturing": {
+          "L": 126,
+          "W": 84,
+          "H": 176,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 126,
+          "W": 84,
+          "H": 176,
+          "D": 0.35,
+          "id": 0.2,
+          "ed": 0.15,
+          "like": null
+        },
+        "outer": {
+          "L": 126,
+          "W": 84,
+          "H": 176,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.35
+      },
+      {
+        "path": "geometria/modelos/180370/parametricas/knife-07.json",
+        "sha256": "cd8e2d8d378b703c14e982863da967da4ac6fd7c372cb8cf5c1194b970a45c61",
+        "manufacturing": {
+          "L": 126,
+          "W": 84,
+          "H": 168,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 126,
+          "W": 84,
+          "H": 168,
+          "D": 0.35,
+          "id": 0.2,
+          "ed": 0.15,
+          "like": null
+        },
+        "outer": {
+          "L": 126,
+          "W": 84,
+          "H": 168,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.35
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  },
+  "180320": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.2,
+      2
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": 0,
+        "W": 0
+      },
+      "outer": {
+        "L": 0,
+        "W": 0
+      }
+    },
+    "source": "geometria/modelos/180320/base/knife-00.json",
+    "samples": [
+      {
+        "path": "geometria/modelos/180320/base/knife-00.json",
+        "sha256": "5b5c894d5cf249406367dd5566af94ed33c98fd385c041c1b3053f51b48d4c84",
+        "manufacturing": {
+          "L": 120,
+          "W": 75,
+          "H": 0,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "inner": {
+          "L": 120,
+          "W": 75,
+          "H": 0,
+          "D": 0.5,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "outer": {
+          "L": 120,
+          "W": 75,
+          "H": 0,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "thickness": 0.5
+      }
+    ],
+    "excludedSamples": [],
+    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
+    "geometryStatus": "original-thickness"
+  }
+}
