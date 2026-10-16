@@ -239,5 +239,14 @@ globalThis.TallerLocales.en={
   "190g cartón kraft(0.26mm)": "190g kraft board(0.26mm)",
   "Kraft": "Kraft",
   "en": "in",
-  "pliegues": "folds"
+  "pliegues": "folds",
+  "No hay geometría verificada para este material y espesor.": "No verified geometry is available for this material and thickness.",
+  "Conversión de tamaño no verificada para este espesor.": "Size conversion is not verified for this thickness.",
+  "Selecciona un espesor verificado para este material.": "Select a verified thickness for this material.",
+  "Las medidas están fuera del rango verificado para este espesor.": "Dimensions are outside the verified range for this thickness.",
+  "Materiales compatibles con geometría verificada para esta caja.": "Compatible materials with verified geometry for this box.",
+  "Verificado": "Verified",
+  "Solo se muestran espesores con geometría verificada para este material y esta caja.": "Only thicknesses with verified geometry for this material and box are shown.",
+  "Este material y espesor está disponible únicamente en las medidas comprobadas. Vuelve al material original para editar otras medidas.": "This material and thickness are available only at the verified dimensions. Switch back to the original material to edit other dimensions.",
+  "Medida fija": "Fixed dimension"
 };

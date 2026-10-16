@@ -30,3 +30,26 @@ for(const model of models){
   if(m.materialSheetMm||m.materialWidthMm)assert.throws(()=>M.generate(m,{...dims,H:10000,L:10000},physical,catalog));
  });
 }
+
+test('verified profiles filter material and thickness together without inventing a continuous range',()=>{
+ const materialA={id:1,min:.5,max:3},materialB={id:2,min:1,max:2},materialC={id:3,min:.5,max:3};
+ const cap={originalMaterialId:1,originalThickness:1,offsets:{inner:{L:-2},outer:{L:2}},observedThicknessLimits:[.5,3],physicalProfiles:[{materialIds:[1,2],thickness:2,layer:{totalX:42},offsets:{inner:{L:-4},outer:{L:4}},bounds:{L:[10,20]},geometryStatus:'verified'},{materialIds:[3],thickness:2,layer:{},geometryStatus:'unverified'},{materialIds:[2],thickness:3,layer:{},geometryStatus:'verified'}]};
+ assert.deepEqual(M.compatible(cap,[materialA,materialB,materialC]).map(m=>m.id),[1,2]);
+ assert.deepEqual(M.thicknesses(cap,materialB),[2]);
+ assert.deepEqual(M.thicknesses(cap,materialA),[1,2]);
+ assert.throws(()=>M.validate(cap,[materialA],{materialId:1,thickness:1.5}));
+ const physical={materialId:2,thickness:2};M.validate(cap,[materialB],physical);
+ assert.deepEqual(M.display(cap,{L:15},'inner',physical),{L:11});
+ assert.deepEqual(M.manufacture(cap,{L:11},'inner',physical),{L:15});
+ // Converting old visible dimensions using the NEW profile preserves the requested interior size.
+ const visible=M.display(cap,{L:15},'inner',{materialId:1,thickness:1});
+ assert.deepEqual(M.manufacture(cap,visible,'inner',physical),{L:17});
+ const model={dims:{L:15},materialCapability:cap,layer:{totalX:10},bounds:{L:[1,100]},engine:'derived'};
+ const selected=M.modelFor(model,physical);assert.equal(selected.layer.totalX,42);assert.deepEqual(selected.bounds,{L:[10,20]});assert.equal(selected.engine,null);
+ assert.throws(()=>M.generate(model,{L:30},physical,[materialB]),/rango verificado/);
+});
+test('profiles without captured conversion offsets cannot reuse original conversion',()=>{
+ const cap={originalMaterialId:1,originalThickness:1,offsets:{inner:{L:-2}},physicalProfiles:[{materialIds:[1],thickness:2,layer:{}}]};
+ assert.throws(()=>M.display(cap,{L:10},'inner',{materialId:1,thickness:2}),/Conversión/);
+ assert.deepEqual(M.display(cap,{L:10},'manufacturing',{materialId:1,thickness:2}),{L:10});
+});

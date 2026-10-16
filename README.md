@@ -49,3 +49,7 @@ git subtree push --prefix dist origin gh-pages
 También se puede configurar `dist/` como directorio público en otro servidor estático, conservando su estructura completa.
 
 Los catálogos de modelos y materiales incluyen restricciones de edición y compatibilidad. Comprobar el armado con una muestra antes de fabricar.
+
+## Materiales y espesores
+
+Consulta [MATERIALES.md](MATERIALES.md) para conocer la compatibilidad habilitada, las medidas comprobadas y las limitaciones de las nuevas geometrías. El selector de material desaparece cuando solo existe una opción válida.

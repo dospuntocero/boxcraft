@@ -25,7 +25,7 @@
       const width=font*(unit==='in'?6.3:5.1),height=font*1.85,tick=font*.55;
       const horizontal=Math.abs(a.y1-a.y2)<1e-7;
       out+=`<g data-dimension="${a.axis}"><path d="M${a.x1} ${a.y1}L${a.x2} ${a.y2}" marker-start="url(#dimension-arrow)" marker-end="url(#dimension-arrow)"/><path d="${horizontal?`M${a.x1} ${a.y1-tick}v${tick*2}M${a.x2} ${a.y2-tick}v${tick*2}`:`M${a.x1-tick} ${a.y1}h${tick*2}M${a.x2-tick} ${a.y2}h${tick*2}`}"/>`;
-      if(interactive&&model.bounds[a.axis]){
+      if(interactive&&model.bounds[a.axis]&&model.bounds[a.axis][0]!==model.bounds[a.axis][1]){
         const inputValue=Number(value.toFixed(unit==='in'?5:3));
         out+=`<foreignObject x="${cx-width/2}" y="${cy-height/2}" width="${width}" height="${height}" style="overflow:visible"><div xmlns="http://www.w3.org/1999/xhtml" class="dimension-control" style="font-size:${font}px"><input data-canvas-axis="${a.axis}" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" aria-label="${names[a.axis]} ${I18n.t("sobre el plano en")} ${unit}" title="${I18n.t("Editar")} ${names[a.axis].toLowerCase()} ${I18n.t("· Enter para aplicar · Escape para cancelar")}" value="${inputValue}"/><span>${unit}</span></div></foreignObject>`;
       }else{
