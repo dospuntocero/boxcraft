@@ -31,7 +31,7 @@
   function generate(model,dims,physical){
     if(physical&&model.materialCapability){
       const cap=model.materialCapability;
-      if(physical.materialId!==cap.originalMaterialId||!Number.isFinite(physical.thickness)||Math.abs(physical.thickness-cap.originalThickness)>1e-8)throw Error(cap.blockedReason);
+      if(!Number.isFinite(physical.thickness)||(root.TroquelMaterials? !root.TroquelMaterials.profile(cap,physical) : physical.materialId!==cap.originalMaterialId||Math.abs(physical.thickness-cap.originalThickness)>1e-8))throw Error(cap.blockedReason);
     }
     for(const [axis,value] of Object.entries(dims)){
       if(!Number.isFinite(value))throw Error(I18n.t("Introduce una medida válida."));

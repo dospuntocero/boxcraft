@@ -239,5 +239,14 @@ globalThis.TallerLocales.es={
   "190g cartón kraft(0.26mm)": "190g cartón kraft(0.26mm)",
   "Kraft": "Kraft",
   "en": "en",
-  "pliegues": "pliegues"
+  "pliegues": "pliegues",
+  "No hay geometría verificada para este material y espesor.": "No hay geometría verificada para este material y espesor.",
+  "Conversión de tamaño no verificada para este espesor.": "Conversión de tamaño no verificada para este espesor.",
+  "Selecciona un espesor verificado para este material.": "Selecciona un espesor verificado para este material.",
+  "Las medidas están fuera del rango verificado para este espesor.": "Las medidas están fuera del rango verificado para este espesor.",
+  "Materiales compatibles con geometría verificada para esta caja.": "Materiales compatibles con geometría verificada para esta caja.",
+  "Verificado": "Verificado",
+  "Solo se muestran espesores con geometría verificada para este material y esta caja.": "Solo se muestran espesores con geometría verificada para este material y esta caja.",
+  "Este material y espesor está disponible únicamente en las medidas comprobadas. Vuelve al material original para editar otras medidas.": "Este material y espesor está disponible únicamente en las medidas comprobadas. Vuelve al material original para editar otras medidas.",
+  "Medida fija": "Medida fija"
 };
