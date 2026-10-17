@@ -250,3 +250,6 @@ globalThis.TallerLocales.es={
   "Este material y espesor está disponible únicamente en las medidas comprobadas. Vuelve al material original para editar otras medidas.": "Este material y espesor está disponible únicamente en las medidas comprobadas. Vuelve al material original para editar otras medidas.",
   "Medida fija": "Medida fija"
 };
+Object.assign(globalThis.TallerLocales.es,{'Caja para tarta con ventana':'Caja para tarta con ventana','Solo configuración original verificada; alternativas pendientes.':'Solo configuración original verificada; alternativas pendientes.'});
+
+Object.assign(globalThis.TallerLocales.es,{"Este modelo está disponible únicamente en las medidas comprobadas.": "Este modelo está disponible únicamente en las medidas comprobadas."});

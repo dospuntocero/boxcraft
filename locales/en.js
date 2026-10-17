@@ -250,3 +250,6 @@ globalThis.TallerLocales.en={
   "Este material y espesor está disponible únicamente en las medidas comprobadas. Vuelve al material original para editar otras medidas.": "This material and thickness are available only at the verified dimensions. Switch back to the original material to edit other dimensions.",
   "Medida fija": "Fixed dimension"
 };
+Object.assign(globalThis.TallerLocales.en,{'Caja para tarta con ventana':'Cake box with window','Solo configuración original verificada; alternativas pendientes.':'Only the original configuration is verified; alternatives are pending.'});
+
+Object.assign(globalThis.TallerLocales.en,{"Este modelo está disponible únicamente en las medidas comprobadas.": "This model is available only at the verified dimensions."});
