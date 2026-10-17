@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "numeric_fields": 857,
+  "differences": [],
+  "training": [
+    "muestras/knife-03.json",
+    "muestras/knife-04.json"
+  ],
+  "holdout": [
+    "muestras/knife-06.json",
+    "muestras/knife-07.json"
+  ],
+  "holdout_dimensions_mm": [
+    129.54,
+    68.58,
+    177.8
+  ],
+  "excluded": [
+    "bleeds",
+    "sizeArrowData"
+  ],
+  "limit": "La regla de altura se comprob\u00f3 en otra pareja L/W; su aplicaci\u00f3n fuera de la altura inicial en la base es una transferencia emp\u00edrica, no otra comprobaci\u00f3n directa del servidor"
+}

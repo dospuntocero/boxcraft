@@ -1,0 +1,17 @@
+{
+  "base_geometry_matches_original": true,
+  "xml_valid": true,
+  "finite": true,
+  "counts": {
+    "faces": 15,
+    "folds": 18,
+    "cuts": 129,
+    "holes": 1
+  },
+  "extent_mm": [
+    359.6,
+    448.5
+  ],
+  "parameterization": "not enabled",
+  "physical_validation": false
+}

@@ -1,0 +1,10 @@
+{
+  "cases": 26,
+  "all_exact_generators_pass": true,
+  "unit_tests": {
+    "passed": 62,
+    "failed": 0
+  },
+  "continuous_dimension_fit_enabled": false,
+  "continuous_thickness_enabled": false
+}

@@ -1,19 +1,20 @@
-# Archivos locales del sistema y configuración del entorno
+# Sistema, secretos y entornos locales
 .DS_Store
-.openai/
 .env
 .env.*
 !.env.example
-
-# Evidencias e investigación; las imágenes de dist/assets sí se incluyen
-/*.png
-/evidencia-*.json
-/investigacion-materiales/
-/comprobacion-motores.json
-/validacion-parametrizacion.json
-
-# Dependencias y temporales
+.openai/
+.venv*/
 node_modules/
 __pycache__/
-*.pyc
+*.py[cod]
 *.log
+
+# Capturas REA originales, archivos históricos y paquetes locales
+/evidencias/
+/archivo/
+**/*-result.json
+**/*-bundle.json
+**/retained-audit*.json
+
+# Mantener las geometrías, manifiestos, iconos y assets de la aplicación en Git.

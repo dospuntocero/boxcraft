@@ -1,0 +1,1591 @@
+[
+  {
+    "evidence_id": "ev_47431dac896839f93bfe5f16157116ddb396fea0f3bf807e5f9ad6ca60f7d7ae",
+    "start": {
+      "query": [],
+      "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-flip-top-boxes-mailer-dieline-150010"
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "loaded",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "mm",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "materials",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "corrugated",
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "records": []
+  },
+  {
+    "evidence_id": "ev_48cc90bf287b157ba509d451c5e137500dce32d8e462c0914b35af774a517ab1",
+    "start": {
+      "query": [],
+      "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-flip-top-boxes-mailer-dieline-150010"
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "loaded",
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "records": [
+      {
+        "kind": "preview",
+        "step": 1,
+        "sequence": 1087,
+        "path": "ev_48cc90bf287b157ba509d451c5e137500dce32d8e462c0914b35af774a517ab1/preview-1087.json",
+        "thickness": 1.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 1,
+        "sequence": 1127,
+        "path": "ev_48cc90bf287b157ba509d451c5e137500dce32d8e462c0914b35af774a517ab1/knife-1127.json",
+        "thickness": 1.5,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 1,
+        "sequence": 1144,
+        "path": "ev_48cc90bf287b157ba509d451c5e137500dce32d8e462c0914b35af774a517ab1/cal-1144.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      }
+    ]
+  },
+  {
+    "evidence_id": "ev_501ba97a53ade67d867c27e14d05e23f5b20a89e4468912fead51edb5c29cdd5",
+    "start": {
+      "query": [],
+      "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-flip-top-boxes-mailer-dieline-150010"
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "loaded",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "mm",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "materials",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "corrugated",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "options",
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "records": []
+  },
+  {
+    "evidence_id": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510",
+    "start": null,
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "loaded",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "mm",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "materials",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "corrugated",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "custom",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "custom-ready",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t0.8",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply0.8",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready0.8",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t1.1",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply1.1",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready1.1",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t1.5",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply1.5",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready1.5",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t1.7",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply1.7",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready1.7",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t2",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply2",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready2",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t3",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply3",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready3",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t5",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply5",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready5",
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "records": [
+      {
+        "kind": "preview",
+        "step": 1,
+        "sequence": 1090,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/preview-1090.json",
+        "thickness": 1.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 1,
+        "sequence": 1129,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1129.json",
+        "thickness": 1.5,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 1,
+        "sequence": 1149,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/cal-1149.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 6,
+        "sequence": 1260,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/project-1260.json",
+        "thickness": 1.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 6,
+        "sequence": 1277,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1277.json",
+        "thickness": 1.5,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 6,
+        "sequence": 1309,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/cal-1309.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 6,
+        "sequence": 1388,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/project-1388.json",
+        "thickness": 1.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 6,
+        "sequence": 1448,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1448.json",
+        "thickness": 1.5,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 6,
+        "sequence": 1494,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/cal-1494.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 9,
+        "sequence": 1517,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/project-1517.json",
+        "thickness": 0.8,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 9,
+        "sequence": 1522,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1522.json",
+        "thickness": 0.8,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 12,
+        "sequence": 1565,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/project-1565.json",
+        "thickness": 1.1,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 12,
+        "sequence": 1572,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1572.json",
+        "thickness": 1.1,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 15,
+        "sequence": 1616,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/project-1616.json",
+        "thickness": 1.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 15,
+        "sequence": 1622,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1622.json",
+        "thickness": 1.5,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 18,
+        "sequence": 1657,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/project-1657.json",
+        "thickness": 1.7,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 18,
+        "sequence": 1662,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1662.json",
+        "thickness": 1.7,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 21,
+        "sequence": 1705,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/project-1705.json",
+        "thickness": 2,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 21,
+        "sequence": 1712,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1712.json",
+        "thickness": 2,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 24,
+        "sequence": 1750,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/project-1750.json",
+        "thickness": 3,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 24,
+        "sequence": 1757,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1757.json",
+        "thickness": 3,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 27,
+        "sequence": 1796,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/project-1796.json",
+        "thickness": 5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 27,
+        "sequence": 1802,
+        "path": "ev_525240b360f6d9a8cfa055b66b964b4594d53f5abdac7ac469b0d5d5a8d28510/knife-1802.json",
+        "thickness": 5,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      }
+    ]
+  },
+  {
+    "evidence_id": "ev_54a65fc176a9c281fbbaea68229be987f23f8459978e96c70c7baf71e4f22096",
+    "start": {
+      "query": [],
+      "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-flip-top-boxes-mailer-dieline-150010"
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "loaded",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "mm",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "thickness17",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "settled",
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "records": [
+      {
+        "kind": "preview",
+        "step": 1,
+        "sequence": 1099,
+        "path": "ev_54a65fc176a9c281fbbaea68229be987f23f8459978e96c70c7baf71e4f22096/preview-1099.json",
+        "thickness": 1.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 1,
+        "sequence": 1126,
+        "path": "ev_54a65fc176a9c281fbbaea68229be987f23f8459978e96c70c7baf71e4f22096/knife-1126.json",
+        "thickness": 1.5,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 1,
+        "sequence": 1149,
+        "path": "ev_54a65fc176a9c281fbbaea68229be987f23f8459978e96c70c7baf71e4f22096/cal-1149.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 5,
+        "sequence": 1235,
+        "path": "ev_54a65fc176a9c281fbbaea68229be987f23f8459978e96c70c7baf71e4f22096/project-1235.json",
+        "thickness": 1.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 5,
+        "sequence": 1241,
+        "path": "ev_54a65fc176a9c281fbbaea68229be987f23f8459978e96c70c7baf71e4f22096/knife-1241.json",
+        "thickness": 1.5,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 5,
+        "sequence": 1289,
+        "path": "ev_54a65fc176a9c281fbbaea68229be987f23f8459978e96c70c7baf71e4f22096/cal-1289.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      }
+    ]
+  },
+  {
+    "evidence_id": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760",
+    "start": null,
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "loaded",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "mm",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "materials",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "white",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "custom",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "custom-ready",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t0.2",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply0.2",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready0.2",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t0.27",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply0.27",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready0.27",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t0.35",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply0.35",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready0.35",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t0.42",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply0.42",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready0.42",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t0.5",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply0.5",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready0.5",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t0.55",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply0.55",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready0.55",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t0.7",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply0.7",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready0.7",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "t0.8",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "apply0.8",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "ready0.8",
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "records": [
+      {
+        "kind": "preview",
+        "step": 1,
+        "sequence": 1085,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/preview-1085.json",
+        "thickness": 0.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 1,
+        "sequence": 1119,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1119.json",
+        "thickness": 0.5,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 1,
+        "sequence": 1144,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/cal-1144.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 6,
+        "sequence": 1224,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1224.json",
+        "thickness": 0.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 6,
+        "sequence": 1254,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1254.json",
+        "thickness": 0.5,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 6,
+        "sequence": 1277,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/cal-1277.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 6,
+        "sequence": 1289,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1289.json",
+        "thickness": 0.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 6,
+        "sequence": 1299,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1299.json",
+        "thickness": 0.5,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 6,
+        "sequence": 1392,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/cal-1392.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 9,
+        "sequence": 1487,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1487.json",
+        "thickness": 0.2,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 9,
+        "sequence": 1492,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1492.json",
+        "thickness": 0.2,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 12,
+        "sequence": 1532,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1532.json",
+        "thickness": 0.27,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 12,
+        "sequence": 1537,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1537.json",
+        "thickness": 0.27,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 15,
+        "sequence": 1577,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1577.json",
+        "thickness": 0.35,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 15,
+        "sequence": 1582,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1582.json",
+        "thickness": 0.35,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 18,
+        "sequence": 1622,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1622.json",
+        "thickness": 0.42,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 18,
+        "sequence": 1627,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1627.json",
+        "thickness": 0.42,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 21,
+        "sequence": 1662,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1662.json",
+        "thickness": 0.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 21,
+        "sequence": 1667,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1667.json",
+        "thickness": 0.5,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 24,
+        "sequence": 1707,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1707.json",
+        "thickness": 0.55,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 24,
+        "sequence": 1712,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1712.json",
+        "thickness": 0.55,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 27,
+        "sequence": 1747,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1747.json",
+        "thickness": 0.7,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 27,
+        "sequence": 1752,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1752.json",
+        "thickness": 0.7,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      },
+      {
+        "kind": "project",
+        "step": 30,
+        "sequence": 1787,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/project-1787.json",
+        "thickness": 0.8,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          4,
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 30,
+        "sequence": 1792,
+        "path": "ev_81df8e4fe7d893fd4cf5249f20ebe5650a0f62903487c35035d15f2e93d47760/knife-1792.json",
+        "thickness": 0.8,
+        "dims": {
+          "L": 60,
+          "W": 45,
+          "H": 120,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "10001029",
+        "supportSciences": null
+      }
+    ]
+  },
+  {
+    "evidence_id": "ev_b5f581f038e402c63a9ada8743b565107c53cb9c58aa92f6adae91cedf511033",
+    "start": {
+      "query": [],
+      "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-flip-top-boxes-mailer-dieline-150010"
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "loaded",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "mm",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "materials",
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "records": [
+      {
+        "kind": "preview",
+        "step": 1,
+        "sequence": 1090,
+        "path": "ev_b5f581f038e402c63a9ada8743b565107c53cb9c58aa92f6adae91cedf511033/preview-1090.json",
+        "thickness": 1.5,
+        "dims": null,
+        "model": null,
+        "supportSciences": [
+          8,
+          7,
+          37,
+          3,
+          5,
+          6,
+          11,
+          14,
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "knife",
+        "step": 1,
+        "sequence": 1124,
+        "path": "ev_b5f581f038e402c63a9ada8743b565107c53cb9c58aa92f6adae91cedf511033/knife-1124.json",
+        "thickness": 1.5,
+        "dims": {
+          "L": 315,
+          "W": 202,
+          "H": 62,
+          "D": 0,
+          "id": 0,
+          "ed": 0,
+          "like": null
+        },
+        "model": "150010",
+        "supportSciences": null
+      },
+      {
+        "kind": "cal",
+        "step": 1,
+        "sequence": 1144,
+        "path": "ev_b5f581f038e402c63a9ada8743b565107c53cb9c58aa92f6adae91cedf511033/cal-1144.json",
+        "thickness": null,
+        "dims": null,
+        "model": null,
+        "supportSciences": null
+      }
+    ]
+  },
+  {
+    "evidence_id": "ev_f66a97b443441d6f22e6bed6d3dad01efa36298e7cae929423a80ba652581ef9",
+    "start": {
+      "query": [],
+      "url": "https://www.pacdora.com/es/dielines-detail/body-lotion-box-dieline-10001029"
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "loaded",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "mm",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "materials",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_id": "white",
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "records": []
+  }
+]

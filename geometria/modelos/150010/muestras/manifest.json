@@ -1,0 +1,26 @@
+{
+  "source_evidence_id": "ev_60173e6f93fcf44ac89b537f646726d3a916885ea7ddb4c0f9e5281392b954ec",
+  "completeness": {
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "status": "incomplete",
+    "truncated_sections": []
+  },
+  "samples": [],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "project_loaded",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Recorte      \n  - img\n  - text: Modelo de edificio Preparación de los materiales Creación del entorno Ya casi está Modelo de edificio\n  - img\n  - text: Iniciar sesión en Pacdora\n  - button \"Continuar con Google\"\n  - button \"Continuar con Facebook\"\n  - button \" Continuar con correo electrónico\"\n  - text: Al continuar, acepta nuestros\n  - link \"Términos de servicio\":\n    - /url: \"\"\n  - text: \"y\"\n  - link \"Política de Privacidad\":\n    - /url: \"\""
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "source_evidence_id": "ev_77d8bd80d9fa88c43120d6cc5bd429c12c5968d9da9a0622cb273808367c498c",
+  "source_url": "https://cdn.pacdora.com/scripts/wasm/knife2gltf/1.1.8/knife2gltf.min.wasm?r=19316",
+  "sha256": "a5fa190dd24abea89f6eeadbeadfb69520647b66410403e687662837d2ba01b4",
+  "bytes": 1206159,
+  "execution": "not-executed",
+  "exports": [
+    {
+      "name": "memory",
+      "kind": 2,
+      "index": 0
+    },
+    {
+      "name": "__wasm_call_ctors",
+      "kind": 0,
+      "index": 16
+    },
+    {
+      "name": "generateGLTFData",
+      "kind": 0,
+      "index": 1494
+    },
+    {
+      "name": "__main_argc_argv",
+      "kind": 0,
+      "index": 24
+    },
+    {
+      "name": "__errno_location",
+      "kind": 0,
+      "index": 31
+    },
+    {
+      "name": "fflush",
+      "kind": 0,
+      "index": 28
+    },
+    {
+      "name": "malloc",
+      "kind": 0,
+      "index": 65
+    },
+    {
+      "name": "emscripten_stack_init",
+      "kind": 0,
+      "index": 20
+    },
+    {
+      "name": "emscripten_stack_get_free",
+      "kind": 0,
+      "index": 21
+    },
+    {
+      "name": "emscripten_stack_get_base",
+      "kind": 0,
+      "index": 22
+    },
+    {
+      "name": "emscripten_stack_get_end",
+      "kind": 0,
+      "index": 23
+    },
+    {
+      "name": "stackSave",
+      "kind": 0,
+      "index": 17
+    },
+    {
+      "name": "stackRestore",
+      "kind": 0,
+      "index": 18
+    },
+    {
+      "name": "stackAlloc",
+      "kind": 0,
+      "index": 19
+    },
+    {
+      "name": "__cxa_is_pointer_type",
+      "kind": 0,
+      "index": 168
+    },
+    {
+      "name": "__indirect_function_table",
+      "kind": 1,
+      "index": 0
+    },
+    {
+      "name": "dynCall_jiji",
+      "kind": 0,
+      "index": 1500
+    },
+    {
+      "name": "dynCall_iiiiij",
+      "kind": 0,
+      "index": 1501
+    },
+    {
+      "name": "dynCall_iiiiijj",
+      "kind": 0,
+      "index": 1502
+    },
+    {
+      "name": "dynCall_iiiiiijj",
+      "kind": 0,
+      "index": 1503
+    },
+    {
+      "name": "dynCall_viijii",
+      "kind": 0,
+      "index": 1504
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "bytes": 615
+    },
+    {
+      "id": 2,
+      "bytes": 430
+    },
+    {
+      "id": 3,
+      "bytes": 1491
+    },
+    {
+      "id": 4,
+      "bytes": 7
+    },
+    {
+      "id": 5,
+      "bytes": 7
+    },
+    {
+      "id": 6,
+      "bytes": 24
+    },
+    {
+      "id": 7,
+      "bytes": 397
+    },
+    {
+      "id": 9,
+      "bytes": 2098
+    },
+    {
+      "id": 10,
+      "bytes": 1147746
+    },
+    {
+      "id": 11,
+      "bytes": 53307
+    }
+  ]
+}

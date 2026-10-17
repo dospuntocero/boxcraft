@@ -1,0 +1,22 @@
+[
+  {
+    "pass": true,
+    "dimensions_mm": [
+      322,
+      212,
+      66
+    ],
+    "numeric_fields": 1297,
+    "differences": []
+  },
+  {
+    "pass": true,
+    "dimensions_mm": [
+      322,
+      207,
+      66
+    ],
+    "numeric_fields": 1297,
+    "differences": []
+  }
+]

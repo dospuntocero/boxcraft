@@ -1,0 +1,7493 @@
+[
+  {
+    "pass": false,
+    "dimensions_mm": [
+      247.8,
+      187,
+      198
+    ],
+    "numeric_fields": 929,
+    "differences": [
+      {
+        "path": "/faces/0/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/dlist/0/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/dlist/1/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/dlist/2/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/dlist/3/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/dlist/4/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/dlist/5/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/dlist/0/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/dlist/1/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/dlist/2/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/dlist/3/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/dlist/4/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/dlist/5/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/0/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/1/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/2/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/3/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/4/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/5/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/h",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/0/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/1/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/2/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/3/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/4/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/5/y",
+        "actual": 52.5,
+        "predicted": 53.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/6/x",
+        "actual": 306.7579894593468,
+        "predicted": 306.75823701985934,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/faces/3/dlist/6/y",
+        "actual": 53.22721443036951,
+        "predicted": 53.72735678397266,
+        "delta": 0.5001423536031524
+      },
+      {
+        "path": "/faces/3/dlist/7/x",
+        "actual": 336.262316201718,
+        "predicted": 336.51198789109105,
+        "delta": 0.24967168937303086
+      },
+      {
+        "path": "/faces/3/dlist/8/x",
+        "actual": 553.5376837982819,
+        "predicted": 553.288012108909,
+        "delta": 0.24967168937291717
+      },
+      {
+        "path": "/faces/3/dlist/9/x",
+        "actual": 583.0420105406532,
+        "predicted": 583.0417629801407,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/faces/3/dlist/9/y",
+        "actual": 53.22721443036951,
+        "predicted": 53.72735678397266,
+        "delta": 0.5001423536031524
+      },
+      {
+        "path": "/faces/3/dlist/10/y",
+        "actual": 52.5,
+        "predicted": 53.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/11/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/12/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/13/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/14/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/15/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/16/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/17/y",
+        "actual": 76,
+        "predicted": 76.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/18/y",
+        "actual": 54,
+        "predicted": 54.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/19/y",
+        "actual": 54,
+        "predicted": 54.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/20/y",
+        "actual": 76,
+        "predicted": 76.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/21/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/22/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/23/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/dlist/0/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/dlist/1/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/dlist/2/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/dlist/3/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/dlist/4/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/dlist/5/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/dlist/0/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/dlist/1/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/dlist/2/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/dlist/3/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/dlist/4/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/dlist/5/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/h",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/0/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/1/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/2/y",
+        "actual": 1040,
+        "predicted": 1040.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/3/y",
+        "actual": 1062,
+        "predicted": 1062.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/4/y",
+        "actual": 1062,
+        "predicted": 1062.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/5/y",
+        "actual": 1040,
+        "predicted": 1040.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/6/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/7/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/8/y",
+        "actual": 1089,
+        "predicted": 1089.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/9/y",
+        "actual": 1098,
+        "predicted": 1098.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/10/y",
+        "actual": 1098,
+        "predicted": 1098.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/11/y",
+        "actual": 1089,
+        "predicted": 1089.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/12/y",
+        "actual": 1063.5,
+        "predicted": 1064.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/13/x",
+        "actual": 583.0420105406531,
+        "predicted": 583.0417629801406,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/faces/6/dlist/13/y",
+        "actual": 1062.7727855696305,
+        "predicted": 1063.2726432160273,
+        "delta": 0.49985764639677654
+      },
+      {
+        "path": "/faces/6/dlist/14/x",
+        "actual": 553.5376837982818,
+        "predicted": 553.2880121089089,
+        "delta": 0.24967168937291717
+      },
+      {
+        "path": "/faces/6/dlist/14/y",
+        "actual": 1116,
+        "predicted": 1117.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/15/x",
+        "actual": 336.26231620171797,
+        "predicted": 336.51198789109105,
+        "delta": 0.2496716893730877
+      },
+      {
+        "path": "/faces/6/dlist/15/y",
+        "actual": 1116,
+        "predicted": 1117.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/16/x",
+        "actual": 306.75798945934673,
+        "predicted": 306.7582370198593,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/faces/6/dlist/16/y",
+        "actual": 1062.7727855696305,
+        "predicted": 1063.2726432160273,
+        "delta": 0.49985764639677654
+      },
+      {
+        "path": "/faces/6/dlist/17/y",
+        "actual": 1063.5,
+        "predicted": 1064.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/18/y",
+        "actual": 1089,
+        "predicted": 1089.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/19/y",
+        "actual": 1098,
+        "predicted": 1098.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/20/y",
+        "actual": 1098,
+        "predicted": 1098.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/21/y",
+        "actual": 1089,
+        "predicted": 1089.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/22/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/23/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/0/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/1/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/2/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/3/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/4/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/5/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/0/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/1/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/2/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/3/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/4/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/5/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/0/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/1/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/2/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/2/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/3/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/3/y",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/4/y",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/5/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/6/x",
+        "actual": 10.44751697045335,
+        "predicted": 10.23009167073998,
+        "delta": 0.2174252997133692
+      },
+      {
+        "path": "/faces/9/dlist/6/y",
+        "actual": 623.9792279148314,
+        "predicted": 624.3334949455095,
+        "delta": 0.35426703067810195
+      },
+      {
+        "path": "/faces/9/dlist/7/y",
+        "actual": 603.6512856265732,
+        "predicted": 604.4145098125242,
+        "delta": 0.7632241859510032
+      },
+      {
+        "path": "/faces/9/dlist/7/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/7/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/8/y",
+        "actual": 512.3487143734268,
+        "predicted": 512.5854901874757,
+        "delta": 0.23677581404888315
+      },
+      {
+        "path": "/faces/9/dlist/9/x",
+        "actual": 10.44751697045335,
+        "predicted": 10.23009167073998,
+        "delta": 0.2174252997133692
+      },
+      {
+        "path": "/faces/9/dlist/9/y",
+        "actual": 492.0207720851686,
+        "predicted": 492.6665050544905,
+        "delta": 0.645732969321898
+      },
+      {
+        "path": "/faces/9/dlist/9/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/9/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/10/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/11/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/0/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/1/x",
+        "actual": 879.3524830295466,
+        "predicted": 879.56990832926,
+        "delta": 0.2174252997133408
+      },
+      {
+        "path": "/faces/10/dlist/1/y",
+        "actual": 492.0207720851686,
+        "predicted": 492.6665050544905,
+        "delta": 0.645732969321898
+      },
+      {
+        "path": "/faces/10/dlist/2/y",
+        "actual": 512.3487143734268,
+        "predicted": 512.5854901874758,
+        "delta": 0.23677581404899684
+      },
+      {
+        "path": "/faces/10/dlist/2/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/2/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/3/y",
+        "actual": 603.6512856265732,
+        "predicted": 604.4145098125243,
+        "delta": 0.7632241859511169
+      },
+      {
+        "path": "/faces/10/dlist/4/x",
+        "actual": 879.3524830295466,
+        "predicted": 879.56990832926,
+        "delta": 0.2174252997133408
+      },
+      {
+        "path": "/faces/10/dlist/4/y",
+        "actual": 623.9792279148314,
+        "predicted": 624.3334949455095,
+        "delta": 0.35426703067810195
+      },
+      {
+        "path": "/faces/10/dlist/4/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/4/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/5/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/6/y",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/7/x",
+        "actual": 842.8,
+        "predicted": 843.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/7/y",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/8/x",
+        "actual": 842.8,
+        "predicted": 843.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/8/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/9/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/10/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.94605989863777,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/10/dlist/11/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.94605989863777,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/11/y",
+        "actual": 338.97302994931886,
+        "predicted": 339.47302994931886,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/0/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/1/y",
+        "actual": 338.97302994931886,
+        "predicted": 339.47302994931886,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/2/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/3/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/4/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/0/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/1/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/2/y",
+        "actual": 338.97302994931886,
+        "predicted": 339.47302994931886,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/3/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/4/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/dlist/0/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/dlist/1/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/dlist/2/y",
+        "actual": 338.97302994931886,
+        "predicted": 339.47302994931886,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/dlist/3/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/dlist/4/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/y",
+        "actual": 338.97302994931886,
+        "predicted": 339.47302994931886,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/0/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/1/y",
+        "actual": 338.97302994931886,
+        "predicted": 339.47302994931886,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/2/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/3/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/4/y",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/0/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/1/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/2/y",
+        "actual": 777.0269700506811,
+        "predicted": 777.5269700506811,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/3/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/4/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/0/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/1/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/2/y",
+        "actual": 777.0269700506811,
+        "predicted": 777.5269700506811,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/3/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/4/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/dlist/0/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/dlist/1/y",
+        "actual": 777.0269700506811,
+        "predicted": 777.5269700506811,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/dlist/2/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/dlist/3/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/dlist/4/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/0/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/1/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/2/y",
+        "actual": 777.0269700506811,
+        "predicted": 777.5269700506811,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/3/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/4/y",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/0/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/1/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/2/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/3/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/4/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/5/y",
+        "actual": 52.5,
+        "predicted": 53.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/6/x",
+        "actual": 306.7579894593468,
+        "predicted": 306.75823701985934,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/cuts/6/y",
+        "actual": 53.22721443036951,
+        "predicted": 53.72735678397266,
+        "delta": 0.5001423536031524
+      },
+      {
+        "path": "/cuts/7/x",
+        "actual": 336.262316201718,
+        "predicted": 336.51198789109105,
+        "delta": 0.24967168937303086
+      },
+      {
+        "path": "/cuts/8/x",
+        "actual": 553.5376837982819,
+        "predicted": 553.288012108909,
+        "delta": 0.24967168937291717
+      },
+      {
+        "path": "/cuts/9/x",
+        "actual": 583.0420105406532,
+        "predicted": 583.0417629801407,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/cuts/9/y",
+        "actual": 53.22721443036951,
+        "predicted": 53.72735678397266,
+        "delta": 0.5001423536031524
+      },
+      {
+        "path": "/cuts/10/y",
+        "actual": 52.5,
+        "predicted": 53.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/11/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/12/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/13/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/14/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/15/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/16/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/17/x",
+        "actual": 879.3524830295466,
+        "predicted": 879.56990832926,
+        "delta": 0.2174252997133408
+      },
+      {
+        "path": "/cuts/17/y",
+        "actual": 492.0207720851686,
+        "predicted": 492.6665050544905,
+        "delta": 0.645732969321898
+      },
+      {
+        "path": "/cuts/18/y",
+        "actual": 512.3487143734268,
+        "predicted": 512.5854901874758,
+        "delta": 0.23677581404899684
+      },
+      {
+        "path": "/cuts/18/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/18/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/19/y",
+        "actual": 603.6512856265732,
+        "predicted": 604.4145098125243,
+        "delta": 0.7632241859511169
+      },
+      {
+        "path": "/cuts/20/x",
+        "actual": 879.3524830295466,
+        "predicted": 879.56990832926,
+        "delta": 0.2174252997133408
+      },
+      {
+        "path": "/cuts/20/y",
+        "actual": 623.9792279148314,
+        "predicted": 624.3334949455095,
+        "delta": 0.35426703067810195
+      },
+      {
+        "path": "/cuts/20/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/20/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/21/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/22/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/23/y",
+        "actual": 1089,
+        "predicted": 1089.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/24/y",
+        "actual": 1098,
+        "predicted": 1098.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/25/y",
+        "actual": 1098,
+        "predicted": 1098.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/26/y",
+        "actual": 1089,
+        "predicted": 1089.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/27/y",
+        "actual": 1063.5,
+        "predicted": 1064.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/28/x",
+        "actual": 583.0420105406531,
+        "predicted": 583.0417629801406,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/cuts/28/y",
+        "actual": 1062.7727855696305,
+        "predicted": 1063.2726432160273,
+        "delta": 0.49985764639677654
+      },
+      {
+        "path": "/cuts/29/x",
+        "actual": 553.5376837982818,
+        "predicted": 553.2880121089089,
+        "delta": 0.24967168937291717
+      },
+      {
+        "path": "/cuts/29/y",
+        "actual": 1116,
+        "predicted": 1117.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/30/x",
+        "actual": 336.26231620171797,
+        "predicted": 336.51198789109105,
+        "delta": 0.2496716893730877
+      },
+      {
+        "path": "/cuts/30/y",
+        "actual": 1116,
+        "predicted": 1117.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/31/x",
+        "actual": 306.75798945934673,
+        "predicted": 306.7582370198593,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/cuts/31/y",
+        "actual": 1062.7727855696305,
+        "predicted": 1063.2726432160273,
+        "delta": 0.49985764639677654
+      },
+      {
+        "path": "/cuts/32/y",
+        "actual": 1063.5,
+        "predicted": 1064.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/33/y",
+        "actual": 1089,
+        "predicted": 1089.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/34/y",
+        "actual": 1098,
+        "predicted": 1098.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/35/y",
+        "actual": 1098,
+        "predicted": 1098.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/36/y",
+        "actual": 1089,
+        "predicted": 1089.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/37/y",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/38/y",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/39/x",
+        "actual": 10.44751697045335,
+        "predicted": 10.23009167073998,
+        "delta": 0.2174252997133692
+      },
+      {
+        "path": "/cuts/39/y",
+        "actual": 623.9792279148314,
+        "predicted": 624.3334949455095,
+        "delta": 0.35426703067810195
+      },
+      {
+        "path": "/cuts/40/y",
+        "actual": 603.6512856265732,
+        "predicted": 604.4145098125242,
+        "delta": 0.7632241859510032
+      },
+      {
+        "path": "/cuts/40/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/40/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/41/y",
+        "actual": 512.3487143734268,
+        "predicted": 512.5854901874757,
+        "delta": 0.23677581404888315
+      },
+      {
+        "path": "/cuts/42/x",
+        "actual": 10.44751697045335,
+        "predicted": 10.23009167073998,
+        "delta": 0.2174252997133692
+      },
+      {
+        "path": "/cuts/42/y",
+        "actual": 492.0207720851686,
+        "predicted": 492.6665050544905,
+        "delta": 0.645732969321898
+      },
+      {
+        "path": "/cuts/42/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/42/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/43/y",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/44/y",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/0/y1",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/0/y2",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/1/y1",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/1/y2",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/2/y1",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/2/y2",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/3/y1",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/3/y2",
+        "actual": 266.5,
+        "predicted": 267.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/4/y1",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/4/y2",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/5/y1",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/5/y2",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/6/y1",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/6/y2",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/7/y1",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/7/y2",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/8/y1",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/8/y2",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/9/y1",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/9/y2",
+        "actual": 849.5,
+        "predicted": 850.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/10/y1",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/10/y2",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/11/y1",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/11/y2",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/12/y1",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/12/y2",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/13/y1",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/13/y2",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/14/y1",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/14/y2",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/15/y1",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/15/y2",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/16/y1",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/16/y2",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/17/y1",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/17/y2",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/18/y1",
+        "actual": 411.4460598986377,
+        "predicted": 411.9460598986377,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/18/y2",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/19/y1",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/19/y2",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/20/y1",
+        "actual": 704.5539401013623,
+        "predicted": 705.0539401013623,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/20/y2",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/21/y1",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/21/y2",
+        "actual": 411.4460598986377,
+        "predicted": 411.94605989863777,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/folds/22/y1",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/22/y2",
+        "actual": 338.97302994931886,
+        "predicted": 339.47302994931886,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/23/y1",
+        "actual": 338.97302994931886,
+        "predicted": 339.47302994931886,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/23/y2",
+        "actual": 464.5,
+        "predicted": 465.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/24/y1",
+        "actual": 777.0269700506811,
+        "predicted": 777.5269700506811,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/24/y2",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/25/y1",
+        "actual": 651.5,
+        "predicted": 652.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/25/y2",
+        "actual": 777.0269700506811,
+        "predicted": 777.5269700506811,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/0/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/1/y",
+        "actual": 76,
+        "predicted": 76.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/2/y",
+        "actual": 54,
+        "predicted": 54.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/3/y",
+        "actual": 54,
+        "predicted": 54.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/4/y",
+        "actual": 76,
+        "predicted": 76.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/5/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/6/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/0/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/1/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/2/y",
+        "actual": 1040,
+        "predicted": 1040.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/3/y",
+        "actual": 1062,
+        "predicted": 1062.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/4/y",
+        "actual": 1062,
+        "predicted": 1062.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/5/y",
+        "actual": 1040,
+        "predicted": 1040.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/6/y",
+        "actual": 996,
+        "predicted": 996.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/0/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/0/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/1/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/2/y",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/3/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/3/y",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/4/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/4/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/0/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/1/x",
+        "actual": 842.8,
+        "predicted": 843.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/1/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/2/x",
+        "actual": 842.8,
+        "predicted": 843.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/2/y",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/3/y",
+        "actual": 560,
+        "predicted": 560.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/4/y",
+        "actual": 556,
+        "predicted": 556.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/totalY",
+        "actual": 1116,
+        "predicted": 1117.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/transform/position/z",
+        "actual": 558,
+        "predicted": 558.5,
+        "delta": 0.5
+      }
+    ]
+  },
+  {
+    "pass": false,
+    "dimensions_mm": [
+      247.8,
+      178.5,
+      198
+    ],
+    "numeric_fields": 929,
+    "differences": [
+      {
+        "path": "/faces/0/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/0/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/1/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/2/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/3/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/4/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/5/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/0/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/1/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/2/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/3/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/4/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/5/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/2/h",
+        "actual": 142,
+        "predicted": 142.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/2/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/0/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/1/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/2/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/2/dlist/3/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/2/dlist/4/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/5/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/h",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/0/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/1/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/2/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/3/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/4/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/5/y",
+        "actual": 52.5,
+        "predicted": 53.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/6/x",
+        "actual": 306.7579894593468,
+        "predicted": 306.75823701985934,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/faces/3/dlist/6/y",
+        "actual": 53.22721443036951,
+        "predicted": 53.72735678397266,
+        "delta": 0.5001423536031524
+      },
+      {
+        "path": "/faces/3/dlist/7/x",
+        "actual": 336.262316201718,
+        "predicted": 336.51198789109105,
+        "delta": 0.24967168937303086
+      },
+      {
+        "path": "/faces/3/dlist/8/x",
+        "actual": 553.5376837982819,
+        "predicted": 553.288012108909,
+        "delta": 0.24967168937291717
+      },
+      {
+        "path": "/faces/3/dlist/9/x",
+        "actual": 583.0420105406532,
+        "predicted": 583.0417629801407,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/faces/3/dlist/9/y",
+        "actual": 53.22721443036951,
+        "predicted": 53.72735678397266,
+        "delta": 0.5001423536031524
+      },
+      {
+        "path": "/faces/3/dlist/10/y",
+        "actual": 52.5,
+        "predicted": 53.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/11/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/12/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/13/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/14/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/15/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/16/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/17/y",
+        "actual": 76,
+        "predicted": 76.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/18/y",
+        "actual": 54,
+        "predicted": 54.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/19/y",
+        "actual": 54,
+        "predicted": 54.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/20/y",
+        "actual": 76,
+        "predicted": 76.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/21/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/22/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/23/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/0/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/1/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/2/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/3/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/4/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/5/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/h",
+        "actual": 142,
+        "predicted": 142.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/5/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/dlist/0/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/dlist/1/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/dlist/2/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/5/dlist/3/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/5/dlist/4/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/dlist/5/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/6/h",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/0/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/1/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/2/y",
+        "actual": 1022.5,
+        "predicted": 1023.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/3/y",
+        "actual": 1044.5,
+        "predicted": 1045.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/4/y",
+        "actual": 1044.5,
+        "predicted": 1045.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/5/y",
+        "actual": 1022.5,
+        "predicted": 1023.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/6/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/7/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/8/y",
+        "actual": 1071.5,
+        "predicted": 1072.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/9/y",
+        "actual": 1080.5,
+        "predicted": 1081.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/10/y",
+        "actual": 1080.5,
+        "predicted": 1081.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/11/y",
+        "actual": 1071.5,
+        "predicted": 1072.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/12/y",
+        "actual": 1046,
+        "predicted": 1047.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/13/x",
+        "actual": 583.0420105406531,
+        "predicted": 583.0417629801406,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/faces/6/dlist/13/y",
+        "actual": 1045.2727855696305,
+        "predicted": 1046.2726432160273,
+        "delta": 0.9998576463967765
+      },
+      {
+        "path": "/faces/6/dlist/14/x",
+        "actual": 553.5376837982818,
+        "predicted": 553.2880121089089,
+        "delta": 0.24967168937291717
+      },
+      {
+        "path": "/faces/6/dlist/14/y",
+        "actual": 1098.5,
+        "predicted": 1100.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/15/x",
+        "actual": 336.26231620171797,
+        "predicted": 336.51198789109105,
+        "delta": 0.2496716893730877
+      },
+      {
+        "path": "/faces/6/dlist/15/y",
+        "actual": 1098.5,
+        "predicted": 1100.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/16/x",
+        "actual": 306.75798945934673,
+        "predicted": 306.7582370198593,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/faces/6/dlist/16/y",
+        "actual": 1045.2727855696305,
+        "predicted": 1046.2726432160273,
+        "delta": 0.9998576463967765
+      },
+      {
+        "path": "/faces/6/dlist/17/y",
+        "actual": 1046,
+        "predicted": 1047.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/18/y",
+        "actual": 1071.5,
+        "predicted": 1072.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/19/y",
+        "actual": 1080.5,
+        "predicted": 1081.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/20/y",
+        "actual": 1080.5,
+        "predicted": 1081.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/21/y",
+        "actual": 1071.5,
+        "predicted": 1072.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/22/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/23/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/7/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/0/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/1/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/2/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/3/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/4/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/5/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/0/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/1/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/2/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/3/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/4/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/5/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/0/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/1/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/2/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/2/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/3/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/3/y",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/4/y",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/5/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/6/x",
+        "actual": 10.752809255265902,
+        "predicted": 10.538091991899293,
+        "delta": 0.2147172633666088
+      },
+      {
+        "path": "/faces/9/dlist/6/y",
+        "actual": 613.7073739563624,
+        "predicted": 614.3097837393365,
+        "delta": 0.602409782974064
+      },
+      {
+        "path": "/faces/9/dlist/7/y",
+        "actual": 593.1643080731218,
+        "predicted": 594.175587902773,
+        "delta": 1.0112798296512437
+      },
+      {
+        "path": "/faces/9/dlist/7/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/7/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/8/y",
+        "actual": 505.33569192687816,
+        "predicted": 505.82441209722697,
+        "delta": 0.4887201703488131
+      },
+      {
+        "path": "/faces/9/dlist/9/x",
+        "actual": 10.752809255265902,
+        "predicted": 10.538091991899293,
+        "delta": 0.2147172633666088
+      },
+      {
+        "path": "/faces/9/dlist/9/y",
+        "actual": 484.7926260436376,
+        "predicted": 485.69021626066353,
+        "delta": 0.897590217025936
+      },
+      {
+        "path": "/faces/9/dlist/9/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/9/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/10/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/11/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/0/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/1/x",
+        "actual": 879.047190744734,
+        "predicted": 879.2619080081006,
+        "delta": 0.21471726336653774
+      },
+      {
+        "path": "/faces/10/dlist/1/y",
+        "actual": 484.7926260436376,
+        "predicted": 485.69021626066353,
+        "delta": 0.897590217025936
+      },
+      {
+        "path": "/faces/10/dlist/2/y",
+        "actual": 505.33569192687816,
+        "predicted": 505.82441209722697,
+        "delta": 0.4887201703488131
+      },
+      {
+        "path": "/faces/10/dlist/2/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/2/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/3/y",
+        "actual": 593.1643080731218,
+        "predicted": 594.175587902773,
+        "delta": 1.0112798296512437
+      },
+      {
+        "path": "/faces/10/dlist/4/x",
+        "actual": 879.047190744734,
+        "predicted": 879.2619080081006,
+        "delta": 0.21471726336653774
+      },
+      {
+        "path": "/faces/10/dlist/4/y",
+        "actual": 613.7073739563624,
+        "predicted": 614.3097837393365,
+        "delta": 0.602409782974064
+      },
+      {
+        "path": "/faces/10/dlist/4/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/4/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/5/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/6/y",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/7/x",
+        "actual": 842.8,
+        "predicted": 843.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/7/y",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/8/x",
+        "actual": 842.8,
+        "predicted": 843.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/8/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/9/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/10/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/11/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/y",
+        "actual": 334.47302994931886,
+        "predicted": 335.22302994931886,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/0/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/1/y",
+        "actual": 334.47302994931886,
+        "predicted": 335.22302994931886,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/2/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/3/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/4/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/0/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/1/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/2/y",
+        "actual": 334.47302994931886,
+        "predicted": 335.22302994931886,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/3/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/4/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/0/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/1/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/2/y",
+        "actual": 334.47302994931886,
+        "predicted": 335.22302994931886,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/3/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/4/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/y",
+        "actual": 334.47302994931886,
+        "predicted": 335.22302994931886,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/0/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/1/y",
+        "actual": 334.47302994931886,
+        "predicted": 335.22302994931886,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/2/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/3/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/4/y",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/dlist/0/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/dlist/1/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/dlist/2/y",
+        "actual": 764.0269700506811,
+        "predicted": 764.7769700506811,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/dlist/3/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/dlist/4/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/0/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/1/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/2/y",
+        "actual": 764.0269700506811,
+        "predicted": 764.7769700506811,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/3/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/4/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/0/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/1/y",
+        "actual": 764.0269700506811,
+        "predicted": 764.7769700506811,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/2/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/3/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/4/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/0/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/1/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/2/y",
+        "actual": 764.0269700506811,
+        "predicted": 764.7769700506811,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/3/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/4/y",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/0/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/1/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/2/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/3/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/4/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/5/y",
+        "actual": 52.5,
+        "predicted": 53.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/6/x",
+        "actual": 306.7579894593468,
+        "predicted": 306.75823701985934,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/cuts/6/y",
+        "actual": 53.22721443036951,
+        "predicted": 53.72735678397266,
+        "delta": 0.5001423536031524
+      },
+      {
+        "path": "/cuts/7/x",
+        "actual": 336.262316201718,
+        "predicted": 336.51198789109105,
+        "delta": 0.24967168937303086
+      },
+      {
+        "path": "/cuts/8/x",
+        "actual": 553.5376837982819,
+        "predicted": 553.288012108909,
+        "delta": 0.24967168937291717
+      },
+      {
+        "path": "/cuts/9/x",
+        "actual": 583.0420105406532,
+        "predicted": 583.0417629801407,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/cuts/9/y",
+        "actual": 53.22721443036951,
+        "predicted": 53.72735678397266,
+        "delta": 0.5001423536031524
+      },
+      {
+        "path": "/cuts/10/y",
+        "actual": 52.5,
+        "predicted": 53.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/11/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/12/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/13/y",
+        "actual": 18,
+        "predicted": 18.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/14/y",
+        "actual": 27,
+        "predicted": 27.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/15/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/16/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/17/x",
+        "actual": 879.047190744734,
+        "predicted": 879.2619080081006,
+        "delta": 0.21471726336653774
+      },
+      {
+        "path": "/cuts/17/y",
+        "actual": 484.7926260436376,
+        "predicted": 485.69021626066353,
+        "delta": 0.897590217025936
+      },
+      {
+        "path": "/cuts/18/y",
+        "actual": 505.33569192687816,
+        "predicted": 505.82441209722697,
+        "delta": 0.4887201703488131
+      },
+      {
+        "path": "/cuts/18/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/18/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/19/y",
+        "actual": 593.1643080731218,
+        "predicted": 594.175587902773,
+        "delta": 1.0112798296512437
+      },
+      {
+        "path": "/cuts/20/x",
+        "actual": 879.047190744734,
+        "predicted": 879.2619080081006,
+        "delta": 0.21471726336653774
+      },
+      {
+        "path": "/cuts/20/y",
+        "actual": 613.7073739563624,
+        "predicted": 614.3097837393365,
+        "delta": 0.602409782974064
+      },
+      {
+        "path": "/cuts/20/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/20/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/21/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/22/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/23/y",
+        "actual": 1071.5,
+        "predicted": 1072.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/24/y",
+        "actual": 1080.5,
+        "predicted": 1081.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/25/y",
+        "actual": 1080.5,
+        "predicted": 1081.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/26/y",
+        "actual": 1071.5,
+        "predicted": 1072.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/27/y",
+        "actual": 1046,
+        "predicted": 1047.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/28/x",
+        "actual": 583.0420105406531,
+        "predicted": 583.0417629801406,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/cuts/28/y",
+        "actual": 1045.2727855696305,
+        "predicted": 1046.2726432160273,
+        "delta": 0.9998576463967765
+      },
+      {
+        "path": "/cuts/29/x",
+        "actual": 553.5376837982818,
+        "predicted": 553.2880121089089,
+        "delta": 0.24967168937291717
+      },
+      {
+        "path": "/cuts/29/y",
+        "actual": 1098.5,
+        "predicted": 1100.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/30/x",
+        "actual": 336.26231620171797,
+        "predicted": 336.51198789109105,
+        "delta": 0.2496716893730877
+      },
+      {
+        "path": "/cuts/30/y",
+        "actual": 1098.5,
+        "predicted": 1100.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/31/x",
+        "actual": 306.75798945934673,
+        "predicted": 306.7582370198593,
+        "delta": 0.0002475605125482616
+      },
+      {
+        "path": "/cuts/31/y",
+        "actual": 1045.2727855696305,
+        "predicted": 1046.2726432160273,
+        "delta": 0.9998576463967765
+      },
+      {
+        "path": "/cuts/32/y",
+        "actual": 1046,
+        "predicted": 1047.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/33/y",
+        "actual": 1071.5,
+        "predicted": 1072.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/34/y",
+        "actual": 1080.5,
+        "predicted": 1081.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/35/y",
+        "actual": 1080.5,
+        "predicted": 1081.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/36/y",
+        "actual": 1071.5,
+        "predicted": 1072.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/37/y",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/38/y",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/39/x",
+        "actual": 10.752809255265902,
+        "predicted": 10.538091991899293,
+        "delta": 0.2147172633666088
+      },
+      {
+        "path": "/cuts/39/y",
+        "actual": 613.7073739563624,
+        "predicted": 614.3097837393365,
+        "delta": 0.602409782974064
+      },
+      {
+        "path": "/cuts/40/y",
+        "actual": 593.1643080731218,
+        "predicted": 594.175587902773,
+        "delta": 1.0112798296512437
+      },
+      {
+        "path": "/cuts/40/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/40/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/41/y",
+        "actual": 505.33569192687816,
+        "predicted": 505.82441209722697,
+        "delta": 0.4887201703488131
+      },
+      {
+        "path": "/cuts/42/x",
+        "actual": 10.752809255265902,
+        "predicted": 10.538091991899293,
+        "delta": 0.2147172633666088
+      },
+      {
+        "path": "/cuts/42/y",
+        "actual": 484.7926260436376,
+        "predicted": 485.69021626066353,
+        "delta": 0.897590217025936
+      },
+      {
+        "path": "/cuts/42/rx",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/42/ry",
+        "actual": 25,
+        "predicted": 24.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/43/y",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/44/y",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/0/y1",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/0/y2",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/1/y1",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/1/y2",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/2/y1",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/2/y2",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/3/y1",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/3/y2",
+        "actual": 262,
+        "predicted": 262.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/4/y1",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/4/y2",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/5/y1",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/5/y2",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/6/y1",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/6/y2",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/7/y1",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/7/y2",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/8/y1",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/8/y2",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/9/y1",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/9/y2",
+        "actual": 836.5,
+        "predicted": 837.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/10/y1",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/10/y2",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/11/y1",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/11/y2",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/12/y1",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/12/y2",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/13/y1",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/13/y2",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/14/y1",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/14/y2",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/15/y1",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/15/y2",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/16/y1",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/16/y2",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/17/y1",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/17/y2",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/18/y1",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/18/y2",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/19/y1",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/19/y2",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/20/y1",
+        "actual": 691.5539401013623,
+        "predicted": 692.3039401013623,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/20/y2",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/21/y1",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/21/y2",
+        "actual": 406.9460598986377,
+        "predicted": 407.6960598986377,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/22/y1",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/22/y2",
+        "actual": 334.47302994931886,
+        "predicted": 335.22302994931886,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/23/y1",
+        "actual": 334.47302994931886,
+        "predicted": 335.22302994931886,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/23/y2",
+        "actual": 460,
+        "predicted": 460.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/24/y1",
+        "actual": 764.0269700506811,
+        "predicted": 764.7769700506811,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/24/y2",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/25/y1",
+        "actual": 638.5,
+        "predicted": 639.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/25/y2",
+        "actual": 764.0269700506811,
+        "predicted": 764.7769700506811,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/0/0/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/1/y",
+        "actual": 76,
+        "predicted": 76.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/2/y",
+        "actual": 54,
+        "predicted": 54.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/3/y",
+        "actual": 54,
+        "predicted": 54.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/4/y",
+        "actual": 76,
+        "predicted": 76.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/5/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/6/y",
+        "actual": 120,
+        "predicted": 120.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/0/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/1/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/2/y",
+        "actual": 1022.5,
+        "predicted": 1023.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/3/y",
+        "actual": 1044.5,
+        "predicted": 1045.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/4/y",
+        "actual": 1044.5,
+        "predicted": 1045.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/5/y",
+        "actual": 1022.5,
+        "predicted": 1023.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/6/y",
+        "actual": 978.5,
+        "predicted": 979.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/2/0/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/0/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/2/1/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/2/2/y",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/2/3/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/3/y",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/2/4/x",
+        "actual": 47,
+        "predicted": 46.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/4/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/0/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/1/x",
+        "actual": 842.8,
+        "predicted": 843.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/1/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/2/x",
+        "actual": 842.8,
+        "predicted": 843.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/2/y",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/3/y",
+        "actual": 551.25,
+        "predicted": 552.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/4/y",
+        "actual": 547.25,
+        "predicted": 548.0,
+        "delta": 0.75
+      },
+      {
+        "path": "/totalY",
+        "actual": 1098.5,
+        "predicted": 1100.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/transform/position/z",
+        "actual": 549.25,
+        "predicted": 550.0,
+        "delta": 0.75
+      }
+    ]
+  },
+  {
+    "pass": false,
+    "dimensions_mm": [
+      247.8,
+      178.5,
+      189
+    ],
+    "numeric_fields": 929,
+    "differences": [
+      {
+        "path": "/faces/0/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/0/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/dlist/0/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/1/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/dlist/1/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/2/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/0/dlist/2/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/3/x",
+        "actual": 307.99999999999994,
+        "predicted": 308.5,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/0/dlist/3/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/4/x",
+        "actual": 307.99999999999994,
+        "predicted": 308.5,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/0/dlist/4/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/0/dlist/5/x",
+        "actual": 307.99999999999994,
+        "predicted": 308.5,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/0/dlist/5/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/0/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/dlist/0/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/1/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/dlist/1/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/2/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/1/dlist/2/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/3/x",
+        "actual": 555.8000000000001,
+        "predicted": 556.3,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/1/dlist/3/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/4/x",
+        "actual": 308.00000000000006,
+        "predicted": 308.5,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/faces/1/dlist/4/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/1/dlist/5/x",
+        "actual": 308.00000000000006,
+        "predicted": 308.5,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/faces/1/dlist/5/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/2/h",
+        "actual": 139.5,
+        "predicted": 139.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/2/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/0/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/0/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/1/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/1/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/2/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/2/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/2/dlist/3/x",
+        "actual": 257.3576026305179,
+        "predicted": 257.8576026305178,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/faces/2/dlist/3/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/2/dlist/4/x",
+        "actual": 257.3576026305179,
+        "predicted": 257.8576026305178,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/faces/2/dlist/4/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/2/dlist/5/x",
+        "actual": 257.3576026305179,
+        "predicted": 257.8576026305178,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/faces/2/dlist/5/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/h",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/0/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/0/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/1/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/2/x",
+        "actual": 266.3576026305178,
+        "predicted": 266.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/3/x",
+        "actual": 283.3576026305178,
+        "predicted": 284.3576026305178,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/3/dlist/4/x",
+        "actual": 292.3576026305178,
+        "predicted": 293.3576026305178,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/3/dlist/5/x",
+        "actual": 292.3576026305178,
+        "predicted": 293.3576026305178,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/3/dlist/5/y",
+        "actual": 51.5,
+        "predicted": 52.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/6/x",
+        "actual": 295.1631361744277,
+        "predicted": 296.1598884553111,
+        "delta": 0.9967522808834133
+      },
+      {
+        "path": "/faces/3/dlist/6/y",
+        "actual": 52.2386353401552,
+        "predicted": 52.7443176700776,
+        "delta": 0.5056823299224007
+      },
+      {
+        "path": "/faces/3/dlist/7/x",
+        "actual": 324.71833401956513,
+        "predicted": 326.29207205855084,
+        "delta": 1.5737380389857094
+      },
+      {
+        "path": "/faces/3/dlist/8/x",
+        "actual": 539.081665980435,
+        "predicted": 538.5079279414492,
+        "delta": 0.5737380389857663
+      },
+      {
+        "path": "/faces/3/dlist/9/x",
+        "actual": 568.6368638255724,
+        "predicted": 568.6401115446889,
+        "delta": 0.003247719116529879
+      },
+      {
+        "path": "/faces/3/dlist/9/y",
+        "actual": 52.2386353401552,
+        "predicted": 52.7443176700776,
+        "delta": 0.5056823299224007
+      },
+      {
+        "path": "/faces/3/dlist/10/y",
+        "actual": 51.5,
+        "predicted": 52.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/13/x",
+        "actual": 597.4423973694823,
+        "predicted": 597.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/14/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/15/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/15/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/16/x",
+        "actual": 491.9000000000001,
+        "predicted": 492.4,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/3/dlist/16/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/17/x",
+        "actual": 491.9000000000001,
+        "predicted": 492.4,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/3/dlist/17/y",
+        "actual": 74,
+        "predicted": 74.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/18/x",
+        "actual": 470.9000000000001,
+        "predicted": 471.4,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/3/dlist/18/y",
+        "actual": 53,
+        "predicted": 53.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/19/x",
+        "actual": 392.9000000000001,
+        "predicted": 393.4,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/3/dlist/19/y",
+        "actual": 53,
+        "predicted": 53.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/20/x",
+        "actual": 371.9000000000001,
+        "predicted": 372.4,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/3/dlist/20/y",
+        "actual": 74,
+        "predicted": 74.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/21/x",
+        "actual": 371.9000000000001,
+        "predicted": 372.4,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/3/dlist/21/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/22/x",
+        "actual": 257.35760263051793,
+        "predicted": 257.8576026305178,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/3/dlist/22/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/3/dlist/23/x",
+        "actual": 257.35760263051793,
+        "predicted": 257.8576026305178,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/3/dlist/23/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/0/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/dlist/0/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/1/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/4/dlist/1/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/2/x",
+        "actual": 606.4423973694821,
+        "predicted": 606.9423973694823,
+        "delta": 0.5000000000001137
+      },
+      {
+        "path": "/faces/4/dlist/2/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/3/x",
+        "actual": 257.35760263051776,
+        "predicted": 257.8576026305178,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/4/dlist/3/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/4/x",
+        "actual": 307.99999999999994,
+        "predicted": 308.5,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/4/dlist/4/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/4/dlist/5/x",
+        "actual": 307.99999999999994,
+        "predicted": 308.5,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/4/dlist/5/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/h",
+        "actual": 139.5,
+        "predicted": 139.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/5/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/dlist/0/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/dlist/0/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/dlist/1/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/dlist/1/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/dlist/2/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/5/dlist/2/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/5/dlist/3/x",
+        "actual": 257.3576026305179,
+        "predicted": 257.8576026305178,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/faces/5/dlist/3/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/5/dlist/4/x",
+        "actual": 257.3576026305179,
+        "predicted": 257.8576026305178,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/faces/5/dlist/4/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/5/dlist/5/x",
+        "actual": 257.3576026305179,
+        "predicted": 257.8576026305178,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/faces/5/dlist/5/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/6/h",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/0/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/0/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/1/x",
+        "actual": 371.9,
+        "predicted": 372.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/1/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/2/x",
+        "actual": 371.9,
+        "predicted": 372.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/2/y",
+        "actual": 993.5,
+        "predicted": 994.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/3/x",
+        "actual": 392.9,
+        "predicted": 393.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/3/y",
+        "actual": 1014.5,
+        "predicted": 1015.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/4/x",
+        "actual": 470.9,
+        "predicted": 471.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/4/y",
+        "actual": 1014.5,
+        "predicted": 1015.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/5/x",
+        "actual": 491.9,
+        "predicted": 492.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/5/y",
+        "actual": 993.5,
+        "predicted": 994.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/6/x",
+        "actual": 491.9,
+        "predicted": 492.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/6/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/7/x",
+        "actual": 606.4423973694821,
+        "predicted": 606.9423973694821,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/7/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/8/x",
+        "actual": 606.4423973694821,
+        "predicted": 606.9423973694821,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/8/y",
+        "actual": 1040.5,
+        "predicted": 1042.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/9/x",
+        "actual": 597.4423973694821,
+        "predicted": 597.9423973694821,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/6/dlist/9/y",
+        "actual": 1049.5,
+        "predicted": 1051.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/10/y",
+        "actual": 1049.5,
+        "predicted": 1051.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/11/y",
+        "actual": 1040.5,
+        "predicted": 1042.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/12/y",
+        "actual": 1016,
+        "predicted": 1017.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/13/x",
+        "actual": 568.6368638255723,
+        "predicted": 568.6401115446888,
+        "delta": 0.003247719116529879
+      },
+      {
+        "path": "/faces/6/dlist/13/y",
+        "actual": 1015.2613646598448,
+        "predicted": 1016.2556823299224,
+        "delta": 0.9943176700775211
+      },
+      {
+        "path": "/faces/6/dlist/14/x",
+        "actual": 539.0816659804349,
+        "predicted": 538.5079279414492,
+        "delta": 0.5737380389856526
+      },
+      {
+        "path": "/faces/6/dlist/14/y",
+        "actual": 1067.5,
+        "predicted": 1069.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/15/x",
+        "actual": 324.7183340195651,
+        "predicted": 326.2920720585508,
+        "delta": 1.5737380389857094
+      },
+      {
+        "path": "/faces/6/dlist/15/y",
+        "actual": 1067.5,
+        "predicted": 1069.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/16/x",
+        "actual": 295.1631361744276,
+        "predicted": 296.15988845531103,
+        "delta": 0.9967522808834133
+      },
+      {
+        "path": "/faces/6/dlist/16/y",
+        "actual": 1015.2613646598448,
+        "predicted": 1016.2556823299224,
+        "delta": 0.9943176700775211
+      },
+      {
+        "path": "/faces/6/dlist/17/x",
+        "actual": 292.35760263051776,
+        "predicted": 293.3576026305178,
+        "delta": 1.0000000000000568
+      },
+      {
+        "path": "/faces/6/dlist/17/y",
+        "actual": 1016,
+        "predicted": 1017.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/18/x",
+        "actual": 292.35760263051776,
+        "predicted": 293.3576026305178,
+        "delta": 1.0000000000000568
+      },
+      {
+        "path": "/faces/6/dlist/18/y",
+        "actual": 1040.5,
+        "predicted": 1042.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/19/x",
+        "actual": 283.35760263051776,
+        "predicted": 284.3576026305178,
+        "delta": 1.0000000000000568
+      },
+      {
+        "path": "/faces/6/dlist/19/y",
+        "actual": 1049.5,
+        "predicted": 1051.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/20/x",
+        "actual": 266.35760263051776,
+        "predicted": 266.8576026305178,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/6/dlist/20/y",
+        "actual": 1049.5,
+        "predicted": 1051.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/21/x",
+        "actual": 257.35760263051776,
+        "predicted": 257.8576026305178,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/6/dlist/21/y",
+        "actual": 1040.5,
+        "predicted": 1042.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/faces/6/dlist/22/x",
+        "actual": 257.35760263051776,
+        "predicted": 257.8576026305178,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/6/dlist/22/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/dlist/23/x",
+        "actual": 257.35760263051776,
+        "predicted": 257.8576026305178,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/faces/6/dlist/23/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/7/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/0/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/0/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/1/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/1/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/2/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/2/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/3/x",
+        "actual": 119.00000000000003,
+        "predicted": 119.50000000000003,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/3/y",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/4/x",
+        "actual": 119.00000000000003,
+        "predicted": 119.50000000000003,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/4/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/7/dlist/5/x",
+        "actual": 119.00000000000003,
+        "predicted": 119.50000000000003,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/7/dlist/5/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/0/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/0/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/1/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/1/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/2/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/2/y",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/3/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/3/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/4/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/4/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/8/dlist/5/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/5/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/w",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/0/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/0/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/1/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/1/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/2/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/3/y",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/4/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/4/y",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/5/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/5/y",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/6/x",
+        "actual": 10.171444018160926,
+        "predicted": 10.210378718417779,
+        "delta": 0.03893470025685275
+      },
+      {
+        "path": "/faces/9/dlist/6/y",
+        "actual": 596.9206455747311,
+        "predicted": 597.6677806770113,
+        "delta": 0.74713510228014
+      },
+      {
+        "path": "/faces/9/dlist/7/y",
+        "actual": 577.3050640269629,
+        "predicted": 578.0248504643596,
+        "delta": 0.7197864373966922
+      },
+      {
+        "path": "/faces/9/dlist/8/y",
+        "actual": 490.19493597303705,
+        "predicted": 490.97514953564047,
+        "delta": 0.7802135626034215
+      },
+      {
+        "path": "/faces/9/dlist/9/x",
+        "actual": 10.171444018160926,
+        "predicted": 10.210378718417779,
+        "delta": 0.03893470025685275
+      },
+      {
+        "path": "/faces/9/dlist/9/y",
+        "actual": 470.5793544252689,
+        "predicted": 471.33221932298875,
+        "delta": 0.75286489771986
+      },
+      {
+        "path": "/faces/9/dlist/10/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/10/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/9/dlist/11/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/11/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/w",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/0/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/0/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/1/x",
+        "actual": 853.628555981839,
+        "predicted": 854.5896212815821,
+        "delta": 0.9610652997431544
+      },
+      {
+        "path": "/faces/10/dlist/1/y",
+        "actual": 470.5793544252689,
+        "predicted": 471.33221932298875,
+        "delta": 0.75286489771986
+      },
+      {
+        "path": "/faces/10/dlist/2/x",
+        "actual": 863.8,
+        "predicted": 864.8,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/10/dlist/2/y",
+        "actual": 490.19493597303705,
+        "predicted": 490.97514953564047,
+        "delta": 0.7802135626034215
+      },
+      {
+        "path": "/faces/10/dlist/3/x",
+        "actual": 863.8,
+        "predicted": 864.8,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/10/dlist/3/y",
+        "actual": 577.3050640269629,
+        "predicted": 578.0248504643596,
+        "delta": 0.7197864373966922
+      },
+      {
+        "path": "/faces/10/dlist/4/x",
+        "actual": 853.628555981839,
+        "predicted": 854.5896212815821,
+        "delta": 0.9610652997431544
+      },
+      {
+        "path": "/faces/10/dlist/4/y",
+        "actual": 596.9206455747311,
+        "predicted": 597.6677806770113,
+        "delta": 0.74713510228014
+      },
+      {
+        "path": "/faces/10/dlist/5/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/5/y",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/6/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/6/y",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/7/x",
+        "actual": 817.8,
+        "predicted": 818.8,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/10/dlist/7/y",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/8/x",
+        "actual": 817.8,
+        "predicted": 818.8,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/10/dlist/8/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/9/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/9/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/10/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/10/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/10/dlist/11/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/11/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/y",
+        "actual": 324.6788013152589,
+        "predicted": 325.4288013152589,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/0/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/0/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/1/x",
+        "actual": 188.17880131525888,
+        "predicted": 188.6788013152589,
+        "delta": 0.5000000000000284
+      },
+      {
+        "path": "/faces/11/dlist/1/y",
+        "actual": 324.6788013152589,
+        "predicted": 325.4288013152589,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/2/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/2/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/3/x",
+        "actual": 119.00000000000003,
+        "predicted": 119.50000000000003,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/3/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/11/dlist/4/x",
+        "actual": 119.00000000000003,
+        "predicted": 119.50000000000003,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/4/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/x",
+        "actual": 188.1788013152589,
+        "predicted": 188.6788013152589,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/0/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/0/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/1/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/1/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/2/x",
+        "actual": 188.1788013152589,
+        "predicted": 188.6788013152589,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/2/y",
+        "actual": 324.6788013152589,
+        "predicted": 325.4288013152589,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/3/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/3/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/12/dlist/4/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/dlist/4/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/0/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/dlist/0/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/1/x",
+        "actual": 606.4423973694821,
+        "predicted": 606.9423973694823,
+        "delta": 0.5000000000001137
+      },
+      {
+        "path": "/faces/13/dlist/1/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/2/x",
+        "actual": 675.6211986847411,
+        "predicted": 676.1211986847411,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/dlist/2/y",
+        "actual": 324.6788013152589,
+        "predicted": 325.4288013152589,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/3/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/dlist/3/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/13/dlist/4/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/dlist/4/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/y",
+        "actual": 324.6788013152589,
+        "predicted": 325.4288013152589,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/0/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/0/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/1/x",
+        "actual": 675.6211986847411,
+        "predicted": 676.1211986847411,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/1/y",
+        "actual": 324.6788013152589,
+        "predicted": 325.4288013152589,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/2/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/2/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/3/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/3/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/14/dlist/4/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/dlist/4/y",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/dlist/0/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/0/y",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/dlist/1/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/1/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/dlist/2/x",
+        "actual": 188.1788013152589,
+        "predicted": 188.6788013152589,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/2/y",
+        "actual": 742.8211986847411,
+        "predicted": 743.5711986847411,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/15/dlist/3/x",
+        "actual": 119.00000000000003,
+        "predicted": 119.50000000000003,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/3/y",
+        "actual": 673.6423973694823,
+        "predicted": 674.3923973694822,
+        "delta": 0.7499999999998863
+      },
+      {
+        "path": "/faces/15/dlist/4/x",
+        "actual": 119.00000000000003,
+        "predicted": 119.50000000000003,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/dlist/4/y",
+        "actual": 673.6423973694823,
+        "predicted": 674.3923973694822,
+        "delta": 0.7499999999998863
+      },
+      {
+        "path": "/faces/16/x",
+        "actual": 188.1788013152589,
+        "predicted": 188.6788013152589,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/0/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/0/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/1/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/1/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/2/x",
+        "actual": 188.1788013152589,
+        "predicted": 188.6788013152589,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/2/y",
+        "actual": 742.8211986847411,
+        "predicted": 743.5711986847411,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/3/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/3/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/16/dlist/4/x",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/16/dlist/4/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/0/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/dlist/0/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/1/x",
+        "actual": 675.6211986847411,
+        "predicted": 676.1211986847411,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/dlist/1/y",
+        "actual": 742.8211986847411,
+        "predicted": 743.5711986847411,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/2/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/17/dlist/2/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/3/x",
+        "actual": 555.8000000000001,
+        "predicted": 556.3,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/17/dlist/3/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/17/dlist/4/x",
+        "actual": 555.8000000000001,
+        "predicted": 556.3,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/faces/17/dlist/4/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/0/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/0/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/1/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/1/y",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/2/x",
+        "actual": 675.6211986847411,
+        "predicted": 676.1211986847411,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/2/y",
+        "actual": 742.8211986847411,
+        "predicted": 743.5711986847411,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/3/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/3/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/faces/18/dlist/4/x",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/18/dlist/4/y",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/0/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/0/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/1/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/2/x",
+        "actual": 266.3576026305178,
+        "predicted": 266.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/3/x",
+        "actual": 283.3576026305178,
+        "predicted": 284.3576026305178,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/4/x",
+        "actual": 292.3576026305178,
+        "predicted": 293.3576026305178,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/5/x",
+        "actual": 292.3576026305178,
+        "predicted": 293.3576026305178,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/5/y",
+        "actual": 51.5,
+        "predicted": 52.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/6/x",
+        "actual": 295.1631361744277,
+        "predicted": 296.1598884553111,
+        "delta": 0.9967522808834133
+      },
+      {
+        "path": "/cuts/6/y",
+        "actual": 52.2386353401552,
+        "predicted": 52.7443176700776,
+        "delta": 0.5056823299224007
+      },
+      {
+        "path": "/cuts/7/x",
+        "actual": 324.71833401956513,
+        "predicted": 326.29207205855084,
+        "delta": 1.5737380389857094
+      },
+      {
+        "path": "/cuts/8/x",
+        "actual": 539.081665980435,
+        "predicted": 538.5079279414492,
+        "delta": 0.5737380389857663
+      },
+      {
+        "path": "/cuts/9/x",
+        "actual": 568.6368638255724,
+        "predicted": 568.6401115446889,
+        "delta": 0.003247719116529879
+      },
+      {
+        "path": "/cuts/9/y",
+        "actual": 52.2386353401552,
+        "predicted": 52.7443176700776,
+        "delta": 0.5056823299224007
+      },
+      {
+        "path": "/cuts/10/y",
+        "actual": 51.5,
+        "predicted": 52.0,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/13/x",
+        "actual": 597.4423973694823,
+        "predicted": 597.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/14/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/15/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/15/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/16/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/16/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/17/x",
+        "actual": 853.628555981839,
+        "predicted": 854.5896212815821,
+        "delta": 0.9610652997431544
+      },
+      {
+        "path": "/cuts/17/y",
+        "actual": 470.5793544252689,
+        "predicted": 471.33221932298875,
+        "delta": 0.75286489771986
+      },
+      {
+        "path": "/cuts/18/x",
+        "actual": 863.8,
+        "predicted": 864.8,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/18/y",
+        "actual": 490.19493597303705,
+        "predicted": 490.97514953564047,
+        "delta": 0.7802135626034215
+      },
+      {
+        "path": "/cuts/19/x",
+        "actual": 863.8,
+        "predicted": 864.8,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/19/y",
+        "actual": 577.3050640269629,
+        "predicted": 578.0248504643596,
+        "delta": 0.7197864373966922
+      },
+      {
+        "path": "/cuts/20/x",
+        "actual": 853.628555981839,
+        "predicted": 854.5896212815821,
+        "delta": 0.9610652997431544
+      },
+      {
+        "path": "/cuts/20/y",
+        "actual": 596.9206455747311,
+        "predicted": 597.6677806770113,
+        "delta": 0.74713510228014
+      },
+      {
+        "path": "/cuts/21/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/21/y",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/22/x",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/22/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/23/x",
+        "actual": 606.4423973694821,
+        "predicted": 606.9423973694821,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/23/y",
+        "actual": 1040.5,
+        "predicted": 1042.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/24/x",
+        "actual": 597.4423973694821,
+        "predicted": 597.9423973694821,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/24/y",
+        "actual": 1049.5,
+        "predicted": 1051.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/25/y",
+        "actual": 1049.5,
+        "predicted": 1051.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/26/y",
+        "actual": 1040.5,
+        "predicted": 1042.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/27/y",
+        "actual": 1016,
+        "predicted": 1017.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/28/x",
+        "actual": 568.6368638255723,
+        "predicted": 568.6401115446888,
+        "delta": 0.003247719116529879
+      },
+      {
+        "path": "/cuts/28/y",
+        "actual": 1015.2613646598448,
+        "predicted": 1016.2556823299224,
+        "delta": 0.9943176700775211
+      },
+      {
+        "path": "/cuts/29/x",
+        "actual": 539.0816659804349,
+        "predicted": 538.5079279414492,
+        "delta": 0.5737380389856526
+      },
+      {
+        "path": "/cuts/29/y",
+        "actual": 1067.5,
+        "predicted": 1069.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/30/x",
+        "actual": 324.7183340195651,
+        "predicted": 326.2920720585508,
+        "delta": 1.5737380389857094
+      },
+      {
+        "path": "/cuts/30/y",
+        "actual": 1067.5,
+        "predicted": 1069.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/31/x",
+        "actual": 295.1631361744276,
+        "predicted": 296.15988845531103,
+        "delta": 0.9967522808834133
+      },
+      {
+        "path": "/cuts/31/y",
+        "actual": 1015.2613646598448,
+        "predicted": 1016.2556823299224,
+        "delta": 0.9943176700775211
+      },
+      {
+        "path": "/cuts/32/x",
+        "actual": 292.35760263051776,
+        "predicted": 293.3576026305178,
+        "delta": 1.0000000000000568
+      },
+      {
+        "path": "/cuts/32/y",
+        "actual": 1016,
+        "predicted": 1017.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/33/x",
+        "actual": 292.35760263051776,
+        "predicted": 293.3576026305178,
+        "delta": 1.0000000000000568
+      },
+      {
+        "path": "/cuts/33/y",
+        "actual": 1040.5,
+        "predicted": 1042.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/34/x",
+        "actual": 283.35760263051776,
+        "predicted": 284.3576026305178,
+        "delta": 1.0000000000000568
+      },
+      {
+        "path": "/cuts/34/y",
+        "actual": 1049.5,
+        "predicted": 1051.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/35/x",
+        "actual": 266.35760263051776,
+        "predicted": 266.8576026305178,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/cuts/35/y",
+        "actual": 1049.5,
+        "predicted": 1051.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/36/x",
+        "actual": 257.35760263051776,
+        "predicted": 257.8576026305178,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/cuts/36/y",
+        "actual": 1040.5,
+        "predicted": 1042.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/cuts/37/x",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/37/y",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/38/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/38/y",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/39/x",
+        "actual": 10.171444018160926,
+        "predicted": 10.210378718417779,
+        "delta": 0.03893470025685275
+      },
+      {
+        "path": "/cuts/39/y",
+        "actual": 596.9206455747311,
+        "predicted": 597.6677806770113,
+        "delta": 0.74713510228014
+      },
+      {
+        "path": "/cuts/40/y",
+        "actual": 577.3050640269629,
+        "predicted": 578.0248504643596,
+        "delta": 0.7197864373966922
+      },
+      {
+        "path": "/cuts/41/y",
+        "actual": 490.19493597303705,
+        "predicted": 490.97514953564047,
+        "delta": 0.7802135626034215
+      },
+      {
+        "path": "/cuts/42/x",
+        "actual": 10.171444018160926,
+        "predicted": 10.210378718417779,
+        "delta": 0.03893470025685275
+      },
+      {
+        "path": "/cuts/42/y",
+        "actual": 470.5793544252689,
+        "predicted": 471.33221932298875,
+        "delta": 0.75286489771986
+      },
+      {
+        "path": "/cuts/43/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/43/y",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/cuts/44/x",
+        "actual": 257.3576026305179,
+        "predicted": 257.8576026305178,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/cuts/44/y",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/0/x1",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/0/y1",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/0/x2",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/0/y2",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/1/x1",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/1/y1",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/1/x2",
+        "actual": 555.8000000000001,
+        "predicted": 556.3,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/folds/1/y2",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/2/x1",
+        "actual": 555.8000000000001,
+        "predicted": 556.3,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/folds/2/y1",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/2/x2",
+        "actual": 308.00000000000006,
+        "predicted": 308.5,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/folds/2/y2",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/3/x1",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/3/y1",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/3/x2",
+        "actual": 257.3576026305179,
+        "predicted": 257.8576026305178,
+        "delta": 0.49999999999994316
+      },
+      {
+        "path": "/folds/3/y2",
+        "actual": 255.5,
+        "predicted": 256.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/4/x1",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/4/y1",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/4/x2",
+        "actual": 491.9000000000001,
+        "predicted": 492.4,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/folds/4/y2",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/5/x1",
+        "actual": 371.9000000000001,
+        "predicted": 372.4,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/folds/5/y1",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/5/x2",
+        "actual": 257.35760263051793,
+        "predicted": 257.8576026305178,
+        "delta": 0.4999999999998863
+      },
+      {
+        "path": "/folds/5/y2",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/6/x1",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/6/y1",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/6/x2",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/6/y2",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/7/x1",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/7/y1",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/7/x2",
+        "actual": 606.4423973694821,
+        "predicted": 606.9423973694823,
+        "delta": 0.5000000000001137
+      },
+      {
+        "path": "/folds/7/y2",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/8/x1",
+        "actual": 257.35760263051776,
+        "predicted": 257.8576026305178,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/folds/8/y1",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/8/x2",
+        "actual": 307.99999999999994,
+        "predicted": 308.5,
+        "delta": 0.5000000000000568
+      },
+      {
+        "path": "/folds/8/y2",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/9/x1",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/9/y1",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/9/x2",
+        "actual": 606.4423973694823,
+        "predicted": 606.9423973694823,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/9/y2",
+        "actual": 812,
+        "predicted": 812.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/10/x1",
+        "actual": 257.3576026305178,
+        "predicted": 257.8576026305178,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/10/y1",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/10/x2",
+        "actual": 371.9,
+        "predicted": 372.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/10/y2",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/11/x1",
+        "actual": 491.9,
+        "predicted": 492.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/11/y1",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/11/x2",
+        "actual": 606.4423973694821,
+        "predicted": 606.9423973694821,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/11/y2",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/12/x1",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/12/y1",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/12/x2",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/12/y2",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/13/x1",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/13/y1",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/13/x2",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/13/y2",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/14/x1",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/14/y1",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/14/x2",
+        "actual": 119.00000000000003,
+        "predicted": 119.50000000000003,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/14/y2",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/15/x1",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/15/y1",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/15/x2",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/15/y2",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/16/x1",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/16/y1",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/16/x2",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/16/y2",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/17/x1",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/17/y1",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/17/x2",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/17/y2",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/18/x1",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/18/y1",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/18/x2",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/18/y2",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/19/x1",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/19/y1",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/19/x2",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/19/y2",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/20/x1",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/20/y1",
+        "actual": 673.6423973694822,
+        "predicted": 674.3923973694822,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/20/x2",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/20/y2",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/21/x1",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/21/y1",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/21/x2",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/21/y2",
+        "actual": 393.8576026305178,
+        "predicted": 394.6076026305178,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/22/x1",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/22/y1",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/22/x2",
+        "actual": 188.1788013152589,
+        "predicted": 188.6788013152589,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/22/y2",
+        "actual": 324.6788013152589,
+        "predicted": 325.4288013152589,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/23/x1",
+        "actual": 675.6211986847411,
+        "predicted": 676.1211986847411,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/23/y1",
+        "actual": 324.6788013152589,
+        "predicted": 325.4288013152589,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/23/x2",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/23/y2",
+        "actual": 444.5,
+        "predicted": 445.25,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/24/x1",
+        "actual": 188.1788013152589,
+        "predicted": 188.6788013152589,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/24/y1",
+        "actual": 742.8211986847411,
+        "predicted": 743.5711986847411,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/24/x2",
+        "actual": 308,
+        "predicted": 308.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/24/y2",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/25/x1",
+        "actual": 555.8,
+        "predicted": 556.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/25/y1",
+        "actual": 623,
+        "predicted": 623.75,
+        "delta": 0.75
+      },
+      {
+        "path": "/folds/25/x2",
+        "actual": 675.6211986847411,
+        "predicted": 676.1211986847411,
+        "delta": 0.5
+      },
+      {
+        "path": "/folds/25/y2",
+        "actual": 742.8211986847411,
+        "predicted": 743.5711986847411,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/0/0/x",
+        "actual": 371.9,
+        "predicted": 372.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/0/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/1/x",
+        "actual": 371.9,
+        "predicted": 372.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/1/y",
+        "actual": 74,
+        "predicted": 74.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/2/x",
+        "actual": 392.9,
+        "predicted": 393.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/2/y",
+        "actual": 53,
+        "predicted": 53.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/3/x",
+        "actual": 470.9,
+        "predicted": 471.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/3/y",
+        "actual": 53,
+        "predicted": 53.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/4/x",
+        "actual": 491.9,
+        "predicted": 492.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/4/y",
+        "actual": 74,
+        "predicted": 74.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/5/x",
+        "actual": 491.9,
+        "predicted": 492.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/5/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/6/x",
+        "actual": 371.9,
+        "predicted": 372.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/0/6/y",
+        "actual": 116,
+        "predicted": 116.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/0/x",
+        "actual": 371.9,
+        "predicted": 372.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/0/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/1/x",
+        "actual": 491.9,
+        "predicted": 492.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/1/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/2/x",
+        "actual": 491.9,
+        "predicted": 492.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/2/y",
+        "actual": 993.5,
+        "predicted": 994.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/3/x",
+        "actual": 470.9,
+        "predicted": 471.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/3/y",
+        "actual": 1014.5,
+        "predicted": 1015.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/4/x",
+        "actual": 392.9,
+        "predicted": 393.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/4/y",
+        "actual": 1014.5,
+        "predicted": 1015.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/5/x",
+        "actual": 371.9,
+        "predicted": 372.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/5/y",
+        "actual": 993.5,
+        "predicted": 994.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/6/x",
+        "actual": 371.9,
+        "predicted": 372.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/1/6/y",
+        "actual": 951.5,
+        "predicted": 952.5,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/2/0/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/2/1/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/1/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/2/2/x",
+        "actual": 119,
+        "predicted": 119.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/2/2/y",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/2/3/y",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/2/4/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/0/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/0/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/1/x",
+        "actual": 817.8,
+        "predicted": 818.8,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/3/1/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/2/x",
+        "actual": 817.8,
+        "predicted": 818.8,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/3/2/y",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/3/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/3/y",
+        "actual": 535.75,
+        "predicted": 536.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/holes/3/4/x",
+        "actual": 744.8,
+        "predicted": 745.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/holes/3/4/y",
+        "actual": 531.75,
+        "predicted": 532.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/totalX",
+        "actual": 863.8,
+        "predicted": 864.8,
+        "delta": 1.0
+      },
+      {
+        "path": "/totalY",
+        "actual": 1067.5,
+        "predicted": 1069.0,
+        "delta": 1.5
+      },
+      {
+        "path": "/transform/position/x",
+        "actual": -431.9,
+        "predicted": -432.4,
+        "delta": 0.5
+      },
+      {
+        "path": "/transform/position/z",
+        "actual": 533.75,
+        "predicted": 534.5,
+        "delta": 0.75
+      },
+      {
+        "path": "/animation/animations/2/0/rotate",
+        "actual": 42.5,
+        "predicted": 42.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/animation/animations/2/1/rotate",
+        "actual": 42.5,
+        "predicted": 42.75,
+        "delta": 0.25
+      }
+    ]
+  }
+]

@@ -1,0 +1,340 @@
+{
+  "source_evidence_id": "ev_9e09f689ace42c23508869c90acd37b28df78921975b0730b2b74f72a35d73b1",
+  "completeness": {
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "status": "incomplete",
+    "truncated_sections": []
+  },
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "baseline",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=10664&bleed=5&export_type=model",
+      "body_sha256": "a1f8687ab1a164b8f42ff14d4c0391547f29cdd8a72e39c25f695eae010959e0",
+      "size": {
+        "L": 120,
+        "W": 75,
+        "H": 0,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 120,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 0.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "KL",
+            "value": 101,
+            "description": "开窗长",
+            "min": 0,
+            "max": 165,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "KW",
+            "value": 52,
+            "description": "开窗宽",
+            "min": 5,
+            "max": 71,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "CX",
+            "value": 85,
+            "description": "边距X",
+            "min": 53,
+            "max": 116,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "CY",
+            "value": 37.5,
+            "description": "边距Y",
+            "min": 28,
+            "max": 47,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "CR",
+            "value": 5,
+            "description": "开窗倒角",
+            "min": 0,
+            "max": 26,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "AX",
+            "value": 3,
+            "description": "开槽",
+            "min": 2,
+            "max": 4,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "AY",
+            "value": 3,
+            "description": "开槽坡度",
+            "min": 0.5,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RX",
+            "value": 0,
+            "description": "防爆位移",
+            "min": 0,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "R",
+            "value": 0.5,
+            "description": "开槽底圆",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "N1",
+            "value": 34,
+            "description": "摇盖1",
+            "min": 10,
+            "max": 34,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C",
+            "value": 20,
+            "description": "插舌1",
+            "min": 10,
+            "max": 30,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "K",
+            "value": 1,
+            "description": "插舌数量1",
+            "min": 1,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SW",
+            "value": 30,
+            "description": "插片宽",
+            "min": 20,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "N",
+            "value": 44,
+            "description": "摇盖",
+            "min": 10,
+            "max": 44,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "N2",
+            "value": 42,
+            "description": "摇盖2",
+            "min": 10,
+            "max": 44,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SW1",
+            "value": 22,
+            "description": "插片底宽",
+            "min": 22,
+            "max": 22,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SW2",
+            "value": 24,
+            "description": "插片顶宽",
+            "min": 15,
+            "max": 30,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SL1",
+            "value": 4,
+            "description": "插片卡扣位",
+            "min": 2,
+            "max": 5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SL",
+            "value": 15,
+            "description": "插片高度",
+            "min": 12,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SA",
+            "value": 1,
+            "description": "过刀",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SLR",
+            "value": 5,
+            "description": "插片倒角",
+            "min": 0,
+            "max": 8,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C1",
+            "value": 20,
+            "description": "插舌2",
+            "min": 10,
+            "max": 30,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "GT",
+            "value": 15,
+            "description": "插舌角度",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 3,
+            "name": "K1",
+            "value": 1,
+            "description": "插锁数量2",
+            "min": 1,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CW",
+            "value": 30,
+            "description": "插片宽",
+            "min": 20,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CW1",
+            "value": 22,
+            "description": "插片底宽",
+            "min": 22,
+            "max": 22,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CW2",
+            "value": 24,
+            "description": "插片顶宽",
+            "min": 15,
+            "max": 30,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CL1",
+            "value": 4,
+            "description": "插片卡扣位",
+            "min": 2,
+            "max": 5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CL",
+            "value": 12,
+            "description": "插片高",
+            "min": 12,
+            "max": 49,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CLR",
+            "value": 4,
+            "description": "插片倒角",
+            "min": 0,
+            "max": 6,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "baseline",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"4.7244\"\n  - text: in Anchura\n  - textbox: \"2.9528\"\n  - text: in Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.0197\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 4.7244 × 2.9528 in Dimensiones internas 4.7244 × 2.9528 in Dimensiones externas 4.7244 × 2.9528 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 4.7244 in 2.9528 in 4.7244 in\n  - text:      "
+    }
+  ]
+}

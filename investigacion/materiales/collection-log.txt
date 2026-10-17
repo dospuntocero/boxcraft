@@ -1,0 +1,24 @@
+10001006-geometry-result.json knives 13 failure {'step_id': 't-1', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+10001006-physical-result.json knives 7 failure None
+10001029-geometry-result.json knives 13 failure {'step_id': 't-1', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+10001029-verified-result.json knives 68 failure {'step_id': 't6-axis-H', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+10002003-geometry-result.json knives 13 failure {'step_id': 't-1', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+102010-verified-result.json knives 0 failure {'step_id': 'mm', 'status': 'failed', 'error': 'locator.click: Timeout 8000ms exceeded.\nCall log:\n\x1b[2m  - waiting for locator(\'[gtm="ga-dieline_dieline_basic_mm"]\')\x1b[22m\n'}
+112047-check-result.json knives 0 failure None
+112047-verified-result.json knives 70 failure {'step_id': 't6-reset-H', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+112310-verified-result.json knives 88 failure {'step_id': 't8-reset-L', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+12109002-verified-result.json knives 0 failure {'step_id': 'mm', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+150010-geometry-result.json knives 13 failure {'step_id': 't-1', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+150010-verified-result.json knives 69 failure {'step_id': 't6-reset-W', 'status': 'failed', 'error': 'locator.fill: Timeout 8000ms exceeded.\nCall log:\n\x1b[2m  - waiting for locator(\'.proper-content > .proper-item:nth-child(2) input\')\x1b[22m\n\x1b[2m    - locator resolved to <input title="" disabled maxlength="50" data-v-ea1a36b6="" adjust-position="false" autocomplete="new-password" class="number-input-box number-input-box--disabled paInput"/>\x1b[22m\n\x1b[2m    - fill("202")\x1b[22m\n\x1b[2m  - attempting fill action\x1b[22m\n\x1b[2m    2 × waiting for element to be visible, enabled and editable\x1b[22m\n\x1b[2m      - element is not enabled\x1b[22m\n\x1b[2m    - retrying fill action\x1b[22m\n\x1b[2m    - waiting 20ms\x1b[22m\n\x1b[2m    2 × waiting for element to be visible, enabled and editable\x1b[22m\n\x1b[2m      - element is not enabled\x1b[22m\n\x1b[2m    - retrying fill action\x1b[22m\n\x1b[2m      - waiting 100ms\x1b[22m\n\x1b[2m    16 × waiting for element to be visible, enabled and editable\x1b[22m\n\x1b[2m       - element is not enabled\x1b[22m\n\x1b[2m     - retrying fill action\x1b[22m\n\x1b[2m       - waiting 500ms\x1b[22m\n'}
+180320-geometry-result.json knives 10 failure {'step_id': 't-1', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+180370-geometry-result.json knives 13 failure {'step_id': 't-1', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+200010-verified-result.json knives 109 failure {'step_id': 't10-hold-W', 'status': 'failed', 'error': 'Analysis operation timed out after 8000ms: capture_browser_scenario'}
+retained-audit-final.json knives 0 failure None
+retained-audit-final.json knives 1 failure None
+retained-audit-final.json knives 0 failure None
+retained-audit-final.json knives 10 failure None
+retained-audit-final.json knives 2 failure None
+retained-audit-final.json knives 11 failure None
+retained-audit-final.json knives 11 failure None
+retained-audit-final.json knives 1 failure None
+retained-audit-final.json knives 0 failure None

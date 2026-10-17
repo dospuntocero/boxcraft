@@ -1,0 +1,366 @@
+{
+  "source_evidence_id": "ev_602b037b5204b8d18330691126ae1490b9ca509157ab98d0b3f27c281d6ec51d",
+  "completeness": "partial-error-capture",
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "base",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=11504&bleed=5&export_type=model",
+      "body_sha256": "8ae88c20d9c2026abbfd3f0157f0ff71ed0b13f931a50235ebc42b99bbba7f79",
+      "size": {
+        "L": 234,
+        "W": 168,
+        "H": 178,
+        "D": 1.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 236,
+        "W": 170,
+        "H": 180,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": []
+    },
+    {
+      "file": "knife-01.json",
+      "request_step": 4,
+      "request_step_id": "trainL_ready",
+      "response_step": 4,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881069&bleed=5&export_type=project",
+      "body_sha256": "30ce41a1c567d5af322c24be359b4e746d9e7cae629937e83c99f4f45ff09b5e",
+      "size": {
+        "L": 234,
+        "W": 168,
+        "H": 178,
+        "D": 1.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 236,
+        "W": 170,
+        "H": 180,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": []
+    },
+    {
+      "file": "knife-02.json",
+      "request_step": 5,
+      "request_step_id": "trainW",
+      "response_step": 5,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881069&bleed=5&export_type=project",
+      "body_sha256": "52478e7ed55c755b4a33c537baaaa42d21dc9997181829a3521559b970fb32d5",
+      "size": {
+        "L": 257.6,
+        "W": 168,
+        "H": 178,
+        "D": 1.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 259.6,
+        "W": 170,
+        "H": 180,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": []
+    },
+    {
+      "file": "knife-03.json",
+      "request_step": 7,
+      "request_step_id": "trainW_ready",
+      "response_step": 7,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881069&bleed=5&export_type=project",
+      "body_sha256": "a32de5d57e5df2216be5eb5b364fdd432717743492a8b6dd921592780baac085",
+      "size": {
+        "L": 257.6,
+        "W": 185,
+        "H": 178,
+        "D": 1.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 259.6,
+        "W": 187,
+        "H": 180,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": []
+    },
+    {
+      "file": "knife-04.json",
+      "request_step": 10,
+      "request_step_id": "trainH_ready",
+      "response_step": 11,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881069&bleed=5&export_type=project",
+      "body_sha256": "27c707e121d4547575a1706d8fec159969b73f6d92ef7fdb77245f2220887247",
+      "size": {
+        "L": 257.6,
+        "W": 185,
+        "H": 196,
+        "D": 1.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 259.6,
+        "W": 187,
+        "H": 198,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": []
+    },
+    {
+      "file": "knife-05.json",
+      "request_step": 13,
+      "request_step_id": "testL_ready",
+      "response_step": 13,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881069&bleed=5&export_type=project",
+      "body_sha256": "adc1cbc58e3cf3f3c0ffe9ab4807502b4531a2fa63c5aaad98e31f18b6a5ad29",
+      "size": {
+        "L": 245.8,
+        "W": 185,
+        "H": 196,
+        "D": 1.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 247.8,
+        "W": 187,
+        "H": 198,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": []
+    },
+    {
+      "file": "knife-06.json",
+      "request_step": 16,
+      "request_step_id": "testW_ready",
+      "response_step": 16,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881069&bleed=5&export_type=project",
+      "body_sha256": "9c768cb026a39e5f08dc81a6a8180b543607c25babfe0b3d0a05b686b99076d5",
+      "size": {
+        "L": 245.8,
+        "W": 176.5,
+        "H": 196,
+        "D": 1.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 247.8,
+        "W": 178.5,
+        "H": 198,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": []
+    },
+    {
+      "file": "knife-07.json",
+      "request_step": 19,
+      "request_step_id": "testH_ready",
+      "response_step": 20,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881069&bleed=5&export_type=project",
+      "body_sha256": "3a9689ded6d5e5dcafd22b59bd6217873070b5380a39106b35f53565c370cb70",
+      "size": {
+        "L": 245.8,
+        "W": 176.5,
+        "H": 187,
+        "D": 1.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 247.8,
+        "W": 178.5,
+        "H": 189,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": []
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Recorte      \n  - img\n  - text: Modelo de edificio Preparación de los materiales Creación del entorno Ya casi está Modelo de edificio"
+    },
+    {
+      "id": "base",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"236\"\n  - text: mm Anchura\n  - textbox: \"170\"\n  - text: mm Altura\n  - textbox: \"180\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 236 × 170 × 180 mm Dimensiones internas 234 × 168 × 178 mm Dimensiones externas 237 × 171 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 236 mm 180 mm 170 mm\n  - text:      "
+    },
+    {
+      "id": "trainL",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"259.6\"\n  - text: mm Anchura\n  - textbox: \"170\"\n  - text: mm Altura\n  - textbox: \"180\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 236 × 170 × 180 mm Dimensiones internas 234 × 168 × 178 mm Dimensiones externas 237 × 171 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 236 mm 180 mm 170 mm\n  - text:      "
+    },
+    {
+      "id": "trainL_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"259.6\"\n  - text: mm Anchura\n  - textbox [disabled]: \"170\"\n  - text: mm Altura\n  - textbox [disabled]: \"180\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 259.6 × 170 × 180 mm Dimensiones internas 234 × 168 × 178 mm Dimensiones externas 237 × 171 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 259.6 mm\n    - img\n    - img:\n      - img\n    - text: 180 mm 170 mm\n  - text:      "
+    },
+    {
+      "id": "trainL_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"236\"\n  - text: mm Anchura\n  - textbox [disabled]: \"170\"\n  - text: mm Altura\n  - textbox [disabled]: \"180\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 236 × 170 × 180 mm Dimensiones internas 234 × 168 × 178 mm Dimensiones externas 237 × 171 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 236 mm\n    - img\n    - img:\n      - img\n    - text: 180 mm 170 mm\n  - text:      "
+    },
+    {
+      "id": "trainW",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"259.6\"\n  - text: mm Anchura\n  - textbox: \"187\"\n  - text: mm Altura\n  - textbox: \"180\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 259.6 × 170 × 180 mm Dimensiones internas 257.6 × 168 × 178 mm Dimensiones externas 260.6 × 171 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 259.6 mm 180 mm 170 mm\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainW_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"259.6\"\n  - text: mm Anchura\n  - textbox [disabled]: \"187\"\n  - text: mm Altura\n  - textbox [disabled]: \"180\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 259.6 × 187 × 180 mm Dimensiones internas 257.6 × 168 × 178 mm Dimensiones externas 260.6 × 171 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 259.6 mm 180 mm 187 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainW_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"259.6\"\n  - text: mm Anchura\n  - textbox [disabled]: \"187\"\n  - text: mm Altura\n  - textbox [disabled]: \"180\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 259.6 × 187 × 180 mm Dimensiones internas 257.6 × 185 × 178 mm Dimensiones externas 260.6 × 188 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 259.6 mm 180 mm 187 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainH",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"259.6\"\n  - text: mm Anchura\n  - textbox: \"187\"\n  - text: mm Altura\n  - textbox: \"198\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 259.6 × 187 × 180 mm Dimensiones internas 257.6 × 185 × 178 mm Dimensiones externas 260.6 × 188 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 259.6 mm 180 mm 187 mm\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainH_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"259.6\"\n  - text: mm Anchura\n  - textbox [disabled]: \"187\"\n  - text: mm Altura\n  - textbox [disabled]: \"198\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 259.6 × 187 × 198 mm Dimensiones internas 257.6 × 185 × 178 mm Dimensiones externas 260.6 × 188 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 259.6 mm 198 mm\n    - img\n    - img:\n      - img\n    - text: 187 mm\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainH_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"259.6\"\n  - text: mm Anchura\n  - textbox [disabled]: \"187\"\n  - text: mm Altura\n  - textbox [disabled]: \"198\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 259.6 × 187 × 198 mm Dimensiones internas 257.6 × 185 × 178 mm Dimensiones externas 260.6 × 188 × 181 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 259.6 mm 198 mm\n    - img\n    - img:\n      - img\n    - text: 187 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testL",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"247.8\"\n  - text: mm Anchura\n  - textbox: \"187\"\n  - text: mm Altura\n  - textbox: \"198\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 259.6 × 187 × 198 mm Dimensiones internas 257.6 × 185 × 196 mm Dimensiones externas 260.6 × 188 × 199 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 259.6 mm 198 mm 187 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testL_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"247.8\"\n  - text: mm Anchura\n  - textbox [disabled]: \"187\"\n  - text: mm Altura\n  - textbox [disabled]: \"198\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 247.8 × 187 × 198 mm Dimensiones internas 257.6 × 185 × 196 mm Dimensiones externas 260.6 × 188 × 199 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 247.8 mm\n    - img\n    - img:\n      - img\n    - text: 198 mm 187 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testL_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"247.8\"\n  - text: mm Anchura\n  - textbox [disabled]: \"187\"\n  - text: mm Altura\n  - textbox [disabled]: \"198\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 247.8 × 187 × 198 mm Dimensiones internas 245.8 × 185 × 196 mm Dimensiones externas 248.8 × 188 × 199 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 247.8 mm\n    - img\n    - img:\n      - img\n    - text: 198 mm 187 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testW",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"247.8\"\n  - text: mm Anchura\n  - textbox: \"178.5\"\n  - text: mm Altura\n  - textbox: \"198\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 247.8 × 187 × 198 mm Dimensiones internas 245.8 × 185 × 196 mm Dimensiones externas 248.8 × 188 × 199 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 247.8 mm 198 mm 187 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testW_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"247.8\"\n  - text: mm Anchura\n  - textbox [disabled]: \"178.5\"\n  - text: mm Altura\n  - textbox [disabled]: \"198\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 247.8 × 178.5 × 198 mm Dimensiones internas 245.8 × 185 × 196 mm Dimensiones externas 248.8 × 188 × 199 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 247.8 mm 198 mm 178.5 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testW_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"247.8\"\n  - text: mm Anchura\n  - textbox [disabled]: \"178.5\"\n  - text: mm Altura\n  - textbox [disabled]: \"198\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 247.8 × 178.5 × 198 mm Dimensiones internas 245.8 × 176.5 × 196 mm Dimensiones externas 248.8 × 179.5 × 199 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 247.8 mm 198 mm 178.5 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testH",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"247.8\"\n  - text: mm Anchura\n  - textbox: \"178.5\"\n  - text: mm Altura\n  - textbox: \"189\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 247.8 × 178.5 × 198 mm Dimensiones internas 245.8 × 176.5 × 196 mm Dimensiones externas 248.8 × 179.5 × 199 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 247.8 mm 198 mm 178.5 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testH_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"247.8\"\n  - text: mm Anchura\n  - textbox [disabled]: \"178.5\"\n  - text: mm Altura\n  - textbox [disabled]: \"189\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 247.8 × 178.5 × 189 mm Dimensiones internas 245.8 × 176.5 × 196 mm Dimensiones externas 248.8 × 179.5 × 199 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 247.8 mm 189 mm\n    - img\n    - img:\n      - img\n    - text: 178.5 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testH_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"247.8\"\n  - text: mm Anchura\n  - textbox [disabled]: \"178.5\"\n  - text: mm Altura\n  - textbox [disabled]: \"189\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 247.8 × 178.5 × 189 mm Dimensiones internas 245.8 × 176.5 × 196 mm Dimensiones externas 248.8 × 179.5 × 199 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 247.8 mm 189 mm\n    - img\n    - img:\n      - img\n    - text: 178.5 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "settled",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"247.8\"\n  - text: mm Anchura\n  - textbox: \"178.5\"\n  - text: mm Altura\n  - textbox: \"189\"\n  - text: mm Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (1.1~2mm) \n  - textbox: \"1.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 247.8 × 178.5 × 189 mm Dimensiones internas 245.8 × 176.5 × 187 mm Dimensiones externas 248.8 × 179.5 × 190 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 247.8 mm 189 mm 178.5 mm\n  - text:      \n  - iframe\n  - img"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "code": "15030101",
+  "url": "https://www.pacdora.com/es/dielines-detail/cake-box-dieline-15030101",
+  "date": "2026-10-17",
+  "evidence_id": "ev_89ba7b7dfd2c598f54c4d2f5658241fffcecfaef8870723ea2044b409341aae2",
+  "requested": {
+    "L": 150,
+    "W": 150,
+    "H": 50
+  },
+  "effective": {
+    "L": 150,
+    "W": 150,
+    "H": 50
+  },
+  "unit": "mm",
+  "material_id": 103,
+  "thickness_mm": 0.5,
+  "icon_url": "https://cdn.pacdora.com/render/1776047197934/14108280.png",
+  "sha256": {
+    "base/knife-00.json": "fd0ae63079248ff66375f121b2ca5c70aacfb99552264db4594cbe6452c7dda8",
+    "base/details.json": "f73fc2aff660a4890c41a3ccb9537ded2fbe71d69f29c2cdfcd6905ba732b547",
+    "icono.png": "57d6581b8420071c1da48232060318dcfe90bf9d209f024061157f4654821033"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "source_evidence_id": "ev_4f668f2c1bdecad06f7412545afea068086c1ad9e77e5d01e76afba6a6b770c0",
+  "completeness": {
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "status": "incomplete",
+    "truncated_sections": []
+  },
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "baseline",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=10725&bleed=5&export_type=model",
+      "body_sha256": "9fd9d897e9d687650e16b7c4a50b51cc236d8cd02fdf38694484bfe530c43fcf",
+      "size": {
+        "L": 69.4,
+        "W": 49.4,
+        "H": 59.4,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 70,
+        "W": 50,
+        "H": 60,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 0.5,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.3,
+            "description": "下移位移",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 40,
+            "description": "折线高度",
+            "min": 26,
+            "max": 120,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 13.5,
+            "description": "摇盖高",
+            "min": 15,
+            "max": 13.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 28,
+            "description": "孔距",
+            "min": 14,
+            "max": 56,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RR",
+            "value": 2,
+            "description": "孔半径",
+            "min": 2,
+            "max": 2,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 48.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "C",
+            "value": 15,
+            "description": "屋顶糊口",
+            "min": 10,
+            "max": 19,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 14,
+            "description": "插脚",
+            "min": 10,
+            "max": 24,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "M",
+            "value": 24,
+            "description": "阴扣宽度",
+            "min": 23,
+            "max": 57,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 0,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 15,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 10,
+            "description": "副扣位",
+            "min": 4,
+            "max": 11,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 4,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 5,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "baseline",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"2.7559\"\n  - text: in Anchura\n  - textbox: \"1.9685\"\n  - text: in Altura\n  - textbox: \"2.3622\"\n  - text: in Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.0197\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 2.7559 × 1.9685 × 2.3622 in Dimensiones internas 2.7323 × 1.9449 × 2.3386 in Dimensiones externas 2.7717 × 1.9843 × 2.4173 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 2.7559 in 2.3622 in 1.9685 in\n  - text:      "
+    }
+  ]
+}

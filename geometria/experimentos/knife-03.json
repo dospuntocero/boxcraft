@@ -1,0 +1,2285 @@
+{
+  "code": 200,
+  "data": {
+    "ccalMap": {
+      "traditional": 9
+    },
+    "modeCate": {
+      "id": 2,
+      "name": "0201常规纸箱",
+      "image": "//cdn.pacdora.com/render/20220113/200010.jpg",
+      "status": 1,
+      "sort": 200010,
+      "remarks": "常用纸箱  0201箱型,国际标准瓦楞纸箱,运输纸箱,外包装,具有非常强的抗压性能,抗撕裂性能,防潮",
+      "faces": "[{\"name\":\"前面\",\"value\":\"F\",\"rotate\":0},{\"name\":\"左面\",\"value\":\"L\",\"rotate\":0},{\"name\":\"右面\",\"value\":\"R\",\"rotate\":0},{\"name\":\"后面\",\"value\":\"H\",\"rotate\":0}]",
+      "cate_no": "200010",
+      "defaultSize": "[{\"length\":\"530\",\"width\":\"290\",\"height\":\"370\",\"remark\":\"邮政1号箱（内）\"},{\"length\":\"430\",\"width\":\"210\",\"height\":\"270\",\"remark\":\"邮政3号箱（内）\"},{\"length\":\"290\",\"width\":\"170\",\"height\":\"190\",\"remark\":\"邮政5号箱（内）\"},{\"length\":\"230\",\"width\":\"130\",\"height\":\"160\",\"remark\":\"邮政7号箱（内）\"},{\"length\":\"195\",\"width\":\"105\",\"height\":\"135\",\"remark\":\"邮政9号箱（内）\"},{\"length\":\"145\",\"width\":\"85\",\"height\":\"105\",\"remark\":\"邮政11号箱（内）\"}]",
+      "lengthLimit": "30,5000",
+      "widthLimit": "20,3600",
+      "heightLimit": "20,4000",
+      "code": "Carton",
+      "minThickness": "0.2",
+      "price": "0.00",
+      "discount": 1,
+      "mu_price": "0.00",
+      "mu_discount": 1,
+      "min_thickness": "0.2",
+      "complex_type": 0,
+      "size_options": [],
+      "map_options": null,
+      "printExtra": [
+        "f_d_p_huhe"
+      ],
+      "elaborate": 0,
+      "layerList": [
+        {
+          "name": "traditional",
+          "friendlyName": "传统面纸",
+          "isGrey": false,
+          "fixedThickness": 0,
+          "minThickness": 0.2
+        }
+      ],
+      "layerGlobalSettings": null,
+      "is_enterprise": 0,
+      "openParamsStatus": 1,
+      "cate_type": 0,
+      "IsOnlyManufacture": 0,
+      "mainFace": {
+        "face": "H",
+        "side": "outside",
+        "layer": "traditional",
+        "showWatermark": true,
+        "showUploadText": true,
+        "watermarkAngle": 0,
+        "watermarkScale": 1,
+        "uploadTextAngle": 0,
+        "uploadTextScale": 1,
+        "uploadTextOffsetX": 0,
+        "uploadTextOffsetY": 0
+      },
+      "otherFaces": [
+        {
+          "faceName": "F",
+          "direction": "front",
+          "faceLayer": "traditional"
+        },
+        {
+          "faceName": "H",
+          "direction": "back",
+          "faceLayer": "traditional"
+        },
+        {
+          "faceName": "FR",
+          "direction": "left",
+          "faceLayer": "traditional"
+        },
+        {
+          "faceName": "FL",
+          "direction": "right",
+          "faceLayer": "traditional"
+        }
+      ],
+      "displaySetting": {},
+      "partGroup": {},
+      "appId": "",
+      "enterpriseId": "",
+      "subCode": "null",
+      "canPrint": 1,
+      "dimensions": 1,
+      "edition": 1,
+      "screenshots": {
+        "top": "https://cdn.pacdora.com/mockup-generator/mockup-top-side-view-200010.png",
+        "left": "https://cdn.pacdora.com/mockup-generator/mockup-left-side-view-200010.png",
+        "right": "https://cdn.pacdora.com/mockup-generator/mockup-right-side-view-200010.png",
+        "top_anim40": "https://cdn.pacdora.com/mockup-generator/mockup-top-side-anim40-view-200010.png",
+        "left_anim40": "https://cdn.pacdora.com/mockup-generator/mockup-left-side-anim40-view-200010.png",
+        "right_anim40": "https://cdn.pacdora.com/mockup-generator/mockup-right-side-anim40-view-200010.png"
+      },
+      "showStartTime": null,
+      "showEndTime": null,
+      "manualSort": 0,
+      "listingTime": "1775015759731",
+      "mockupMultifoldScore": "0.210527",
+      "dielineMultifoldScore": "0.108918",
+      "relatedModelNo": null,
+      "create_time": "1574129594986",
+      "update_time": "1772776274655",
+      "is_delete": 0,
+      "cate_top_id": 3
+    },
+    "science": {
+      "id": 3,
+      "name": "Onda B",
+      "image": "//cdn.pacdora.com/science/image/00e45c0b-9cf7-4d39-bdc8-82bb202909d9.png",
+      "des": "3Floor",
+      "unit": "m²",
+      "price": "0.1000",
+      "price_range": [
+        {
+          "min": 0,
+          "price": 145,
+          "saleInfo": ""
+        }
+      ],
+      "by_admin_id": 1,
+      "sort": 6,
+      "is_online": 1,
+      "science_type": 1,
+      "thickness": 3,
+      "min_thickness": 2.5,
+      "max_thickness": 3,
+      "inless": 2,
+      "outless": 1,
+      "bleedline": 5,
+      "can_set": 1,
+      "def_line_color": "#ffffff",
+      "group_name": "Corrugated board",
+      "group_key": "corrugated paper",
+      "print_cfg": [
+        {
+          "group": "mianzhi",
+          "index": "Whiteboard300"
+        },
+        {
+          "group": "xinzhi",
+          "index": "xzB"
+        },
+        {
+          "group": "lizhi",
+          "index": "Whiteboard300"
+        },
+        {
+          "group": "jiankengzhi",
+          "index": "xzB_lzbai"
+        },
+        {
+          "group": "dankengzhi",
+          "index": "Whiteboard300_xzB_lzbai"
+        }
+      ],
+      "special_type": "",
+      "create_time": "1577442228153",
+      "update_time": "1605692429435",
+      "is_delete": 0
+    },
+    "sizeOption": null,
+    "sizeOptions": [],
+    "cate_no": "200010",
+    "size": {
+      "L": 430,
+      "W": 210,
+      "H": 270,
+      "D": 3,
+      "id": 0,
+      "ed": 0,
+      "like": null
+    },
+    "outSize": {
+      "L": 436,
+      "W": 216,
+      "H": 282,
+      "D": 0,
+      "id": 0,
+      "ed": 0,
+      "like": null
+    },
+    "getOutSizeAdd": {
+      "L": {
+        "id": "0",
+        "ed": "2",
+        "of": "0",
+        "d": "0",
+        "sd": "0"
+      },
+      "W": {
+        "id": "0",
+        "ed": "2",
+        "of": "0",
+        "d": "0",
+        "sd": "0"
+      },
+      "H": {
+        "id": "0",
+        "ed": "2",
+        "of": "-2",
+        "d": "0",
+        "sd": "0"
+      }
+    },
+    "knifeSize": {
+      "L": 434,
+      "W": 214,
+      "H": 278,
+      "D": 0,
+      "id": 0,
+      "ed": 0,
+      "like": null
+    },
+    "getKnifeSizeAdd": {
+      "L": {
+        "id": "2",
+        "ed": "0",
+        "of": "0",
+        "d": "0",
+        "sd": "0"
+      },
+      "W": {
+        "id": "2",
+        "ed": "0",
+        "of": "0",
+        "d": "0",
+        "sd": "0"
+      },
+      "H": {
+        "id": "2",
+        "ed": "0",
+        "of": "2",
+        "d": "0",
+        "sd": "0"
+      }
+    },
+    "step": 1,
+    "layer": {
+      "traditional": {
+        "faces": [
+          {
+            "name": "H",
+            "w": 434,
+            "h": 278,
+            "x": 45,
+            "y": 108,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 45,
+                "y": 110
+              },
+              {
+                "mtd": "A",
+                "x": 47.82842712474619,
+                "y": 108,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 47.82842712474619,
+                "y": 108
+              },
+              {
+                "mtd": "L",
+                "x": 476.1715728752538,
+                "y": 108,
+                "foldline": "H_HT"
+              },
+              {
+                "mtd": "L",
+                "x": 476.1715728752538,
+                "y": 108
+              },
+              {
+                "mtd": "A",
+                "x": 479,
+                "y": 110,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 479,
+                "y": 384,
+                "foldline": "H_FR"
+              },
+              {
+                "mtd": "A",
+                "x": 476.1715728752538,
+                "y": 386,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 476.1715728752538,
+                "y": 386
+              },
+              {
+                "mtd": "L",
+                "x": 47.82842712474621,
+                "y": 386,
+                "foldline": "H_HB"
+              },
+              {
+                "mtd": "L",
+                "x": 47.82842712474621,
+                "y": 386
+              },
+              {
+                "mtd": "A",
+                "x": 45.00000000000002,
+                "y": 384,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 45.00000000000002,
+                "y": 110,
+                "foldline": "H_HL"
+              },
+              {
+                "mtd": "Z",
+                "x": 45.00000000000002,
+                "y": 110
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "FR",
+            "w": 214,
+            "h": 278,
+            "x": 479,
+            "y": 108,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 479,
+                "y": 110
+              },
+              {
+                "mtd": "L",
+                "x": 693,
+                "y": 110,
+                "foldline": "FR_FRT"
+              },
+              {
+                "mtd": "L",
+                "x": 693,
+                "y": 384,
+                "foldline": "FR_F"
+              },
+              {
+                "mtd": "L",
+                "x": 479,
+                "y": 384,
+                "foldline": "FR_FRB"
+              },
+              {
+                "mtd": "L",
+                "x": 479,
+                "y": 110
+              },
+              {
+                "mtd": "Z",
+                "x": 479,
+                "y": 110
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "F",
+            "w": 434,
+            "h": 278,
+            "x": 693,
+            "y": 108,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 693,
+                "y": 110
+              },
+              {
+                "mtd": "A",
+                "x": 695.8284271247462,
+                "y": 108,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 695.8284271247462,
+                "y": 108
+              },
+              {
+                "mtd": "L",
+                "x": 1124.1715728752538,
+                "y": 108,
+                "foldline": "F_FT"
+              },
+              {
+                "mtd": "L",
+                "x": 1124.1715728752538,
+                "y": 108
+              },
+              {
+                "mtd": "A",
+                "x": 1127,
+                "y": 110,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1127,
+                "y": 384,
+                "foldline": "F_FL"
+              },
+              {
+                "mtd": "A",
+                "x": 1124.1715728752538,
+                "y": 386,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1124.1715728752538,
+                "y": 386
+              },
+              {
+                "mtd": "L",
+                "x": 695.8284271247462,
+                "y": 386,
+                "foldline": "F_FB"
+              },
+              {
+                "mtd": "L",
+                "x": 695.8284271247462,
+                "y": 386
+              },
+              {
+                "mtd": "A",
+                "x": 693,
+                "y": 384,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 693,
+                "y": 110
+              },
+              {
+                "mtd": "Z",
+                "x": 693,
+                "y": 110
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "FL",
+            "w": 213,
+            "h": 278,
+            "x": 1127,
+            "y": 108,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 1127,
+                "y": 110
+              },
+              {
+                "mtd": "L",
+                "x": 1340,
+                "y": 110,
+                "foldline": "FL_FLT"
+              },
+              {
+                "mtd": "L",
+                "x": 1340,
+                "y": 384
+              },
+              {
+                "mtd": "L",
+                "x": 1127,
+                "y": 384,
+                "foldline": "FL_FLB"
+              },
+              {
+                "mtd": "L",
+                "x": 1127,
+                "y": 110
+              },
+              {
+                "mtd": "Z",
+                "x": 1127,
+                "y": 110
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "HL",
+            "w": 45,
+            "h": 274,
+            "x": 0,
+            "y": 108,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 45,
+                "y": 384
+              },
+              {
+                "mtd": "L",
+                "x": 0,
+                "y": 371.9422863405995,
+                "isWithoutBleed": true
+              },
+              {
+                "mtd": "L",
+                "x": 0,
+                "y": 122.05771365940052,
+                "isWithoutBleed": true
+              },
+              {
+                "mtd": "L",
+                "x": 45,
+                "y": 110
+              },
+              {
+                "mtd": "L",
+                "x": 45,
+                "y": 384
+              },
+              {
+                "mtd": "Z",
+                "x": 45,
+                "y": 384
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "FRT",
+            "w": 214,
+            "h": 110,
+            "x": 479,
+            "y": 0,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 479,
+                "y": 110
+              },
+              {
+                "mtd": "A",
+                "x": 482,
+                "y": 107,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 482,
+                "y": 0
+              },
+              {
+                "mtd": "L",
+                "x": 690,
+                "y": 0
+              },
+              {
+                "mtd": "L",
+                "x": 690,
+                "y": 107
+              },
+              {
+                "mtd": "A",
+                "x": 693,
+                "y": 110,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 479,
+                "y": 110
+              },
+              {
+                "mtd": "Z",
+                "x": 479,
+                "y": 110
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "FRB",
+            "w": 214,
+            "h": 110,
+            "x": 479,
+            "y": 384,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 479,
+                "y": 384
+              },
+              {
+                "mtd": "L",
+                "x": 693,
+                "y": 384
+              },
+              {
+                "mtd": "A",
+                "x": 690,
+                "y": 387,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 690,
+                "y": 494
+              },
+              {
+                "mtd": "L",
+                "x": 482,
+                "y": 494
+              },
+              {
+                "mtd": "L",
+                "x": 482,
+                "y": 387
+              },
+              {
+                "mtd": "A",
+                "x": 479,
+                "y": 384,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "Z",
+                "x": 479,
+                "y": 384
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "FLT",
+            "w": 213,
+            "h": 110,
+            "x": 1127,
+            "y": 0,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 1127,
+                "y": 110
+              },
+              {
+                "mtd": "A",
+                "x": 1130,
+                "y": 107,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1130,
+                "y": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1337,
+                "y": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1337,
+                "y": 107
+              },
+              {
+                "mtd": "A",
+                "x": 1340,
+                "y": 110,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1127,
+                "y": 110
+              },
+              {
+                "mtd": "Z",
+                "x": 1127,
+                "y": 110
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "FLB",
+            "w": 213,
+            "h": 110,
+            "x": 1127,
+            "y": 384,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 1127,
+                "y": 384
+              },
+              {
+                "mtd": "L",
+                "x": 1340,
+                "y": 384
+              },
+              {
+                "mtd": "A",
+                "x": 1337,
+                "y": 387,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1337,
+                "y": 494
+              },
+              {
+                "mtd": "L",
+                "x": 1130,
+                "y": 494
+              },
+              {
+                "mtd": "L",
+                "x": 1130,
+                "y": 387
+              },
+              {
+                "mtd": "A",
+                "x": 1127,
+                "y": 384,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "Z",
+                "x": 1127,
+                "y": 384
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "HT",
+            "w": 434,
+            "h": 108,
+            "x": 45,
+            "y": 0,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 47.82842712474619,
+                "y": 108
+              },
+              {
+                "mtd": "A",
+                "x": 48,
+                "y": 107,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 48,
+                "y": 0
+              },
+              {
+                "mtd": "L",
+                "x": 476,
+                "y": 0
+              },
+              {
+                "mtd": "L",
+                "x": 476,
+                "y": 107
+              },
+              {
+                "mtd": "A",
+                "x": 476.1715728752538,
+                "y": 108,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 47.82842712474619,
+                "y": 108
+              },
+              {
+                "mtd": "Z",
+                "x": 47.82842712474619,
+                "y": 108
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "HB",
+            "w": 434,
+            "h": 108,
+            "x": 45,
+            "y": 386,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 47.82842712474619,
+                "y": 386
+              },
+              {
+                "mtd": "L",
+                "x": 476.1715728752538,
+                "y": 386
+              },
+              {
+                "mtd": "A",
+                "x": 476,
+                "y": 387,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 476,
+                "y": 494
+              },
+              {
+                "mtd": "L",
+                "x": 48,
+                "y": 494
+              },
+              {
+                "mtd": "L",
+                "x": 48,
+                "y": 387
+              },
+              {
+                "mtd": "A",
+                "x": 47.82842712474619,
+                "y": 386,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "Z",
+                "x": 47.82842712474619,
+                "y": 386
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "FT",
+            "w": 434,
+            "h": 108,
+            "x": 693,
+            "y": 0,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 695.8284271247462,
+                "y": 108
+              },
+              {
+                "mtd": "A",
+                "x": 696,
+                "y": 107,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 696,
+                "y": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1124,
+                "y": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1124,
+                "y": 107
+              },
+              {
+                "mtd": "A",
+                "x": 1124.1715728752538,
+                "y": 108,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 695.8284271247462,
+                "y": 108
+              },
+              {
+                "mtd": "Z",
+                "x": 695.8284271247462,
+                "y": 108
+              }
+            ],
+            "holes": null
+          },
+          {
+            "name": "FB",
+            "w": 434,
+            "h": 108,
+            "x": 693,
+            "y": 386,
+            "dlist": [
+              {
+                "mtd": "M",
+                "x": 695.8284271247462,
+                "y": 386
+              },
+              {
+                "mtd": "L",
+                "x": 1124.1715728752538,
+                "y": 386
+              },
+              {
+                "mtd": "A",
+                "x": 1124,
+                "y": 387,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "L",
+                "x": 1124,
+                "y": 494
+              },
+              {
+                "mtd": "L",
+                "x": 696,
+                "y": 494
+              },
+              {
+                "mtd": "L",
+                "x": 696,
+                "y": 387
+              },
+              {
+                "mtd": "A",
+                "x": 695.8284271247462,
+                "y": 386,
+                "rx": 3,
+                "ry": 3,
+                "ang": 0,
+                "arc": 0,
+                "dir": 0
+              },
+              {
+                "mtd": "Z",
+                "x": 695.8284271247462,
+                "y": 386
+              }
+            ],
+            "holes": null
+          }
+        ],
+        "thickness": 3,
+        "bleedline": 5,
+        "cuts": [
+          {
+            "mtd": "M",
+            "x": 45,
+            "y": 110
+          },
+          {
+            "mtd": "A",
+            "x": 47.82842712474619,
+            "y": 108,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 48,
+            "y": 107,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 48,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 476,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 476,
+            "y": 107
+          },
+          {
+            "mtd": "A",
+            "x": 476.1715728752538,
+            "y": 108,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 479,
+            "y": 110,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 482,
+            "y": 107,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 482,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 690,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 690,
+            "y": 107
+          },
+          {
+            "mtd": "A",
+            "x": 693,
+            "y": 110,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 695.8284271247462,
+            "y": 108,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 696,
+            "y": 107,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 696,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 1124,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 1124,
+            "y": 107
+          },
+          {
+            "mtd": "A",
+            "x": 1124.1715728752538,
+            "y": 108,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 1127,
+            "y": 110,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 1130,
+            "y": 107,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 1130,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 1337,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 1337,
+            "y": 107
+          },
+          {
+            "mtd": "A",
+            "x": 1340,
+            "y": 110,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 1340,
+            "y": 384
+          },
+          {
+            "mtd": "A",
+            "x": 1337,
+            "y": 387,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 1337,
+            "y": 494
+          },
+          {
+            "mtd": "L",
+            "x": 1130,
+            "y": 494
+          },
+          {
+            "mtd": "L",
+            "x": 1130,
+            "y": 387
+          },
+          {
+            "mtd": "A",
+            "x": 1127,
+            "y": 384,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 1124.1715728752538,
+            "y": 386,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 1124,
+            "y": 387,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 1124,
+            "y": 494
+          },
+          {
+            "mtd": "L",
+            "x": 696,
+            "y": 494
+          },
+          {
+            "mtd": "L",
+            "x": 696,
+            "y": 387
+          },
+          {
+            "mtd": "A",
+            "x": 695.8284271247462,
+            "y": 386,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 693,
+            "y": 384,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 690,
+            "y": 387,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 690,
+            "y": 494
+          },
+          {
+            "mtd": "L",
+            "x": 482,
+            "y": 494
+          },
+          {
+            "mtd": "L",
+            "x": 482,
+            "y": 387
+          },
+          {
+            "mtd": "A",
+            "x": 479,
+            "y": 384,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 476.1715728752538,
+            "y": 386,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 476,
+            "y": 387,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 476,
+            "y": 494
+          },
+          {
+            "mtd": "L",
+            "x": 48,
+            "y": 494
+          },
+          {
+            "mtd": "L",
+            "x": 48,
+            "y": 387
+          },
+          {
+            "mtd": "A",
+            "x": 47.82842712474619,
+            "y": 386,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "A",
+            "x": 45.00000000000002,
+            "y": 384,
+            "rx": 3,
+            "ry": 3,
+            "ang": 0,
+            "arc": 0,
+            "dir": 0
+          },
+          {
+            "mtd": "L",
+            "x": 0,
+            "y": 371.9422863405995,
+            "isWithoutBleed": true
+          },
+          {
+            "mtd": "L",
+            "x": 0,
+            "y": 122.05771365940052,
+            "isWithoutBleed": true
+          },
+          {
+            "mtd": "L",
+            "x": 45,
+            "y": 110
+          },
+          {
+            "mtd": "Z",
+            "x": 45,
+            "y": 110
+          }
+        ],
+        "folds": [
+          {
+            "name": "H_HT",
+            "x1": 47.82842712474619,
+            "y1": 108,
+            "x2": 476.1715728752538,
+            "y2": 108
+          },
+          {
+            "name": "H_FR",
+            "x1": 479,
+            "y1": 110,
+            "x2": 479,
+            "y2": 384
+          },
+          {
+            "name": "H_HB",
+            "x1": 476.1715728752538,
+            "y1": 386,
+            "x2": 47.82842712474621,
+            "y2": 386
+          },
+          {
+            "name": "H_HL",
+            "x1": 45.00000000000002,
+            "y1": 384,
+            "x2": 45.00000000000002,
+            "y2": 110
+          },
+          {
+            "name": "FR_FRT",
+            "x1": 479,
+            "y1": 110,
+            "x2": 693,
+            "y2": 110
+          },
+          {
+            "name": "FR_F",
+            "x1": 693,
+            "y1": 110,
+            "x2": 693,
+            "y2": 384
+          },
+          {
+            "name": "FR_FRB",
+            "x1": 693,
+            "y1": 384,
+            "x2": 479,
+            "y2": 384
+          },
+          {
+            "name": "F_FT",
+            "x1": 695.8284271247462,
+            "y1": 108,
+            "x2": 1124.1715728752538,
+            "y2": 108
+          },
+          {
+            "name": "F_FL",
+            "x1": 1127,
+            "y1": 110,
+            "x2": 1127,
+            "y2": 384
+          },
+          {
+            "name": "F_FB",
+            "x1": 1124.1715728752538,
+            "y1": 386,
+            "x2": 695.8284271247462,
+            "y2": 386
+          },
+          {
+            "name": "FL_FLT",
+            "x1": 1127,
+            "y1": 110,
+            "x2": 1340,
+            "y2": 110
+          },
+          {
+            "name": "FL_FLB",
+            "x1": 1340,
+            "y1": 384,
+            "x2": 1127,
+            "y2": 384
+          }
+        ],
+        "holes": [],
+        "bleeds": [
+          {
+            "mtd": "M",
+            "x": 48,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 48,
+            "y": 109.99998
+          },
+          {
+            "mtd": "L",
+            "x": 45,
+            "y": 109.99996
+          },
+          {
+            "mtd": "L",
+            "x": 45,
+            "y": 393.99985
+          },
+          {
+            "mtd": "L",
+            "x": 48,
+            "y": 393.99994
+          },
+          {
+            "mtd": "L",
+            "x": 48,
+            "y": 504
+          },
+          {
+            "mtd": "L",
+            "x": 1347,
+            "y": 504
+          },
+          {
+            "mtd": "L",
+            "x": 1347,
+            "y": 394
+          },
+          {
+            "mtd": "L",
+            "x": 1350,
+            "y": 394
+          },
+          {
+            "mtd": "L",
+            "x": 1350,
+            "y": 110
+          },
+          {
+            "mtd": "L",
+            "x": 1347,
+            "y": 110
+          },
+          {
+            "mtd": "L",
+            "x": 1347,
+            "y": 0
+          },
+          {
+            "mtd": "L",
+            "x": 48,
+            "y": 0
+          },
+          {
+            "mtd": "Z"
+          }
+        ],
+        "totalX": 1340,
+        "totalY": 494,
+        "transform": {
+          "position": {
+            "x": -262,
+            "y": 247,
+            "z": 107
+          },
+          "renderY": 386,
+          "rotate": {
+            "x": 0,
+            "y": 3.141592653589793,
+            "z": 3.141592653589793
+          }
+        },
+        "animation": {
+          "groups": [
+            {
+              "groupName": "top",
+              "members": []
+            },
+            {
+              "groupName": "bottom",
+              "members": []
+            }
+          ],
+          "animations": [
+            [
+              {
+                "name": "H_HL",
+                "rotate": -90.2,
+                "vector": {
+                  "x": 0,
+                  "y": -274,
+                  "z": 0
+                },
+                "action": "rotate"
+              },
+              {
+                "name": "H_FR",
+                "rotate": -90,
+                "vector": {
+                  "x": 0,
+                  "y": 274,
+                  "z": 0
+                },
+                "action": "rotate"
+              },
+              {
+                "name": "FR_F",
+                "rotate": -90,
+                "vector": {
+                  "x": 0,
+                  "y": 274,
+                  "z": 0
+                },
+                "action": "rotate"
+              }
+            ],
+            [
+              {
+                "name": "F_FL",
+                "rotate": -90,
+                "vector": {
+                  "x": 0,
+                  "y": 274,
+                  "z": 0
+                },
+                "action": "rotate"
+              }
+            ],
+            [
+              {
+                "name": "FR_FRB",
+                "rotate": -90.2,
+                "vector": {
+                  "x": -214,
+                  "y": 0,
+                  "z": 0
+                },
+                "action": "rotate"
+              },
+              {
+                "name": "FL_FLB",
+                "rotate": -90.2,
+                "vector": {
+                  "x": -213,
+                  "y": 0,
+                  "z": 0
+                },
+                "action": "rotate"
+              }
+            ],
+            [
+              {
+                "name": "H_HB",
+                "rotate": -89.8,
+                "vector": {
+                  "x": -428.3431457505076,
+                  "y": 0,
+                  "z": 0
+                },
+                "action": "rotate"
+              },
+              {
+                "name": "F_FB",
+                "rotate": -89.8,
+                "vector": {
+                  "x": -428.3431457505076,
+                  "y": 0,
+                  "z": 0
+                },
+                "action": "rotate"
+              }
+            ],
+            [
+              {
+                "name": "FR_FRT",
+                "rotate": -90.2,
+                "vector": {
+                  "x": 214,
+                  "y": 0,
+                  "z": 0
+                },
+                "action": "rotate"
+              },
+              {
+                "name": "FL_FLT",
+                "rotate": -90.2,
+                "vector": {
+                  "x": 213,
+                  "y": 0,
+                  "z": 0
+                },
+                "action": "rotate"
+              }
+            ],
+            [
+              {
+                "name": "H_HT",
+                "rotate": -89.8,
+                "vector": {
+                  "x": 428.3431457505076,
+                  "y": 0,
+                  "z": 0
+                },
+                "action": "rotate"
+              },
+              {
+                "name": "F_FT",
+                "rotate": -89.8,
+                "vector": {
+                  "x": 428.3431457505076,
+                  "y": 0,
+                  "z": 0
+                },
+                "action": "rotate"
+              }
+            ]
+          ]
+        },
+        "sizeArrowData": [
+          {
+            "d": [],
+            "tpointer": {
+              "x": 262,
+              "y": 322.5,
+              "value": "L=434"
+            },
+            "p1": {
+              "x": 45,
+              "y": 316.5
+            },
+            "p2": {
+              "x": 479,
+              "y": 316.5
+            },
+            "lineName": "L",
+            "lineLength": 434,
+            "lineType": "outerArrow",
+            "unit": "length"
+          },
+          {
+            "d": [],
+            "tpointer": {
+              "x": 843.6666666666666,
+              "y": 248.2,
+              "value": "H=278"
+            },
+            "p1": {
+              "x": 837.6666666666666,
+              "y": 108
+            },
+            "p2": {
+              "x": 837.6666666666666,
+              "y": 386
+            },
+            "lineName": "H",
+            "lineLength": 278,
+            "lineType": "outerArrow",
+            "unit": "length"
+          },
+          {
+            "d": [],
+            "tpointer": {
+              "x": 586,
+              "y": 183.5,
+              "value": "W=214"
+            },
+            "p1": {
+              "x": 479,
+              "y": 177.5
+            },
+            "p2": {
+              "x": 693,
+              "y": 177.5
+            },
+            "lineName": "W",
+            "lineLength": 214,
+            "lineType": "outerArrow",
+            "unit": "length"
+          },
+          {
+            "d": [],
+            "tpointer": {
+              "x": 22.5,
+              "y": 253,
+              "value": "G=45"
+            },
+            "p1": {
+              "x": 0,
+              "y": 247
+            },
+            "p2": {
+              "x": 45,
+              "y": 247
+            },
+            "lineName": "G",
+            "lineLength": 45,
+            "lineType": "outerArrow",
+            "unit": "length"
+          },
+          {
+            "d": [],
+            "tpointer": {
+              "x": 268,
+              "y": 55.2,
+              "value": "F=108"
+            },
+            "p1": {
+              "x": 262,
+              "y": 0
+            },
+            "p2": {
+              "x": 262,
+              "y": 108
+            },
+            "lineName": "F",
+            "lineLength": 108,
+            "lineType": "outerArrow",
+            "unit": "length"
+          },
+          {
+            "d": [],
+            "tpointer": {
+              "x": 592,
+              "y": 56.2,
+              "value": "F1=110"
+            },
+            "p1": {
+              "x": 586,
+              "y": 0
+            },
+            "p2": {
+              "x": 586,
+              "y": 110
+            },
+            "lineName": "F1",
+            "lineLength": 110,
+            "lineType": "outerArrow",
+            "unit": "length"
+          },
+          {
+            "d": [],
+            "tpointer": {
+              "x": 701.1290367901872,
+              "y": 111.27903679018718,
+              "value": "R=3"
+            },
+            "p1": {
+              "x": 693,
+              "y": 107
+            },
+            "p2": {
+              "x": 695.1213203435597,
+              "y": 109.12132034355965
+            },
+            "lineName": "R",
+            "lineLength": 3,
+            "lineType": "arcArrow",
+            "center": {
+              "x": 695.1213203435597,
+              "y": 109.12132034355965
+            },
+            "radius": 3,
+            "rotate": 45,
+            "unit": "length"
+          },
+          {
+            "d": [],
+            "tpointer": {
+              "x": -27.5,
+              "y": 103,
+              "value": "GT=15"
+            },
+            "p1": {
+              "x": 0,
+              "y": 110,
+              "rotate": 270
+            },
+            "p2": {
+              "x": 1.5333378169919243,
+              "y": 121.64685702961344,
+              "rotate": 75
+            },
+            "lineName": "GT",
+            "lineLength": 15,
+            "lineType": "innerArrow",
+            "unit": "angle"
+          },
+          {
+            "d": [],
+            "tpointer": {
+              "x": 488,
+              "y": 110.2,
+              "value": "OF=2"
+            },
+            "p1": {
+              "x": 482,
+              "y": 108
+            },
+            "p2": {
+              "x": 482,
+              "y": 110
+            },
+            "lineName": "OF",
+            "lineLength": 2,
+            "lineType": "innerArrow",
+            "unit": "length"
+          }
+        ]
+      }
+    },
+    "openParams": [
+      [
+        {
+          "grade": 2,
+          "name": "OF",
+          "value": 2,
+          "description": "High and Low",
+          "min": 0,
+          "max": 3,
+          "unit": "length"
+        },
+        {
+          "grade": 2,
+          "name": "R",
+          "value": 3,
+          "description": "Chamfering",
+          "min": 1.5,
+          "max": 6,
+          "unit": "length"
+        },
+        {
+          "grade": 2,
+          "name": "G",
+          "value": 45,
+          "description": "Length of paste",
+          "min": 10,
+          "max": 212,
+          "unit": "length"
+        },
+        {
+          "grade": 2,
+          "name": "GT",
+          "value": 15,
+          "description": "Paste corner",
+          "min": 0,
+          "max": 45,
+          "unit": "angle"
+        },
+        {
+          "grade": 2,
+          "name": "F",
+          "value": 108,
+          "description": "摇盖长度",
+          "min": 15,
+          "max": 214,
+          "unit": "length"
+        },
+        {
+          "grade": 2,
+          "name": "F1",
+          "value": 110,
+          "description": "Side shaking cover",
+          "min": 10,
+          "max": 110,
+          "unit": "length"
+        }
+      ]
+    ],
+    "outsideArrowData": [
+      {
+        "startP1": {
+          "x": 45,
+          "y": 499
+        },
+        "startP2": {
+          "x": 479,
+          "y": 499
+        },
+        "endP1": {
+          "x": 45,
+          "y": 529
+        },
+        "endP2": {
+          "x": 479,
+          "y": 529
+        },
+        "grade": 1,
+        "value": 434,
+        "extendsValue": {
+          "knifeValue": 434,
+          "innerSize": 430,
+          "outerSize": 436
+        },
+        "name": "L"
+      },
+      {
+        "startP1": {
+          "x": 479,
+          "y": 499
+        },
+        "startP2": {
+          "x": 693,
+          "y": 499
+        },
+        "endP1": {
+          "x": 479,
+          "y": 529
+        },
+        "endP2": {
+          "x": 693,
+          "y": 529
+        },
+        "grade": 1,
+        "value": 214,
+        "extendsValue": {
+          "knifeValue": 214,
+          "innerSize": 210,
+          "outerSize": 216
+        },
+        "name": "W"
+      },
+      {
+        "startP1": {
+          "x": 1345,
+          "y": 108
+        },
+        "startP2": {
+          "x": 1345,
+          "y": 386
+        },
+        "endP1": {
+          "x": 1375,
+          "y": 108
+        },
+        "endP2": {
+          "x": 1375,
+          "y": 386
+        },
+        "grade": 1,
+        "value": 278,
+        "extendsValue": {
+          "knifeValue": 278,
+          "innerSize": 270,
+          "outerSize": 282
+        },
+        "name": "H"
+      },
+      {
+        "startP1": {
+          "x": 1342,
+          "y": 0
+        },
+        "startP2": {
+          "x": 1342,
+          "y": 494
+        },
+        "endP1": {
+          "x": 1405,
+          "y": 0
+        },
+        "endP2": {
+          "x": 1405,
+          "y": 494
+        },
+        "grade": 2,
+        "value": 494
+      },
+      {
+        "startP1": {
+          "x": 0,
+          "y": 371.94229
+        },
+        "startP2": {
+          "x": 1340,
+          "y": 499
+        },
+        "endP1": {
+          "x": 0,
+          "y": 559
+        },
+        "endP2": {
+          "x": 1340,
+          "y": 559
+        },
+        "grade": 2,
+        "value": 1340
+      }
+    ],
+    "outsideArrowData2": [
+      {
+        "startP1": {
+          "x": 45,
+          "y": 499
+        },
+        "startP2": {
+          "x": 479,
+          "y": 499
+        },
+        "endP1": {
+          "x": 45,
+          "y": 529
+        },
+        "endP2": {
+          "x": 479,
+          "y": 529
+        },
+        "grade": 1,
+        "value": 434,
+        "extendsValue": {
+          "knifeValue": 434,
+          "innerSize": 430,
+          "outerSize": 436
+        },
+        "name": "L"
+      },
+      {
+        "startP1": {
+          "x": 479,
+          "y": 499
+        },
+        "startP2": {
+          "x": 693,
+          "y": 499
+        },
+        "endP1": {
+          "x": 479,
+          "y": 529
+        },
+        "endP2": {
+          "x": 693,
+          "y": 529
+        },
+        "grade": 1,
+        "value": 214,
+        "extendsValue": {
+          "knifeValue": 214,
+          "innerSize": 210,
+          "outerSize": 216
+        },
+        "name": "W"
+      },
+      {
+        "startP1": {
+          "x": 1345,
+          "y": 108
+        },
+        "startP2": {
+          "x": 1345,
+          "y": 386
+        },
+        "endP1": {
+          "x": 1375,
+          "y": 108
+        },
+        "endP2": {
+          "x": 1375,
+          "y": 386
+        },
+        "grade": 1,
+        "value": 278,
+        "extendsValue": {
+          "knifeValue": 278,
+          "innerSize": 270,
+          "outerSize": 282
+        },
+        "name": "H"
+      },
+      {
+        "startP1": {
+          "x": 1342,
+          "y": 0
+        },
+        "startP2": {
+          "x": 1342,
+          "y": 494
+        },
+        "endP1": {
+          "x": 1405,
+          "y": 0
+        },
+        "endP2": {
+          "x": 1405,
+          "y": 494
+        },
+        "grade": 2,
+        "value": 494
+      },
+      {
+        "startP1": {
+          "x": 0,
+          "y": 371.94229
+        },
+        "startP2": {
+          "x": 1340,
+          "y": 499
+        },
+        "endP1": {
+          "x": 0,
+          "y": 559
+        },
+        "endP2": {
+          "x": 1340,
+          "y": 559
+        },
+        "grade": 2,
+        "value": 1340
+      }
+    ],
+    "extra": {
+      "softPackage": null,
+      "foldlineLength": 3663.37,
+      "pasteFace": {
+        "data": [
+          {
+            "width": 45,
+            "height": 278,
+            "name": "HL"
+          }
+        ]
+      },
+      "corrugatedBoardSetting": {
+        "rotate": 0
+      },
+      "cutlineLength": 4946.19
+    }
+  },
+  "msg": "success",
+  "time": 1791940176
+}

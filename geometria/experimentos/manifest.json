@@ -1,0 +1,920 @@
+{
+  "source_evidence_id": "ev_70c78216d8ca163ef7f939d0aed16da00ebc22365fb62afe71f36c34f435b46a",
+  "completeness": "partial-error-capture",
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "baseline",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=3&bleed=5&export_type=model",
+      "body_sha256": "003c30ab5385bacb30da8c4038eca19a9720ca16d7147f7329e36d2b150f8094",
+      "size": {
+        "L": 430,
+        "W": 210,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-01.json",
+      "request_step": 4,
+      "request_step_id": "L508",
+      "response_step": 4,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845110&bleed=5&export_type=project",
+      "body_sha256": "b4e6057290fa83d7c5a7355ba238feb87aaa24352a4cb9b0f1f49b5794b984bd",
+      "size": {
+        "L": 430,
+        "W": 210,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-02.json",
+      "request_step": 4,
+      "request_step_id": "L508",
+      "response_step": 4,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845110&bleed=5&export_type=project",
+      "body_sha256": "0a2e9da189ef555de28e90c2736d037ea33875f2b0d1f3ad6ef78771ad1560d5",
+      "size": {
+        "L": 504,
+        "W": 210,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 508,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-03.json",
+      "request_step": 7,
+      "request_step_id": "Lreset",
+      "response_step": 7,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845110&bleed=5&export_type=project",
+      "body_sha256": "055fdd58d7838bf15cb3d34c48315f069472dd5add43823f01cdf04dc8f1c270",
+      "size": {
+        "L": 430,
+        "W": 210,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-04.json",
+      "request_step": 10,
+      "request_step_id": "W254",
+      "response_step": 10,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845110&bleed=5&export_type=project",
+      "body_sha256": "11cfd4c0792051a48e29ccbc3f7ff3af5c6956b6619398dc2ea197bd0dfd877e",
+      "size": {
+        "L": 430,
+        "W": 250,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 254,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 252,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 128,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 254,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 130,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 130,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-05.json",
+      "request_step": 13,
+      "request_step_id": "Wreset",
+      "response_step": 13,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845110&bleed=5&export_type=project",
+      "body_sha256": "d731984115f2586ef25e57220fa48d091ae30e952228f58cc58107798cb86345",
+      "size": {
+        "L": 430,
+        "W": 210,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-06.json",
+      "request_step": 16,
+      "request_step_id": "H304",
+      "response_step": 16,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845110&bleed=5&export_type=project",
+      "body_sha256": "b4244a8876a2a3b4e2f3e3f6b23bc7cec76fc8c5657a41f50d929e836d41a4fe",
+      "size": {
+        "L": 430,
+        "W": 210,
+        "H": 296.8,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 214,
+        "H": 304.8,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-07.json",
+      "request_step": 19,
+      "request_step_id": "Hreset",
+      "response_step": 19,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845110&bleed=5&export_type=project",
+      "body_sha256": "1d1dddad9a6c481eb69ba28de84871558247de579642a11a52c22d583e197f4a",
+      "size": {
+        "L": 430,
+        "W": 210,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-08.json",
+      "request_step": 22,
+      "request_step_id": "D254",
+      "response_step": 22,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845110&bleed=5&export_type=project",
+      "body_sha256": "eb929687b168db4feae82ce83a06c50f2efaf13d5f367f6322881286d0ed7ec9",
+      "size": {
+        "L": 431,
+        "W": 211,
+        "H": 271,
+        "D": 2.54,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 2.54,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 2.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 2.5,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Recorte      \n  - img\n  - text: Modelo de edificio Preparación de los materiales Creación del entorno Ya casi está Modelo de edificio"
+    },
+    {
+      "id": "baseline",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      "
+    },
+    {
+      "id": "L508_fill",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"20\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      "
+    },
+    {
+      "id": "L508_commit",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"20\"\n  - text: in Anchura\n  - textbox [disabled]: \"8.4252\"\n  - text: in Altura\n  - textbox [disabled]: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 20 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 20 in\n    - img\n    - img:\n      - img\n    - text: 10.9449 in 8.4252 in\n  - text:      "
+    },
+    {
+      "id": "L508",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"20\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 20 × 8.4252 × 10.9449 in Dimensiones internas 19.8425 × 8.2677 × 10.6299 in Dimensiones externas 20.0787 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 20 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "Lreset_fill",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 20 × 8.4252 × 10.9449 in Dimensiones internas 19.8425 × 8.2677 × 10.6299 in Dimensiones externas 20.0787 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 20 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "Lreset_commit",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"17.0866\"\n  - text: in Anchura\n  - textbox [disabled]: \"8.4252\"\n  - text: in Altura\n  - textbox [disabled]: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 19.8425 × 8.2677 × 10.6299 in Dimensiones externas 20.0787 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in\n    - img\n    - img:\n      - img\n    - text: 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "Lreset",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "W254_fill",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"10\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "W254_commit",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"17.0866\"\n  - text: in Anchura\n  - textbox [disabled]: \"10\"\n  - text: in Altura\n  - textbox [disabled]: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 10 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 10 in\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "W254",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"10\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 10 × 10.9449 in Dimensiones internas 16.9291 × 9.8425 × 10.6299 in Dimensiones externas 17.1654 × 10.0787 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 10 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "Wreset_fill",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 10 × 10.9449 in Dimensiones internas 16.9291 × 9.8425 × 10.6299 in Dimensiones externas 17.1654 × 10.0787 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 10 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "Wreset_commit",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"17.0866\"\n  - text: in Anchura\n  - textbox [disabled]: \"8.4252\"\n  - text: in Altura\n  - textbox [disabled]: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 9.8425 × 10.6299 in Dimensiones externas 17.1654 × 10.0787 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "Wreset",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "H304_fill",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"12\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "H304_commit",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"17.0866\"\n  - text: in Anchura\n  - textbox [disabled]: \"8.4252\"\n  - text: in Altura\n  - textbox [disabled]: \"12\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 12 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 12 in\n    - img\n    - img:\n      - img\n    - text: 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "H304",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"12\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 12 in Dimensiones internas 16.9291 × 8.2677 × 11.685 in Dimensiones externas 17.1654 × 8.5039 × 12.1575 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 12 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "Hreset_fill",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 12 in Dimensiones internas 16.9291 × 8.2677 × 11.685 in Dimensiones externas 17.1654 × 8.5039 × 12.1575 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 12 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "Hreset_commit",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"17.0866\"\n  - text: in Anchura\n  - textbox [disabled]: \"8.4252\"\n  - text: in Altura\n  - textbox [disabled]: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 11.685 in Dimensiones externas 17.1654 × 8.5039 × 12.1575 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in\n    - img\n    - img:\n      - img\n    - text: 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "Hreset",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "D254_fill",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "D254_commit",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9291 × 8.2677 × 10.6299 in Dimensiones externas 17.1654 × 8.5039 × 11.1024 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "D254",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"17.0866\"\n  - text: in Anchura\n  - textbox: \"8.4252\"\n  - text: in Altura\n  - textbox: \"10.9449\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 17.0866 × 8.4252 × 10.9449 in Dimensiones internas 16.9685 × 8.3071 × 10.6693 in Dimensiones externas 17.1685 × 8.5071 × 11.0693 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 17.0866 in 10.9449 in 8.4252 in\n  - text:      \n  - iframe\n  - img"
+    }
+  ]
+}

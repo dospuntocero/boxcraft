@@ -1,0 +1,229 @@
+{
+  "code": 200,
+  "data": {
+    "nameKey": "cartons-0201-mockup-200010",
+    "mainFace": {
+      "face": "H",
+      "side": "outside",
+      "layer": "traditional",
+      "showWatermark": true,
+      "showUploadText": true,
+      "watermarkAngle": 0,
+      "watermarkScale": 1,
+      "uploadTextAngle": 0,
+      "uploadTextScale": 1,
+      "uploadTextOffsetX": 0,
+      "uploadTextOffsetY": 0
+    },
+    "otherFaces": [
+      {
+        "faceName": "F",
+        "direction": "front",
+        "faceLayer": "traditional"
+      },
+      {
+        "faceName": "H",
+        "direction": "back",
+        "faceLayer": "traditional"
+      },
+      {
+        "faceName": "FR",
+        "direction": "left",
+        "faceLayer": "traditional"
+      },
+      {
+        "faceName": "FL",
+        "direction": "right",
+        "faceLayer": "traditional"
+      }
+    ],
+    "length": 434,
+    "width": 214,
+    "height": 278,
+    "cate_id": 2,
+    "layer": {
+      "traditional": {
+        "science_id": 3,
+        "bleedline": 5,
+        "design_list": [],
+        "inside_design_list": [],
+        "background": null,
+        "inside_background": null,
+        "face_background": null,
+        "inside_face_background": null,
+        "membrane_id": null,
+        "inside_membrane_id": null,
+        "thickness": 3,
+        "inless": 2,
+        "outless": 1,
+        "line_guides": null,
+        "science_image": "//cdn.pacdora.com/science/image/00e45c0b-9cf7-4d39-bdc8-82bb202909d9.png",
+        "science_name": "Onda B",
+        "def_line_color": "#ffffff",
+        "membrane_name": "",
+        "inside_membrane_name": ""
+      }
+    },
+    "preview_3d_img": "",
+    "project_name": "Planos guía de caja ranurada regular FEFCO 0201 (RSC)",
+    "can_print": true,
+    "supportSciences": [
+      8,
+      7,
+      37,
+      3,
+      4,
+      5,
+      6,
+      11,
+      14,
+      13
+    ],
+    "cate": {
+      "id": 2,
+      "name": "0201常规纸箱",
+      "image": "//cdn.pacdora.com/render/20220113/200010.jpg",
+      "status": 1,
+      "sort": 200010,
+      "remarks": "常用纸箱  0201箱型,国际标准瓦楞纸箱,运输纸箱,外包装,具有非常强的抗压性能,抗撕裂性能,防潮",
+      "faces": "[{\"name\":\"前面\",\"value\":\"F\",\"rotate\":0},{\"name\":\"左面\",\"value\":\"L\",\"rotate\":0},{\"name\":\"右面\",\"value\":\"R\",\"rotate\":0},{\"name\":\"后面\",\"value\":\"H\",\"rotate\":0}]",
+      "cate_no": "200010",
+      "defaultSize": [
+        {
+          "length": "530",
+          "width": "290",
+          "height": "370",
+          "remark": "邮政1号箱（内）"
+        },
+        {
+          "length": "430",
+          "width": "210",
+          "height": "270",
+          "remark": "邮政3号箱（内）"
+        },
+        {
+          "length": "290",
+          "width": "170",
+          "height": "190",
+          "remark": "邮政5号箱（内）"
+        },
+        {
+          "length": "230",
+          "width": "130",
+          "height": "160",
+          "remark": "邮政7号箱（内）"
+        },
+        {
+          "length": "195",
+          "width": "105",
+          "height": "135",
+          "remark": "邮政9号箱（内）"
+        },
+        {
+          "length": "145",
+          "width": "85",
+          "height": "105",
+          "remark": "邮政11号箱（内）"
+        }
+      ],
+      "lengthLimit": "30,5000",
+      "widthLimit": "20,3600",
+      "heightLimit": "20,4000",
+      "code": "Carton",
+      "minThickness": "0.2",
+      "price": "0.00",
+      "discount": 1,
+      "mu_price": "0.00",
+      "mu_discount": 1,
+      "min_thickness": "0.2",
+      "complex_type": 0,
+      "size_options": [],
+      "map_options": null,
+      "printExtra": [
+        "f_d_p_huhe"
+      ],
+      "elaborate": 0,
+      "layerList": [
+        {
+          "name": "traditional",
+          "friendlyName": "传统面纸",
+          "isGrey": false,
+          "fixedThickness": 0,
+          "minThickness": 0.2
+        }
+      ],
+      "layerGlobalSettings": null,
+      "is_enterprise": 0,
+      "openParamsStatus": 1,
+      "cate_type": 0,
+      "IsOnlyManufacture": 0,
+      "mainFace": {
+        "face": "H",
+        "side": "outside",
+        "layer": "traditional",
+        "showWatermark": true,
+        "showUploadText": true,
+        "watermarkAngle": 0,
+        "watermarkScale": 1,
+        "uploadTextAngle": 0,
+        "uploadTextScale": 1,
+        "uploadTextOffsetX": 0,
+        "uploadTextOffsetY": 0
+      },
+      "otherFaces": [
+        {
+          "faceName": "F",
+          "direction": "front",
+          "faceLayer": "traditional"
+        },
+        {
+          "faceName": "H",
+          "direction": "back",
+          "faceLayer": "traditional"
+        },
+        {
+          "faceName": "FR",
+          "direction": "left",
+          "faceLayer": "traditional"
+        },
+        {
+          "faceName": "FL",
+          "direction": "right",
+          "faceLayer": "traditional"
+        }
+      ],
+      "displaySetting": {},
+      "partGroup": {},
+      "appId": "",
+      "enterpriseId": "",
+      "subCode": "null",
+      "canPrint": 1,
+      "dimensions": 1,
+      "edition": 1,
+      "screenshots": {
+        "top": "https://cdn.pacdora.com/mockup-generator/mockup-top-side-view-200010.png",
+        "left": "https://cdn.pacdora.com/mockup-generator/mockup-left-side-view-200010.png",
+        "right": "https://cdn.pacdora.com/mockup-generator/mockup-right-side-view-200010.png",
+        "top_anim40": "https://cdn.pacdora.com/mockup-generator/mockup-top-side-anim40-view-200010.png",
+        "left_anim40": "https://cdn.pacdora.com/mockup-generator/mockup-left-side-anim40-view-200010.png",
+        "right_anim40": "https://cdn.pacdora.com/mockup-generator/mockup-right-side-anim40-view-200010.png"
+      },
+      "showStartTime": null,
+      "showEndTime": null,
+      "manualSort": 0,
+      "listingTime": "1775015759731",
+      "mockupMultifoldScore": "0.210527",
+      "dielineMultifoldScore": "0.108918",
+      "relatedModelNo": null,
+      "create_time": "1574129594986",
+      "update_time": "1772776274655",
+      "is_delete": 0,
+      "cate_top_id": 3,
+      "layerInfo": [],
+      "modelClassId": 180
+    },
+    "size_type": "dm"
+  },
+  "msg": "success",
+  "time": 1791939523
+}

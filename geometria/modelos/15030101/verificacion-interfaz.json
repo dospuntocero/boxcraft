@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-17",
+  "pass": true,
+  "profiles": [
+    {
+      "materialId": 103,
+      "thickness": 0.5,
+      "download": "exportaciones/103-0.5.svg",
+      "bytes": 116212
+    },
+    {
+      "materialId": 100,
+      "thickness": 0.27,
+      "download": "exportaciones/100-0.27.svg",
+      "bytes": 116631
+    },
+    {
+      "materialId": 101,
+      "thickness": 0.35,
+      "download": "exportaciones/101-0.35.svg",
+      "bytes": 116543
+    },
+    {
+      "materialId": 102,
+      "thickness": 0.42,
+      "download": "exportaciones/102-0.42.svg",
+      "bytes": 116946
+    },
+    {
+      "materialId": 8,
+      "thickness": 0.5,
+      "download": "exportaciones/8-0.5.svg",
+      "bytes": 116221
+    },
+    {
+      "materialId": 108,
+      "thickness": 0.26,
+      "download": "exportaciones/108-0.26.svg",
+      "bytes": 116438
+    },
+    {
+      "materialId": 109,
+      "thickness": 0.33,
+      "download": "exportaciones/109-0.33.svg",
+      "bytes": 117011
+    },
+    {
+      "materialId": 110,
+      "thickness": 0.46,
+      "download": "exportaciones/110-0.46.svg",
+      "bytes": 117067
+    },
+    {
+      "materialId": 7,
+      "thickness": 0.5,
+      "download": "exportaciones/7-0.5.svg",
+      "bytes": 116220
+    },
+    {
+      "materialId": 47,
+      "thickness": 0.2,
+      "download": "exportaciones/47-0.2.svg",
+      "bytes": 116264
+    },
+    {
+      "materialId": 42,
+      "thickness": 0.32,
+      "download": "exportaciones/42-0.32.svg",
+      "bytes": 116488
+    },
+    {
+      "materialId": 153,
+      "thickness": 0.2,
+      "download": "exportaciones/153-0.2.svg",
+      "bytes": 116267
+    },
+    {
+      "materialId": 8,
+      "thickness": 0.2,
+      "download": "exportaciones/8-0.2.svg",
+      "bytes": 116271
+    },
+    {
+      "materialId": 8,
+      "thickness": 0.35,
+      "download": "exportaciones/8-0.35.svg",
+      "bytes": 116552
+    },
+    {
+      "materialId": 7,
+      "thickness": 0.2,
+      "download": "exportaciones/7-0.2.svg",
+      "bytes": 116270
+    },
+    {
+      "materialId": 7,
+      "thickness": 0.35,
+      "download": "exportaciones/7-0.35.svg",
+      "bytes": 116551
+    },
+    {
+      "materialId": 153,
+      "thickness": 0.35,
+      "download": "exportaciones/153-0.35.svg",
+      "bytes": 116548
+    },
+    {
+      "materialId": 153,
+      "thickness": 0.5,
+      "download": "exportaciones/153-0.5.svg",
+      "bytes": 116217
+    }
+  ],
+  "pageErrors": [],
+  "exported_xml_verified": 18
+}

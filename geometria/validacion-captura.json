@@ -1,0 +1,126 @@
+{
+  "input": "knife.json",
+  "sha256": "205c670b6dd0f32fdee0e20abdd8a5f829e302868b28a8afeaf2d88a7f1f25e5",
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "unique_names",
+      "pass": true,
+      "detail": "Nombres únicos de caras y pliegues"
+    },
+    {
+      "check": "fold_graph",
+      "pass": true,
+      "detail": {
+        "unknown": [],
+        "reachable_faces": 13,
+        "faces": 13,
+        "edges": 12,
+        "interpretation": "Los nombres de pliegue se interpretan como pares de caras"
+      }
+    },
+    {
+      "check": "contour_fold_references",
+      "pass": true,
+      "detail": {
+        "unknown": [],
+        "unreferenced": []
+      }
+    },
+    {
+      "check": "animation_references",
+      "pass": true,
+      "detail": {
+        "stages": 6,
+        "rotations": 12
+      }
+    },
+    {
+      "check": "fold_length",
+      "pass": true,
+      "detail": {
+        "computed_mm": 3663.3725830020303,
+        "declared_mm": 3663.37,
+        "tolerance_mm": 0.01
+      }
+    },
+    {
+      "check": "cut_endpoint_bounds",
+      "pass": true,
+      "detail": {
+        "endpoint_bounds": {
+          "min_x": 0,
+          "min_y": 0,
+          "max_x": 1340,
+          "max_y": 494
+        },
+        "totalX": 1340,
+        "totalY": 494,
+        "limit": "Solo extremos; no prueba los extremos interiores de arcos"
+      }
+    },
+    {
+      "check": "open_parameter_limits",
+      "pass": true,
+      "detail": [
+        {
+          "name": "OF",
+          "value": 2,
+          "min": 0,
+          "max": 3,
+          "unit": "length"
+        },
+        {
+          "name": "R",
+          "value": 3,
+          "min": 1.5,
+          "max": 6,
+          "unit": "length"
+        },
+        {
+          "name": "G",
+          "value": 45,
+          "min": 10,
+          "max": 212,
+          "unit": "length"
+        },
+        {
+          "name": "GT",
+          "value": 15,
+          "min": 0,
+          "max": 45,
+          "unit": "angle"
+        },
+        {
+          "name": "F",
+          "value": 108,
+          "min": 15,
+          "max": 214,
+          "unit": "length"
+        },
+        {
+          "name": "F1",
+          "value": 110,
+          "min": 10,
+          "max": 110,
+          "unit": "length"
+        }
+      ]
+    },
+    {
+      "check": "science_thickness",
+      "pass": true,
+      "detail": {
+        "value": 3,
+        "min": 2.5,
+        "max": 3
+      }
+    }
+  ],
+  "limitations": [
+    "Coherencia de una sola captura, no precisión de fabricación",
+    "No se calcularon longitud de corte ni intersecciones de arcos",
+    "El grafo usa nombres de pliegue como relación entre caras",
+    "No se ejecutó el motor de plegado"
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "source_evidence_id": "ev_418dd2411d60f065f42d0416564f26e7f24c8424b3a209c929e9d5f15451e97e",
+  "completeness": {
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "status": "incomplete",
+    "truncated_sections": []
+  },
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "baseline",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=9599&bleed=5&export_type=model",
+      "body_sha256": "b71c3c3f224fb66e136266f2aa490a24aa3cf2cd4c6597a20012e0a03ad338b9",
+      "size": {
+        "L": 99.4,
+        "W": 39.4,
+        "H": 118.9,
+        "D": 0.5,
+        "id": 0.3,
+        "ed": 0.2,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 100,
+        "W": 40,
+        "H": 120,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 16,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 38.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "AXX1",
+            "value": 1,
+            "description": "收位B",
+            "min": 1,
+            "max": 1.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "E",
+            "value": 8,
+            "description": "母锁长",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CX",
+            "value": 0.5,
+            "description": "收位C",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y1",
+            "value": 0.75,
+            "description": "收位Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y2",
+            "value": 0.5,
+            "description": "过刀Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR1",
+            "value": 0.5,
+            "description": "倒角Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C",
+            "value": 15,
+            "description": "插舌长",
+            "min": 5,
+            "max": 56,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR",
+            "value": 8,
+            "description": "倒角C",
+            "min": 0,
+            "max": 14,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CT",
+            "value": 0,
+            "description": "角度C",
+            "min": 0,
+            "max": 30,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "AX",
+            "value": 3.5,
+            "description": "槽底宽",
+            "min": 0,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AXX",
+            "value": 4.5,
+            "description": "槽口宽",
+            "min": 3.5,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "R",
+            "value": 0.65,
+            "description": "Chamfering",
+            "min": 0.6,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "OF",
+            "value": 0.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AS",
+            "value": 3.5,
+            "description": "槽坡度",
+            "min": 0.5,
+            "max": 3.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "S",
+            "value": 6,
+            "description": "公锁长",
+            "min": 6,
+            "max": 7.25,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NX",
+            "value": 3,
+            "description": "公锁X",
+            "min": 0,
+            "max": 8,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NY",
+            "value": 3,
+            "description": "公锁Y",
+            "min": 0,
+            "max": 8,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AR",
+            "value": 6,
+            "description": "倒角A",
+            "min": 0,
+            "max": 13,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "A",
+            "value": 28,
+            "description": "侧翼长",
+            "min": 15,
+            "max": 99,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AX1",
+            "value": 0.3,
+            "description": "收位A",
+            "min": 0.3,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "ATT",
+            "value": 13,
+            "description": "角度A",
+            "min": 0,
+            "max": 40.77,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "L1",
+            "value": 99,
+            "description": "吊背宽",
+            "min": 99,
+            "max": 99.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "P",
+            "value": 40,
+            "description": "挂钩高",
+            "min": 10,
+            "max": 160,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "PPY",
+            "value": 0.5,
+            "description": "间隔",
+            "min": 0.5,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "PF",
+            "value": 10,
+            "description": "延伸",
+            "min": 0,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "P1X",
+            "value": 2,
+            "description": "偏移X",
+            "min": 1,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "PFT",
+            "value": 10,
+            "description": "延伸角",
+            "min": 0,
+            "max": 72.47,
+            "unit": "angle"
+          },
+          {
+            "grade": 5,
+            "name": "PSW",
+            "value": 30,
+            "description": "挂钩长",
+            "min": 0,
+            "max": 79,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "PSD",
+            "value": 5,
+            "description": "挂钩高",
+            "min": 0,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "PSR",
+            "value": 4,
+            "description": "上倒角",
+            "min": 0,
+            "max": 12.5,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "PSP",
+            "value": 16.5,
+            "description": "定位",
+            "min": 7,
+            "max": 38,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "PR",
+            "value": 10,
+            "description": "背倒角",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "baseline",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"3.937\"\n  - text: in Anchura\n  - textbox: \"1.5748\"\n  - text: in Altura\n  - textbox: \"4.7244\"\n  - text: in Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.0197\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 3.937 × 1.5748 × 4.7244 in Dimensiones internas 3.9134 × 1.5512 × 4.6811 in Dimensiones externas 3.9528 × 1.5906 × 4.7598 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 3.937 in 4.7244 in 1.5748 in\n  - text:      "
+    }
+  ]
+}

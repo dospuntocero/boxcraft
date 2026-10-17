@@ -1,0 +1,265 @@
+{
+  "source_evidence_id": "ev_a908ce42df7992776ec9aa9f023d02b40ed588be86d11b3e40489dbabec3274f",
+  "completeness": {
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "status": "incomplete",
+    "truncated_sections": []
+  },
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "baseline",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=80&bleed=5&export_type=model",
+      "body_sha256": "e37b2c792e2deabdc50fb7d8b5fa59c0e6e7fe4813320305df65073b0dff4f8f",
+      "size": {
+        "L": 300,
+        "W": 150,
+        "H": 180,
+        "D": 1.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 302,
+        "W": 152,
+        "H": 182,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 1,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 1.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.7,
+            "description": "下移位移",
+            "min": 0,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 1.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 1.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 1,
+            "description": "Chamfering",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 150,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "H1",
+            "value": 75.5,
+            "description": "提手高",
+            "min": 30,
+            "max": 80,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "HR",
+            "value": 13,
+            "description": "斜角圆半径",
+            "min": 12.5,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "SW",
+            "value": 90,
+            "description": "孔宽度",
+            "min": 76,
+            "max": 198,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "SD",
+            "value": 30,
+            "description": "孔高度",
+            "min": 15.1,
+            "max": 50,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "SP",
+            "value": 38,
+            "description": "手提孔定位",
+            "min": 25,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "HT",
+            "value": 30,
+            "description": "Angle",
+            "min": 0,
+            "max": 45,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "R1",
+            "value": 0.5,
+            "description": "倒圆",
+            "min": 0,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "H4",
+            "value": 25,
+            "description": "高度",
+            "min": 19,
+            "max": 28,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "HR1",
+            "value": 20,
+            "description": "副扣位倒圆",
+            "min": 19,
+            "max": 38,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "HX",
+            "value": 3,
+            "description": "插孔宽度",
+            "min": 3,
+            "max": 6,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 30,
+            "description": "插脚",
+            "min": 30,
+            "max": 74,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 2,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 0,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 29.5,
+            "description": "副扣位",
+            "min": 10,
+            "max": 74,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 8,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR1",
+            "value": 0,
+            "description": "倒角K5",
+            "min": 0,
+            "max": 0,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "baseline",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"11.8898\"\n  - text: in Anchura\n  - textbox: \"5.9843\"\n  - text: in Altura\n  - textbox: \"7.1654\"\n  - text: in Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (0.0433~0.0788in) \n  - textbox: \"0.0591\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 11.8898 × 5.9843 × 7.1654 in Dimensiones internas 11.811 × 5.9055 × 7.0866 in Dimensiones externas 11.9291 × 6.0236 × 7.2638 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 11.8898 in 7.1654 in 5.9843 in\n  - text:      "
+    }
+  ]
+}

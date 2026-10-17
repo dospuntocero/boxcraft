@@ -1,0 +1,216 @@
+{
+  "moves": [
+    {
+      "from": "evidencia-10001006.json",
+      "to": "evidencias/rea/evidencia-10001006.json"
+    },
+    {
+      "from": "evidencia-10002003.json",
+      "to": "evidencias/rea/evidencia-10002003.json"
+    },
+    {
+      "from": "evidencia-102010.json",
+      "to": "evidencias/rea/evidencia-102010.json"
+    },
+    {
+      "from": "evidencia-112047.json",
+      "to": "evidencias/rea/evidencia-112047.json"
+    },
+    {
+      "from": "evidencia-112310.json",
+      "to": "evidencias/rea/evidencia-112310.json"
+    },
+    {
+      "from": "evidencia-12109002.json",
+      "to": "evidencias/rea/evidencia-12109002.json"
+    },
+    {
+      "from": "evidencia-150010-publico.json",
+      "to": "evidencias/rea/evidencia-150010-publico.json"
+    },
+    {
+      "from": "evidencia-150010.json",
+      "to": "evidencias/rea/evidencia-150010.json"
+    },
+    {
+      "from": "evidencia-180320.json",
+      "to": "evidencias/rea/evidencia-180320.json"
+    },
+    {
+      "from": "evidencia-180370.json",
+      "to": "evidencias/rea/evidencia-180370.json"
+    },
+    {
+      "from": "evidencia-experimentos.json",
+      "to": "evidencias/rea/evidencia-experimentos.json"
+    },
+    {
+      "from": "evidencia-geometria.json",
+      "to": "evidencias/rea/evidencia-geometria.json"
+    },
+    {
+      "from": "evidencia-locion-ajustes.json",
+      "to": "evidencias/rea/evidencia-locion-ajustes.json"
+    },
+    {
+      "from": "evidencia-locion-muestras.json",
+      "to": "evidencias/rea/evidencia-locion-muestras.json"
+    },
+    {
+      "from": "evidencia-locion-validacion.json",
+      "to": "evidencias/rea/evidencia-locion-validacion.json"
+    },
+    {
+      "from": "evidencia-prueba-15030101-variaciones.json",
+      "to": "evidencias/rea/evidencia-prueba-15030101-variaciones.json"
+    },
+    {
+      "from": "evidencia-prueba-15030101.json",
+      "to": "evidencias/rea/evidencia-prueba-15030101.json"
+    },
+    {
+      "from": "evidencia-rea.json",
+      "to": "evidencias/rea/evidencia-rea.json"
+    },
+    {
+      "from": "evidencia-validacion-parametrica.json",
+      "to": "evidencias/rea/evidencia-validacion-parametrica.json"
+    },
+    {
+      "from": "material-audit-rea-02.json",
+      "to": "evidencias/materiales/material-audit-rea-02.json"
+    },
+    {
+      "from": "material-audit-rea-03.json",
+      "to": "evidencias/materiales/material-audit-rea-03.json"
+    },
+    {
+      "from": "material-audit-rea-04.json",
+      "to": "evidencias/materiales/material-audit-rea-04.json"
+    },
+    {
+      "from": "material-audit-rea-05.json",
+      "to": "evidencias/materiales/material-audit-rea-05.json"
+    },
+    {
+      "from": "material-audit-rea.json",
+      "to": "evidencias/materiales/material-audit-rea.json"
+    },
+    {
+      "from": "material-research",
+      "to": "investigacion/materiales"
+    },
+    {
+      "from": "analisis-interfaz-150010",
+      "to": "investigacion/interfaz-150010"
+    },
+    {
+      "from": "analisis-pacdora.md",
+      "to": "docs/analisis-pacdora.md"
+    },
+    {
+      "from": "boxcraft",
+      "to": "archivo/copias/boxcraft"
+    },
+    {
+      "from": "boxcraft-github.zip",
+      "to": "archivo/paquetes/boxcraft-github.zip"
+    },
+    {
+      "from": "taller-troqueles-github.zip",
+      "to": "archivo/paquetes/taller-troqueles-github.zip"
+    },
+    {
+      "from": "editor-troqueles/biblioteca-sin-enlace.png",
+      "to": "investigacion/capturas-editor/biblioteca-sin-enlace.png"
+    },
+    {
+      "from": "editor-troqueles/cajas-hoja-13x19.png",
+      "to": "investigacion/capturas-editor/cajas-hoja-13x19.png"
+    },
+    {
+      "from": "editor-troqueles/cajas-por-pliego.png",
+      "to": "investigacion/capturas-editor/cajas-por-pliego.png"
+    },
+    {
+      "from": "editor-troqueles/cotas-editables.png",
+      "to": "investigacion/capturas-editor/cotas-editables.png"
+    },
+    {
+      "from": "editor-troqueles/etiquetas-actualizadas.png",
+      "to": "investigacion/capturas-editor/etiquetas-actualizadas.png"
+    },
+    {
+      "from": "editor-troqueles/interfaz-medidas.png",
+      "to": "investigacion/capturas-editor/interfaz-medidas.png"
+    },
+    {
+      "from": "editor-troqueles/limite-material-1200.png",
+      "to": "investigacion/capturas-editor/limite-material-1200.png"
+    },
+    {
+      "from": "editor-troqueles/limites-local.png",
+      "to": "investigacion/capturas-editor/limites-local.png"
+    },
+    {
+      "from": "editor-troqueles/logo-local.png",
+      "to": "investigacion/capturas-editor/logo-local.png"
+    },
+    {
+      "from": "editor-troqueles/materiales-modos-local.png",
+      "to": "investigacion/capturas-editor/materiales-modos-local.png"
+    },
+    {
+      "from": "editor-troqueles/miniaturas-pacdora-local.png",
+      "to": "investigacion/capturas-editor/miniaturas-pacdora-local.png"
+    },
+    {
+      "from": "editor-troqueles/modelos-parametrizados.png",
+      "to": "investigacion/capturas-editor/modelos-parametrizados.png"
+    },
+    {
+      "from": "editor-troqueles/panel-simplificado.png",
+      "to": "investigacion/capturas-editor/panel-simplificado.png"
+    },
+    {
+      "from": "editor-troqueles/pliego-10001029.png",
+      "to": "investigacion/capturas-editor/pliego-10001029.png"
+    },
+    {
+      "from": "editor-troqueles/pliegos-modelos.png",
+      "to": "investigacion/capturas-editor/pliegos-modelos.png"
+    },
+    {
+      "from": "editor-troqueles/rango-ampliado.png",
+      "to": "investigacion/capturas-editor/rango-ampliado.png"
+    },
+    {
+      "from": "editor-troqueles/sangrado-3mm.png",
+      "to": "investigacion/capturas-editor/sangrado-3mm.png"
+    },
+    {
+      "from": "editor-troqueles/vista-sin-etiqueta.png",
+      "to": "investigacion/capturas-editor/vista-sin-etiqueta.png"
+    },
+    {
+      "from": "geometria/modelos/15030101/materiales-captura-bundle.json",
+      "to": "evidencias/modelos/15030101/materiales-captura-bundle.json"
+    },
+    {
+      "from": "geometria/modelos/15030101/personalizados-captura-bundle.json",
+      "to": "evidencias/modelos/15030101/personalizados-captura-bundle.json"
+    },
+    {
+      "from": "geometria/modelos/15030101/validacion-captura-bundle.json",
+      "to": "evidencias/modelos/15030101/validacion-captura-bundle.json"
+    },
+    {
+      "from": "editor-troqueles/.git",
+      "to": "archivo/historial/editor-troqueles.git"
+    },
+    {
+      "from": "boxcraft-publicacion",
+      "to": "archivo/copias/boxcraft-publicacion"
+    }
+  ]
+}

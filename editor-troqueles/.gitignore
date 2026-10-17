@@ -1,0 +1,20 @@
+# Archivos locales del sistema y configuración del entorno
+.DS_Store
+.openai/
+.env
+.env.*
+!.env.example
+
+# Evidencias e investigación; las imágenes de dist/assets sí se incluyen
+/*.png
+/evidencia-*.json
+/investigacion-materiales/*
+!/investigacion-materiales/catalogo-original.json
+/comprobacion-motores.json
+/validacion-parametrizacion.json
+
+# Dependencias y temporales
+node_modules/
+__pycache__/
+*.pyc
+*.log

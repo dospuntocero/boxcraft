@@ -1,0 +1,4798 @@
+[
+  {
+    "pass": true,
+    "dimensions_mm": [
+      317.1,
+      167.2,
+      200.2
+    ],
+    "numeric_fields": 1163,
+    "differences": []
+  },
+  {
+    "pass": false,
+    "dimensions_mm": [
+      317.1,
+      159.6,
+      200.2
+    ],
+    "numeric_fields": 1163,
+    "differences": [
+      {
+        "path": "/faces/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/1/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/2/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/3/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/4/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/5/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/6/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/7/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/1/x",
+        "actual": 362.8796084131553,
+        "predicted": 362.8721947046786,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/faces/1/dlist/1/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/faces/1/dlist/2/x",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/1/dlist/2/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/3/x",
+        "actual": 520.0156497232658,
+        "predicted": 519.9932719765142,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/1/dlist/3/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/4/x",
+        "actual": 520.9203915868447,
+        "predicted": 520.9278052953215,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/faces/1/dlist/4/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/faces/1/dlist/5/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/6/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/7/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/8/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/9/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/10/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/11/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/1/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/2/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/3/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/4/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/5/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/6/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/7/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/1/x",
+        "actual": 839.5796084131554,
+        "predicted": 839.5721947046786,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/faces/3/dlist/1/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/faces/3/dlist/2/x",
+        "actual": 840.4843502767343,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/3/dlist/2/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/3/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/4/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/5/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/6/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/7/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/8/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/4/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/4/dlist/0/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/4/dlist/1/y",
+        "actual": 346.84228634059946,
+        "predicted": 344.84228634059946,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/4/dlist/2/y",
+        "actual": 171.05771365940052,
+        "predicted": 169.05771365940052,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/4/dlist/3/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/4/dlist/4/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/4/dlist/5/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/h",
+        "actual": 79.5,
+        "predicted": 79.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/5/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/5/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/1/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/2/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/5/dlist/3/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/5/dlist/4/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/5/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/6/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/7/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/6/h",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/dlist/0/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/dlist/1/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/6/dlist/2/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/6/dlist/3/x",
+        "actual": 72.9373098535697,
+        "predicted": 72.93516127773097,
+        "delta": 0.0021485758387314036
+      },
+      {
+        "path": "/faces/6/dlist/3/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/faces/6/dlist/4/x",
+        "actual": 88.4411229642623,
+        "predicted": 88.90854886459522,
+        "delta": 0.46742590033291265
+      },
+      {
+        "path": "/faces/6/dlist/4/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/faces/6/dlist/5/x",
+        "actual": 89.7530525249714,
+        "predicted": 90.2140326977881,
+        "delta": 0.4609801728167042
+      },
+      {
+        "path": "/faces/6/dlist/5/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/faces/6/dlist/6/x",
+        "actual": 317.3469474750286,
+        "predicted": 316.88596730221195,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/faces/6/dlist/6/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/faces/6/dlist/7/x",
+        "actual": 318.6588770357377,
+        "predicted": 318.1914511354048,
+        "delta": 0.46742590033289844
+      },
+      {
+        "path": "/faces/6/dlist/7/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/faces/6/dlist/8/x",
+        "actual": 334.1626901464303,
+        "predicted": 334.1648387222691,
+        "delta": 0.0021485758388166687
+      },
+      {
+        "path": "/faces/6/dlist/8/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/faces/6/dlist/9/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/6/dlist/10/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/6/dlist/11/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/dlist/12/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/dlist/13/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/holes/0/0/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/1/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/2/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/3/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/4/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/5/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/7/h",
+        "actual": 79.5,
+        "predicted": 79.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/7/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/7/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/1/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/2/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/7/dlist/3/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/7/dlist/4/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/5/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/6/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/7/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/8/h",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/dlist/0/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/dlist/1/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/8/dlist/2/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/8/dlist/3/x",
+        "actual": 549.6373098535697,
+        "predicted": 549.635161277731,
+        "delta": 0.0021485758387598253
+      },
+      {
+        "path": "/faces/8/dlist/3/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/faces/8/dlist/4/x",
+        "actual": 565.1411229642623,
+        "predicted": 565.6085488645953,
+        "delta": 0.4674259003329553
+      },
+      {
+        "path": "/faces/8/dlist/4/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/faces/8/dlist/5/x",
+        "actual": 566.4530525249714,
+        "predicted": 566.9140326977881,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/faces/8/dlist/5/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/faces/8/dlist/6/x",
+        "actual": 794.0469474750286,
+        "predicted": 793.5859673022119,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/faces/8/dlist/6/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/faces/8/dlist/7/x",
+        "actual": 795.3588770357377,
+        "predicted": 794.8914511354048,
+        "delta": 0.4674259003328416
+      },
+      {
+        "path": "/faces/8/dlist/7/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/faces/8/dlist/8/x",
+        "actual": 810.8626901464303,
+        "predicted": 810.864838722269,
+        "delta": 0.0021485758387598253
+      },
+      {
+        "path": "/faces/8/dlist/8/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/faces/8/dlist/9/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/8/dlist/10/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/8/dlist/11/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/dlist/12/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/dlist/13/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/holes/0/0/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/1/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/2/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/3/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/4/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/5/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/9/h",
+        "actual": 85.30696746902278,
+        "predicted": 83.34957469085305,
+        "delta": 1.9573927781697336
+      },
+      {
+        "path": "/faces/9/y",
+        "actual": 72.19303253097722,
+        "predicted": 72.15042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/9/dlist/0/x",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/9/dlist/0/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/1/x",
+        "actual": 426.30783173689383,
+        "predicted": 426.4561059064292,
+        "delta": 0.14827416953534112
+      },
+      {
+        "path": "/faces/9/dlist/1/y",
+        "actual": 79.66768667327797,
+        "predicted": 79.44720700577103,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/faces/9/dlist/2/x",
+        "actual": 457.49216826310624,
+        "predicted": 457.34389409357084,
+        "delta": 0.14827416953539796
+      },
+      {
+        "path": "/faces/9/dlist/2/y",
+        "actual": 79.66768667327797,
+        "predicted": 79.44720700577103,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/faces/9/dlist/3/x",
+        "actual": 520.0156497232658,
+        "predicted": 519.9932719765142,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/9/dlist/3/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/4/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/5/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/6/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/9/dlist/7/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/9/dlist/8/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/9/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/10/x",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/9/dlist/10/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/11/x",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/9/dlist/11/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/h",
+        "actual": 85.30696746902278,
+        "predicted": 83.34957469085305,
+        "delta": 1.9573927781697336
+      },
+      {
+        "path": "/faces/10/y",
+        "actual": 72.19303253097722,
+        "predicted": 72.15042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/10/dlist/0/x",
+        "actual": 840.4843502767343,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/10/dlist/0/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/1/x",
+        "actual": 903.0078317368939,
+        "predicted": 903.1561059064292,
+        "delta": 0.14827416953528427
+      },
+      {
+        "path": "/faces/10/dlist/1/y",
+        "actual": 79.66768667327797,
+        "predicted": 79.44720700577103,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/faces/10/dlist/2/x",
+        "actual": 934.1921682631063,
+        "predicted": 934.0438940935708,
+        "delta": 0.14827416953551165
+      },
+      {
+        "path": "/faces/10/dlist/2/y",
+        "actual": 79.66768667327797,
+        "predicted": 79.44720700577103,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/faces/10/dlist/3/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/4/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/5/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/6/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/10/dlist/7/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/10/dlist/8/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/9/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/10/x",
+        "actual": 840.4843502767344,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675154469
+      },
+      {
+        "path": "/faces/10/dlist/10/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/11/x",
+        "actual": 840.4843502767344,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675154469
+      },
+      {
+        "path": "/faces/10/dlist/11/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/11/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/0/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/1/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/2/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/3/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/4/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/5/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/12/h",
+        "actual": 111.8,
+        "predicted": 111.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/12/dlist/0/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/12/dlist/1/y",
+        "actual": 359.9,
+        "predicted": 357.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/12/dlist/2/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/12/dlist/3/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/12/dlist/4/y",
+        "actual": 463,
+        "predicted": 460.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/12/dlist/5/y",
+        "actual": 439.7,
+        "predicted": 437.44999999999993,
+        "delta": 2.250000000000057
+      },
+      {
+        "path": "/faces/12/dlist/6/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/12/dlist/7/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/12/dlist/8/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/13/h",
+        "actual": 111.8,
+        "predicted": 111.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/13/dlist/0/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/13/dlist/1/y",
+        "actual": 439.7,
+        "predicted": 437.45,
+        "delta": 2.25
+      },
+      {
+        "path": "/faces/13/dlist/2/y",
+        "actual": 463,
+        "predicted": 460.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/13/dlist/3/y",
+        "actual": 471,
+        "predicted": 468.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/13/dlist/4/y",
+        "actual": 471,
+        "predicted": 468.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/13/dlist/5/y",
+        "actual": 359.9,
+        "predicted": 357.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/13/dlist/6/y",
+        "actual": 359.2,
+        "predicted": 357.19999999999993,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/13/dlist/7/y",
+        "actual": 359.2,
+        "predicted": 357.19999999999993,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/13/dlist/8/y",
+        "actual": 359.2,
+        "predicted": 357.19999999999993,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/14/h",
+        "actual": 111.8,
+        "predicted": 111.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/0/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/1/y",
+        "actual": 359.9,
+        "predicted": 357.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/2/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/3/x",
+        "actual": 289.6,
+        "predicted": 289.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/3/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/4/x",
+        "actual": 281.6,
+        "predicted": 281.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/4/y",
+        "actual": 463,
+        "predicted": 460.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/5/x",
+        "actual": 281.6,
+        "predicted": 281.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/5/y",
+        "actual": 439,
+        "predicted": 437.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/6/x",
+        "actual": 125.5,
+        "predicted": 125.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/6/y",
+        "actual": 439,
+        "predicted": 437.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/7/x",
+        "actual": 125.5,
+        "predicted": 125.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/7/y",
+        "actual": 463,
+        "predicted": 460.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/8/x",
+        "actual": 117.5,
+        "predicted": 117.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/8/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/9/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/10/y",
+        "actual": 359.9,
+        "predicted": 357.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/11/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/12/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/13/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/15/h",
+        "actual": 111.8,
+        "predicted": 111.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/15/dlist/0/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/15/dlist/1/x",
+        "actual": 757.8000000000001,
+        "predicted": 758.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/faces/15/dlist/1/y",
+        "actual": 439,
+        "predicted": 436.99999999999994,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/15/dlist/2/x",
+        "actual": 757.8000000000001,
+        "predicted": 758.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/faces/15/dlist/2/y",
+        "actual": 463,
+        "predicted": 460.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/15/dlist/3/x",
+        "actual": 749.8000000000001,
+        "predicted": 750.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/faces/15/dlist/3/y",
+        "actual": 471,
+        "predicted": 468.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/15/dlist/4/x",
+        "actual": 610.7,
+        "predicted": 610.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/faces/15/dlist/4/y",
+        "actual": 471,
+        "predicted": 468.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/15/dlist/5/x",
+        "actual": 602.7,
+        "predicted": 602.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/faces/15/dlist/5/y",
+        "actual": 463,
+        "predicted": 460.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/15/dlist/6/x",
+        "actual": 602.7,
+        "predicted": 602.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/faces/15/dlist/6/y",
+        "actual": 439,
+        "predicted": 436.99999999999994,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/15/dlist/7/y",
+        "actual": 359.2,
+        "predicted": 357.19999999999993,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/15/dlist/8/y",
+        "actual": 359.2,
+        "predicted": 357.19999999999993,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/15/dlist/9/y",
+        "actual": 359.2,
+        "predicted": 357.19999999999993,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/1/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/2/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/3/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/4/x",
+        "actual": 72.9373098535697,
+        "predicted": 72.93516127773097,
+        "delta": 0.0021485758387314036
+      },
+      {
+        "path": "/cuts/4/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/cuts/5/x",
+        "actual": 88.4411229642623,
+        "predicted": 88.90854886459522,
+        "delta": 0.46742590033291265
+      },
+      {
+        "path": "/cuts/5/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/cuts/6/x",
+        "actual": 89.7530525249714,
+        "predicted": 90.2140326977881,
+        "delta": 0.4609801728167042
+      },
+      {
+        "path": "/cuts/6/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/cuts/7/x",
+        "actual": 317.3469474750286,
+        "predicted": 316.88596730221195,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/cuts/7/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/cuts/8/x",
+        "actual": 318.6588770357377,
+        "predicted": 318.1914511354048,
+        "delta": 0.46742590033289844
+      },
+      {
+        "path": "/cuts/8/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/cuts/9/x",
+        "actual": 334.1626901464303,
+        "predicted": 334.1648387222691,
+        "delta": 0.0021485758388166687
+      },
+      {
+        "path": "/cuts/9/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/cuts/10/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/11/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/12/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/13/x",
+        "actual": 362.8796084131553,
+        "predicted": 362.8721947046786,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/cuts/13/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/cuts/14/x",
+        "actual": 426.30783173689383,
+        "predicted": 426.4561059064292,
+        "delta": 0.14827416953534112
+      },
+      {
+        "path": "/cuts/14/y",
+        "actual": 79.66768667327796,
+        "predicted": 79.44720700577102,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/cuts/15/x",
+        "actual": 457.49216826310624,
+        "predicted": 457.34389409357084,
+        "delta": 0.14827416953539796
+      },
+      {
+        "path": "/cuts/15/y",
+        "actual": 79.66768667327796,
+        "predicted": 79.44720700577102,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/cuts/16/x",
+        "actual": 520.9203915868447,
+        "predicted": 520.9278052953215,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/cuts/16/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/cuts/17/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/18/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/19/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/20/x",
+        "actual": 549.6373098535697,
+        "predicted": 549.635161277731,
+        "delta": 0.0021485758387598253
+      },
+      {
+        "path": "/cuts/20/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/cuts/21/x",
+        "actual": 565.1411229642623,
+        "predicted": 565.6085488645953,
+        "delta": 0.4674259003329553
+      },
+      {
+        "path": "/cuts/21/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/cuts/22/x",
+        "actual": 566.4530525249714,
+        "predicted": 566.9140326977881,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/cuts/22/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/cuts/23/x",
+        "actual": 794.0469474750286,
+        "predicted": 793.5859673022119,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/cuts/23/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/cuts/24/x",
+        "actual": 795.3588770357377,
+        "predicted": 794.8914511354048,
+        "delta": 0.4674259003328416
+      },
+      {
+        "path": "/cuts/24/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/cuts/25/x",
+        "actual": 810.8626901464303,
+        "predicted": 810.864838722269,
+        "delta": 0.0021485758387598253
+      },
+      {
+        "path": "/cuts/25/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/cuts/26/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/27/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/28/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/29/x",
+        "actual": 839.5796084131554,
+        "predicted": 839.5721947046786,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/cuts/29/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/cuts/30/x",
+        "actual": 903.0078317368939,
+        "predicted": 903.1561059064292,
+        "delta": 0.14827416953528427
+      },
+      {
+        "path": "/cuts/30/y",
+        "actual": 79.66768667327796,
+        "predicted": 79.44720700577102,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/cuts/31/x",
+        "actual": 934.1921682631063,
+        "predicted": 934.0438940935708,
+        "delta": 0.14827416953551165
+      },
+      {
+        "path": "/cuts/31/y",
+        "actual": 79.66768667327796,
+        "predicted": 79.44720700577102,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/cuts/32/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/33/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/34/y",
+        "actual": 439.7,
+        "predicted": 437.45,
+        "delta": 2.25
+      },
+      {
+        "path": "/cuts/35/y",
+        "actual": 463,
+        "predicted": 460.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/36/y",
+        "actual": 471,
+        "predicted": 468.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/37/y",
+        "actual": 471,
+        "predicted": 468.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/38/y",
+        "actual": 359.9,
+        "predicted": 357.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/39/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/40/x",
+        "actual": 757.8000000000001,
+        "predicted": 758.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/cuts/40/y",
+        "actual": 439,
+        "predicted": 436.99999999999994,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/41/x",
+        "actual": 757.8000000000001,
+        "predicted": 758.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/cuts/41/y",
+        "actual": 463,
+        "predicted": 460.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/42/x",
+        "actual": 749.8000000000001,
+        "predicted": 750.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/cuts/42/y",
+        "actual": 471,
+        "predicted": 468.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/43/x",
+        "actual": 610.7,
+        "predicted": 610.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/cuts/43/y",
+        "actual": 471,
+        "predicted": 468.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/44/x",
+        "actual": 602.7,
+        "predicted": 602.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/cuts/44/y",
+        "actual": 463,
+        "predicted": 460.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/45/x",
+        "actual": 602.7,
+        "predicted": 602.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/cuts/45/y",
+        "actual": 439,
+        "predicted": 436.99999999999994,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/46/y",
+        "actual": 359.2,
+        "predicted": 357.19999999999993,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/47/y",
+        "actual": 359.9,
+        "predicted": 357.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/48/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/49/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/50/y",
+        "actual": 463,
+        "predicted": 460.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/51/y",
+        "actual": 439.7,
+        "predicted": 437.44999999999993,
+        "delta": 2.250000000000057
+      },
+      {
+        "path": "/cuts/52/y",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/53/y",
+        "actual": 359.9,
+        "predicted": 357.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/54/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/55/x",
+        "actual": 289.6,
+        "predicted": 289.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/55/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/56/x",
+        "actual": 281.6,
+        "predicted": 281.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/56/y",
+        "actual": 463,
+        "predicted": 460.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/57/x",
+        "actual": 281.6,
+        "predicted": 281.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/57/y",
+        "actual": 439,
+        "predicted": 437.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/58/x",
+        "actual": 125.5,
+        "predicted": 125.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/58/y",
+        "actual": 439,
+        "predicted": 437.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/59/x",
+        "actual": 125.5,
+        "predicted": 125.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/59/y",
+        "actual": 463,
+        "predicted": 460.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/60/x",
+        "actual": 117.5,
+        "predicted": 117.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/60/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/61/y",
+        "actual": 471,
+        "predicted": 468.5,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/62/y",
+        "actual": 359.9,
+        "predicted": 357.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/63/y",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/64/y",
+        "actual": 346.84228634059946,
+        "predicted": 344.84228634059946,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/65/y",
+        "actual": 171.05771365940052,
+        "predicted": 169.05771365940052,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/66/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/67/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/68/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/69/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/70/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/71/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/0/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/0/y2",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/1/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/1/y2",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/2/y1",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/2/y2",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/3/y1",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/3/y2",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/4/x1",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/folds/4/y1",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/4/x2",
+        "actual": 520.0156497232658,
+        "predicted": 519.9932719765142,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/folds/4/y2",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/5/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/5/y2",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/6/y1",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/6/y2",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/7/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/7/y2",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/8/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/8/y2",
+        "actual": 358.9,
+        "predicted": 356.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/9/y1",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/9/y2",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/10/x1",
+        "actual": 840.4843502767343,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/folds/10/y1",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/10/y2",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/11/y1",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/11/y2",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/12/y1",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/folds/12/y2",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/folds/13/y1",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/folds/13/y2",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/folds/14/y1",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/14/y2",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/0/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/1/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/2/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/3/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/4/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/5/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/0/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/1/1/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/holes/1/2/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/holes/1/3/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/1/4/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/1/5/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/2/0/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/2/1/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/holes/2/2/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/holes/2/3/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/2/4/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/2/5/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/totalY",
+        "actual": 471,
+        "predicted": 468.49999999999994,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/transform/position/y",
+        "actual": 259.1,
+        "predicted": 257.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/transform/renderY",
+        "actual": 359.2,
+        "predicted": 357.2,
+        "delta": 2.0
+      },
+      {
+        "path": "/animation/animations/7/0/rotate",
+        "actual": -28.170568644894168,
+        "predicted": -28.989010943075414,
+        "delta": 0.818442298181246
+      },
+      {
+        "path": "/animation/animations/7/0/vector/x",
+        "actual": 156.23129944653158,
+        "predicted": 156.18654395302823,
+        "delta": 0.04475549350334518
+      },
+      {
+        "path": "/animation/animations/7/1/rotate",
+        "actual": -28.170568644894168,
+        "predicted": -28.989010943075414,
+        "delta": 0.818442298181246
+      },
+      {
+        "path": "/animation/animations/7/1/vector/x",
+        "actual": 156.9156497232658,
+        "predicted": 156.89327197651414,
+        "delta": 0.02237774675165838
+      }
+    ]
+  },
+  {
+    "pass": false,
+    "dimensions_mm": [
+      317.1,
+      159.6,
+      191.1
+    ],
+    "numeric_fields": 1163,
+    "differences": [
+      {
+        "path": "/faces/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/1/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/2/y",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/3/y",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/faces/0/dlist/4/y",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/faces/0/dlist/5/y",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/0/dlist/6/y",
+        "actual": 158.99999999999997,
+        "predicted": 157.0,
+        "delta": 1.9999999999999716
+      },
+      {
+        "path": "/faces/0/dlist/7/y",
+        "actual": 158.99999999999997,
+        "predicted": 157.0,
+        "delta": 1.9999999999999716
+      },
+      {
+        "path": "/faces/1/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/1/x",
+        "actual": 362.8796084131553,
+        "predicted": 362.8721947046786,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/faces/1/dlist/1/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/faces/1/dlist/2/x",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/1/dlist/2/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/3/x",
+        "actual": 520.0156497232658,
+        "predicted": 519.9932719765142,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/1/dlist/3/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/4/x",
+        "actual": 520.9203915868447,
+        "predicted": 520.9278052953215,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/faces/1/dlist/4/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/faces/1/dlist/5/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/6/y",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/7/y",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/faces/1/dlist/8/y",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/faces/1/dlist/9/y",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/1/dlist/10/y",
+        "actual": 158.99999999999997,
+        "predicted": 157.0,
+        "delta": 1.9999999999999716
+      },
+      {
+        "path": "/faces/1/dlist/11/y",
+        "actual": 158.99999999999997,
+        "predicted": 157.0,
+        "delta": 1.9999999999999716
+      },
+      {
+        "path": "/faces/2/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/1/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/2/y",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/3/y",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/faces/2/dlist/4/y",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/faces/2/dlist/5/y",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/2/dlist/6/y",
+        "actual": 158.99999999999997,
+        "predicted": 157.0,
+        "delta": 1.9999999999999716
+      },
+      {
+        "path": "/faces/2/dlist/7/y",
+        "actual": 158.99999999999997,
+        "predicted": 157.0,
+        "delta": 1.9999999999999716
+      },
+      {
+        "path": "/faces/3/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/1/x",
+        "actual": 839.5796084131554,
+        "predicted": 839.5721947046786,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/faces/3/dlist/1/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/faces/3/dlist/2/x",
+        "actual": 840.4843502767343,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/3/dlist/2/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/3/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/4/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/5/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/3/dlist/6/y",
+        "actual": 349.8,
+        "predicted": 347.79999999999995,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/3/dlist/7/y",
+        "actual": 159.00000000000003,
+        "predicted": 157.0,
+        "delta": 2.0000000000000284
+      },
+      {
+        "path": "/faces/3/dlist/8/y",
+        "actual": 159.00000000000003,
+        "predicted": 157.0,
+        "delta": 2.0000000000000284
+      },
+      {
+        "path": "/faces/4/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/4/dlist/0/y",
+        "actual": 349.8,
+        "predicted": 347.79999999999995,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/4/dlist/1/y",
+        "actual": 337.7422863405995,
+        "predicted": 335.74228634059943,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/4/dlist/2/y",
+        "actual": 171.05771365940055,
+        "predicted": 169.05771365940052,
+        "delta": 2.0000000000000284
+      },
+      {
+        "path": "/faces/4/dlist/3/y",
+        "actual": 159.00000000000003,
+        "predicted": 157.0,
+        "delta": 2.0000000000000284
+      },
+      {
+        "path": "/faces/4/dlist/4/y",
+        "actual": 349.8,
+        "predicted": 347.79999999999995,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/4/dlist/5/y",
+        "actual": 349.8,
+        "predicted": 347.79999999999995,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/5/h",
+        "actual": 79.5,
+        "predicted": 79.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/5/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/5/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/1/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/2/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/5/dlist/3/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/5/dlist/4/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/5/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/6/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/5/dlist/7/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/6/h",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/dlist/0/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/dlist/1/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/6/dlist/2/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/6/dlist/3/x",
+        "actual": 72.9373098535697,
+        "predicted": 72.93516127773097,
+        "delta": 0.0021485758387314036
+      },
+      {
+        "path": "/faces/6/dlist/3/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/faces/6/dlist/4/x",
+        "actual": 88.4411229642623,
+        "predicted": 88.90854886459522,
+        "delta": 0.46742590033291265
+      },
+      {
+        "path": "/faces/6/dlist/4/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/faces/6/dlist/5/x",
+        "actual": 89.7530525249714,
+        "predicted": 90.2140326977881,
+        "delta": 0.4609801728167042
+      },
+      {
+        "path": "/faces/6/dlist/5/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/faces/6/dlist/6/x",
+        "actual": 317.3469474750286,
+        "predicted": 316.88596730221195,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/faces/6/dlist/6/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/faces/6/dlist/7/x",
+        "actual": 318.6588770357377,
+        "predicted": 318.1914511354048,
+        "delta": 0.46742590033289844
+      },
+      {
+        "path": "/faces/6/dlist/7/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/faces/6/dlist/8/x",
+        "actual": 334.1626901464303,
+        "predicted": 334.1648387222691,
+        "delta": 0.0021485758388166687
+      },
+      {
+        "path": "/faces/6/dlist/8/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/faces/6/dlist/9/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/6/dlist/10/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/6/dlist/11/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/dlist/12/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/dlist/13/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/6/holes/0/0/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/1/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/2/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/3/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/4/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/6/holes/0/5/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/7/h",
+        "actual": 79.5,
+        "predicted": 79.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/7/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/7/dlist/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/1/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/2/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/7/dlist/3/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/7/dlist/4/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/5/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/6/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/7/dlist/7/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/8/h",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/dlist/0/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/dlist/1/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/8/dlist/2/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/8/dlist/3/x",
+        "actual": 549.6373098535697,
+        "predicted": 549.635161277731,
+        "delta": 0.0021485758387598253
+      },
+      {
+        "path": "/faces/8/dlist/3/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/faces/8/dlist/4/x",
+        "actual": 565.1411229642623,
+        "predicted": 565.6085488645953,
+        "delta": 0.4674259003329553
+      },
+      {
+        "path": "/faces/8/dlist/4/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/faces/8/dlist/5/x",
+        "actual": 566.4530525249714,
+        "predicted": 566.9140326977881,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/faces/8/dlist/5/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/faces/8/dlist/6/x",
+        "actual": 794.0469474750286,
+        "predicted": 793.5859673022119,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/faces/8/dlist/6/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/faces/8/dlist/7/x",
+        "actual": 795.3588770357377,
+        "predicted": 794.8914511354048,
+        "delta": 0.4674259003328416
+      },
+      {
+        "path": "/faces/8/dlist/7/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/faces/8/dlist/8/x",
+        "actual": 810.8626901464303,
+        "predicted": 810.864838722269,
+        "delta": 0.0021485758387598253
+      },
+      {
+        "path": "/faces/8/dlist/8/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/faces/8/dlist/9/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/8/dlist/10/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/8/dlist/11/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/dlist/12/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/dlist/13/y",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/faces/8/holes/0/0/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/1/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/2/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/3/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/4/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/8/holes/0/5/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/9/h",
+        "actual": 85.30696746902278,
+        "predicted": 83.34957469085305,
+        "delta": 1.9573927781697336
+      },
+      {
+        "path": "/faces/9/y",
+        "actual": 72.19303253097722,
+        "predicted": 72.15042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/9/dlist/0/x",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/9/dlist/0/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/1/x",
+        "actual": 426.30783173689383,
+        "predicted": 426.4561059064292,
+        "delta": 0.14827416953534112
+      },
+      {
+        "path": "/faces/9/dlist/1/y",
+        "actual": 79.66768667327797,
+        "predicted": 79.44720700577103,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/faces/9/dlist/2/x",
+        "actual": 457.49216826310624,
+        "predicted": 457.34389409357084,
+        "delta": 0.14827416953539796
+      },
+      {
+        "path": "/faces/9/dlist/2/y",
+        "actual": 79.66768667327797,
+        "predicted": 79.44720700577103,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/faces/9/dlist/3/x",
+        "actual": 520.0156497232658,
+        "predicted": 519.9932719765142,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/9/dlist/3/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/4/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/5/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/6/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/9/dlist/7/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/9/dlist/8/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/9/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/10/x",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/9/dlist/10/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/9/dlist/11/x",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/9/dlist/11/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/h",
+        "actual": 85.30696746902278,
+        "predicted": 83.34957469085305,
+        "delta": 1.9573927781697336
+      },
+      {
+        "path": "/faces/10/y",
+        "actual": 72.19303253097722,
+        "predicted": 72.15042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/10/dlist/0/x",
+        "actual": 840.4843502767343,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/faces/10/dlist/0/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/1/x",
+        "actual": 903.0078317368939,
+        "predicted": 903.1561059064292,
+        "delta": 0.14827416953528427
+      },
+      {
+        "path": "/faces/10/dlist/1/y",
+        "actual": 79.66768667327797,
+        "predicted": 79.44720700577103,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/faces/10/dlist/2/x",
+        "actual": 934.1921682631063,
+        "predicted": 934.0438940935708,
+        "delta": 0.14827416953551165
+      },
+      {
+        "path": "/faces/10/dlist/2/y",
+        "actual": 79.66768667327797,
+        "predicted": 79.44720700577103,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/faces/10/dlist/3/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/4/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/5/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/6/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/10/dlist/7/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/faces/10/dlist/8/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/9/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/10/x",
+        "actual": 840.4843502767344,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675154469
+      },
+      {
+        "path": "/faces/10/dlist/10/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/10/dlist/11/x",
+        "actual": 840.4843502767344,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675154469
+      },
+      {
+        "path": "/faces/10/dlist/11/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/11/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/0/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/1/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/2/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/3/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/4/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/11/dlist/5/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/faces/12/h",
+        "actual": 111.8,
+        "predicted": 111.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/12/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/12/dlist/0/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/12/dlist/1/y",
+        "actual": 350.8,
+        "predicted": 348.79999999999995,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/12/dlist/2/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/12/dlist/3/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/12/dlist/4/y",
+        "actual": 453.9,
+        "predicted": 451.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/12/dlist/5/y",
+        "actual": 430.59999999999997,
+        "predicted": 428.34999999999997,
+        "delta": 2.25
+      },
+      {
+        "path": "/faces/12/dlist/6/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/12/dlist/7/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/12/dlist/8/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/13/h",
+        "actual": 111.8,
+        "predicted": 111.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/13/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/13/dlist/0/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/13/dlist/1/y",
+        "actual": 430.6,
+        "predicted": 428.35,
+        "delta": 2.25
+      },
+      {
+        "path": "/faces/13/dlist/2/y",
+        "actual": 453.90000000000003,
+        "predicted": 451.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/13/dlist/3/y",
+        "actual": 461.90000000000003,
+        "predicted": 459.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/13/dlist/4/y",
+        "actual": 461.90000000000003,
+        "predicted": 459.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/13/dlist/5/y",
+        "actual": 350.80000000000007,
+        "predicted": 348.79999999999995,
+        "delta": 2.0000000000001137
+      },
+      {
+        "path": "/faces/13/dlist/6/y",
+        "actual": 350.1000000000001,
+        "predicted": 348.1,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/13/dlist/7/y",
+        "actual": 350.1000000000001,
+        "predicted": 348.1,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/13/dlist/8/y",
+        "actual": 350.1000000000001,
+        "predicted": 348.1,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/14/h",
+        "actual": 111.8,
+        "predicted": 111.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/14/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/0/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/1/y",
+        "actual": 350.8,
+        "predicted": 348.79999999999995,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/14/dlist/2/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/3/x",
+        "actual": 289.6,
+        "predicted": 289.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/3/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/4/x",
+        "actual": 281.6,
+        "predicted": 281.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/4/y",
+        "actual": 453.9,
+        "predicted": 451.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/5/x",
+        "actual": 281.6,
+        "predicted": 281.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/5/y",
+        "actual": 429.9,
+        "predicted": 427.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/6/x",
+        "actual": 125.5,
+        "predicted": 125.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/6/y",
+        "actual": 429.9,
+        "predicted": 427.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/7/x",
+        "actual": 125.5,
+        "predicted": 125.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/7/y",
+        "actual": 453.9,
+        "predicted": 451.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/8/x",
+        "actual": 117.5,
+        "predicted": 117.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/faces/14/dlist/8/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/9/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/faces/14/dlist/10/y",
+        "actual": 350.79999999999995,
+        "predicted": 348.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/14/dlist/11/y",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/faces/14/dlist/12/y",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/faces/14/dlist/13/y",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/faces/15/h",
+        "actual": 111.8,
+        "predicted": 111.3,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/15/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/15/dlist/0/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/faces/15/dlist/1/x",
+        "actual": 757.8000000000001,
+        "predicted": 758.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/faces/15/dlist/1/y",
+        "actual": 429.90000000000003,
+        "predicted": 427.9,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/15/dlist/2/x",
+        "actual": 757.8000000000001,
+        "predicted": 758.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/faces/15/dlist/2/y",
+        "actual": 453.90000000000003,
+        "predicted": 451.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/15/dlist/3/x",
+        "actual": 749.8000000000001,
+        "predicted": 750.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/faces/15/dlist/3/y",
+        "actual": 461.90000000000003,
+        "predicted": 459.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/15/dlist/4/x",
+        "actual": 610.7,
+        "predicted": 610.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/faces/15/dlist/4/y",
+        "actual": 461.90000000000003,
+        "predicted": 459.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/15/dlist/5/x",
+        "actual": 602.7,
+        "predicted": 602.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/faces/15/dlist/5/y",
+        "actual": 453.90000000000003,
+        "predicted": 451.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/faces/15/dlist/6/x",
+        "actual": 602.7,
+        "predicted": 602.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/faces/15/dlist/6/y",
+        "actual": 429.90000000000003,
+        "predicted": 427.9,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/15/dlist/7/y",
+        "actual": 350.1,
+        "predicted": 348.09999999999997,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/15/dlist/8/y",
+        "actual": 350.1,
+        "predicted": 348.09999999999997,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/faces/15/dlist/9/y",
+        "actual": 350.1,
+        "predicted": 348.09999999999997,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/0/y",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/1/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/2/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/3/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/4/x",
+        "actual": 72.9373098535697,
+        "predicted": 72.93516127773097,
+        "delta": 0.0021485758387314036
+      },
+      {
+        "path": "/cuts/4/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/cuts/5/x",
+        "actual": 88.4411229642623,
+        "predicted": 88.90854886459522,
+        "delta": 0.46742590033291265
+      },
+      {
+        "path": "/cuts/5/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/cuts/6/x",
+        "actual": 89.7530525249714,
+        "predicted": 90.2140326977881,
+        "delta": 0.4609801728167042
+      },
+      {
+        "path": "/cuts/6/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/cuts/7/x",
+        "actual": 317.3469474750286,
+        "predicted": 316.88596730221195,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/cuts/7/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/cuts/8/x",
+        "actual": 318.6588770357377,
+        "predicted": 318.1914511354048,
+        "delta": 0.46742590033289844
+      },
+      {
+        "path": "/cuts/8/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/cuts/9/x",
+        "actual": 334.1626901464303,
+        "predicted": 334.1648387222691,
+        "delta": 0.0021485758388166687
+      },
+      {
+        "path": "/cuts/9/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/cuts/10/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/11/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/12/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/13/x",
+        "actual": 362.8796084131553,
+        "predicted": 362.8721947046786,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/cuts/13/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/cuts/14/x",
+        "actual": 426.30783173689383,
+        "predicted": 426.4561059064292,
+        "delta": 0.14827416953534112
+      },
+      {
+        "path": "/cuts/14/y",
+        "actual": 79.66768667327796,
+        "predicted": 79.44720700577102,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/cuts/15/x",
+        "actual": 457.49216826310624,
+        "predicted": 457.34389409357084,
+        "delta": 0.14827416953539796
+      },
+      {
+        "path": "/cuts/15/y",
+        "actual": 79.66768667327796,
+        "predicted": 79.44720700577102,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/cuts/16/x",
+        "actual": 520.9203915868447,
+        "predicted": 520.9278052953215,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/cuts/16/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/cuts/17/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/18/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/19/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/20/x",
+        "actual": 549.6373098535697,
+        "predicted": 549.635161277731,
+        "delta": 0.0021485758387598253
+      },
+      {
+        "path": "/cuts/20/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/cuts/21/x",
+        "actual": 565.1411229642623,
+        "predicted": 565.6085488645953,
+        "delta": 0.4674259003329553
+      },
+      {
+        "path": "/cuts/21/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/cuts/22/x",
+        "actual": 566.4530525249714,
+        "predicted": 566.9140326977881,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/cuts/22/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/cuts/23/x",
+        "actual": 794.0469474750286,
+        "predicted": 793.5859673022119,
+        "delta": 0.4609801728166758
+      },
+      {
+        "path": "/cuts/23/y",
+        "actual": 0.015190379753663885,
+        "predicted": 0.007595189876831887,
+        "delta": 0.007595189876831998
+      },
+      {
+        "path": "/cuts/24/x",
+        "actual": 795.3588770357377,
+        "predicted": 794.8914511354048,
+        "delta": 0.4674259003328416
+      },
+      {
+        "path": "/cuts/24/y",
+        "actual": 0.7879759493841583,
+        "predicted": 0.7689879746920791,
+        "delta": 0.018987974692079135
+      },
+      {
+        "path": "/cuts/25/x",
+        "actual": 810.8626901464303,
+        "predicted": 810.864838722269,
+        "delta": 0.0021485758387598253
+      },
+      {
+        "path": "/cuts/25/y",
+        "actual": 28.75759518987683,
+        "predicted": 29.003797594938415,
+        "delta": 0.24620240506158453
+      },
+      {
+        "path": "/cuts/26/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/27/y",
+        "actual": 28.5,
+        "predicted": 28.75,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/28/y",
+        "actual": 158,
+        "predicted": 156.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/29/x",
+        "actual": 839.5796084131554,
+        "predicted": 839.5721947046786,
+        "delta": 0.007413708476747161
+      },
+      {
+        "path": "/cuts/29/y",
+        "actual": 158.62626729288496,
+        "predicted": 156.6351609151688,
+        "delta": 1.9911063777161644
+      },
+      {
+        "path": "/cuts/30/x",
+        "actual": 903.0078317368939,
+        "predicted": 903.1561059064292,
+        "delta": 0.14827416953528427
+      },
+      {
+        "path": "/cuts/30/y",
+        "actual": 79.66768667327796,
+        "predicted": 79.44720700577102,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/cuts/31/x",
+        "actual": 934.1921682631063,
+        "predicted": 934.0438940935708,
+        "delta": 0.14827416953551165
+      },
+      {
+        "path": "/cuts/31/y",
+        "actual": 79.66768667327796,
+        "predicted": 79.44720700577102,
+        "delta": 0.22047966750693604
+      },
+      {
+        "path": "/cuts/32/y",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/33/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/34/y",
+        "actual": 430.6,
+        "predicted": 428.35,
+        "delta": 2.25
+      },
+      {
+        "path": "/cuts/35/y",
+        "actual": 453.90000000000003,
+        "predicted": 451.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/36/y",
+        "actual": 461.90000000000003,
+        "predicted": 459.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/37/y",
+        "actual": 461.90000000000003,
+        "predicted": 459.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/38/y",
+        "actual": 350.80000000000007,
+        "predicted": 348.79999999999995,
+        "delta": 2.0000000000001137
+      },
+      {
+        "path": "/cuts/39/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/40/x",
+        "actual": 757.8000000000001,
+        "predicted": 758.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/cuts/40/y",
+        "actual": 429.90000000000003,
+        "predicted": 427.9,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/41/x",
+        "actual": 757.8000000000001,
+        "predicted": 758.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/cuts/41/y",
+        "actual": 453.90000000000003,
+        "predicted": 451.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/42/x",
+        "actual": 749.8000000000001,
+        "predicted": 750.05,
+        "delta": 0.2499999999998863
+      },
+      {
+        "path": "/cuts/42/y",
+        "actual": 461.90000000000003,
+        "predicted": 459.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/43/x",
+        "actual": 610.7,
+        "predicted": 610.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/cuts/43/y",
+        "actual": 461.90000000000003,
+        "predicted": 459.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/44/x",
+        "actual": 602.7,
+        "predicted": 602.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/cuts/44/y",
+        "actual": 453.90000000000003,
+        "predicted": 451.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/cuts/45/x",
+        "actual": 602.7,
+        "predicted": 602.4499999999999,
+        "delta": 0.2500000000001137
+      },
+      {
+        "path": "/cuts/45/y",
+        "actual": 429.90000000000003,
+        "predicted": 427.9,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/46/y",
+        "actual": 350.1,
+        "predicted": 348.09999999999997,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/47/y",
+        "actual": 350.8,
+        "predicted": 348.79999999999995,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/48/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/49/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/50/y",
+        "actual": 453.9,
+        "predicted": 451.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/51/y",
+        "actual": 430.59999999999997,
+        "predicted": 428.34999999999997,
+        "delta": 2.25
+      },
+      {
+        "path": "/cuts/52/y",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/53/y",
+        "actual": 350.8,
+        "predicted": 348.79999999999995,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/54/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/55/x",
+        "actual": 289.6,
+        "predicted": 289.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/55/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/56/x",
+        "actual": 281.6,
+        "predicted": 281.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/56/y",
+        "actual": 453.9,
+        "predicted": 451.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/57/x",
+        "actual": 281.6,
+        "predicted": 281.85,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/57/y",
+        "actual": 429.9,
+        "predicted": 427.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/58/x",
+        "actual": 125.5,
+        "predicted": 125.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/58/y",
+        "actual": 429.9,
+        "predicted": 427.9,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/59/x",
+        "actual": 125.5,
+        "predicted": 125.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/59/y",
+        "actual": 453.9,
+        "predicted": 451.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/60/x",
+        "actual": 117.5,
+        "predicted": 117.25,
+        "delta": 0.25
+      },
+      {
+        "path": "/cuts/60/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/61/y",
+        "actual": 461.9,
+        "predicted": 459.4,
+        "delta": 2.5
+      },
+      {
+        "path": "/cuts/62/y",
+        "actual": 350.79999999999995,
+        "predicted": 348.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/cuts/63/y",
+        "actual": 349.8,
+        "predicted": 347.79999999999995,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/64/y",
+        "actual": 337.7422863405995,
+        "predicted": 335.74228634059943,
+        "delta": 2.000000000000057
+      },
+      {
+        "path": "/cuts/65/y",
+        "actual": 171.05771365940055,
+        "predicted": 169.05771365940052,
+        "delta": 2.0000000000000284
+      },
+      {
+        "path": "/cuts/66/y",
+        "actual": 159.00000000000003,
+        "predicted": 157.0,
+        "delta": 2.0000000000000284
+      },
+      {
+        "path": "/cuts/67/y",
+        "actual": 159.00000000000003,
+        "predicted": 157.0,
+        "delta": 2.0000000000000284
+      },
+      {
+        "path": "/cuts/68/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/69/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/70/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/cuts/71/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/0/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/0/y2",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/1/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/1/y2",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/2/y1",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/folds/2/y2",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/folds/3/y1",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/3/y2",
+        "actual": 158.99999999999997,
+        "predicted": 157.0,
+        "delta": 1.9999999999999716
+      },
+      {
+        "path": "/folds/4/x1",
+        "actual": 363.78435027673424,
+        "predicted": 363.8067280234859,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/folds/4/y1",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/4/x2",
+        "actual": 520.0156497232658,
+        "predicted": 519.9932719765142,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/folds/4/y2",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/5/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/5/y2",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/6/y1",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/folds/6/y2",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/folds/7/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/7/y2",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/8/y1",
+        "actual": 159,
+        "predicted": 157.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/8/y2",
+        "actual": 349.79999999999995,
+        "predicted": 347.79999999999995,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/9/y1",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/folds/9/y2",
+        "actual": 350.09999999999997,
+        "predicted": 348.1,
+        "delta": 1.9999999999999432
+      },
+      {
+        "path": "/folds/10/x1",
+        "actual": 840.4843502767343,
+        "predicted": 840.506728023486,
+        "delta": 0.02237774675165838
+      },
+      {
+        "path": "/folds/10/y1",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/10/y2",
+        "actual": 157.5,
+        "predicted": 155.5,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/11/y1",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/11/y2",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/folds/12/y1",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/folds/12/y2",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/folds/13/y1",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/folds/13/y2",
+        "actual": 79.5,
+        "predicted": 77.75,
+        "delta": 1.75
+      },
+      {
+        "path": "/folds/14/y1",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/folds/14/y2",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/0/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/1/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/2/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/3/y",
+        "actual": 55,
+        "predicted": 54.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/4/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/0/5/y",
+        "actual": 25,
+        "predicted": 24.0,
+        "delta": 1.0
+      },
+      {
+        "path": "/holes/1/0/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/1/1/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/holes/1/2/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/holes/1/3/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/1/4/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/1/5/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/2/0/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/2/1/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/holes/2/2/y",
+        "actual": 98.69303253097722,
+        "predicted": 98.65042530914695,
+        "delta": 0.04260722183026644
+      },
+      {
+        "path": "/holes/2/3/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/2/4/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/holes/2/5/y",
+        "actual": 156,
+        "predicted": 154.0,
+        "delta": 2.0
+      },
+      {
+        "path": "/totalY",
+        "actual": 461.90000000000003,
+        "predicted": 459.4,
+        "delta": 2.500000000000057
+      },
+      {
+        "path": "/transform/position/y",
+        "actual": 254.55,
+        "predicted": 252.55,
+        "delta": 2.0
+      },
+      {
+        "path": "/transform/renderY",
+        "actual": 350.1,
+        "predicted": 348.1,
+        "delta": 2.0
+      },
+      {
+        "path": "/animation/animations/7/0/rotate",
+        "actual": -28.170568644894168,
+        "predicted": -28.989010943075414,
+        "delta": 0.818442298181246
+      },
+      {
+        "path": "/animation/animations/7/0/vector/x",
+        "actual": 156.23129944653158,
+        "predicted": 156.18654395302823,
+        "delta": 0.04475549350334518
+      },
+      {
+        "path": "/animation/animations/7/1/rotate",
+        "actual": -28.170568644894168,
+        "predicted": -28.989010943075414,
+        "delta": 0.818442298181246
+      },
+      {
+        "path": "/animation/animations/7/1/vector/x",
+        "actual": 156.9156497232658,
+        "predicted": 156.89327197651414,
+        "delta": 0.02237774675165838
+      }
+    ]
+  }
+]

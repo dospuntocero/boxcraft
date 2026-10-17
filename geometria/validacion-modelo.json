@@ -1,0 +1,46 @@
+{
+  "holdout_file": "validacion-parametrica/knife-04.json",
+  "holdout_dimensions_mm": [
+    457.2,
+    228.6,
+    279.4
+  ],
+  "numeric_fields_compared": 822,
+  "all_fields_within_1e_6": false,
+  "cuts_faces_folds_and_other_fields_within_1e_6": true,
+  "bleed_tolerance_mm": 0.001,
+  "pass": true,
+  "differences": [
+    {
+      "path": "/bleeds/1/y",
+      "kind": "numeric",
+      "absolute_mm_or_units": 2.6999999960253263e-06
+    },
+    {
+      "path": "/bleeds/2/y",
+      "kind": "numeric",
+      "absolute_mm_or_units": 1.4600000000086766e-05
+    },
+    {
+      "path": "/bleeds/3/y",
+      "kind": "numeric",
+      "absolute_mm_or_units": 9.793656721512889e-05
+    },
+    {
+      "path": "/bleeds/4/y",
+      "kind": "numeric",
+      "absolute_mm_or_units": 4.5488059754461574e-05
+    },
+    {
+      "path": "/bleeds/7/y",
+      "kind": "numeric",
+      "absolute_mm_or_units": 1.052238809506889e-05
+    },
+    {
+      "path": "/bleeds/8/y",
+      "kind": "numeric",
+      "absolute_mm_or_units": 1.052238809506889e-05
+    }
+  ],
+  "limit": "Validación contra una respuesta del servidor, no contra una muestra física"
+}

@@ -1,0 +1,245 @@
+{
+  "source_evidence_id": "ev_d08c5f2a484622e0e1879ed095969a4b8e9aca75e8d3199b8ca638fc1ba95afe",
+  "completeness": {
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "status": "incomplete",
+    "truncated_sections": []
+  },
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "public_model",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=1&bleed=5&export_type=model",
+      "body_sha256": "dc54ff1467b3c3183483225391fae4b446d6e9eaf4bd34735f1804970499f1e3",
+      "size": {
+        "L": 300,
+        "W": 200,
+        "H": 60,
+        "D": 1.5,
+        "id": 1,
+        "ed": 5,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 315,
+        "W": 202,
+        "H": 62,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda E",
+      "thickness": 1.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "N",
+            "value": 81,
+            "description": "Shake cover parameters",
+            "min": 13,
+            "max": 101,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "NX",
+            "value": 3,
+            "description": "Slotting thickness",
+            "min": 2,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 1.5,
+            "description": "OF chamfering",
+            "min": 0,
+            "max": 1.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "K",
+            "value": 2,
+            "description": "Number of holes",
+            "min": 1,
+            "max": 5,
+            "unit": "number"
+          },
+          {
+            "grade": 2,
+            "name": "SW",
+            "value": 40,
+            "description": "Length of holes",
+            "min": 34,
+            "max": 67,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "SP",
+            "value": 80,
+            "description": "Hole spacing",
+            "min": 40,
+            "max": 122,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "NY",
+            "value": 3,
+            "description": "Slotting thickness Y",
+            "min": 1.5,
+            "max": 5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "SW1",
+            "value": 39,
+            "description": "插脚下宽",
+            "min": 38,
+            "max": 40,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "CR",
+            "value": 2.5,
+            "description": "插孔倒角",
+            "min": 0,
+            "max": 2.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 1.5,
+            "description": "X closing position",
+            "min": 1,
+            "max": 1.5,
+            "unit": "length"
+          },
+          {
+            "grade": "3",
+            "name": "D2",
+            "value": 59.75,
+            "description": "插脚",
+            "min": 59.75,
+            "max": 60.5,
+            "unit": "length"
+          },
+          {
+            "grade": "3",
+            "name": "DC",
+            "value": 63.5,
+            "description": "内墙总高",
+            "min": 63.5,
+            "max": 64.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "R1",
+            "value": 1,
+            "description": "Chamfering",
+            "min": 0.75,
+            "max": 3.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "R2",
+            "value": 1.5,
+            "description": "倒角2",
+            "min": 0.75,
+            "max": 7,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "M",
+            "value": 60.5,
+            "description": "Sub-side height",
+            "min": 15,
+            "max": 60.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "MT",
+            "value": 20,
+            "description": "Angle",
+            "min": 0,
+            "max": 56,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "MR",
+            "value": 15,
+            "description": "Chamfering",
+            "min": 0,
+            "max": 30.25,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "MT1",
+            "value": 20,
+            "description": "Angle",
+            "min": 0,
+            "max": 20,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "TRH",
+            "value": 52,
+            "description": "Highest point",
+            "min": 10,
+            "max": 58.5,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "TRR",
+            "value": 13,
+            "description": "Small chamfer",
+            "min": 6,
+            "max": 14.63,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "public_model",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"12.4016\"\n  - text: in Anchura\n  - textbox: \"7.9528\"\n  - text: in Altura\n  - textbox: \"2.4409\"\n  - text: in Elegir material \n  - img\n  - text: Onda E  Espesor a la medida (0.0433~0.0788in) \n  - textbox: \"0.0591\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 12.4016 × 7.9528 × 2.4409 in Dimensiones internas 11.811 × 7.874 × 2.3622 in Dimensiones externas 12.4409 × 8.0512 × 2.4803 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 12.4016 in 2.4409 in 7.9528 in\n  - text:      "
+    }
+  ]
+}

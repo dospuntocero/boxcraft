@@ -1,0 +1,504 @@
+{
+  "source_evidence_id": "ev_e71c55c541c5bd0970f35ad5e7d9e8acfe58b97439dd0975c40c6f3260455e65",
+  "completeness": "partial-error-capture",
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "ready",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=3&bleed=5&export_type=model",
+      "body_sha256": "d7040f44dc99ecb839453645a75c747705950d7b8f9dc432a9669cb49a84050b",
+      "size": {
+        "L": 430,
+        "W": 210,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-01.json",
+      "request_step": 4,
+      "request_step_id": "settle1",
+      "response_step": 4,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845157&bleed=5&export_type=project",
+      "body_sha256": "b7ab133d09e587e7acbf2813aa249161c53c510500989862f2080fe65a7c53ab",
+      "size": {
+        "L": 430,
+        "W": 210,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 434,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-02.json",
+      "request_step": 4,
+      "request_step_id": "settle1",
+      "response_step": 4,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845157&bleed=5&export_type=project",
+      "body_sha256": "d8ed51007d9adabedcef18020bcb8a3b775617963e3309665bc53be1122285de",
+      "size": {
+        "L": 453.2,
+        "W": 210,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 457.2,
+        "W": 214,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 212,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 108,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 214,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 110,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 110,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-03.json",
+      "request_step": 7,
+      "request_step_id": "settle2",
+      "response_step": 7,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845157&bleed=5&export_type=project",
+      "body_sha256": "021f07e2fec340313458181242f893e834d1ea5fa4e0deb26cde51130508c7a8",
+      "size": {
+        "L": 453.2,
+        "W": 224.6,
+        "H": 270,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 457.2,
+        "W": 228.6,
+        "H": 278,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 226.6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 115.3,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 228.6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 117.3,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 117.3,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-04.json",
+      "request_step": 10,
+      "request_step_id": "settle3",
+      "response_step": 10,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845157&bleed=5&export_type=project",
+      "body_sha256": "50cc8ab45a407639cc4607e0db0b2634a710d46caa1635bcdbc526c0fd7b53b5",
+      "size": {
+        "L": 453.2,
+        "W": 224.6,
+        "H": 271.4,
+        "D": 3,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 457.2,
+        "W": 228.6,
+        "H": 279.4,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Onda B",
+      "thickness": 3,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "OF",
+            "value": 2,
+            "description": "High and Low",
+            "min": 0,
+            "max": 3,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "R",
+            "value": 3,
+            "description": "Chamfering",
+            "min": 1.5,
+            "max": 6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 45,
+            "description": "Length of paste",
+            "min": 10,
+            "max": 226.6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 2,
+            "name": "F",
+            "value": 115.3,
+            "description": "摇盖长度",
+            "min": 15,
+            "max": 228.6,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "F1",
+            "value": 117.3,
+            "description": "Side shaking cover",
+            "min": 10,
+            "max": 117.3,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "ready",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "dim1",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "commit1",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "settle1",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "dim2",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "commit2",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "settle2",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "dim3",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "commit3",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "settle3",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"18\"\n  - text: in Anchura\n  - textbox: \"9\"\n  - text: in Altura\n  - textbox: \"11\"\n  - text: in Elegir material \n  - img\n  - text: Onda B  Espesor a la medida (0.0985~0.1182in) \n  - textbox: \"0.1181\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 18 × 9 × 11 in Dimensiones internas 17.8425 × 8.8425 × 10.685 in Dimensiones externas 18.0787 × 9.0787 × 11.1575 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 18 in 11 in 9 in\n  - text:      \n  - iframe\n  - img"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"code": 200, "data": {"minThickness": 0.2, "maxThickness": 9, "ccalMap": {"traditional": 9}, "layerList": [{"name": "traditional", "friendlyName": "传统面纸", "isGrey": false, "fixedThickness": 0, "minThickness": 0.2}], "layerInfo": [], "id": 2}, "msg": "success", "time": 1792178730}

@@ -1,0 +1,240 @@
+{
+  "evidence_id": "ev_836fc89dab2fefb6bd594a26b532e8c1a834ac033c170197c1eff5f667909204",
+  "cleanup": "incomplete",
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "sha256": "d00287fa8bbae0c3fde68be3f14b486122326a73f04a0c9cc38f7f7dddbfec9b",
+      "step_index": 1,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "layerScience": null,
+      "thickness": 0.5,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=11492&bleed=5&export_type=model"
+    },
+    {
+      "file": "knife-01.json",
+      "sha256": "7c8fd466d63f57076306fd513ec606627cd7cb78cce29e32c4e6e598f4aac752",
+      "step_index": 5,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "layerScience": null,
+      "thickness": 0.5,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-02.json",
+      "sha256": "b5a955e522466fea0c2f1a77a892c0d09a2976d19ac18b7c20193c72b5af42fa",
+      "step_index": 9,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 100,
+      "layerScience": null,
+      "thickness": 0.27,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-03.json",
+      "sha256": "6ccb189359c52922f02425bdbf35c1d61ad1483f983dd69dafcc6b03e2ba3026",
+      "step_index": 9,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 101,
+      "layerScience": null,
+      "thickness": 0.35,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-04.json",
+      "sha256": "92d0bfa6d324d50682496e584a9a5a37629b857b00bcf0d2e33ca25a399bf891",
+      "step_index": 13,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 102,
+      "layerScience": null,
+      "thickness": 0.42,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-05.json",
+      "sha256": "5e75743dd636722ac4b2ce8a10e8452568e593b09bd03a1ee03a8794eaabf44d",
+      "step_index": 17,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 8,
+      "layerScience": null,
+      "thickness": 0.5,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-06.json",
+      "sha256": "05c3e956d1e1853b14d7ad24a5f97cd36083f309edbdcf893e3662d817fd1ae1",
+      "step_index": 21,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 108,
+      "layerScience": null,
+      "thickness": 0.26,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-07.json",
+      "sha256": "09ceb7d11c177a0ed64be7798e566380ce5903c84792458947c9fd89566a973b",
+      "step_index": 25,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 109,
+      "layerScience": null,
+      "thickness": 0.33,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-08.json",
+      "sha256": "50a2df44eb179d261c05e5c60ad010ecf3b15c2e2868f99a5e32f31bfcb80122",
+      "step_index": 29,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 110,
+      "layerScience": null,
+      "thickness": 0.46,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-09.json",
+      "sha256": "ee810370df020b1ad30ba53284a95a5716c1ab87d629c7cae917ff0dd7084992",
+      "step_index": 33,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 7,
+      "layerScience": null,
+      "thickness": 0.5,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-10.json",
+      "sha256": "a257acde7b788ff8f1e54883ae8000f450c0ba52c5e32bc3f024935b26b0d342",
+      "step_index": 37,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 47,
+      "layerScience": null,
+      "thickness": 0.2,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-11.json",
+      "sha256": "54c9ed8618569fa23e82bae7663c4f4b516f58188a4c3b709e0a58270c2bf1e6",
+      "step_index": 41,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 42,
+      "layerScience": null,
+      "thickness": 0.32,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    },
+    {
+      "file": "knife-12.json",
+      "sha256": "81685f80ee23940e1cb12d1b05adbec02d80396a64b8cf519503f6549ab250f2",
+      "step_index": 45,
+      "size": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 153,
+      "layerScience": null,
+      "thickness": 0.2,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71023565&bleed=5&export_type=project"
+    }
+  ]
+}

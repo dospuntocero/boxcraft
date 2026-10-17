@@ -1,0 +1,514 @@
+[
+  {
+    "pass": true,
+    "dimensions_mm": [
+      105,
+      44,
+      132
+    ],
+    "numeric_fields": 1107,
+    "differences": []
+  },
+  {
+    "pass": false,
+    "dimensions_mm": [
+      105,
+      42,
+      132
+    ],
+    "numeric_fields": 1107,
+    "differences": [
+      {
+        "path": "/faces/8/dlist/4/x",
+        "actual": 148.81458476081394,
+        "predicted": 149.21230271914783,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/faces/8/dlist/5/x",
+        "actual": 155.63517521431058,
+        "predicted": 155.54570814025186,
+        "delta": 0.08946707405871734
+      },
+      {
+        "path": "/faces/8/dlist/5/y",
+        "actual": 66.42534261959294,
+        "predicted": 66.03781814676488,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/faces/8/dlist/5/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/5/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/3/x",
+        "actual": 275.3648247856894,
+        "predicted": 275.4542918597481,
+        "delta": 0.08946707405868892
+      },
+      {
+        "path": "/faces/9/dlist/3/y",
+        "actual": 66.42534261959295,
+        "predicted": 66.03781814676489,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/faces/9/dlist/4/x",
+        "actual": 282.18541523918606,
+        "predicted": 281.78769728085217,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/faces/9/dlist/4/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/4/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/4/x",
+        "actual": 134.48541523918604,
+        "predicted": 134.08769728085213,
+        "delta": 0.39771795833391366
+      },
+      {
+        "path": "/faces/10/dlist/5/x",
+        "actual": 127.66482478568939,
+        "predicted": 127.7542918597481,
+        "delta": 0.08946707405870313
+      },
+      {
+        "path": "/faces/10/dlist/5/y",
+        "actual": 244.57465738040705,
+        "predicted": 244.9621818532351,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/faces/10/dlist/5/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/5/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/3/x",
+        "actual": 303.1351752143106,
+        "predicted": 303.0457081402519,
+        "delta": 0.08946707405868892
+      },
+      {
+        "path": "/faces/11/dlist/3/y",
+        "actual": 244.57465738040705,
+        "predicted": 244.9621818532351,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/faces/11/dlist/4/x",
+        "actual": 296.31458476081394,
+        "predicted": 296.71230271914783,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/faces/11/dlist/4/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/4/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/14/x",
+        "actual": 148.81458476081394,
+        "predicted": 149.21230271914783,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/cuts/15/x",
+        "actual": 155.63517521431058,
+        "predicted": 155.54570814025186,
+        "delta": 0.08946707405871734
+      },
+      {
+        "path": "/cuts/15/y",
+        "actual": 66.42534261959294,
+        "predicted": 66.03781814676488,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/cuts/15/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/15/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/40/x",
+        "actual": 275.3648247856894,
+        "predicted": 275.4542918597481,
+        "delta": 0.08946707405868892
+      },
+      {
+        "path": "/cuts/40/y",
+        "actual": 66.42534261959295,
+        "predicted": 66.03781814676489,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/cuts/41/x",
+        "actual": 282.18541523918606,
+        "predicted": 281.78769728085217,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/cuts/41/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/41/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/48/x",
+        "actual": 303.1351752143106,
+        "predicted": 303.0457081402519,
+        "delta": 0.08946707405868892
+      },
+      {
+        "path": "/cuts/48/y",
+        "actual": 244.57465738040705,
+        "predicted": 244.9621818532351,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/cuts/49/x",
+        "actual": 296.31458476081394,
+        "predicted": 296.71230271914783,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/cuts/49/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/49/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/68/x",
+        "actual": 134.48541523918604,
+        "predicted": 134.08769728085213,
+        "delta": 0.39771795833391366
+      },
+      {
+        "path": "/cuts/69/x",
+        "actual": 127.66482478568939,
+        "predicted": 127.7542918597481,
+        "delta": 0.08946707405870313
+      },
+      {
+        "path": "/cuts/69/y",
+        "actual": 244.57465738040705,
+        "predicted": 244.9621818532351,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/cuts/69/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/69/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      }
+    ]
+  },
+  {
+    "pass": false,
+    "dimensions_mm": [
+      105,
+      42,
+      126
+    ],
+    "numeric_fields": 1107,
+    "differences": [
+      {
+        "path": "/faces/8/dlist/4/x",
+        "actual": 148.81458476081394,
+        "predicted": 149.21230271914783,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/faces/8/dlist/5/x",
+        "actual": 155.63517521431058,
+        "predicted": 155.54570814025186,
+        "delta": 0.08946707405871734
+      },
+      {
+        "path": "/faces/8/dlist/5/y",
+        "actual": 66.42534261959294,
+        "predicted": 66.03781814676488,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/faces/8/dlist/5/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/8/dlist/5/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/3/x",
+        "actual": 275.3648247856894,
+        "predicted": 275.4542918597481,
+        "delta": 0.08946707405868892
+      },
+      {
+        "path": "/faces/9/dlist/3/y",
+        "actual": 66.42534261959295,
+        "predicted": 66.03781814676489,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/faces/9/dlist/4/x",
+        "actual": 282.18541523918606,
+        "predicted": 281.78769728085217,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/faces/9/dlist/4/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/9/dlist/4/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/4/x",
+        "actual": 134.48541523918604,
+        "predicted": 134.08769728085213,
+        "delta": 0.39771795833391366
+      },
+      {
+        "path": "/faces/10/dlist/5/x",
+        "actual": 127.66482478568939,
+        "predicted": 127.7542918597481,
+        "delta": 0.08946707405870313
+      },
+      {
+        "path": "/faces/10/dlist/5/y",
+        "actual": 238.57465738040705,
+        "predicted": 238.9621818532351,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/faces/10/dlist/5/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/10/dlist/5/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/3/x",
+        "actual": 303.1351752143106,
+        "predicted": 303.0457081402519,
+        "delta": 0.08946707405868892
+      },
+      {
+        "path": "/faces/11/dlist/3/y",
+        "actual": 238.57465738040705,
+        "predicted": 238.9621818532351,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/faces/11/dlist/4/x",
+        "actual": 296.31458476081394,
+        "predicted": 296.71230271914783,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/faces/11/dlist/4/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/faces/11/dlist/4/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/14/x",
+        "actual": 148.81458476081394,
+        "predicted": 149.21230271914783,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/cuts/15/x",
+        "actual": 155.63517521431058,
+        "predicted": 155.54570814025186,
+        "delta": 0.08946707405871734
+      },
+      {
+        "path": "/cuts/15/y",
+        "actual": 66.42534261959294,
+        "predicted": 66.03781814676488,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/cuts/15/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/15/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/40/x",
+        "actual": 275.3648247856894,
+        "predicted": 275.4542918597481,
+        "delta": 0.08946707405868892
+      },
+      {
+        "path": "/cuts/40/y",
+        "actual": 66.42534261959295,
+        "predicted": 66.03781814676489,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/cuts/41/x",
+        "actual": 282.18541523918606,
+        "predicted": 281.78769728085217,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/cuts/41/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/41/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/48/x",
+        "actual": 303.1351752143106,
+        "predicted": 303.0457081402519,
+        "delta": 0.08946707405868892
+      },
+      {
+        "path": "/cuts/48/y",
+        "actual": 238.57465738040705,
+        "predicted": 238.9621818532351,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/cuts/49/x",
+        "actual": 296.31458476081394,
+        "predicted": 296.71230271914783,
+        "delta": 0.39771795833388524
+      },
+      {
+        "path": "/cuts/49/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/49/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/68/x",
+        "actual": 134.48541523918604,
+        "predicted": 134.08769728085213,
+        "delta": 0.39771795833391366
+      },
+      {
+        "path": "/cuts/69/x",
+        "actual": 127.66482478568939,
+        "predicted": 127.7542918597481,
+        "delta": 0.08946707405870313
+      },
+      {
+        "path": "/cuts/69/y",
+        "actual": 238.57465738040705,
+        "predicted": 238.9621818532351,
+        "delta": 0.387524472828062
+      },
+      {
+        "path": "/cuts/69/rx",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      },
+      {
+        "path": "/cuts/69/ry",
+        "actual": 7,
+        "predicted": 6.5,
+        "delta": 0.5
+      }
+    ]
+  }
+]

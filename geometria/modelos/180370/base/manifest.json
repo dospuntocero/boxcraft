@@ -1,0 +1,106 @@
+{
+  "source_evidence_id": "ev_122d9d496f87d479cdc26e2cd7caaeb42656bbc63e440199f52f8ae5a71e0ae5",
+  "completeness": {
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "status": "incomplete",
+    "truncated_sections": []
+  },
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "baseline",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=7348&bleed=3&export_type=model",
+      "body_sha256": "4d1927838767e36fc81e345185894f3587ad4f2bfbdfc4517b121be3445fe28e",
+      "size": {
+        "L": 120,
+        "W": 80,
+        "H": 160,
+        "D": 0.35,
+        "id": 0.2,
+        "ed": 0.15,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 120,
+        "W": 80,
+        "H": 160,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 250g (0,35mm)",
+      "thickness": 0.35,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "L1",
+            "value": 156,
+            "description": "上长",
+            "min": 120,
+            "max": 180,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "W1",
+            "value": 79.65,
+            "description": "侧宽1",
+            "min": 48,
+            "max": 80,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 53,
+            "description": "外延高度",
+            "min": 0,
+            "max": 78,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "L2",
+            "value": 124,
+            "description": "开口长轴",
+            "min": 78,
+            "max": 156,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 53,
+            "description": "开口短轴",
+            "min": 0,
+            "max": 80,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "baseline",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"4.7244\"\n  - text: in Anchura\n  - textbox: \"3.1496\"\n  - text: in Altura\n  - textbox: \"6.2992\"\n  - text: in Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.0138\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 4.7244 × 3.1496 × 6.2992 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 4.7244 in 6.2992 in 3.1496 in\n  - text:      "
+    }
+  ]
+}

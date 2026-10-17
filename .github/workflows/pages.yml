@@ -1,0 +1,47 @@
+name: Publish GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'editor-troqueles/dist/**'
+      - 'editor-troqueles/tests/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate editor
+        run: node --test editor-troqueles/tests/*.test.cjs
+      - name: Publish static directory to gh-pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f editor-troqueles/dist/index.html
+          target=$(mktemp -d)
+          git fetch origin gh-pages
+          git worktree add "$target" origin/gh-pages
+          git -C "$target" rm -r --ignore-unmatch .
+          cp -a editor-troqueles/dist/. "$target/"
+          touch "$target/.nojekyll"
+          git -C "$target" add --all
+          if git -C "$target" diff --cached --quiet; then
+            exit 0
+          fi
+          git -C "$target" -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Deploy ${GITHUB_SHA}"
+          git -C "$target" push origin HEAD:gh-pages

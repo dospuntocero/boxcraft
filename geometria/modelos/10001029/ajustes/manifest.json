@@ -1,0 +1,1748 @@
+{
+  "source_evidence_id": "ev_72b528c47cfcd19649fe1797a2ba81c62a81da3f9359c0ea3a0e0006ccbdc452",
+  "completeness": "partial-error-capture",
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "baseline",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=11174&bleed=5&export_type=model",
+      "body_sha256": "c8bfde6442d30f2d84932252f7ad94e520f1b2de2d281e2eb2397b373f47815c",
+      "size": {
+        "L": 59.4,
+        "W": 44.4,
+        "H": 118.9,
+        "D": 0.5,
+        "id": 0.3,
+        "ed": 0.2,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 60,
+        "W": 45,
+        "H": 120,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 43.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "E",
+            "value": 6,
+            "description": "母锁长",
+            "min": 0,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CX",
+            "value": 0.5,
+            "description": "收位C",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y1",
+            "value": 0.75,
+            "description": "收位Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y2",
+            "value": 0.5,
+            "description": "过刀Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR1",
+            "value": 0.5,
+            "description": "倒角Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C",
+            "value": 13,
+            "description": "插舌长",
+            "min": 5,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR",
+            "value": 7,
+            "description": "倒角C",
+            "min": 0,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CT",
+            "value": 0,
+            "description": "角度C",
+            "min": 0,
+            "max": 30,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "AX",
+            "value": 3.5,
+            "description": "槽底宽",
+            "min": 0,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AXX",
+            "value": 4.5,
+            "description": "槽口宽",
+            "min": 3.5,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "R",
+            "value": 0.65,
+            "description": "Chamfering",
+            "min": 0.6,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "OF",
+            "value": 0.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AS",
+            "value": 3.5,
+            "description": "槽坡度",
+            "min": 0.5,
+            "max": 3.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "S",
+            "value": 4,
+            "description": "公锁长",
+            "min": 4,
+            "max": 5.25,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NX",
+            "value": 3,
+            "description": "公锁X",
+            "min": 0,
+            "max": 9,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NY",
+            "value": 3,
+            "description": "公锁Y",
+            "min": 0,
+            "max": 9,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AR",
+            "value": 7,
+            "description": "倒角A",
+            "min": 0,
+            "max": 14,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "A",
+            "value": 29,
+            "description": "侧翼长",
+            "min": 14,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AX1",
+            "value": 0.3,
+            "description": "收位A",
+            "min": 0.3,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "ATT",
+            "value": 13,
+            "description": "角度A",
+            "min": 0,
+            "max": 40.65,
+            "unit": "angle"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-01.json",
+      "request_step": 4,
+      "request_step_id": "L70",
+      "response_step": 4,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845335&bleed=5&export_type=project",
+      "body_sha256": "73004a6055ce017e214c4b29e86cab6dd95b1fca578a4a96d361b336019a74ac",
+      "size": {
+        "L": 59.4,
+        "W": 44.4,
+        "H": 118.9,
+        "D": 0.5,
+        "id": 0.3,
+        "ed": 0.2,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 60,
+        "W": 45,
+        "H": 120,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 43.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "E",
+            "value": 6,
+            "description": "母锁长",
+            "min": 0,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CX",
+            "value": 0.5,
+            "description": "收位C",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y1",
+            "value": 0.75,
+            "description": "收位Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y2",
+            "value": 0.5,
+            "description": "过刀Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR1",
+            "value": 0.5,
+            "description": "倒角Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C",
+            "value": 13,
+            "description": "插舌长",
+            "min": 5,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR",
+            "value": 7,
+            "description": "倒角C",
+            "min": 0,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CT",
+            "value": 0,
+            "description": "角度C",
+            "min": 0,
+            "max": 30,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "AX",
+            "value": 3.5,
+            "description": "槽底宽",
+            "min": 0,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AXX",
+            "value": 4.5,
+            "description": "槽口宽",
+            "min": 3.5,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "R",
+            "value": 0.65,
+            "description": "Chamfering",
+            "min": 0.6,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "OF",
+            "value": 0.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AS",
+            "value": 3.5,
+            "description": "槽坡度",
+            "min": 0.5,
+            "max": 3.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "S",
+            "value": 4,
+            "description": "公锁长",
+            "min": 4,
+            "max": 5.25,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NX",
+            "value": 3,
+            "description": "公锁X",
+            "min": 0,
+            "max": 9,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NY",
+            "value": 3,
+            "description": "公锁Y",
+            "min": 0,
+            "max": 9,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AR",
+            "value": 7,
+            "description": "倒角A",
+            "min": 0,
+            "max": 14,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "A",
+            "value": 29,
+            "description": "侧翼长",
+            "min": 14,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AX1",
+            "value": 0.3,
+            "description": "收位A",
+            "min": 0.3,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "ATT",
+            "value": 13,
+            "description": "角度A",
+            "min": 0,
+            "max": 40.65,
+            "unit": "angle"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-02.json",
+      "request_step": 4,
+      "request_step_id": "L70",
+      "response_step": 4,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845335&bleed=5&export_type=project",
+      "body_sha256": "6f300af81cbdb10043bebfecf1ba6f5769c3577c9fadf25f505868446203fc98",
+      "size": {
+        "L": 69.4,
+        "W": 44.4,
+        "H": 118.9,
+        "D": 0.5,
+        "id": 0.3,
+        "ed": 0.2,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 70,
+        "W": 45,
+        "H": 120,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 43.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "E",
+            "value": 8,
+            "description": "母锁长",
+            "min": 0,
+            "max": 17.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CX",
+            "value": 0.5,
+            "description": "收位C",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y1",
+            "value": 0.75,
+            "description": "收位Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y2",
+            "value": 0.5,
+            "description": "过刀Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR1",
+            "value": 0.5,
+            "description": "倒角Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C",
+            "value": 13,
+            "description": "插舌长",
+            "min": 5,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR",
+            "value": 7,
+            "description": "倒角C",
+            "min": 0,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CT",
+            "value": 0,
+            "description": "角度C",
+            "min": 0,
+            "max": 30,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "AX",
+            "value": 3.5,
+            "description": "槽底宽",
+            "min": 0,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AXX",
+            "value": 4.5,
+            "description": "槽口宽",
+            "min": 3.5,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "R",
+            "value": 0.65,
+            "description": "Chamfering",
+            "min": 0.6,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "OF",
+            "value": 0.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AS",
+            "value": 3.5,
+            "description": "槽坡度",
+            "min": 0.5,
+            "max": 3.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "S",
+            "value": 6,
+            "description": "公锁长",
+            "min": 6,
+            "max": 7.25,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NX",
+            "value": 3,
+            "description": "公锁X",
+            "min": 0,
+            "max": 9,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NY",
+            "value": 3,
+            "description": "公锁Y",
+            "min": 0,
+            "max": 9,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AR",
+            "value": 7,
+            "description": "倒角A",
+            "min": 0,
+            "max": 14,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "A",
+            "value": 29,
+            "description": "侧翼长",
+            "min": 16,
+            "max": 69,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AX1",
+            "value": 0.3,
+            "description": "收位A",
+            "min": 0.3,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "ATT",
+            "value": 13,
+            "description": "角度A",
+            "min": 0,
+            "max": 42.56,
+            "unit": "angle"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-03.json",
+      "request_step": 7,
+      "request_step_id": "Lreset",
+      "response_step": 7,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845335&bleed=5&export_type=project",
+      "body_sha256": "b61eac953f4ba0f0f5feff9cfa0fef7547d69515eb188bd693147f667eca2ecb",
+      "size": {
+        "L": 59.4,
+        "W": 44.4,
+        "H": 118.9,
+        "D": 0.5,
+        "id": 0.3,
+        "ed": 0.2,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 60,
+        "W": 45,
+        "H": 120,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 43.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "E",
+            "value": 6,
+            "description": "母锁长",
+            "min": 0,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CX",
+            "value": 0.5,
+            "description": "收位C",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y1",
+            "value": 0.75,
+            "description": "收位Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y2",
+            "value": 0.5,
+            "description": "过刀Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR1",
+            "value": 0.5,
+            "description": "倒角Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C",
+            "value": 13,
+            "description": "插舌长",
+            "min": 5,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR",
+            "value": 7,
+            "description": "倒角C",
+            "min": 0,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CT",
+            "value": 0,
+            "description": "角度C",
+            "min": 0,
+            "max": 30,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "AX",
+            "value": 3.5,
+            "description": "槽底宽",
+            "min": 0,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AXX",
+            "value": 4.5,
+            "description": "槽口宽",
+            "min": 3.5,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "R",
+            "value": 0.65,
+            "description": "Chamfering",
+            "min": 0.6,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "OF",
+            "value": 0.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AS",
+            "value": 3.5,
+            "description": "槽坡度",
+            "min": 0.5,
+            "max": 3.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "S",
+            "value": 4,
+            "description": "公锁长",
+            "min": 4,
+            "max": 5.25,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NX",
+            "value": 3,
+            "description": "公锁X",
+            "min": 0,
+            "max": 9,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NY",
+            "value": 3,
+            "description": "公锁Y",
+            "min": 0,
+            "max": 9,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AR",
+            "value": 7,
+            "description": "倒角A",
+            "min": 0,
+            "max": 14,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "A",
+            "value": 29,
+            "description": "侧翼长",
+            "min": 14,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AX1",
+            "value": 0.3,
+            "description": "收位A",
+            "min": 0.3,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "ATT",
+            "value": 13,
+            "description": "角度A",
+            "min": 0,
+            "max": 40.65,
+            "unit": "angle"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-04.json",
+      "request_step": 10,
+      "request_step_id": "W50",
+      "response_step": 10,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845335&bleed=5&export_type=project",
+      "body_sha256": "f07072980590277c3ed0f4edfc9347c5e6f3036d1a50ff8de7edc5173a2ddaf4",
+      "size": {
+        "L": 59.4,
+        "W": 49.4,
+        "H": 118.9,
+        "D": 0.5,
+        "id": 0.3,
+        "ed": 0.2,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 60,
+        "W": 50,
+        "H": 120,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 48.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "E",
+            "value": 6,
+            "description": "母锁长",
+            "min": 0,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CX",
+            "value": 0.5,
+            "description": "收位C",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y1",
+            "value": 0.75,
+            "description": "收位Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y2",
+            "value": 0.5,
+            "description": "过刀Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR1",
+            "value": 0.5,
+            "description": "倒角Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C",
+            "value": 13,
+            "description": "插舌长",
+            "min": 5,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR",
+            "value": 7,
+            "description": "倒角C",
+            "min": 0,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CT",
+            "value": 0,
+            "description": "角度C",
+            "min": 0,
+            "max": 30,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "AX",
+            "value": 3.5,
+            "description": "槽底宽",
+            "min": 0,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AXX",
+            "value": 4.5,
+            "description": "槽口宽",
+            "min": 3.5,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "R",
+            "value": 0.65,
+            "description": "Chamfering",
+            "min": 0.6,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "OF",
+            "value": 0.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AS",
+            "value": 3.5,
+            "description": "槽坡度",
+            "min": 0.5,
+            "max": 3.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "S",
+            "value": 4,
+            "description": "公锁长",
+            "min": 4,
+            "max": 5.25,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NX",
+            "value": 3,
+            "description": "公锁X",
+            "min": 0,
+            "max": 10,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NY",
+            "value": 3,
+            "description": "公锁Y",
+            "min": 0,
+            "max": 10,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AR",
+            "value": 7,
+            "description": "倒角A",
+            "min": 0,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "A",
+            "value": 30,
+            "description": "侧翼长",
+            "min": 14,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AX1",
+            "value": 0.3,
+            "description": "收位A",
+            "min": 0.3,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "ATT",
+            "value": 13,
+            "description": "角度A",
+            "min": 0,
+            "max": 42.8,
+            "unit": "angle"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-05.json",
+      "request_step": 13,
+      "request_step_id": "W55",
+      "response_step": 13,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845335&bleed=5&export_type=project",
+      "body_sha256": "f8cb4fcc38454f9a31c4fd3559d3f6acea5da91ed29492c32ccb2eb13f8e7471",
+      "size": {
+        "L": 59.4,
+        "W": 54.4,
+        "H": 118.9,
+        "D": 0.5,
+        "id": 0.3,
+        "ed": 0.2,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 60,
+        "W": 55,
+        "H": 120,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 53.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "E",
+            "value": 6,
+            "description": "母锁长",
+            "min": 0,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CX",
+            "value": 0.5,
+            "description": "收位C",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y1",
+            "value": 0.75,
+            "description": "收位Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y2",
+            "value": 0.5,
+            "description": "过刀Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR1",
+            "value": 0.5,
+            "description": "倒角Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C",
+            "value": 13,
+            "description": "插舌长",
+            "min": 5,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR",
+            "value": 7,
+            "description": "倒角C",
+            "min": 0,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CT",
+            "value": 0,
+            "description": "角度C",
+            "min": 0,
+            "max": 30,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "AX",
+            "value": 3.5,
+            "description": "槽底宽",
+            "min": 0,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AXX",
+            "value": 4.5,
+            "description": "槽口宽",
+            "min": 3.5,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "R",
+            "value": 0.65,
+            "description": "Chamfering",
+            "min": 0.6,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "OF",
+            "value": 0.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AS",
+            "value": 3.5,
+            "description": "槽坡度",
+            "min": 0.5,
+            "max": 3.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "S",
+            "value": 4,
+            "description": "公锁长",
+            "min": 4,
+            "max": 5.25,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NX",
+            "value": 3,
+            "description": "公锁X",
+            "min": 0,
+            "max": 11,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NY",
+            "value": 3,
+            "description": "公锁Y",
+            "min": 0,
+            "max": 11,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AR",
+            "value": 8,
+            "description": "倒角A",
+            "min": 0,
+            "max": 17,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "A",
+            "value": 30,
+            "description": "侧翼长",
+            "min": 15,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AX1",
+            "value": 0.3,
+            "description": "收位A",
+            "min": 0.3,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "ATT",
+            "value": 13,
+            "description": "角度A",
+            "min": 0,
+            "max": 44.84,
+            "unit": "angle"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-06.json",
+      "request_step": 16,
+      "request_step_id": "W60",
+      "response_step": 16,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70845335&bleed=5&export_type=project",
+      "body_sha256": "3b8b3d9e37e0ed134106ac7c061324ab76f4ba9d51c122dd5deed437360691a8",
+      "size": {
+        "L": 59.4,
+        "W": 59.4,
+        "H": 118.9,
+        "D": 0.5,
+        "id": 0.3,
+        "ed": 0.2,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 60,
+        "W": 60,
+        "H": 120,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 58.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "E",
+            "value": 6,
+            "description": "母锁长",
+            "min": 0,
+            "max": 15,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CX",
+            "value": 0.5,
+            "description": "收位C",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y1",
+            "value": 0.75,
+            "description": "收位Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "Y2",
+            "value": 0.5,
+            "description": "过刀Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR1",
+            "value": 0.5,
+            "description": "倒角Y",
+            "min": 0,
+            "max": 0.75,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "C",
+            "value": 13,
+            "description": "插舌长",
+            "min": 5,
+            "max": 60,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CR",
+            "value": 7,
+            "description": "倒角C",
+            "min": 0,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "CT",
+            "value": 0,
+            "description": "角度C",
+            "min": 0,
+            "max": 30,
+            "unit": "angle"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "AX",
+            "value": 3.5,
+            "description": "槽底宽",
+            "min": 0,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AXX",
+            "value": 4.5,
+            "description": "槽口宽",
+            "min": 3.5,
+            "max": 5.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "R",
+            "value": 0.65,
+            "description": "Chamfering",
+            "min": 0.6,
+            "max": 1,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "OF",
+            "value": 0.5,
+            "description": "High and Low",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AS",
+            "value": 3.5,
+            "description": "槽坡度",
+            "min": 0.5,
+            "max": 3.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "S",
+            "value": 4,
+            "description": "公锁长",
+            "min": 4,
+            "max": 5.25,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NX",
+            "value": 3,
+            "description": "公锁X",
+            "min": 0,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "NY",
+            "value": 3,
+            "description": "公锁Y",
+            "min": 0,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AR",
+            "value": 9,
+            "description": "倒角A",
+            "min": 0,
+            "max": 18,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "A",
+            "value": 30,
+            "description": "侧翼长",
+            "min": 16,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "AX1",
+            "value": 0.3,
+            "description": "收位A",
+            "min": 0.3,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "ATT",
+            "value": 13,
+            "description": "角度A",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "baseline",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "L70_fill",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "L70_commit",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "L70",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "Lreset_fill",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "Lreset_commit",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "Lreset",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "W50_fill",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "W50_commit",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "W50",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "W55_fill",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "W55_commit",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "W55",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "W60_fill",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "W60_commit",
+      "status": "completed",
+      "error": null,
+      "text": ""
+    },
+    {
+      "id": "W60",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"2.3622\"\n  - text: in Anchura\n  - textbox: \"2.3622\"\n  - text: in Altura\n  - textbox: \"4.7244\"\n  - text: in Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.0197\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 2.3622 × 2.3622 × 4.7244 in Dimensiones internas 2.3386 × 2.3386 × 4.6811 in Dimensiones externas 2.378 × 2.378 × 4.7598 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 2.3622 in 4.7244 in 2.3622 in\n  - text:      \n  - iframe\n  - img"
+    }
+  ]
+}

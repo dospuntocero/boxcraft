@@ -1,0 +1,47 @@
+{
+  "pass": true,
+  "holdouts": [
+    {
+      "file": "knife-02.json",
+      "dimensions_mm": [
+        68.58,
+        45,
+        120
+      ],
+      "numeric_fields": 784,
+      "differences": [],
+      "default_parameter_mismatch": {},
+      "pass": true
+    },
+    {
+      "file": "knife-03.json",
+      "dimensions_mm": [
+        68.58,
+        53.34,
+        120
+      ],
+      "numeric_fields": 784,
+      "differences": [],
+      "default_parameter_mismatch": {},
+      "pass": true
+    },
+    {
+      "file": "knife-04.json",
+      "dimensions_mm": [
+        68.58,
+        53.34,
+        139.7
+      ],
+      "numeric_fields": 784,
+      "differences": [],
+      "default_parameter_mismatch": {},
+      "pass": true
+    }
+  ],
+  "excluded_comparison": [
+    "bleeds",
+    "sizeArrowData"
+  ],
+  "bleed_fit_previous_max_error_mm": 0.004582290321422988,
+  "limits": "Sangr\u00eda y anotaciones excluidas de comparaci\u00f3n y salida; comparaci\u00f3n con servidor, no fabricaci\u00f3n"
+}

@@ -1,0 +1,16 @@
+{
+  "model": "102010",
+  "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-tuck-end-boxes-auto-bottome-snap-lock-dieline-102010",
+  "status": "base-generated",
+  "baseline_evidence_id": "ev_c6ea1b036de1ac294d9e3583195505c1ec266575314f7ee931adc64f29436088",
+  "baseline_manufacturing_size_mm": {
+    "L": 120.6,
+    "W": 60.6,
+    "H": 161.1
+  },
+  "material": "Cartón blanco 350g",
+  "thickness_mm": 0.5,
+  "baseline_accessibility": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"4.748\"\n  - text: in Anchura\n  - textbox: \"2.3858\"\n  - text: in Altura\n  - textbox: \"6.3425\"\n  - text: in Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.0197\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 4.748 × 2.3858 × 6.3425 in Dimensiones internas 4.7244 × 2.3622 × 6.2992 in Dimensiones externas 4.7638 × 2.4016 × 6.378 in\n  - img:\n    - img\n    - img\n    - img\n    - text: 4.748 in 6.3425 in 2.3858 in\n  - text:      ",
+  "blocker": null,
+  "generator": "Medidas iniciales generadas; largo y ancho fijos según instrucción del usuario; regla de altura comprobada en otra pareja L/W."
+}

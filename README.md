@@ -1,55 +1,55 @@
-# boxcraft
-An open-source, box dielinemaker editor written by scratch in pure js
+# Pacdora · Taller de troqueles
 
-## Dieline maker for the rest of us
-Small selection of currently used boxes. multilingual and super fast
-
-Aplicación web para explorar una biblioteca de cajas, editar sus dimensiones y descargar planos SVG con líneas de corte, pliegue, sangrado y cotas.
-
-Incluye interfaz en español e inglés, selector de idioma con banderas y preferencia guardada en el navegador.
-
-## Ejecutar localmente
-
-No requiere instalar dependencias ni compilar. Desde la carpeta del proyecto:
-
-```sh
-python3 -m http.server 8000
-```
-
-Abrir http://localhost:8000/dist/ en el navegador. Es necesario servir los archivos por HTTP para cargar los catálogos JSON.
+Aplicación local de troqueles, modelos geométricos e investigación de cajas de Pacdora.
 
 ## Estructura
 
-- `dist/`: aplicación completa lista para servir, incluyendo código JavaScript, estilos, traducciones, datos e imágenes.
-- `tests/`: pruebas del motor geométrico, materiales e internacionalización.
-- `INTERNACIONALIZACION.md`: instrucciones para mantener y ampliar las traducciones.
-- `PARAMETRIZACION.md`: documentación de la parametrización de modelos.
+| Carpeta | Contenido |
+|---|---|
+| `editor-troqueles/` | Aplicación principal, assets, traducciones, pruebas y preparación de datos |
+| `geometria/` | Modelos, respuestas geométricas, generadores, iconos y fichas técnicas |
+| `investigacion/` | Investigación de materiales, interfaz y capturas del editor |
+| `evidencias/` | Capturas originales REA y bundles pesados; conservados localmente, excluidos de Git |
+| `archivo/` | Copias anteriores, paquetes ZIP e historiales Git anteriores; excluidos de Git |
+| `docs/` | Análisis general y registro de movimientos de la reorganización |
+| `scripts/` | Comprobaciones y utilidades del proyecto |
+| `skills/` | Flujo reutilizable `obtener CODIGO` |
+| `dist` | Enlace a `editor-troqueles/dist`, sin duplicar la aplicación |
 
-## Pruebas
+## Ejecutar
 
-Requieren Node.js 18 o posterior:
-
-```sh
-node --test tests/*.test.cjs
-```
-
-## Sitio público
-
-La aplicación está disponible en https://dospuntocero.github.io/boxcraft/.
-
-## Publicar actualizaciones
-
-GitHub Pages sirve la rama `gh-pages`, cuyo contenido es exclusivamente la carpeta `dist/` de `main`. Después de confirmar los cambios:
+Desde la raíz:
 
 ```sh
-git push origin main
-git subtree push --prefix dist origin gh-pages
+python3 -m http.server 8000 --directory editor-troqueles/dist
 ```
 
-También se puede configurar `dist/` como directorio público en otro servidor estático, conservando su estructura completa.
+Abrir http://localhost:8000/.
 
-Los catálogos de modelos y materiales incluyen restricciones de edición y compatibilidad. Comprobar el armado con una muestra antes de fabricar.
+```sh
+node --test editor-troqueles/tests/*.test.cjs
+```
 
-## Materiales y espesores
+Para adquirir una caja en este proyecto, escribir en el chat `obtener 15030101`. Las instrucciones están en [la skill](skills/obtener-pacdora/SKILL.md).
 
-Consulta [MATERIALES.md](MATERIALES.md) para conocer la compatibilidad habilitada, las medidas comprobadas y las limitaciones de las nuevas geometrías. El selector de material desaparece cuando solo existe una opción válida.
+## Investigación y trazabilidad
+
+Los registros originales REA no se editan al reorganizarlos. Sus rutas históricas pueden referirse a la ubicación anterior; [el registro de movimientos](docs/organizacion-movimientos.json) permite localizar los archivos actuales. Los scripts de investigación que trabajan con la copia de publicación apuntan a `archivo/copias/boxcraft-publicacion`; no son el proceso de preparación de la aplicación principal.
+
+Las capturas pesadas y los historiales archivados no se incluirán al añadir archivos al nuevo repositorio. Deben respaldarse por separado si se mueve el proyecto a otro equipo.
+
+El historial anterior del editor se conserva en `archivo/historial/editor-troqueles.git`. Puede consultarse desde la raíz:
+
+```sh
+git --git-dir=archivo/historial/editor-troqueles.git --work-tree=editor-troqueles log --oneline
+```
+
+La copia de publicación conserva su propio historial dentro de `archivo/copias/boxcraft-publicacion/.git`. La reorganización no crea commits ni configura un remoto para el repositorio raíz.
+
+## Publicación
+
+GitHub Pages: https://dospuntocero.github.io/boxcraft/
+
+El workflow `Publish GitHub Pages` ejecuta las pruebas y publica **`editor-troqueles/dist/`** desde `main` en la raíz de `gh-pages`. En Settings → Pages se mantiene **Deploy from a branch → gh-pages → /(root)**. También puede ejecutarse manualmente con `workflow_dispatch`. El enlace `dist` de la raíz y las carpetas de investigación no son entradas de publicación.
+
+Sites: https://taller-troqueles-fran.happyjay2.chatgpt.site/ utiliza la misma aplicación. La sincronización de fuentes y el deploy se realizan por separado con el helper de Sites.

@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "svg_counts": {
+    "faces": 13,
+    "holes": 0,
+    "folds": 12
+  },
+  "viewBox": "0 0 172.5 231",
+  "included_geometry_matches_source": true,
+  "computed_fold_length_mm": 810.4040064205623,
+  "declared_fold_length_mm": 810.4,
+  "excluded": [
+    "bleeds",
+    "sizeArrowData"
+  ]
+}

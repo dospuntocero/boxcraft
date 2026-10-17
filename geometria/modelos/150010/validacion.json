@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "svg_counts": {
+    "faces": 19,
+    "holes": 4,
+    "folds": 22
+  },
+  "viewBox": "0 0 576 590",
+  "included_geometry_matches_public_capture": true,
+  "project_70845997_verified": false,
+  "excluded": [
+    "bleeds",
+    "sizeArrowData"
+  ]
+}

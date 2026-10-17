@@ -1,0 +1,1534 @@
+{
+  "source_evidence_id": "ev_cd90c934ef31fc36ebf2c28a9b1ea358996b3729433a3a73e679f52fc3f296a3",
+  "completeness": "partial-error-capture",
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "base",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=10725&bleed=5&export_type=model",
+      "body_sha256": "2b511bf39ada854fd14f928244f64c75e55607b518748d9eb9a434ef5042dfeb",
+      "size": {
+        "L": 69.4,
+        "W": 49.4,
+        "H": 59.4,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 70,
+        "W": 50,
+        "H": 60,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 0.5,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.3,
+            "description": "下移位移",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 40,
+            "description": "折线高度",
+            "min": 26,
+            "max": 120,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 13.5,
+            "description": "摇盖高",
+            "min": 15,
+            "max": 13.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 28,
+            "description": "孔距",
+            "min": 14,
+            "max": 56,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RR",
+            "value": 2,
+            "description": "孔半径",
+            "min": 2,
+            "max": 2,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 48.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "C",
+            "value": 15,
+            "description": "屋顶糊口",
+            "min": 10,
+            "max": 19,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 14,
+            "description": "插脚",
+            "min": 10,
+            "max": 24,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "M",
+            "value": 24,
+            "description": "阴扣宽度",
+            "min": 23,
+            "max": 57,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 0,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 15,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 10,
+            "description": "副扣位",
+            "min": 4,
+            "max": 11,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 4,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 5,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-01.json",
+      "request_step": 4,
+      "request_step_id": "trainL_ready",
+      "response_step": 4,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70880980&bleed=5&export_type=project",
+      "body_sha256": "5735f2ce818b5d5427b122bec9a777de56084ff6f182c5d9f4c4fb417e56c909",
+      "size": {
+        "L": 69.4,
+        "W": 49.4,
+        "H": 59.4,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 70,
+        "W": 50,
+        "H": 60,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 0.5,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.3,
+            "description": "下移位移",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 40,
+            "description": "折线高度",
+            "min": 26,
+            "max": 120,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 13.5,
+            "description": "摇盖高",
+            "min": 15,
+            "max": 13.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 28,
+            "description": "孔距",
+            "min": 14,
+            "max": 56,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RR",
+            "value": 2,
+            "description": "孔半径",
+            "min": 2,
+            "max": 2,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "G",
+            "value": 13,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 48.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "C",
+            "value": 15,
+            "description": "屋顶糊口",
+            "min": 10,
+            "max": 19,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 14,
+            "description": "插脚",
+            "min": 10,
+            "max": 24,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "M",
+            "value": 24,
+            "description": "阴扣宽度",
+            "min": 23,
+            "max": 57,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 0,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 15,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 10,
+            "description": "副扣位",
+            "min": 4,
+            "max": 11,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 4,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 5,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-02.json",
+      "request_step": 5,
+      "request_step_id": "trainW",
+      "response_step": 5,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70880980&bleed=5&export_type=project",
+      "body_sha256": "0a904d2ada1a6efd34033dcc6fad9806de2ec7cd5e6ba485f90efeea8ff99726",
+      "size": {
+        "L": 76.4,
+        "W": 49.4,
+        "H": 59.4,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 77,
+        "W": 50,
+        "H": 60,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 0.5,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.3,
+            "description": "下移位移",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 40,
+            "description": "折线高度",
+            "min": 26,
+            "max": 120,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 13.5,
+            "description": "摇盖高",
+            "min": 15,
+            "max": 13.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 31,
+            "description": "孔距",
+            "min": 15,
+            "max": 62,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RR",
+            "value": 2,
+            "description": "孔半径",
+            "min": 2,
+            "max": 2,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "G",
+            "value": 16,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 48.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "C",
+            "value": 15,
+            "description": "屋顶糊口",
+            "min": 10,
+            "max": 19,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 14,
+            "description": "插脚",
+            "min": 10,
+            "max": 24,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "M",
+            "value": 28,
+            "description": "阴扣宽度",
+            "min": 25.5,
+            "max": 64,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 0,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 15,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 11,
+            "description": "副扣位",
+            "min": 5,
+            "max": 13,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 4,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 6,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-03.json",
+      "request_step": 7,
+      "request_step_id": "trainW_ready",
+      "response_step": 8,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70880980&bleed=5&export_type=project",
+      "body_sha256": "d138fe46c56665e91677ff45cc2815815714a305e901a176d99cc3827fb2b09b",
+      "size": {
+        "L": 76.4,
+        "W": 54.4,
+        "H": 59.4,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 77,
+        "W": 55,
+        "H": 60,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 0.5,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.3,
+            "description": "下移位移",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 44,
+            "description": "折线高度",
+            "min": 28.6,
+            "max": 120,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 14.5,
+            "description": "摇盖高",
+            "min": 15,
+            "max": 14.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 31,
+            "description": "孔距",
+            "min": 15,
+            "max": 62,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RR",
+            "value": 2,
+            "description": "孔半径",
+            "min": 2,
+            "max": 2,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "G",
+            "value": 16,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 53.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "C",
+            "value": 15,
+            "description": "屋顶糊口",
+            "min": 10,
+            "max": 21,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 15,
+            "description": "插脚",
+            "min": 11,
+            "max": 27,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "M",
+            "value": 27,
+            "description": "阴扣宽度",
+            "min": 25.5,
+            "max": 62,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 0,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 15,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 11,
+            "description": "副扣位",
+            "min": 5,
+            "max": 13,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 4,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 6,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-04.json",
+      "request_step": 10,
+      "request_step_id": "trainH_ready",
+      "response_step": 10,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70880980&bleed=5&export_type=project",
+      "body_sha256": "a5ea4ba6aba8884cdca93a4aa110be86991ee40bf006e953cdefe68f1c3f680d",
+      "size": {
+        "L": 76.4,
+        "W": 54.4,
+        "H": 65.4,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 77,
+        "W": 55,
+        "H": 66,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 0.5,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.3,
+            "description": "下移位移",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 44,
+            "description": "折线高度",
+            "min": 28.6,
+            "max": 120,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 14.5,
+            "description": "摇盖高",
+            "min": 15,
+            "max": 14.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 31,
+            "description": "孔距",
+            "min": 15,
+            "max": 62,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RR",
+            "value": 2,
+            "description": "孔半径",
+            "min": 2,
+            "max": 2,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "G",
+            "value": 16,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 53.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "C",
+            "value": 15,
+            "description": "屋顶糊口",
+            "min": 10,
+            "max": 21,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 15,
+            "description": "插脚",
+            "min": 11,
+            "max": 27,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "M",
+            "value": 27,
+            "description": "阴扣宽度",
+            "min": 25.5,
+            "max": 62,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 0,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 15,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 11,
+            "description": "副扣位",
+            "min": 5,
+            "max": 13,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 4,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 6,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-05.json",
+      "request_step": 13,
+      "request_step_id": "testL_ready",
+      "response_step": 14,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70880980&bleed=5&export_type=project",
+      "body_sha256": "b9018f6839b9d061508d69befc4af2afdd9d3cea0303c73ef3edb7932bcca3cb",
+      "size": {
+        "L": 72.9,
+        "W": 54.4,
+        "H": 65.4,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 73.5,
+        "W": 55,
+        "H": 66,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 0.5,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.3,
+            "description": "下移位移",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 44,
+            "description": "折线高度",
+            "min": 28.6,
+            "max": 120,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 14.5,
+            "description": "摇盖高",
+            "min": 15,
+            "max": 14.5,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 29,
+            "description": "孔距",
+            "min": 15,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RR",
+            "value": 2,
+            "description": "孔半径",
+            "min": 2,
+            "max": 2,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "G",
+            "value": 16,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 53.5,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "C",
+            "value": 15,
+            "description": "屋顶糊口",
+            "min": 10,
+            "max": 21,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 15,
+            "description": "插脚",
+            "min": 11,
+            "max": 27,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "M",
+            "value": 25.5,
+            "description": "阴扣宽度",
+            "min": 24,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 0,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 15,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 10,
+            "description": "副扣位",
+            "min": 4,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 4,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 5,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-06.json",
+      "request_step": 16,
+      "request_step_id": "testW_ready",
+      "response_step": 16,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70880980&bleed=5&export_type=project",
+      "body_sha256": "dd0e132cd5f550d94ad01b7d0962654f9dba832cce70b23a5271a84cea52bdd9",
+      "size": {
+        "L": 72.9,
+        "W": 51.9,
+        "H": 65.4,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 73.5,
+        "W": 52.5,
+        "H": 66,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 0.5,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.3,
+            "description": "下移位移",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 42,
+            "description": "折线高度",
+            "min": 27.3,
+            "max": 120,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 14,
+            "description": "摇盖高",
+            "min": 15,
+            "max": 14,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 29,
+            "description": "孔距",
+            "min": 15,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RR",
+            "value": 2,
+            "description": "孔半径",
+            "min": 2,
+            "max": 2,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "G",
+            "value": 16,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 51,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "C",
+            "value": 15,
+            "description": "屋顶糊口",
+            "min": 10,
+            "max": 20,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 14,
+            "description": "插脚",
+            "min": 11,
+            "max": 25,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "M",
+            "value": 25.5,
+            "description": "阴扣宽度",
+            "min": 24,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 0,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 15,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 10,
+            "description": "副扣位",
+            "min": 4,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 4,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 5,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-07.json",
+      "request_step": 19,
+      "request_step_id": "testH_ready",
+      "response_step": 19,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70880980&bleed=5&export_type=project",
+      "body_sha256": "0b9549a9ac80a9ef09c26a134786abc07970afad2b7e0e913baaac651925a64a",
+      "size": {
+        "L": 72.9,
+        "W": 51.9,
+        "H": 62.4,
+        "D": 0.5,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 73.5,
+        "W": 52.5,
+        "H": 63,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 350g (0,5mm)",
+      "thickness": 0.5,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "BR",
+            "value": 0.5,
+            "description": "底部收位",
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "RY",
+            "value": 0.3,
+            "description": "下移位移",
+            "min": 0,
+            "max": 0.5,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 42,
+            "description": "折线高度",
+            "min": 27.3,
+            "max": 120,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 14,
+            "description": "摇盖高",
+            "min": 15,
+            "max": 14,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "SX",
+            "value": 29,
+            "description": "孔距",
+            "min": 15,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "RR",
+            "value": 2,
+            "description": "孔半径",
+            "min": 2,
+            "max": 2,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 4,
+            "name": "G",
+            "value": 16,
+            "description": "Length of paste",
+            "min": 5,
+            "max": 51,
+            "unit": "length"
+          },
+          {
+            "grade": 4,
+            "name": "GT",
+            "value": 15,
+            "description": "Paste corner",
+            "min": 0,
+            "max": 45,
+            "unit": "angle"
+          },
+          {
+            "grade": 4,
+            "name": "C",
+            "value": 15,
+            "description": "屋顶糊口",
+            "min": 10,
+            "max": 20,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 5,
+            "name": "K1",
+            "value": 14,
+            "description": "插脚",
+            "min": 11,
+            "max": 25,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "M",
+            "value": 25.5,
+            "description": "阴扣宽度",
+            "min": 24,
+            "max": 59,
+            "unit": "length"
+          },
+          {
+            "grade": 5,
+            "name": "S1",
+            "value": 0,
+            "description": "插头数量",
+            "min": 0,
+            "max": 0,
+            "unit": "number"
+          }
+        ],
+        [
+          {
+            "grade": 6,
+            "name": "MT",
+            "value": 15,
+            "description": "扣位角度",
+            "min": 0,
+            "max": 20,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "K3",
+            "value": 10,
+            "description": "副扣位",
+            "min": 4,
+            "max": 12,
+            "unit": "length"
+          },
+          {
+            "grade": 6,
+            "name": "MR",
+            "value": 4,
+            "description": "倒角K1",
+            "min": 0,
+            "max": 5,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Más\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Recorte      \n  - img\n  - text: Modelo de edificio Preparación de los materiales Creación del entorno Ya casi está Modelo de edificio"
+    },
+    {
+      "id": "base",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"70\"\n  - text: mm Anchura\n  - textbox: \"50\"\n  - text: mm Altura\n  - textbox: \"60\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 70 × 50 × 60 mm Dimensiones internas 69.4 × 49.4 × 59.4 mm Dimensiones externas 70.4 × 50.4 × 61.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 70 mm 60 mm 50 mm\n  - text:      "
+    },
+    {
+      "id": "trainL",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"77\"\n  - text: mm Anchura\n  - textbox: \"50\"\n  - text: mm Altura\n  - textbox: \"60\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 70 × 50 × 60 mm Dimensiones internas 69.4 × 49.4 × 59.4 mm Dimensiones externas 70.4 × 50.4 × 61.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 70 mm 60 mm 50 mm\n  - text:      "
+    },
+    {
+      "id": "trainL_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"77\"\n  - text: mm Anchura\n  - textbox [disabled]: \"50\"\n  - text: mm Altura\n  - textbox [disabled]: \"60\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 77 × 50 × 60 mm Dimensiones internas 69.4 × 49.4 × 59.4 mm Dimensiones externas 70.4 × 50.4 × 61.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 77 mm\n    - img\n    - img:\n      - img\n    - text: 60 mm 50 mm\n  - text:      "
+    },
+    {
+      "id": "trainL_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"70\"\n  - text: mm Anchura\n  - textbox [disabled]: \"50\"\n  - text: mm Altura\n  - textbox [disabled]: \"60\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 70 × 50 × 60 mm Dimensiones internas 69.4 × 49.4 × 59.4 mm Dimensiones externas 70.4 × 50.4 × 61.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 70 mm\n    - img\n    - img:\n      - img\n    - text: 60 mm 50 mm\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainW",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"77\"\n  - text: mm Anchura\n  - textbox: \"55\"\n  - text: mm Altura\n  - textbox: \"60\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 77 × 50 × 60 mm Dimensiones internas 76.4 × 49.4 × 59.4 mm Dimensiones externas 77.4 × 50.4 × 61.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 77 mm 60 mm 50 mm\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainW_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"77\"\n  - text: mm Anchura\n  - textbox [disabled]: \"55\"\n  - text: mm Altura\n  - textbox [disabled]: \"60\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 77 × 55 × 60 mm Dimensiones internas 76.4 × 49.4 × 59.4 mm Dimensiones externas 77.4 × 50.4 × 61.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 77 mm 60 mm 55 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainW_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"77\"\n  - text: mm Anchura\n  - textbox [disabled]: \"55\"\n  - text: mm Altura\n  - textbox [disabled]: \"60\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 77 × 55 × 60 mm Dimensiones internas 76.4 × 49.4 × 59.4 mm Dimensiones externas 77.4 × 50.4 × 61.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 77 mm 60 mm 55 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "trainH",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"77\"\n  - text: mm Anchura\n  - textbox: \"55\"\n  - text: mm Altura\n  - textbox: \"66\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 77 × 55 × 60 mm Dimensiones internas 76.4 × 54.4 × 59.4 mm Dimensiones externas 77.4 × 55.4 × 61.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 77 mm 60 mm 55 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "trainH_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"77\"\n  - text: mm Anchura\n  - textbox [disabled]: \"55\"\n  - text: mm Altura\n  - textbox [disabled]: \"66\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 77 × 55 × 66 mm Dimensiones internas 76.4 × 54.4 × 59.4 mm Dimensiones externas 77.4 × 55.4 × 61.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 77 mm 66 mm\n    - img\n    - img:\n      - img\n    - text: 55 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "trainH_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"77\"\n  - text: mm Anchura\n  - textbox [disabled]: \"55\"\n  - text: mm Altura\n  - textbox [disabled]: \"66\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 77 × 55 × 66 mm Dimensiones internas 76.4 × 54.4 × 65.4 mm Dimensiones externas 77.4 × 55.4 × 67.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 77 mm 66 mm\n    - img\n    - img:\n      - img\n    - text: 55 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testL",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"73.5\"\n  - text: mm Anchura\n  - textbox: \"55\"\n  - text: mm Altura\n  - textbox: \"66\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 77 × 55 × 66 mm Dimensiones internas 76.4 × 54.4 × 65.4 mm Dimensiones externas 77.4 × 55.4 × 67.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 77 mm 66 mm 55 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testL_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"73.5\"\n  - text: mm Anchura\n  - textbox [disabled]: \"55\"\n  - text: mm Altura\n  - textbox [disabled]: \"66\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 73.5 × 55 × 66 mm Dimensiones internas 76.4 × 54.4 × 65.4 mm Dimensiones externas 77.4 × 55.4 × 67.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 73.5 mm\n    - img\n    - img:\n      - img\n    - text: 66 mm 55 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testL_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"73.5\"\n  - text: mm Anchura\n  - textbox [disabled]: \"55\"\n  - text: mm Altura\n  - textbox [disabled]: \"66\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 73.5 × 55 × 66 mm Dimensiones internas 76.4 × 54.4 × 65.4 mm Dimensiones externas 77.4 × 55.4 × 67.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 73.5 mm\n    - img\n    - img:\n      - img\n    - text: 66 mm 55 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testW",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"73.5\"\n  - text: mm Anchura\n  - textbox: \"52.5\"\n  - text: mm Altura\n  - textbox: \"66\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 73.5 × 55 × 66 mm Dimensiones internas 72.9 × 54.4 × 65.4 mm Dimensiones externas 73.9 × 55.4 × 67.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 73.5 mm 66 mm 55 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testW_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"73.5\"\n  - text: mm Anchura\n  - textbox [disabled]: \"52.5\"\n  - text: mm Altura\n  - textbox [disabled]: \"66\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 73.5 × 52.5 × 66 mm Dimensiones internas 72.9 × 54.4 × 65.4 mm Dimensiones externas 73.9 × 55.4 × 67.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 73.5 mm 66 mm 52.5 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testW_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"73.5\"\n  - text: mm Anchura\n  - textbox [disabled]: \"52.5\"\n  - text: mm Altura\n  - textbox [disabled]: \"66\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 73.5 × 52.5 × 66 mm Dimensiones internas 72.9 × 51.9 × 65.4 mm Dimensiones externas 73.9 × 52.9 × 67.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 73.5 mm 66 mm 52.5 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testH",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"73.5\"\n  - text: mm Anchura\n  - textbox: \"52.5\"\n  - text: mm Altura\n  - textbox: \"63\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 73.5 × 52.5 × 66 mm Dimensiones internas 72.9 × 51.9 × 65.4 mm Dimensiones externas 73.9 × 52.9 × 67.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 73.5 mm 66 mm 52.5 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testH_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"73.5\"\n  - text: mm Anchura\n  - textbox [disabled]: \"52.5\"\n  - text: mm Altura\n  - textbox [disabled]: \"63\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 73.5 × 52.5 × 63 mm Dimensiones internas 72.9 × 51.9 × 65.4 mm Dimensiones externas 73.9 × 52.9 × 67.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 73.5 mm 63 mm\n    - img\n    - img:\n      - img\n    - text: 52.5 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testH_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"73.5\"\n  - text: mm Anchura\n  - textbox [disabled]: \"52.5\"\n  - text: mm Altura\n  - textbox [disabled]: \"63\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 73.5 × 52.5 × 63 mm Dimensiones internas 72.9 × 51.9 × 62.4 mm Dimensiones externas 73.9 × 52.9 × 64.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 73.5 mm 63 mm\n    - img\n    - img:\n      - img\n    - text: 52.5 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "settled",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"73.5\"\n  - text: mm Anchura\n  - textbox: \"52.5\"\n  - text: mm Altura\n  - textbox: \"63\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 350g  Espesor \n  - textbox [disabled]: \"0.5\"\n  - text:  Modo tamaño  Dimensiones de manufactura Dimensiones internas Dimensiones externas Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 73.5 × 52.5 × 63 mm Dimensiones internas 72.9 × 51.9 × 62.4 mm Dimensiones externas 73.9 × 52.9 × 64.4 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 73.5 mm 63 mm 52.5 mm\n  - text:      \n  - iframe\n  - img"
+    }
+  ]
+}

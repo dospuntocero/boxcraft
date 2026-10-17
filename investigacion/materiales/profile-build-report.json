@@ -1,0 +1,390 @@
+[
+  {
+    "model": "10001006",
+    "thickness": 0.2,
+    "status": "not-validated",
+    "materialIds": [
+      8,
+      47
+    ],
+    "samples": 11,
+    "heldouts": 5,
+    "maxErrorMm": 0.5,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "10001006",
+    "thickness": 0.3,
+    "status": "insufficient-axis-samples",
+    "samples": 1
+  },
+  {
+    "model": "10001006",
+    "thickness": 0.5,
+    "status": "insufficient-axis-samples",
+    "samples": 6
+  },
+  {
+    "model": "10001006",
+    "thickness": 0.7,
+    "status": "insufficient-axis-samples",
+    "samples": 1
+  },
+  {
+    "model": "10001006",
+    "thickness": 0.8,
+    "status": "insufficient-axis-samples",
+    "samples": 1
+  },
+  {
+    "model": "10001029",
+    "thickness": 0.2,
+    "status": "not-validated",
+    "materialIds": [
+      8,
+      47
+    ],
+    "samples": 20,
+    "heldouts": 10,
+    "maxErrorMm": 3.230868191125552,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "10001029",
+    "thickness": 0.26,
+    "status": "not-validated",
+    "materialIds": [
+      108
+    ],
+    "samples": 11,
+    "heldouts": 5,
+    "maxErrorMm": 3.2308681911255803,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "10001029",
+    "thickness": 0.27,
+    "status": "not-validated",
+    "materialIds": [
+      100
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 3.2308681911255803,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "10001029",
+    "thickness": 0.32,
+    "status": "not-validated",
+    "materialIds": [
+      42
+    ],
+    "samples": 9,
+    "heldouts": 5,
+    "maxErrorMm": 3.230868191125566,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "10001029",
+    "thickness": 0.33,
+    "status": "not-validated",
+    "materialIds": [
+      109
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 3.2308681911255803,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "10001029",
+    "thickness": 0.35,
+    "status": "not-validated",
+    "materialIds": [
+      101
+    ],
+    "samples": 11,
+    "heldouts": 5,
+    "maxErrorMm": 3.230868191125552,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "10001029",
+    "thickness": 0.42,
+    "status": "insufficient-axis-samples",
+    "samples": 3
+  },
+  {
+    "model": "10001029",
+    "thickness": 0.5,
+    "status": "no-current-base",
+    "samples": 7
+  },
+  {
+    "model": "10002003",
+    "thickness": 0.2,
+    "status": "not-validated",
+    "materialIds": [
+      8,
+      47
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.887524472828062,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "10002003",
+    "thickness": 0.5,
+    "status": "insufficient-axis-samples",
+    "samples": 3
+  },
+  {
+    "model": "112047",
+    "thickness": 0.2,
+    "status": "not-validated",
+    "materialIds": [
+      47
+    ],
+    "samples": 9,
+    "heldouts": 5,
+    "maxErrorMm": 0.5,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "112047",
+    "thickness": 0.26,
+    "status": "not-validated",
+    "materialIds": [
+      108
+    ],
+    "samples": 11,
+    "heldouts": 5,
+    "maxErrorMm": 0.5,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "112047",
+    "thickness": 0.27,
+    "status": "not-validated",
+    "materialIds": [
+      100
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.5,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "112047",
+    "thickness": 0.32,
+    "status": "not-validated",
+    "materialIds": [
+      42
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.5,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "112047",
+    "thickness": 0.33,
+    "status": "not-validated",
+    "materialIds": [
+      109
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.5,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "112047",
+    "thickness": 0.35,
+    "status": "not-validated",
+    "materialIds": [
+      101
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.5,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "112047",
+    "thickness": 0.42,
+    "status": "not-validated",
+    "materialIds": [
+      102
+    ],
+    "samples": 8,
+    "heldouts": 4,
+    "maxErrorMm": 0.5,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "112047",
+    "thickness": 0.5,
+    "status": "insufficient-axis-samples",
+    "samples": 2
+  },
+  {
+    "model": "150010",
+    "thickness": 0.2,
+    "status": "not-validated",
+    "materialIds": [
+      8,
+      47
+    ],
+    "samples": 20,
+    "heldouts": 10,
+    "maxErrorMm": 0.75,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "150010",
+    "thickness": 0.26,
+    "status": "not-validated",
+    "materialIds": [
+      108
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.75,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "150010",
+    "thickness": 0.27,
+    "status": "not-validated",
+    "materialIds": [
+      100
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.75,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "150010",
+    "thickness": 0.32,
+    "status": "not-validated",
+    "materialIds": [
+      42
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.75,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "150010",
+    "thickness": 0.33,
+    "status": "not-validated",
+    "materialIds": [
+      109
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.75,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "150010",
+    "thickness": 0.35,
+    "status": "not-validated",
+    "materialIds": [
+      101
+    ],
+    "samples": 10,
+    "heldouts": 5,
+    "maxErrorMm": 0.75,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "150010",
+    "thickness": 0.42,
+    "status": "not-validated",
+    "materialIds": [
+      102
+    ],
+    "samples": 7,
+    "heldouts": 3,
+    "maxErrorMm": 0.75,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "150010",
+    "thickness": 0.5,
+    "status": "insufficient-axis-samples",
+    "samples": 1
+  },
+  {
+    "model": "150010",
+    "thickness": 1.5,
+    "status": "insufficient-axis-samples",
+    "samples": 4
+  },
+  {
+    "model": "180320",
+    "thickness": 0.2,
+    "status": "not-validated",
+    "materialIds": [
+      8,
+      47
+    ],
+    "samples": 7,
+    "heldouts": 3,
+    "maxErrorMm": 0.88388347648322,
+    "topologyMismatch": false,
+    "constantOffsets": true
+  },
+  {
+    "model": "180320",
+    "thickness": 0.5,
+    "status": "insufficient-axis-samples",
+    "samples": 3
+  },
+  {
+    "model": "180370",
+    "thickness": 0.2,
+    "status": "insufficient-axis-samples",
+    "samples": 10
+  },
+  {
+    "model": "180370",
+    "thickness": 0.35,
+    "status": "insufficient-axis-samples",
+    "samples": 2
+  },
+  {
+    "model": "180370",
+    "thickness": 0.5,
+    "status": "insufficient-axis-samples",
+    "samples": 1
+  }
+]

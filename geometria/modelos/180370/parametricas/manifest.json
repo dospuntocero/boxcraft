@@ -1,0 +1,766 @@
+{
+  "source_evidence_id": "ev_9f15a6df8c23b64cf0650dd5bdfaa650770c22ebe822a4de8e305e2fccc72385",
+  "completeness": "partial-error-capture",
+  "samples": [
+    {
+      "file": "knife-00.json",
+      "request_step": 1,
+      "request_step_id": "base",
+      "response_step": 1,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=7348&bleed=3&export_type=model",
+      "body_sha256": "f1c88b038f6759c7578e58b12e403224393ac54a0cf57b22d5cb73b5967bf192",
+      "size": {
+        "L": 120,
+        "W": 80,
+        "H": 160,
+        "D": 0.35,
+        "id": 0.2,
+        "ed": 0.15,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 120,
+        "W": 80,
+        "H": 160,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 250g (0,35mm)",
+      "thickness": 0.35,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "L1",
+            "value": 156,
+            "description": "上长",
+            "min": 120,
+            "max": 180,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "W1",
+            "value": 79.65,
+            "description": "侧宽1",
+            "min": 48,
+            "max": 80,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 53,
+            "description": "外延高度",
+            "min": 0,
+            "max": 78,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "L2",
+            "value": 124,
+            "description": "开口长轴",
+            "min": 78,
+            "max": 156,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 53,
+            "description": "开口短轴",
+            "min": 0,
+            "max": 80,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-01.json",
+      "request_step": 4,
+      "request_step_id": "trainL_ready",
+      "response_step": 5,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881257&bleed=3&export_type=project",
+      "body_sha256": "2c0426c5a9b1cc85aef902a9b5a231747b5bc682369eda421fc3a0022abebaa4",
+      "size": {
+        "L": 120,
+        "W": 80,
+        "H": 160,
+        "D": 0.35,
+        "id": 0.2,
+        "ed": 0.15,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 120,
+        "W": 80,
+        "H": 160,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 250g (0,35mm)",
+      "thickness": 0.35,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "L1",
+            "value": 156,
+            "description": "上长",
+            "min": 120,
+            "max": 180,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "W1",
+            "value": 79.65,
+            "description": "侧宽1",
+            "min": 48,
+            "max": 80,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 53,
+            "description": "外延高度",
+            "min": 0,
+            "max": 78,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "L2",
+            "value": 124,
+            "description": "开口长轴",
+            "min": 78,
+            "max": 156,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 53,
+            "description": "开口短轴",
+            "min": 0,
+            "max": 80,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-02.json",
+      "request_step": 5,
+      "request_step_id": "trainW",
+      "response_step": 5,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881257&bleed=3&export_type=project",
+      "body_sha256": "2c1dd1ad69f97abf2b11ec0077011914363a3539d1084fd503afad7cc4dadb40",
+      "size": {
+        "L": 132,
+        "W": 80,
+        "H": 160,
+        "D": 0.35,
+        "id": 0.2,
+        "ed": 0.15,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 132,
+        "W": 80,
+        "H": 160,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 250g (0,35mm)",
+      "thickness": 0.35,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "L1",
+            "value": 171.6,
+            "description": "上长",
+            "min": 132,
+            "max": 198,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "W1",
+            "value": 79.65,
+            "description": "侧宽1",
+            "min": 48,
+            "max": 80,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 53,
+            "description": "外延高度",
+            "min": 0,
+            "max": 80,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "L2",
+            "value": 137,
+            "description": "开口长轴",
+            "min": 85.8,
+            "max": 171.6,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 53,
+            "description": "开口短轴",
+            "min": 0,
+            "max": 80,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-03.json",
+      "request_step": 7,
+      "request_step_id": "trainW_ready",
+      "response_step": 8,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881257&bleed=3&export_type=project",
+      "body_sha256": "a941cd12cb5155834467c21c41ebd2e6df23db289c6079ac69d42cf61f38fa01",
+      "size": {
+        "L": 132,
+        "W": 88,
+        "H": 160,
+        "D": 0.35,
+        "id": 0.2,
+        "ed": 0.15,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 132,
+        "W": 88,
+        "H": 160,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 250g (0,35mm)",
+      "thickness": 0.35,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "L1",
+            "value": 171.6,
+            "description": "上长",
+            "min": 132,
+            "max": 198,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "W1",
+            "value": 87.65,
+            "description": "侧宽1",
+            "min": 52.8,
+            "max": 88,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 53,
+            "description": "外延高度",
+            "min": 0,
+            "max": 80,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "L2",
+            "value": 137,
+            "description": "开口长轴",
+            "min": 85.8,
+            "max": 171.6,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 53,
+            "description": "开口短轴",
+            "min": 0,
+            "max": 80,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-04.json",
+      "request_step": 10,
+      "request_step_id": "trainH_ready",
+      "response_step": 11,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881257&bleed=3&export_type=project",
+      "body_sha256": "1a1aabca25d8d8240fd3338bfefe2da8583556c35a0920c3d49d530f354065f2",
+      "size": {
+        "L": 132,
+        "W": 88,
+        "H": 176,
+        "D": 0.35,
+        "id": 0.2,
+        "ed": 0.15,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 132,
+        "W": 88,
+        "H": 176,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 250g (0,35mm)",
+      "thickness": 0.35,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "L1",
+            "value": 171.6,
+            "description": "上长",
+            "min": 132,
+            "max": 198,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "W1",
+            "value": 87.65,
+            "description": "侧宽1",
+            "min": 52.8,
+            "max": 88,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 58,
+            "description": "外延高度",
+            "min": 0,
+            "max": 85.8,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "L2",
+            "value": 137,
+            "description": "开口长轴",
+            "min": 85.8,
+            "max": 171.6,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 58,
+            "description": "开口短轴",
+            "min": 0,
+            "max": 88,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-05.json",
+      "request_step": 13,
+      "request_step_id": "testL_ready",
+      "response_step": 13,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881257&bleed=3&export_type=project",
+      "body_sha256": "bdb1db90baf6ecd4c4ddbaf15d12b8672911a5656ca8db9329714fa66bdc8b7d",
+      "size": {
+        "L": 126,
+        "W": 88,
+        "H": 176,
+        "D": 0.35,
+        "id": 0.2,
+        "ed": 0.15,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 126,
+        "W": 88,
+        "H": 176,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 250g (0,35mm)",
+      "thickness": 0.35,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "L1",
+            "value": 163.8,
+            "description": "上长",
+            "min": 126,
+            "max": 189,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "W1",
+            "value": 87.65,
+            "description": "侧宽1",
+            "min": 52.8,
+            "max": 88,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 58,
+            "description": "外延高度",
+            "min": 0,
+            "max": 81.9,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "L2",
+            "value": 131,
+            "description": "开口长轴",
+            "min": 81.9,
+            "max": 163.8,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 58,
+            "description": "开口短轴",
+            "min": 0,
+            "max": 88,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-06.json",
+      "request_step": 16,
+      "request_step_id": "testW_ready",
+      "response_step": 17,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881257&bleed=3&export_type=project",
+      "body_sha256": "21ede61fe52dfe5afb8969fd511259da652c7733b0bf54bce647b72b28c93257",
+      "size": {
+        "L": 126,
+        "W": 84,
+        "H": 176,
+        "D": 0.35,
+        "id": 0.2,
+        "ed": 0.15,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 126,
+        "W": 84,
+        "H": 176,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 250g (0,35mm)",
+      "thickness": 0.35,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "L1",
+            "value": 163.8,
+            "description": "上长",
+            "min": 126,
+            "max": 189,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "W1",
+            "value": 83.65,
+            "description": "侧宽1",
+            "min": 50.4,
+            "max": 84,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 58,
+            "description": "外延高度",
+            "min": 0,
+            "max": 81.9,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "L2",
+            "value": 131,
+            "description": "开口长轴",
+            "min": 81.9,
+            "max": 163.8,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 58,
+            "description": "开口短轴",
+            "min": 0,
+            "max": 88,
+            "unit": "length"
+          }
+        ]
+      ]
+    },
+    {
+      "file": "knife-07.json",
+      "request_step": 20,
+      "request_step_id": "settled",
+      "response_step": 20,
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=70881257&bleed=3&export_type=project",
+      "body_sha256": "6d8243f9517aeda73d764be484042635a6364716c841f63421c707ecc6f6c04e",
+      "size": {
+        "L": 126,
+        "W": 84,
+        "H": 168,
+        "D": 0.35,
+        "id": 0.2,
+        "ed": 0.15,
+        "like": null
+      },
+      "knifeSize": {
+        "L": 126,
+        "W": 84,
+        "H": 168,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": "Cartón blanco 250g (0,35mm)",
+      "thickness": 0.35,
+      "params": [
+        [
+          {
+            "grade": 2,
+            "name": "L1",
+            "value": 163.8,
+            "description": "上长",
+            "min": 126,
+            "max": 189,
+            "unit": "length"
+          },
+          {
+            "grade": 2,
+            "name": "W1",
+            "value": 83.65,
+            "description": "侧宽1",
+            "min": 50.4,
+            "max": 84,
+            "unit": "length"
+          }
+        ],
+        [
+          {
+            "grade": 3,
+            "name": "D1",
+            "value": 56,
+            "description": "外延高度",
+            "min": 0,
+            "max": 81.9,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "L2",
+            "value": 131,
+            "description": "开口长轴",
+            "min": 81.9,
+            "max": 163.8,
+            "unit": "length"
+          },
+          {
+            "grade": 3,
+            "name": "D2",
+            "value": 56,
+            "description": "开口短轴",
+            "min": 0,
+            "max": 84,
+            "unit": "length"
+          }
+        ]
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "scenario_start",
+      "status": "completed",
+      "error": null,
+      "text": "- document"
+    },
+    {
+      "id": "base",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"120\"\n  - text: mm Anchura\n  - textbox: \"80\"\n  - text: mm Altura\n  - textbox: \"160\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 120 × 80 × 160 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 120 mm 160 mm 80 mm\n  - text:      "
+    },
+    {
+      "id": "trainL",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"132\"\n  - text: mm Anchura\n  - textbox: \"80\"\n  - text: mm Altura\n  - textbox: \"160\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 120 × 80 × 160 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 120 mm 160 mm 80 mm\n  - text:      "
+    },
+    {
+      "id": "trainL_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"132\"\n  - text: mm Anchura\n  - textbox [disabled]: \"80\"\n  - text: mm Altura\n  - textbox [disabled]: \"160\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 132 × 80 × 160 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 132 mm\n    - img\n    - img:\n      - img\n    - text: 160 mm 80 mm\n  - text:      "
+    },
+    {
+      "id": "trainL_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"132\"\n  - text: mm Anchura\n  - textbox [disabled]: \"80\"\n  - text: mm Altura\n  - textbox [disabled]: \"160\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 132 × 80 × 160 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 132 mm\n    - img\n    - img:\n      - img\n    - text: 160 mm 80 mm\n  - text:      "
+    },
+    {
+      "id": "trainW",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"132\"\n  - text: mm Anchura\n  - textbox: \"88\"\n  - text: mm Altura\n  - textbox: \"160\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 132 × 80 × 160 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 132 mm 160 mm 80 mm\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainW_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"132\"\n  - text: mm Anchura\n  - textbox [disabled]: \"88\"\n  - text: mm Altura\n  - textbox [disabled]: \"160\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 132 × 88 × 160 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 132 mm 160 mm 88 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe"
+    },
+    {
+      "id": "trainW_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"132\"\n  - text: mm Anchura\n  - textbox [disabled]: \"88\"\n  - text: mm Altura\n  - textbox [disabled]: \"160\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 132 × 88 × 160 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 132 mm 160 mm 88 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "trainH",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"132\"\n  - text: mm Anchura\n  - textbox: \"88\"\n  - text: mm Altura\n  - textbox: \"176\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 132 × 88 × 160 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 132 mm 160 mm 88 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "trainH_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"132\"\n  - text: mm Anchura\n  - textbox [disabled]: \"88\"\n  - text: mm Altura\n  - textbox [disabled]: \"176\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 132 × 88 × 176 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 132 mm 176 mm\n    - img\n    - img:\n      - img\n    - text: 88 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "trainH_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"132\"\n  - text: mm Anchura\n  - textbox [disabled]: \"88\"\n  - text: mm Altura\n  - textbox [disabled]: \"176\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 132 × 88 × 176 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 132 mm 176 mm\n    - img\n    - img:\n      - img\n    - text: 88 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testL",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"126\"\n  - text: mm Anchura\n  - textbox: \"88\"\n  - text: mm Altura\n  - textbox: \"176\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 132 × 88 × 176 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 132 mm 176 mm 88 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testL_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"126\"\n  - text: mm Anchura\n  - textbox [disabled]: \"88\"\n  - text: mm Altura\n  - textbox [disabled]: \"176\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 126 × 88 × 176 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 126 mm\n    - img\n    - img:\n      - img\n    - text: 176 mm 88 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testL_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"126\"\n  - text: mm Anchura\n  - textbox [disabled]: \"88\"\n  - text: mm Altura\n  - textbox [disabled]: \"176\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 126 × 88 × 176 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 126 mm\n    - img\n    - img:\n      - img\n    - text: 176 mm 88 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testW",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"126\"\n  - text: mm Anchura\n  - textbox: \"84\"\n  - text: mm Altura\n  - textbox: \"176\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 126 × 88 × 176 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 126 mm 176 mm 88 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testW_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"126\"\n  - text: mm Anchura\n  - textbox [disabled]: \"84\"\n  - text: mm Altura\n  - textbox [disabled]: \"176\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 126 × 84 × 176 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 126 mm 176 mm 84 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testW_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"126\"\n  - text: mm Anchura\n  - textbox [disabled]: \"84\"\n  - text: mm Altura\n  - textbox [disabled]: \"176\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 126 × 84 × 176 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 126 mm 176 mm 84 mm\n    - img\n    - img:\n      - img\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testH",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"126\"\n  - text: mm Anchura\n  - textbox: \"84\"\n  - text: mm Altura\n  - textbox: \"168\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 126 × 84 × 176 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 126 mm 176 mm 84 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testH_blur",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"126\"\n  - text: mm Anchura\n  - textbox [disabled]: \"84\"\n  - text: mm Altura\n  - textbox [disabled]: \"168\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 126 × 84 × 168 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 126 mm 168 mm\n    - img\n    - img:\n      - img\n    - text: 84 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "testH_ready",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox [disabled]: \"126\"\n  - text: mm Anchura\n  - textbox [disabled]: \"84\"\n  - text: mm Altura\n  - textbox [disabled]: \"168\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 126 × 84 × 168 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 126 mm 168 mm\n    - img\n    - img:\n      - img\n    - text: 84 mm\n  - text:      \n  - iframe\n  - img"
+    },
+    {
+      "id": "settled",
+      "status": "completed",
+      "error": null,
+      "text": "- document:\n  - text:  Generador de plantillas \n  - img\n  - link \"Diseño en línea \":\n    - /url: \"\"\n  - button \"Compartir\"\n  - text:  Descargar la plantilla de corte \n  - paragraph: Modelos\n  - text: \n  - paragraph: Básico\n  - text: \n  - paragraph: Anticipado\n  - text: \n  - paragraph: Más\n  - text:  Tamaño a la medida  mm in Longitud\n  - textbox: \"126\"\n  - text: mm Anchura\n  - textbox: \"84\"\n  - text: mm Altura\n  - textbox: \"168\"\n  - text: mm Elegir material \n  - img\n  - text: Cartón blanco 250g  Espesor \n  - textbox [disabled]: \"0.35\"\n  - text:  Modo tamaño  Dimensiones de manufactura Abierto Cerrar  formatos de archivo\n  - img\n  - text: AI plano guía\n  - img\n  - text: PDF plano guía\n  - img\n  - text: DXF plano guía\n  - img\n  - text: 3D maqueta\n  - paragraph: Lo recibirás\n  - list:\n    - listitem: Todos los archivos dieline se pueden generar y descargar en unos minutos.\n    - listitem: Todas las limas dieline se inspeccionan rigurosamente estructuralmente. Se incluyen dimensiones, espesores y descripciones de materiales. Listo para imprimir.\n    - listitem: Todos los archivos dieline no tienen marcas de agua y se pueden editar localmente con Adobe Illustrator.\n  - text: Sangría Recorte Pliegue Dimensiones de manufactura 126 × 84 × 168 mm\n  - img:\n    - img\n    - img\n    - img\n    - text: 126 mm 168 mm 84 mm\n  - text:      \n  - iframe\n  - img"
+    }
+  ]
+}
