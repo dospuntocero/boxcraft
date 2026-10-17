@@ -44,7 +44,7 @@ El historial anterior del editor se conserva en `archivo/historial/editor-troque
 git --git-dir=archivo/historial/editor-troqueles.git --work-tree=editor-troqueles log --oneline
 ```
 
-La copia de publicación conserva su propio historial dentro de `archivo/copias/boxcraft-publicacion/.git`. La reorganización no crea commits ni configura un remoto para el repositorio raíz.
+La copia de publicación conserva su propio historial dentro de `archivo/copias/boxcraft-publicacion/.git`. El repositorio raíz continúa el historial de `dospuntocero/boxcraft` y tiene configurado ese remoto como `origin`.
 
 ## Publicación
 
