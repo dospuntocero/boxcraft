@@ -46,7 +46,7 @@ The editor's previous history is retained in `archivo/historial/editor-troqueles
 git --git-dir=archivo/historial/editor-troqueles.git --work-tree=editor-troqueles log --oneline
 ```
 
-The publication copy retains its own history in `archivo/copias/boxcraft-publicacion/.git`. The reorganization creates no commits and configures no remote for the root repository.
+The publication copy retains its own history in `archivo/copias/boxcraft-publicacion/.git`. The root repository continues the history of `dospuntocero/boxcraft`, configured as its `origin` remote.
 
 ## Documentation languages
 
