@@ -63,7 +63,7 @@ def main():
         'bounds': {k: [base['knifeSize'][k], base['knifeSize'][k]] for k in ('L', 'W', 'H')},
         'initialDims': {k: base['knifeSize'][k] for k in ('L', 'W', 'H')},
         'rule': None,
-        'previewImage': 'assets/model-previews/188060.png',
+        'previewImage': 'assets/model-previews/188060.png?v=35',
         'method': 'Captura 2D exacta del SVG de Pacdora; sin motor paramétrico verificado',
         'experimental': False,
         'limits': 'Solo 100,6 × 40,6 × 181,6 mm y 0,5 mm. No se verificaron mínimos, otros materiales ni armado físico.',
