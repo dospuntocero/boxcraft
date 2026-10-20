@@ -25,7 +25,7 @@ El modelo queda **fijo** en 100,6 × 40,6 × 181,6 mm y 0,5 mm. No se habilitó 
 - `troquel-generado.svg`: plano vectorial a escala real.
 - `troquel-generado.json`: geometría, extensión, conteos y procedencia.
 - `vista-previa.png`: rasterización local del SVG (generada, no es una imagen oficial).
-- `icono-3d.png`: recorte del visor 3D de Pacdora, usado como miniatura del catálogo; no es una descarga oficial.
+- `icono-3d.jpg`: mockup oficial de Pacdora (`https://cdn.pacdora.com/image-resize/300xauto_outside/preview/mockup-188060.jpg`, SHA-256 `012a6401701caace43bcc30a17691977920c7dd32aa95656c2d1c99a3ecbe342`), usado como miniatura del catálogo. Se conserva el JPG original.
 - `base/knife-00.json`: respuesta original conservada.
 - `base/geometria.json`: capa normalizada usada por el generador.
 - `generar.py`: reproduce SVG/JSON sin red.

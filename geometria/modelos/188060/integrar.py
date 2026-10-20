@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Da de alta el modelo 188060 en el catálogo local del editor."""
-import hashlib, json, pathlib, shutil, subprocess, sys
+import hashlib, json, pathlib, shutil, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent
 REPO = ROOT.parents[2]
@@ -12,29 +12,10 @@ import generar as G
 def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def preview():
-    if (ROOT / 'vista-previa.png').exists() and (ASSETS / 'model-previews' / '188060.png').exists():
-        return
-    from PIL import Image, ImageChops
-    svg = ROOT / 'troquel-generado.svg'
-    chrome = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
-    if not pathlib.Path(chrome).exists():
-        return
-    tmp = pathlib.Path('/tmp/188060-preview.png')
-    profile = pathlib.Path('/tmp/chrome-188060')
-    subprocess.run([chrome, '--headless', '--no-sandbox', f'--user-data-dir={profile}',
-                    '--hide-scrollbars', '--window-size=1600,1300',
-                    f'--screenshot={tmp}', f'file://{svg}'], check=False,
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    if not tmp.exists(): return
-    im = Image.open(tmp).convert('RGB')
-    # Recorta el fondo blanco exterior.
-    bg = Image.new('RGB', im.size, 'white')
-    diff = ImageChops.difference(im, bg)
-    bbox = diff.getbbox()
-    if bbox:
-        im = im.crop((max(0, bbox[0]-20), max(0, bbox[1]-20), min(im.width, bbox[2]+20), min(im.height, bbox[3]+20)))
-    im.save(ROOT / 'vista-previa.png')
-    shutil.copyfile(ROOT / 'vista-previa.png', ASSETS / 'model-previews' / '188060.png')
+    """Copia la miniatura oficial de Pacdora; no rasteriza la planimetría."""
+    source = ROOT / 'icono-3d.jpg'
+    if source.exists():
+        shutil.copyfile(source, ASSETS / 'model-previews' / '188060.jpg')
 
 def main():
     G.main()
@@ -63,7 +44,7 @@ def main():
         'bounds': {k: [base['knifeSize'][k], base['knifeSize'][k]] for k in ('L', 'W', 'H')},
         'initialDims': {k: base['knifeSize'][k] for k in ('L', 'W', 'H')},
         'rule': None,
-        'previewImage': 'assets/model-previews/188060.png?v=35',
+        'previewImage': 'assets/model-previews/188060.jpg?v=36',
         'method': 'Captura 2D exacta del SVG de Pacdora; sin motor paramétrico verificado',
         'experimental': False,
         'limits': 'Solo 100,6 × 40,6 × 181,6 mm y 0,5 mm. No se verificaron mínimos, otros materiales ni armado físico.',
@@ -100,6 +81,7 @@ def main():
             'base/geometria.json': sha(ROOT / 'base' / 'geometria.json'),
             'base/knife-00.json': sha(ROOT / 'base' / 'knife-00.json'),
             'README.md': sha(ROOT / 'README.md'),
+            'icono-3d.jpg': sha(ROOT / 'icono-3d.jpg'),
         },
         'pruebas': {'json_valido': True, 'svg_xml_valido': True, 'extension_positiva': True, 'geometria_base_exacta': True},
         'limites': ['No se verificaron mínimos ni otros materiales.', 'No se validó armado físico ni exportación AI/DXF/PDF.'],
