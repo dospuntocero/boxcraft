@@ -1,0 +1,86 @@
+{
+  "modelo": "187000",
+  "configuracion": {
+    "L": 118,
+    "W": 70,
+    "H": 25,
+    "materialId": 103,
+    "espesor": 0.5
+  },
+  "extension_mm": {
+    "x": 143.0,
+    "y": 155.0
+  },
+  "pliego_mm": [
+    330,
+    480
+  ],
+  "cabe_en_pliego": true,
+  "conteos": {
+    "caras": 7,
+    "pliegues": 258,
+    "cortes": 645,
+    "orificios": 0
+  },
+  "sha256": {
+    "troquel-oficial.png": "fa588b53333b68593bf5e8f39dc9c4f0610ba150e45a8ec6e83966e2f26a6ffa",
+    "icono-3d.png": "07b93b988ec125c53950be1c07bc7f4dac57739cdee6f9c455bc65264f4b5c40",
+    "vista-previa.png": "488b18381be2a6ad19f497f50643325e617dfa65ad716849952b30ac234aec3e",
+    "editor-187000.png": "e31a683ce6c31a680fb74c991cce2a15454cb4d241d304c1c1ae731ce82f380f",
+    "editor-187000-90mm.png": "1b2c8a95c80d3151913c3a0aa796acc4bc8ffb564477520b3bc8e7df582cb257",
+    "troquel-generado.svg": "ddc1fc8b780f517d481928d5cc6fd2850fa9f5cd4dfe607e1afe5fdfff121179",
+    "troquel-generado.json": "ff31dacb011256dfab969925f2f364f3acc62f0bfd3d188f6dd7cf2db7c5877b",
+    "base/geometria-dom.json": "ea54e3dbef758d0813e8e6805d5543a87d357f0ee8b5e282a44bffa0367f3f6e",
+    "README.md": "d00fd541dde580a557c65e76ab349cd653b1a01850c03f15a3488136a61edc78"
+  },
+  "pruebas": {
+    "json_valido": true,
+    "svg_xml_valido": true,
+    "extension_positiva": true,
+    "pliego": true,
+    "catalogo_contiene_modelo": true,
+    "capacidad_material_presente": true,
+    "editor_render_ok": true,
+    "editor_evidence": "ev_6462b1265fb2d5083bba4b23929892f9c3671602f9669becc951d9e30515d594",
+    "editor_edit_evidence": "ev_544b9107c3a61bb9a71726d7c637f05fd4fbed2e71cee3697cc78522dab9afc6",
+    "svg_coincide_visualmente_con_imagen_oficial": true,
+    "motor_corte_valido": true,
+    "motor_caras_valido": true
+  },
+  "motor": {
+    "engine": "pillow187000",
+    "formulas": {
+      "x0": "H/2",
+      "y0": "W >= 100 ? 18 : 15",
+      "R": "(W^2 + H^2) / (4H)",
+      "rt": "clamp(round((L+H)/25 * 2)/2, 6, 7.5)",
+      "totalX": "L + H",
+      "totalY": "2W + y0"
+    },
+    "bounds": {
+      "L": [
+        20,
+        323.33
+      ],
+      "W": [
+        20,
+        231
+      ],
+      "H": [
+        6.67,
+        200
+      ]
+    },
+    "muestras_validadas": 7,
+    "error_maximo_corte_mm": 7e-05,
+    "error_maximo_caras_mm": 3e-05,
+    "estado": "experimental"
+  },
+  "limites": [
+    "No se comparó contra una exportación DXF/PDF de Pacdora: la descarga exige inicio de sesión.",
+    "No se verificaron offsets internos/externos, sangría oficial, capas de impresión ni parámetros avanzados.",
+    "El motor reproduce el corte y las caras observadas; la muesca de cierre se calibró con 6 muestras y queda como experimental.",
+    "H debe ser menor que W y el corte debe caber en 330 × 480 mm.",
+    "La equivalencia digital no acredita armado físico ni aptitud de fabricación."
+  ]
+}

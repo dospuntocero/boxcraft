@@ -19,7 +19,10 @@ def integrate():
     }
     for model in models:
         code = model['id']
-        if (ROOT/'dist/assets/pacdora'/f'{code}.png').exists():
+        preview = ROOT/'dist/assets/model-previews'/f'{code}.png'
+        if preview.exists():
+            model['previewImage'] = f'assets/model-previews/{code}.png'
+        elif (ROOT/'dist/assets/pacdora'/f'{code}.png').exists():
             model['previewImage'] = f'assets/pacdora/{code}.png'
         if code == '102010':
             model['materialSheetMm'] = [1000, 700]
@@ -36,6 +39,8 @@ def integrate():
             # Width of the unfolded blank is the material constraint, not an arbitrary box maximum.
             minimums = {'L': 30, 'W': 24, 'H': 20.6}
             model['materialWidthMm'] = 1200
+            model['materialSheetMm'] = [1200, 2300]
+            model['sheetBleed'] = 0  # the blank uses the full 1200 mm sheet width
             model['initialDims'] = {'L': 434, 'W': 144, 'H': 278}
             model['referenceBounds'] = {axis: [low, None] for axis, low in minimums.items()}
             model['bounds'] = model['referenceBounds'].copy()

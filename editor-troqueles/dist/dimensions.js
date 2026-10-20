@@ -13,6 +13,10 @@
       const b=face('HB'),t=face('FT');
       result=[horizontal('L',b,.42),vertical('W',{...b,h:t.y+t.h-b.y},.25),vertical('H',face('F'),.78)];
     }else if(model.id==='180320')result=[horizontal('L',face('B'),.76),vertical('W',face('B'),.72)];
+    else if(model.id==='187000'){
+      const h=face('H');
+      result=[horizontal('L',h,.8),vertical('W',h,.25)];
+    }
     else result=[horizontal('L',face('H'),.8),horizontal('W',face('FR')||face('L'),.25),vertical('H',face('F'),.72)];
     return result.filter(a=>Object.hasOwn(model.dims,a.axis));
   }

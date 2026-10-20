@@ -48,7 +48,7 @@ Las capturas anteriores devolvieron `cleanup_incomplete`: se conservaron las acc
 
 ## Ancho de material FEFCO 200010
 
-El límite físico configurado es 1.200 mm para `totalX` del plano desplegado, en la orientación mostrada. No se aplica rotación automática. La relación observada es `totalX = 44 + 2L + 2W`; los máximos del formulario se recalculan con la otra medida. La altura tiene mínimo 20,6 mm y no tiene máximo de largo de material configurado. Se mantienen mínimos L=30 y W=24 mm. El generador rechaza cualquier plano que exceda 1.200 mm y conserva la última geometría válida.
+El material es un pliego completo de **1.200 × 2.300 mm**. El ancho de 1.200 mm sigue siendo el límite duro de `totalX` en la orientación mostrada; la longitud de 2.300 mm limita la altura. La relación observada es `totalX = 44 + 2L + 2W` y `totalY = H + W + 2`. Con 434 × 144 × 278 mm el plano mide 1.200 × 424 mm y el editor calcula **5 cajas por pliego** (1 columna × 5 filas, sin giro). La yield usa **0 mm de sangría lateral** porque el plano ocupa exactamente los 1.200 mm del pliego; los planos comparten borde. La altura máxima para W=144 es 2.154 mm. Se mantienen mínimos L=30 y W=24 mm; los máximos de L/W se recalculan con la otra medida para no superar 1.200 mm. El generador rechaza cualquier plano que exceda el pliego y conserva la última geometría válida.
 
 Las medidas iniciales del editor para este material son 434 × 144 × 278 mm; las medidas capturadas originales permanecen separadas para las reglas empíricas y las pruebas de identidad. El control de rango ampliado no se muestra para FEFCO, porque sus límites dependen del ancho del material. Los límites de fabricación y el rango de verificación empírica son conceptos separados.
 
@@ -69,5 +69,17 @@ Mínimos de referencia suministrados: L=15, W=10,6, H=20,6 mm; pliego 1.000 × 7
 | 12109002 | 30 × 30 × 30,6 | 1.000 × 700 |
 | 112310 | 40 × 40 × 41 | 1.200 × 2.300 |
 | 10001006 | 15 × 10,6 × 15,6 | 1.000 × 700 |
+| 200010 | 30 × 24 × 20,6 | 1.200 × 2.300 |
+| 187000 | 20 × 20 × 6,67 | 330 × 480 |
 
 Se admite giro de 90°. Los límites de cada campo se recalculan con las otras medidas; el motor comprueba ambas dimensiones del plano antes de aceptar el cambio. Para 12109002, las dimensiones iniciales del editor son 200 × 140 × 120 mm: el plano resultante de 609,13 × 742,18 mm cabe girado. Su geometría capturada original permanece separada, ya que no cabe en el nuevo pliego. Estos límites de material sustituyen los rangos arbitrarios de exploración; no amplían la validación de la reconstrucción geométrica.
+
+## Caja con ventana 15030101
+
+Se retiró la transformación por zonas: deformaba pestañas, ranuras y radios y fallaba frente a las capturas originales. Se conserva la geometría exacta de cada material y espesor en 150 × 150 × 50 mm. Los mínimos solicitados (40 × 40 × 30 mm) quedan registrados como referencia; los ejes permanecen fijos hasta disponer de un generador fiel. No se considera validada la parametrización por comprobar únicamente medidas y conteos.
+
+## Caja almohada 187000
+
+Motor local `pillow187000`. Reconstruye corte, caras y pliegues con `x0 = H/2`, pestaña superior `y0 = 15` (18 mm para W ≥ 100), radio `R = (W²+H²)/(4H)` y muesca de cierre `rt = clamp(round((L+H)/25·2)/2, 6, 7,5)`. Extensión `totalX = L+H`, `totalY = 2W+y0`. Se validó contra 7 capturas del editor (error máximo 0,00007 mm en corte y 0,00003 mm en caras).
+
+Rango editable: L 20–323,33 mm, W 20–231 mm, H 6,67–200 mm, con H < W. Pliego 330 × 480 mm; el motor comprueba el ajuste y el editor calcula las cajas por pliego con sangría de 3 mm y giro. Queda marcado como experimental: no se verificó una exportación DXF/PDF ni una muestra física, y la regla de la pestaña/muesca tiene menor cobertura fuera de las muestras.

@@ -167388,5 +167388,85 @@
     ],
     "geometryStatus": "exact-capture",
     "blockedReason": "No hay geometría verificada para este material y espesor."
+  },
+  "187000": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.5,
+      0.5
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": true,
+    "offsets": {
+      "inner": {
+        "L": 0,
+        "W": 0,
+        "H": 0
+      },
+      "outer": {
+        "L": 0,
+        "W": 0,
+        "H": 0
+      }
+    },
+    "source": "motor pillow187000 + geometria/modelos/187000/muestras.json",
+    "samples": [
+      {
+        "manufacturing": {
+          "L": 118,
+          "W": 70,
+          "H": 25
+        }
+      },
+      {
+        "manufacturing": {
+          "L": 160,
+          "W": 70,
+          "H": 25
+        }
+      },
+      {
+        "manufacturing": {
+          "L": 118,
+          "W": 100,
+          "H": 25
+        }
+      },
+      {
+        "manufacturing": {
+          "L": 118,
+          "W": 70,
+          "H": 30
+        }
+      },
+      {
+        "manufacturing": {
+          "L": 150,
+          "W": 90,
+          "H": 40
+        }
+      },
+      {
+        "manufacturing": {
+          "L": 118,
+          "W": 118,
+          "H": 25
+        }
+      },
+      {
+        "manufacturing": {
+          "L": 118,
+          "W": 95,
+          "H": 25
+        }
+      }
+    ],
+    "physicalProfiles": [],
+    "geometryStatus": "parametric-local",
+    "blockedReason": "Solo manufactura y 0,5 mm; no hay medidas internas/externas ni otros materiales verificados."
   }
 }
