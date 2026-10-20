@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="149.2000mm" height="161.2000mm" viewBox="-3.1000 -3.1000 149.2000 161.2000" role="img" aria-labelledby="titulo">
+  <title id="titulo">Troquel 187000 · caja almohada · 118 × 70 × 25 mm</title>
+  <desc>Reconstrucción local desde la geometría vectorial observada. Corte azul, pliegue rojo. Sin sangría ni cotas.</desc>
+  <metadata>{&quot;code&quot;: &quot;187000&quot;, &quot;url&quot;: &quot;https://www.pacdora.com/es/dielines-detail/custom-pillow-box-dieline-187000&quot;, &quot;dims&quot;: {&quot;L&quot;: 118, &quot;W&quot;: 70, &quot;H&quot;: 25}, &quot;material&quot;: {&quot;id&quot;: 103, &quot;name&quot;: &quot;Cartón blanco 350g&quot;, &quot;thickness&quot;: 0.5}, &quot;evidence&quot;: {&quot;pagina&quot;: &quot;ev_73771f17be96543b91985400c8f8a0ea185b779c7b1718c50df19a2a7b62f099&quot;, &quot;geometria_base&quot;: &quot;ev_73771f17be96543b91985400c8f8a0ea185b779c7b1718c50df19a2a7b62f099&quot;, &quot;variacion_150x90x40&quot;: &quot;ev_b7dfb9d69864d7dfb09eb62a730fd7383932aad52219bf19e45cef89a842049a&quot;, &quot;variacion_L160&quot;: &quot;ev_75444ecb274977fc80301d9f223eb08ef608842b64cb585918abae7d07539b36&quot;, &quot;variacion_W100&quot;: &quot;ev_b01014a87287bb74eb74040a95f3a45f0b1289f156b2e2dac43cd03348032c78&quot;, &quot;variacion_H30&quot;: &quot;ev_a17998c5f2150f9ef24dc18d11bbeedd9d944eabaa4bc4b1f5bbac6049f2164b&quot;, &quot;minimo_30x30x15&quot;: &quot;ev_c49872181fc6f5b0d481cd296a30f80eba29925ecb021aefe7db762fa8879002&quot;, &quot;minimo_10x10x5&quot;: &quot;ev_4f33ca9d5103fe45b6649168794a2f60a09fc3ef5d012c6d6166091d8db4257d&quot;, &quot;H5_rechazado&quot;: &quot;ev_b9c3a3fddcf813092254ab6bddb15a627826145dd2bd913975d1e818be0c595b&quot;, &quot;descarga_login&quot;: &quot;ev_af74ae399a73a565cb2738641e2f8e1b7bd7210e7e687ca3f8f5b9a71378bb4b&quot;}}</metadata>
+  <g id="caras">
+    <path id="cara-H" d=" M130.50002,15  A55.25,55.25 90 0,0 130.50002,85  L12.500020000000006,85.00000000000001  A55.25,55.25 90 0,0 12.500020000000006,15.000000000000007  L130.50002,15  Z " fill="#ffffff" stroke="none"/>
+    <path id="cara-HL" d=" M130.50002,15  L12.500020000000006,15.000000000000007  A55.25,55.25 90 0,0 21.253055000000003,7.454851549657743e-15  L121.74698500000001,1.3013730642458331e-15  A55.25,55.25 90 0,0 130.50002,15  Z " fill="#ffffff" stroke="none"/>
+    <path id="cara-HT" d=" M130.50002,15  A55.25,55.25 90 0,1 130.50002,85  A55.25,55.25 90 0,1 130.50002,15  Z " fill="#ffffff" stroke="none"/>
+    <path id="cara-HB" d=" M12.500020000000006,15.000000000000007  A55.25,55.25 90 0,1 12.500020000000006,85.00000000000001  A55.25,55.25 90 0,1 12.500020000000006,15.000000000000007  Z " fill="#ffffff" stroke="none"/>
+    <path id="cara-F" d=" M130.50002,85  A55.25,55.25 90 0,0 130.50002,155  L12.500020000000006,155  A55.25,55.25 90 0,0 12.500020000000006,85.00000000000001  L130.50002,85  Z " fill="#ffffff" stroke="none"/>
+    <path id="cara-FT" d=" M130.50002,85  A55.25,55.25 90 0,1 142.6732617,114  A6,6 90 0,0 142.67326242000001,126  A55.25,55.25 90 0,1 130.50002,155  A55.25,55.25 90 0,1 130.50002,85  Z " fill="#ffffff" stroke="none"/>
+    <path id="cara-FB" d=" M12.500020000000006,85.00000000000001  A55.25,55.25 90 0,1 12.500020000000006,155  A55.25,55.25 90 0,1 0.32677000000001044,126.00000000000001  A6,6 90 0,0 0.32677000000001044,114.00000000000001  A55.25,55.25 90 0,1 12.500020000000006,85.00000000000001  Z " fill="#ffffff" stroke="none"/>
+  </g>
+  <g id="corte" fill="none" stroke="#2028b0" stroke-width="0.3" stroke-linejoin="round">
+    <path d=" M21.2531,0  L121.74698500000001,1.3013730642458331e-15  A55.25,55.25 90 0,0 130.50002,15  A55.25,55.25 90 0,1 130.50002,85  A55.25,55.25 90 0,1 142.6732617,114  A6,6 90 0,0 142.67326242000001,126  A55.25,55.25 90 0,1 130.50002,155  L12.500020000000006,155  A55.25,55.25 90 0,1 0.32677000000001044,126.00000000000001  A6,6 90 0,0 0.32677000000001044,114.00000000000001  A55.25,55.25 90 0,1 12.500020000000006,85.00000000000001  A55.25,55.25 90 0,1 12.500020000000006,15.000000000000007  A55.25,55.25 90 0,0 21.253055000000003,7.454851549657743e-15  Z "/>
+  </g>
+  <g id="pliegues" fill="none" stroke="#fa0000" stroke-width="0.3" stroke-dasharray="2 1.2">
+    <path d="M 130.50002 15 A 55.25 55.25 90 0 0 130.50002 85"/>
+    <line x1="130.50002" y1="85.0" x2="12.500020000000006" y2="85.00000000000001"/>
+    <path d="M 12.500020000000006 85.00000000000001 A 55.25 55.25 90 0 0 12.500020000000006 15.000000000000007"/>
+    <line x1="12.500020000000006" y1="15.000000000000007" x2="130.50002" y2="15.0"/>
+    <path d="M 130.50002 85 A 55.25 55.25 90 0 0 130.50002 155"/>
+    <path d="M 12.500020000000006 155 A 55.25 55.25 90 0 0 12.500020000000006 85.00000000000001"/>
+  </g>
+</svg>

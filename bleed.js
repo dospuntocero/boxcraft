@@ -4,11 +4,14 @@
   function contours(layer){
     if(cache.has(layer))return cache.get(layer);
     const paths=[];
-    for(const face of layer.faces){
+    // Some models only expose the outer cut; when the panel faces do not cover
+    // the full blank (for example the bottom glue strip), offset the cut itself.
+    const sources=layer.bleedFromCuts&&layer.cuts?[layer.cuts]:layer.faces.map(face=>face.dlist);
+    for(const dlist of sources){
       let points=[],last=null;
       const finish=()=>{if(points.length>2){const p=ClipperLib.Clipper.CleanPolygon(points,2);if(!ClipperLib.Clipper.Orientation(p))p.reverse();paths.push(p);}points=[];};
       const add=(x,y)=>points.push({X:Math.round(x*scale),Y:Math.round(y*scale)});
-      for(const c of face.dlist){
+      for(const c of dlist){
         if(c.mtd==='M'){finish();add(c.x,c.y);last=c;}
         else if(c.mtd==='L'){add(c.x,c.y);last=c;}
         else if(c.mtd==='A'){
