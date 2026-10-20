@@ -17,6 +17,7 @@
       const h=face('H');
       result=[horizontal('L',h,.8),vertical('W',h,.25)];
     }
+    else if(model.id==='188060')result=[horizontal('L',face('B'),.8),vertical('W',face('BT'),.5),vertical('H',face('F'),.72)];
     else result=[horizontal('L',face('H'),.8),horizontal('W',face('FR')||face('L'),.25),vertical('H',face('F'),.72)];
     return result.filter(a=>Object.hasOwn(model.dims,a.axis));
   }
