@@ -130,7 +130,7 @@ Se generó geometria/modelos/102010/troquel-generado.svg con las medidas inicial
 
 Las muestras mostraron un cambio de estructura del fondo: al aumentar L a 139.7 con W=60.6, el número de comandos de corte pasó a 92; al aumentar W a 76.2 regresó a 80. Por eso no se publicó un generador lineal general de L/W. El usuario confirmó continuar con las medidas originales, que se mantienen fijas en la salida.
 
-Se dejó una regla experimental para H, comprobada con 857 campos numéricos en una pareja L/W distinta de la usada para el ajuste. Su transferencia a otras alturas de la base no tiene una comprobación directa adicional. Sangría y anotaciones quedan fuera. Uso y limitaciones en geometria/modelos/102010/README.md. No se validó fabricación ni equivalencia visual de los arcos con el editor.
+Se añadió un motor afín L/W/H experimental ajustado con seis capturas de la topología de 80 cortes; el error máximo fue 1,82 mm y la base se reproduce exactamente. L, W y H son editables, con L ≤ 2W: por encima el fondo cambia a 92 cortes y se rechaza. No se validó una muestra física. Sangría y anotaciones quedan fuera. Uso y limitaciones en geometria/modelos/102010/README.md. No se validó fabricación ni equivalencia visual de los arcos con el editor.
 
 ## Cuarto modelo: 150010, caja mailer con tapa abatible
 

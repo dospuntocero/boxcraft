@@ -27,9 +27,14 @@ def integrate():
         if code == '102010':
             model['materialSheetMm'] = [1000, 700]
             model['minimumDims'] = {'L': 15, 'W': 10.6, 'H': 20.6}
-            model['referenceBounds'] = {'H': [20.6, None]}
+            model['engine'] = 'affine'
+            model['rule'] = json.loads((GEOMETRY / '102010/reglas-lwh.json').read_text())
+            model['referenceBounds'] = {'L': [15, None], 'W': [10.6, None], 'H': [20.6, None]}
             model['bounds'] = model['referenceBounds'].copy()
             model['expandedBounds'] = model['referenceBounds'].copy()
+            model['experimental'] = True
+            model['method'] = 'Reconstrucción afín L/W/H sobre la topología de 80 cortes; error máximo 1,82 mm'
+            model['limits'] = 'L ≤ 2W: por encima cambia el fondo a 92 cortes y no está reconstruido. Sin validación física.'
         if code == '10001029':
             model['materialSheetMm'] = [1000, 700]
             model['referenceBounds'] = {axis: [low, None] for axis, low in {'L': 15, 'W': 10.6, 'H': 15.6}.items()}

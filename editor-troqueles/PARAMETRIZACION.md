@@ -17,7 +17,7 @@ Las diferencias anteriores incluyen todos los campos numéricos del plano, no so
 
 Los motores experimentales ofrecen adaptación de la geometría, pero no reproducen todos los ajustes automáticos y redondeos del servicio original. Se señalan en el catálogo y el panel de medidas. El rango ampliado de estos ocho modelos es 75–150 % de cada medida original; fuera del rango observado, incluso 150010 se identifica como experimental. Se necesita una muestra física para confirmar el armado.
 
-Los tres modelos que ya eran editables mantienen sus reglas: 200010 y 10001029 admiten L/W/H; 102010 conserva la edición solo de altura. La caja sándwich conserva sus dos parámetros de origen y no introduce una altura ficticia.
+Los tres modelos que ya eran editables mantienen sus reglas: 200010 y 10001029 admiten L/W/H; 102010 admite L/W/H con L ≤ 2W. La caja sándwich conserva sus dos parámetros de origen y no introduce una altura ficticia.
 
 ## Verificación local
 
@@ -83,3 +83,9 @@ Se retiró la transformación por zonas: deformaba pestañas, ranuras y radios y
 Motor local `pillow187000`. Reconstruye corte, caras y pliegues con `x0 = H/2`, pestaña superior `y0 = 15` (18 mm para W ≥ 100), radio `R = (W²+H²)/(4H)` y muesca de cierre `rt = clamp(round((L+H)/25·2)/2, 6, 7,5)`. Extensión `totalX = L+H`, `totalY = 2W+y0`. Se validó contra 7 capturas del editor (error máximo 0,00007 mm en corte y 0,00003 mm en caras).
 
 Rango editable: L 20–323,33 mm, W 20–231 mm, H 6,67–200 mm, con H < W. Pliego 330 × 480 mm; el motor comprueba el ajuste y el editor calcula las cajas por pliego con sangría de 3 mm y giro. Queda marcado como experimental: no se verificó una exportación DXF/PDF ni una muestra física, y la regla de la pestaña/muesca tiene menor cobertura fuera de las muestras.
+
+## Caja con fondo encajable 102010
+
+Motor afín local para las tres medidas, ajustado con seis capturas de la topología de **80 cortes**. Error máximo observado: **1,82 mm** en los campos numéricos; la geometría base se reproduce exactamente. Los campos L, W y H son editables.
+
+La restricción es **L ≤ 2W**. Por encima de esa relación el servidor cambia el fondo de 80 a **92 cortes** (12 comandos extra en HB/FB); esa segunda topología no está reconstruida y el editor la rechaza. El pliego es 1.000 × 700 mm y el motor comprueba el encaje. El modelo queda marcado como experimental: no se validó una muestra física.

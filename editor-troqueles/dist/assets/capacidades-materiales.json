@@ -14776,8 +14776,8 @@
       }
     ],
     "excludedSamples": [],
-    "blockedReason": "Faltan muestras de geometría a otros materiales y espesores.",
-    "geometryStatus": "height-only",
+    "blockedReason": "Solo el material y espesor originales; L ≤ 2W. El fondo de 92 cortes no está reconstruido.",
+    "geometryStatus": "parametric-lwh-experimental",
     "physicalProfiles": [
       {
         "materialIds": [

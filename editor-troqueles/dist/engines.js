@@ -90,6 +90,7 @@
       if(model.bounds[axis]){const [min,max]=model.bounds[axis];if(value<min-1e-8||(max!=null&&value>max+1e-8))throw Error(`${{L:I18n.t("Longitud"),W:I18n.t("Anchura"),H:I18n.t("Altura")}[axis]}: ${max==null?`${I18n.t("mínimo")} `+min:min+'–'+max} mm.`);}
       else if(Math.abs(value-model.dims[axis])>1e-8)throw Error(I18n.t("Esta medida se conserva en su valor original."));
     }
+    if(model.id==='102010'&&dims.L>2*dims.W+1e-6)throw Error(I18n.t("Para este fondo, la longitud no puede superar el doble de la anchura (L ≤ 2W)."));
     let layer=model.engine==='pillow187000'?buildPillow187000(dims):clone(model.layer);
     const rule=model.rule;
     if(model.engine==='derived')for(const [path,r] of Object.entries(rule.rules))assign(layer,path,r[0]+rule.axes.reduce((sum,axis,i)=>sum+r[i+1]*(dims[axis]-rule.base[i]),0));
@@ -139,6 +140,7 @@
     if(model.materialSheetMm&&extents(model,dims)){
       let cap=bounds[1]==null?Math.max(...model.materialSheetMm):Math.min(bounds[1],Math.max(...model.materialSheetMm));
       if(model.engine==='pillow187000'&&axis==='H')cap=Math.min(cap,Math.max(bounds[0],dims.W-0.01));
+      if(model.id==='102010'&&axis==='L')cap=Math.min(cap,Math.max(bounds[0],2*dims.W));
       let low=bounds[0],high=cap;
       for(let i=0;i<40;i++){
         const mid=(low+high)/2;
