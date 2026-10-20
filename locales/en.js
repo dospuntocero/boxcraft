@@ -7,6 +7,7 @@ globalThis.TallerLocales.en={
   "Alimentos": "Food",
   "Altura": "Height",
   "Altura experimental": "Experimental height",
+  "Solo el material y espesor originales; motor experimental sin validación física.": "Original material and thickness only; experimental engine without physical validation.",
   "Solo el material y espesor originales; W/H analíticos sin muestra independiente.": "Original material and thickness only; W/H are analytical with no independent sample.",
   "Solo la configuración 100,6 × 40,6 × 181,6 mm y 0,5 mm está verificada.": "Only the 100.6 × 40.6 × 181.6 mm configuration at 0.5 mm is verified.",
   "Caja hexagonal": "Hexagonal box",

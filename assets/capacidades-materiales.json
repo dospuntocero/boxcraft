@@ -167505,6 +167505,6 @@
     ],
     "physicalProfiles": [],
     "geometryStatus": "parametric-panel-experimental",
-    "blockedReason": "Solo el material y espesor originales; W/H analíticos sin muestra independiente."
+    "blockedReason": "Solo el material y espesor originales; motor experimental sin validación física."
   }
 }
