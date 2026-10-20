@@ -18,7 +18,7 @@ Modelo **188060**, «Custom dimensions polygonal boxes hexagonal dieline» / «C
 
 La página muestra los modos **Dimensiones de manufactura**, **interiores** y **exteriores**. La base local conserva únicamente la configuración de manufactura; no se capturaron compensaciones internas/externas independientes para otros materiales.
 
-El modelo usa un **motor de paneles L/W/H experimental** para el material y espesor originales. La geometría base se reproduce exactamente; L=110 se validó contra el SVG renderizado (error máximo 0,7 mm). W y H usan el mismo mapa de paneles, pero no tienen una muestra independiente capturada.
+El modelo usa un **motor de paneles L/W/H experimental** para el material y espesor originales. La geometría base se reproduce exactamente; L=110 se validó contra el SVG renderizado (error máximo 0,7 mm). W=45 y H=190 se validaron con el mismo mapa: error máximo 0,16 mm y 0,00 mm respectivamente.
 
 ## Motor L/W/H
 
@@ -30,7 +30,7 @@ El plano se reconstruye por paneles: el ancho sigue los seis paneles laterales y
 - Y: pestaña superior `0..W`, cuerpo `W..W+H`, pestaña inferior `W+H..2W+H`.
 - Los radios de las esquinas se conservan; no se escalan.
 
-Se verificó en el editor local **110 × 45 × 190 mm**, con plano de **355,5 × 280 mm** y las tres medidas editables. La comparación de la cara TR a L=110 coincide; el error máximo del conjunto de caras fue 0,7 mm. W/H son analíticos y quedan marcados como experimentales hasta capturar una variación independiente de cada uno.
+Se verificó en el editor local **110 × 45 × 190 mm**, con plano de **355,5 × 280 mm** y las tres medidas editables. La comparación de la cara TR a L=110 coincide; el error máximo del conjunto de caras fue 0,7 mm. L=110 tiene 0,70 mm de error por la posición de la muesca; W/H coinciden dentro de 0,16 mm. El modelo sigue marcado como experimental por la ausencia de validación física.
 
 ## Archivos
 
@@ -42,6 +42,7 @@ Se verificó en el editor local **110 × 45 × 190 mm**, con plano de **355,5 ×
 - `base/geometria.json`: capa normalizada usada por el generador.
 - `generar.py`: reproduce SVG/JSON sin red.
 - `integrar.py`: alta en el catálogo, miniatura y capacidad de material.
+- `muestras/`: caras de las variantes L=110, W=45 y H=190 con sus evidencias.
 - `validacion.json`: comprobaciones y hashes.
 
 Desde `/Users/fran/Herd/pacdora`:
@@ -57,7 +58,7 @@ python3 geometria/modelos/188060/generar.py
 - 19 caras, 26 pliegues y 28 cortes; la geometría base se reproduce sin cambios.
 - Motor de paneles: base exacta; L=110 validado (error máximo 0,7 mm); W/H analíticos sin muestra independiente.
 - Se comprobó el alta en el catálogo local, la miniatura y el cambio a 110 × 45 × 190 mm.
-- No se validaron mínimos, otros materiales/espesores, armado físico, tolerancias ni exportación AI/DXF/PDF. W/H no tienen muestra independiente.
+- No se validaron mínimos, otros materiales/espesores, armado físico, tolerancias ni exportación AI/DXF/PDF. Muestras L=110, W=45 y H=190 validadas contra el SVG renderizado.
 - La miniatura se generó desde la geometría local; no se presenta como imagen oficial de Pacdora.
 
 ## Evidencia

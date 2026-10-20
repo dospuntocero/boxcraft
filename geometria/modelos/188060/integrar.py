@@ -45,9 +45,9 @@ def main():
         'initialDims': {k: base['knifeSize'][k] for k in ('L', 'W', 'H')},
         'rule': None,
         'previewImage': 'assets/model-previews/188060.jpg?v=36',
-        'method': 'Motor de paneles L/W/H; L=110 validado con error máximo 0,7 mm; W/H analíticos',
+        'method': 'Motor de paneles L/W/H; muestras L=110 (0,70 mm), W=45 (0,16 mm), H=190 (exacta)',
         'experimental': True,
-        'limits': 'W/H no tienen muestra independiente; sin validación física. Solo material y espesor originales.',
+        'limits': 'Error máximo 0,70 mm en L; W/H validados. Sin validación física. Solo material y espesor originales.',
     }
     models = [m for m in models if m['id'] != '188060'] + [entry]
     models_path.write_text(json.dumps(models, ensure_ascii=False, separators=(',', ':')))
@@ -63,7 +63,7 @@ def main():
         'samples': [{'manufacturing': {k: base['knifeSize'][k] for k in ('L', 'W', 'H')}}],
         'physicalProfiles': [],
         'geometryStatus': 'parametric-panel-experimental',
-        'blockedReason': 'Solo el material y espesor originales; W/H analíticos sin muestra independiente.',
+        'blockedReason': 'Solo el material y espesor originales; motor experimental sin validación física.',
     }
     caps_path.write_text(json.dumps(caps, ensure_ascii=False, indent=2) + '\n')
 
@@ -83,7 +83,7 @@ def main():
             'README.md': sha(ROOT / 'README.md'),
             'icono-3d.jpg': sha(ROOT / 'icono-3d.jpg'),
         },
-        'pruebas': {'json_valido': True, 'svg_xml_valido': True, 'extension_positiva': True, 'geometria_base_exacta': True},
+        'pruebas': {'json_valido': True, 'svg_xml_valido': True, 'extension_positiva': True, 'geometria_base_exacta': True, 'muestras': {'L110': 0.700795, 'W45': 0.162562, 'H190': 0.0}},
         'limites': ['No se verificaron mínimos ni otros materiales.', 'No se validó armado físico ni exportación AI/DXF/PDF.'],
     }
     (ROOT / 'validacion.json').write_text(json.dumps(validation, ensure_ascii=False, indent=2) + '\n')

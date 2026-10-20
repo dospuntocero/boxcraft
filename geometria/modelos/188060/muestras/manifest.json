@@ -1,0 +1,40 @@
+{
+  "modelo": "188060",
+  "fuente": "SVG renderizado por el editor de Pacdora",
+  "nota": "Path de caras extraídos del DOM; no se conservaron cortes/pliegues separados.",
+  "muestras": [
+    {
+      "name": "L110",
+      "dims": {
+        "L": 110,
+        "W": 40.6,
+        "H": 181.6
+      },
+      "evidence_id": "ev_953ef92cd8e8d75ca95aee4db261b52733c50962871968f9593c54d8bb78f095",
+      "error_maximo_caras_mm": 0.700795,
+      "faces": 19
+    },
+    {
+      "name": "W45",
+      "dims": {
+        "L": 100.6,
+        "W": 45,
+        "H": 181.6
+      },
+      "evidence_id": "ev_8016e4254f2779c70903e76131ba87afe0c9a12e1164e76882a874c378f663ad",
+      "error_maximo_caras_mm": 0.162562,
+      "faces": 19
+    },
+    {
+      "name": "H190",
+      "dims": {
+        "L": 100.6,
+        "W": 40.6,
+        "H": 190
+      },
+      "evidence_id": "ev_e8e23988e7f52ba4141455cc1efdfdac0d5ad8b3c89997b278c71127559c3b15",
+      "error_maximo_caras_mm": 0.0,
+      "faces": 19
+    }
+  ]
+}

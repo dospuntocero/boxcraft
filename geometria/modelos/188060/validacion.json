@@ -49,14 +49,19 @@
     "troquel-generado.json": "fce357a9134d4856769853704f71801f9c0d592c845d402759cca2639dfb6e61",
     "base/geometria.json": "b4a956964a022f7c8e4986c68e5f878361b3b6c1fbdfde9e51be0066574ce458",
     "base/knife-00.json": "a381326ccd5873105f120e4eaffbc494e1de73a228feaa9e3bc99132a6e78dc6",
-    "README.md": "b46d9aface0ac6a8ca4ba20be8df68edea6a3d3b3bf5fae103cc9e5d16df0e24",
+    "README.md": "2e14f53a358e0a751ad389a565095e823547b37c5f35343d1ad524fdbf65fa86",
     "icono-3d.jpg": "012a6401701caace43bcc30a17691977920c7dd32aa95656c2d1c99a3ecbe342"
   },
   "pruebas": {
     "json_valido": true,
     "svg_xml_valido": true,
     "extension_positiva": true,
-    "geometria_base_exacta": true
+    "geometria_base_exacta": true,
+    "muestras": {
+      "L110": 0.700795,
+      "W45": 0.162562,
+      "H190": 0.0
+    }
   },
   "limites": [
     "No se verificaron mínimos ni otros materiales.",

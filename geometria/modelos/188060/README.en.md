@@ -18,7 +18,7 @@ Model **188060**, "Custom dimensions polygonal boxes hexagonal dieline" / "Hexag
 
 Pacdora exposes manufacturing, inner, and outer modes. The local base keeps only the manufacturing configuration; no independent inner/outer offsets were captured for other materials.
 
-The model uses an **experimental L/W/H panel engine** for the original material and thickness. The base geometry is exact; L=110 was validated against the rendered SVG (max error 0.7 mm). W and H use the same panel map but have no independent captured sample.
+The model uses an **experimental L/W/H panel engine** for the original material and thickness. The base geometry is exact; L=110 was validated against the rendered SVG (max error 0.7 mm). W=45 and H=190 were validated with the same map: maximum errors 0.16 mm and 0.00 mm respectively.
 
 ## L/W/H engine
 
@@ -30,7 +30,7 @@ The blank is reconstructed by panels: width follows the six side panels and heig
 - Y: top flap `0..W`, body `W..W+H`, bottom flap `W+H..2W+H`.
 - Corner radii stay fixed.
 
-The local editor was verified at **110 × 45 × 190 mm**, with a **355.5 × 280 mm** blank and all three fields editable. The TR face at L=110 matches; the maximum error over the face set was 0.7 mm. W/H remain analytical and experimental until an independent variation of each is captured.
+The local editor was verified at **110 × 45 × 190 mm**, with a **355.5 × 280 mm** blank and all three fields editable. The TR face at L=110 matches; the maximum error over the face set was 0.7 mm. L=110 has 0.70 mm error from the notch position; W/H match within 0.16 mm. The model remains experimental because it has no physical validation.
 
 ## Files
 
@@ -41,6 +41,7 @@ The local editor was verified at **110 × 45 × 190 mm**, with a **355.5 × 280 
 - `base/geometria.json`: normalized layer used by the generator.
 - `generar.py`: reproduces SVG/JSON offline.
 - `integrar.py`: catalog entry, thumbnail, and material capability.
+- `muestras/`: faces for L=110, W=45, and H=190 with their evidence.
 - `validacion.json`: checks and hashes.
 
 From `/Users/fran/Herd/pacdora`:
@@ -56,7 +57,7 @@ python3 geometria/modelos/188060/generar.py
 - 19 faces, 26 folds, 28 cuts; base geometry reproduced unchanged.
 - Panel engine: exact base; L=110 validated (max error 0.7 mm); W/H analytical without an independent sample.
 - Catalog entry, thumbnail, and the 110 × 45 × 190 mm change checked.
-- Minimums, other materials/thicknesses, physical assembly, tolerances, and AI/DXF/PDF export were not verified. W/H have no independent sample.
+- Minimums, other materials/thicknesses, physical assembly, tolerances, and AI/DXF/PDF export were not verified. Samples L=110, W=45, and H=190 validated against the rendered SVG.
 - The thumbnail was generated from local geometry; it is not presented as an official Pacdora image.
 
 ## Evidence

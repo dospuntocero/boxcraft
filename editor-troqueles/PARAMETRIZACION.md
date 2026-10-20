@@ -93,4 +93,4 @@ La restricción es **L ≤ 2W**. Por encima de esa relación el servidor cambia 
 
 ## Caja hexagonal 188060
 
-Motor de paneles L/W/H sobre la caja hexagonal de Pacdora: **100,6 × 40,6 × 181,6 mm** de base, cartón blanco de 0,5 mm, 19 caras, 26 pliegues y 28 cortes. `totalX = 135,5 + 2L`, `totalY = 2W + H`; los radios se conservan. Base exacta y L=110 validado con error máximo 0,7 mm. W/H son analíticos y quedan experimentales hasta capturar una muestra independiente. La miniatura es el mockup oficial de Pacdora.
+Motor de paneles L/W/H sobre la caja hexagonal de Pacdora: **100,6 × 40,6 × 181,6 mm** de base, cartón blanco de 0,5 mm, 19 caras, 26 pliegues y 28 cortes. `totalX = 135,5 + 2L`, `totalY = 2W + H`; los radios se conservan. Base exacta y L=110 validado con error máximo 0,7 mm. W=45 y H=190 se validaron con errores de 0,16 mm y 0,00 mm; L=110 tiene 0,70 mm. Queda experimental por falta de validación física. La miniatura es el mockup oficial de Pacdora.
