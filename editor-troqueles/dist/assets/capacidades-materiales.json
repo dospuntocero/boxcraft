@@ -167386,7 +167386,7 @@
         }
       }
     ],
-    "geometryStatus": "exact-capture",
+    "geometryStatus": "parametric-affine-experimental",
     "blockedReason": "No hay geometría verificada para este material y espesor."
   },
   "187000": {

@@ -8,8 +8,12 @@ def main():
     d,layer,dims=m.main();out=ROOT/'dist/assets'
     offsets={kind:{a:d[key][a]-dims[a] for a in dims} for kind,key in [('inner','size'),('outer','outSize')]}
     entry={'id':'15030101','name':'Caja para tarta con ventana','category':'Alimentos','dims':dims,'material':'Cartón blanco 350g','thickness':.5,'layer':layer,'engine':None,'minimumDims':{'L':40,'W':40,'H':30},'offsets':{'internal':offsets['inner'],'external':offsets['outer']},'bounds':{a:[v,v] for a,v in dims.items()},'rule':None,'previewImage':'assets/model-previews/15030101.png'}
+    rule=json.loads((SOURCE/'reglas-lwh.json').read_text())
+    entry['engine']='affine';entry['rule']=rule;entry['bounds']={'L':[100,None],'W':[100,None],'H':[30,None]};entry['experimental']=True
+    entry['method']='Motor afín L/W/H de la topología grande; error máximo 3,88 mm'
+    entry['limits']='Solo topología de 129 cortes y L/W ≥ 100 mm; error máximo 3,88 mm. Sin validación física.'
     path=out/'modelos.json';models=json.loads(path.read_text());models=[x for x in models if x['id']!='15030101'];models.append(entry);path.write_text(json.dumps(models,ensure_ascii=False,separators=(',',':')))
-    path=out/'capacidades-materiales.json';caps=json.loads(path.read_text());caps['15030101']={'originalMaterialId':103,'originalThickness':.5,'observedThicknessLimits':[.2,.5],'verifiedThicknessRange':[.5,.5],'onlyManufacturing':False,'offsets':offsets,'source':'geometria/modelos/15030101/base/knife-00.json','samples':[],'physicalProfiles':[],'geometryStatus':'exact-capture','blockedReason':'Solo configuración original verificada; alternativas pendientes.'};path.write_text(json.dumps(caps,ensure_ascii=False,indent=2))
+    path=out/'capacidades-materiales.json';caps=json.loads(path.read_text());caps['15030101']={'originalMaterialId':103,'originalThickness':.5,'observedThicknessLimits':[.2,.5],'verifiedThicknessRange':[.5,.5],'onlyManufacturing':False,'offsets':offsets,'source':'geometria/modelos/15030101/base/knife-00.json','samples':[],'physicalProfiles':[],'geometryStatus':'parametric-affine-experimental','blockedReason':'Solo topología grande y L/W ≥ 100 mm; motor experimental sin validación física.'};path.write_text(json.dumps(caps,ensure_ascii=False,indent=2))
     registry=json.loads((SOURCE/'configuraciones.json').read_text())
     profiles=[]
     for case in registry['cases']:

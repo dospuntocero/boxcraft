@@ -193,3 +193,7 @@ El modelo se dio de alta con el motor local `pillow187000`, que reconstruye cort
 ## Decimotercer modelo: 188060, caja hexagonal
 
 La ficha `custom-dimensions-polygonal-boxes-hexagonal-dieline-188060` expone **100,6 × 40,6 × 181,6 mm** de manufactura (interior 100 × 40 × 180; exterior 145,2 × 41 × 222,6), cartón blanco de 0,5 mm. La geometría se conservó de la respuesta `project/knife`: **19 caras, 26 pliegues y 28 cortes**, con un plano de **336,7 × 262,8 mm**. Se dio de alta con un motor de paneles L/W/H experimental: `totalX = 135,5 + 2L`, `totalY = 2W + H`, radios fijos. La base es exacta y L=110 se validó contra el SVG renderizado (error máximo 0,7 mm); W=45 (error 0,16 mm) y H=190 (error 0,00 mm) se validaron contra el SVG renderizado; L=110 tiene 0,70 mm. La miniatura es el mockup oficial de Pacdora. Uso y límites en geometria/modelos/188060/README.md.
+
+### Motor afín de 15030101
+
+La topología grande de la caja con ventana se reconstruyó con un ajuste afín L/W/H de seis muestras. La base es exacta y el error máximo es **3,88 mm** en `totalX`. El editor permite L/W/H con L/W ≥ 100 mm y H ≥ 30 mm; por debajo cambia la topología pequeña (113 cortes/16 pliegues), que queda fuera. Se publica como experimental y sin validación física.
