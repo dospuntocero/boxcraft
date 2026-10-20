@@ -52,13 +52,13 @@ python3 geometria/modelos/15030101/generar.py --material-id 7 --thickness 0.35 -
 python3 geometria/modelos/15030101/generar.py --length 155 --width 155 --height 55 --output-dir /tmp/caja-155
 ```
 
-El generador rechaza combinaciones sin captura exacta. Sin `--output-dir`, reemplaza el SVG, JSON y validación de salida en esta carpeta. La integración siempre utiliza la base y añade únicamente perfiles con 150 × 150 × 50 mm; sus procesos de preparación reaplican el alta. Las copias archivadas en `archivo/copias/` permanecen fuera de esta adquisición.
+El generador rechaza combinaciones sin captura exacta. Sin `--output-dir`, reemplaza el SVG, JSON y validación de salida en esta carpeta. La integración siempre utiliza la base y añade únicamente perfiles con 150 × 150 × 50 mm; sus procesos de preparación reaplican el alta. La aplicación vigente está en `editor-troqueles/`.
 
 ![Troquel local](vista-previa.png)
 
 ## Dimensiones, compensaciones y parámetros
 
-Se investigó cada eje por separado y se contrastó un ajuste afín contra combinaciones independientes. Se compararon 1.389 campos numéricos por muestra con tolerancia de 0,000001. El máximo error fue 7 unidades en el conjunto numérico, que incluye coordenadas y metadatos; no se interpreta como tolerancia física de fabricación. El registro enumera las diferencias. No se habilita un motor dimensional aproximado.
+Se investigó cada eje por separado y se contrastó un ajuste afín contra combinaciones independientes. Se compararon 1.389 campos numéricos por muestra con tolerancia de 0,000001. El máximo error fue 7 unidades en el conjunto numérico, que incluye coordenadas y metadatos; no se interpreta como tolerancia física de fabricación. El registro enumera las diferencias. No se habilita un motor dimensional aproximado. La reconstrucción paramétrica se intentó y se retiró: las comparaciones contra las capturas retenidas fallaron con diferencias de hasta 30 mm. La decisión y las muestras del contraste quedan en `correccion/manifest.json`; el bundle REA pesado se conserva localmente y está excluido de Git.
 
 La captura adicional confirmó 155 × 155 × 55 mm con respuesta geométrica completa y dimensiones interiores 151,4 × 153,9 × 54,4 mm; exteriores 155,4 × 155,4 × 55,4 mm. Resuelve la solicitud pendiente de la primera prueba.
 

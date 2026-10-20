@@ -1,6 +1,7 @@
+"""Produce candidatos de investigación; no modifica la aplicación vigente."""
 import json,copy,math,hashlib
 from pathlib import Path
-root=Path(__file__).resolve().parent;app=root.parents[1]/'archivo/copias/boxcraft-publicacion';models={m['id']:m for m in json.load(open(app/'dist/assets/modelos.json'))};caps=json.load(open(app/'dist/assets/capacidades-materiales.json'));materials=json.load(open(app/'dist/assets/materiales.json'))['materials']
+root=Path(__file__).resolve().parent;app=root.parents[1]/'editor-troqueles';models={m['id']:m for m in json.load(open(app/'dist/assets/modelos.json'))};caps=json.load(open(app/'dist/assets/capacidades-materiales.json'));materials=json.load(open(app/'dist/assets/materiales.json'))['materials']
 def flat(o,p=''):
  if isinstance(o,dict):return {k:v for a,b in o.items() for k,v in flat(b,p+'/'+a).items()}
  if isinstance(o,list):return {k:v for a,b in enumerate(o) for k,v in flat(b,p+'/'+str(a)).items()}
@@ -67,6 +68,6 @@ for code,by_t in samples.items():
   profiles.append(p)
  cap['physicalProfiles']=profiles
 (root/'profile-build-report.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2))
-(app/'dist/assets/capacidades-materiales.json').write_text(json.dumps(caps,ensure_ascii=False,separators=(',',':'))+'\n')
+(root/'physical-profiles.json').write_text(json.dumps(caps,ensure_ascii=False,separators=(',',':'))+'\n')
 for code in models:print(code,[(p['thickness'],p['materialIds']) for p in caps[code].get('physicalProfiles',[])])
 print('VALID',sum(r['status']=='validated-local-affine' for r in reports),'of',len(reports))

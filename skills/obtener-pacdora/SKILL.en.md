@@ -15,7 +15,7 @@ Acquire the specified Pacdora model and complete REA research, local geometric r
 
 ### Identity and preparation
 
-Review `geometria/modelos/`, `investigacion/materiales/`, `editor-troqueles/`, and existing applications. Identify the current source application before editing; do not blindly synchronize copies in `archivo/copias/`. Reuse complete evidence for the same model and configuration without overwriting originals.
+Review `geometria/modelos/`, `investigacion/materiales/`, `editor-troqueles/`, and existing applications. Identify the current source application before editing; use `editor-troqueles/` as the only active application. Reuse complete evidence for the same model and configuration without overwriting originals.
 
 Locate and verify the actual page by code, title, and family. Do not invent the URL slug. Select the user's session, if present, through supported tools. Use actual REA schemas. If evidence exceeds transport limits, use views or export the record without repeating a completed capture.
 

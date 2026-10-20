@@ -10,7 +10,6 @@ Aplicación local de troqueles, modelos geométricos e investigación de cajas d
 | `geometria/` | Modelos, respuestas geométricas, generadores, iconos y fichas técnicas |
 | `investigacion/` | Investigación de materiales, interfaz y capturas del editor |
 | `evidencias/` | Capturas originales REA y bundles pesados; conservados localmente, excluidos de Git |
-| `archivo/` | Copias anteriores, paquetes ZIP e historiales Git anteriores; excluidos de Git |
 | `docs/` | Análisis general y registro de movimientos de la reorganización |
 | `scripts/` | Comprobaciones y utilidades del proyecto |
 | `skills/` | Flujo reutilizable `obtener CODIGO` |
@@ -34,17 +33,11 @@ Para adquirir una caja en este proyecto, escribir en el chat `obtener 15030101`.
 
 ## Investigación y trazabilidad
 
-Los registros originales REA no se editan al reorganizarlos. Sus rutas históricas pueden referirse a la ubicación anterior; [el registro de movimientos](docs/organizacion-movimientos.json) permite localizar los archivos actuales. Los scripts de investigación que trabajan con la copia de publicación apuntan a `archivo/copias/boxcraft-publicacion`; no son el proceso de preparación de la aplicación principal.
+Los registros originales REA conservan rutas históricas. El [registro de movimientos](docs/organizacion-movimientos.json) documenta la reorganización anterior; sus referencias son históricas, no dependencias actuales. Las copias archivadas y los historiales Git locales anteriores se han eliminado.
 
-Las capturas pesadas y los historiales archivados no se incluirán al añadir archivos al nuevo repositorio. Deben respaldarse por separado si se mueve el proyecto a otro equipo.
+La aplicación vigente está en `editor-troqueles/`. Los generadores de escenarios de investigación leen sus catálogos. Los generadores de perfiles físicos y observados escriben candidatos en `investigacion/materiales/physical-profiles.json` y `observed-profiles.json`; no sobrescriben las capacidades de la aplicación.
 
-El historial anterior del editor se conserva en `archivo/historial/editor-troqueles.git`. Puede consultarse desde la raíz:
-
-```sh
-git --git-dir=archivo/historial/editor-troqueles.git --work-tree=editor-troqueles log --oneline
-```
-
-La copia de publicación conserva su propio historial dentro de `archivo/copias/boxcraft-publicacion/.git`. El repositorio raíz continúa el historial de `dospuntocero/boxcraft` y tiene configurado ese remoto como `origin`.
+El repositorio raíz conserva el historial de GitHub y utiliza `dospuntocero/boxcraft` como `origin`. Las capturas pesadas de `evidencias/` están excluidas de Git y deben respaldarse por separado si se mueve el proyecto a otro equipo.
 
 ## Publicación
 

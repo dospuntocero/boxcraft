@@ -54,13 +54,13 @@ python3 geometria/modelos/15030101/generar.py --material-id 7 --thickness 0.35 -
 python3 geometria/modelos/15030101/generar.py --length 155 --width 155 --height 55 --output-dir /tmp/caja-155
 ```
 
-The generator rejects combinations without an exact capture. Without `--output-dir`, it replaces the output SVG, JSON, and validation in this directory. Integration always uses the base and adds only profiles at 150 × 150 × 50 mm; preparation processes reapply integration. Archived copies in `archivo/copias/` remain outside this acquisition.
+The generator rejects combinations without an exact capture. Without `--output-dir`, it replaces the output SVG, JSON, and validation in this directory. Integration always uses the base and adds only profiles at 150 × 150 × 50 mm; preparation processes reapply integration. The active application is `editor-troqueles/`.
 
 ![Local dieline](vista-previa.png)
 
 ## Dimensions, allowances, and parameters
 
-Each axis was investigated separately, and an affine fit was checked against independent combinations. There were 1,389 numeric fields compared per sample, at a tolerance of 0.000001. The maximum error was 7 units across numeric fields, which include coordinates and metadata; this is not interpreted as a physical manufacturing tolerance. The record lists the differences. An approximate dimension engine is not enabled.
+Each axis was investigated separately, and an affine fit was checked against independent combinations. There were 1,389 numeric fields compared per sample, at a tolerance of 0.000001. The maximum error was 7 units across numeric fields, which include coordinates and metadata; this is not interpreted as a physical manufacturing tolerance. The record lists the differences. An approximate dimension engine is not enabled. The parametric reconstruction was attempted and withdrawn: comparisons against retained captures failed with differences of up to 30 mm. The decision and comparison samples are in `correccion/manifest.json`; the large REA bundle is kept locally and excluded from Git.
 
 The additional capture confirmed 155 × 155 × 55 mm with a complete geometric response, internal dimensions 151.4 × 153.9 × 54.4 mm, and external dimensions 155.4 × 155.4 × 55.4 mm. This resolves the request left pending in the first test.
 

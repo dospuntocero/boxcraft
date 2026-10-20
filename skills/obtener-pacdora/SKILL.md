@@ -13,7 +13,7 @@ Obtén el modelo indicado de Pacdora y completa la investigación REA, reconstru
 
 ### Identidad y preparación
 
-Revisa `geometria/modelos/`, `investigacion/materiales/`, `editor-troqueles/` y las aplicaciones existentes. Determina la aplicación fuente vigente antes de editar; no sincronices ciegamente las copias en `archivo/copias/`. Reutiliza evidencia completa del mismo modelo y configuración, sin sobrescribir originales.
+Revisa `geometria/modelos/`, `investigacion/materiales/`, `editor-troqueles/` y las aplicaciones existentes. Determina la aplicación fuente vigente antes de editar; utiliza `editor-troqueles/` como única aplicación vigente. Reutiliza evidencia completa del mismo modelo y configuración, sin sobrescribir originales.
 
 Localiza y verifica la página real por código, título y familia. No inventes el slug de la URL. Selecciona la sesión del usuario si existe mediante las herramientas admitidas. Usa los esquemas reales de REA. Si la evidencia excede el transporte, utiliza vistas o exportación del registro sin repetir una captura completada.
 

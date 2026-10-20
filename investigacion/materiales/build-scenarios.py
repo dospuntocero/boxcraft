@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 root=Path(__file__).resolve().parent
-models={m['id']:m for m in json.load(open(root.parents[1]/'archivo/copias/boxcraft-publicacion/dist/assets/modelos.json'))}
+models={m['id']:m for m in json.load(open(root.parents[1]/'editor-troqueles/dist/assets/modelos.json'))}
 slugs={'150010':('custom-dimensions-flip-top-boxes-mailer-dieline-150010',5),'10001029':('body-lotion-box-dieline-10001029',1.5),'102010':('custom-dimensions-tuck-end-boxes-auto-bottome-snap-lock-dieline-102010',3),'112047':('roofing-cord-buckle-bottom-box-dieline-112047',3),'12109002':('cake-box-dieline-12109002',2),'112310':('custom-dimensions-tuck-end-box-variations-auto-bottome-snap-lock-boxes-dieline-112310',5),'200010':('custom-dimensions-cartons-0201-dieline-200010',9)}
 for code,(slug,maximum) in slugs.items():
  actions=[]

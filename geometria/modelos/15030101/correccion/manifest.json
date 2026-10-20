@@ -1,0 +1,203 @@
+{
+  "evidence_id": "ev_5c891ad9e3f4c0f12c5c02b9dc83fd48dfef28a8898ea172e2f5530484e41fe4",
+  "date": "2026-10-17",
+  "url": "https://www.pacdora.com/es/dielines-detail/cake-box-dieline-15030101",
+  "capture_status": "cleanup_incomplete",
+  "evidence_bundle": "evidencia-rea.json.gz",
+  "uncompressed_sha256": "12b0a049a50b24ad2d9be0d57d5ec835b3921e330d2040bba8f3ff34105be900",
+  "decision": "Withdraw zone warp; retain exact captured geometry. Parametric reconstruction incomplete.",
+  "failed_comparisons": [
+    {
+      "sample": 2,
+      "numeric_fields_different": 195,
+      "max_numeric_difference": 10
+    },
+    {
+      "sample": 4,
+      "numeric_fields_different": 267,
+      "max_numeric_difference": 19.160583941605836
+    },
+    {
+      "sample": 6,
+      "numeric_fields_different": 308,
+      "max_numeric_difference": 30.30303030303031
+    },
+    {
+      "sample": 7,
+      "numeric_fields_different": 469,
+      "max_numeric_difference": 30.30303030303031
+    },
+    {
+      "sample": 8,
+      "numeric_fields_different": 569,
+      "max_numeric_difference": 27.5
+    }
+  ],
+  "samples": [
+    {
+      "path": "knife-01.json",
+      "sha256": "65662c6ecae32ed12eb36b83739eea7b4d2725c5035b2fb0708b6f6dc17d2996",
+      "effective_dims": {
+        "L": 150,
+        "W": 150,
+        "H": 50,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-06.json",
+      "sha256": "09c60e9ecaecb8603c0336fd6a59a90c0ea2d03b218acc1da190fdb11dac9fc0",
+      "effective_dims": {
+        "L": 30,
+        "W": 150,
+        "H": 30,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-09.json",
+      "sha256": "7bcc3043df6a31877dc7e7b54a1757b92c30d70263388d00093aea476586ea13",
+      "effective_dims": {
+        "L": 30,
+        "W": 30,
+        "H": 30,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-12.json",
+      "sha256": "7d6f6cecf8012e35ec35001640db14a7f91722b13e11abfd171df9cd0553ad98",
+      "effective_dims": {
+        "L": 30,
+        "W": 30,
+        "H": 20.6,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-15.json",
+      "sha256": "2321ae12ecce5b56cf1f3dcfd7167272eff95f7fca5f2199ae8491d67041d823",
+      "effective_dims": {
+        "L": 31,
+        "W": 30,
+        "H": 20.6,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-24.json",
+      "sha256": "2a36ef7b2cb038677d0698cfa495ec29acb415e89c1651b461ee61a61ab41111",
+      "effective_dims": {
+        "L": 30,
+        "W": 30,
+        "H": 20.6,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-27.json",
+      "sha256": "baf0a236ea34282206ff7098c6fb6457b0e63bf264ab7bb80b6bcceacd506434",
+      "effective_dims": {
+        "L": 30,
+        "W": 31,
+        "H": 20.6,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-36.json",
+      "sha256": "20865cda14cbc4506c6946b27ba9efe4b27af1762a40a05278b77a5a6df83e98",
+      "effective_dims": {
+        "L": 30,
+        "W": 30,
+        "H": 20.6,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-39.json",
+      "sha256": "237a0c66356cb568be1932047f743ff01afdda06eac6537b15590ff4e7294135",
+      "effective_dims": {
+        "L": 30,
+        "W": 30,
+        "H": 21,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-42.json",
+      "sha256": "a2f8e78b17e9a0be61f2fbb802c37eaf65c5a4f829f3e45426e5d97eca6ada6f",
+      "effective_dims": {
+        "L": 45,
+        "W": 30,
+        "H": 21,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    },
+    {
+      "path": "knife-45.json",
+      "sha256": "0cf164e230d7def99bff9ea3bbee456218116f0ee852e6cee72f8a566ce0d6d2",
+      "effective_dims": {
+        "L": 45,
+        "W": 40,
+        "H": 21,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "material_id": 103,
+      "thickness": 0.5
+    }
+  ]
+}

@@ -18,3 +18,6 @@ __pycache__/
 **/retained-audit*.json
 
 # Mantener las geometrías, manifiestos, iconos y assets de la aplicación en Git.
+
+# Bundle REA pesado de la corrección 15030101; el manifiesto y las muestras sí se versionan.
+geometria/modelos/*/correccion/evidencia-rea.json.gz
