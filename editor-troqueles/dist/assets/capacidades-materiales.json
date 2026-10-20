@@ -167504,7 +167504,7 @@
       }
     ],
     "physicalProfiles": [],
-    "geometryStatus": "exact-capture-2d",
-    "blockedReason": "Solo la configuración 100,6 × 40,6 × 181,6 mm y 0,5 mm está verificada."
+    "geometryStatus": "parametric-panel-experimental",
+    "blockedReason": "Solo el material y espesor originales; W/H analíticos sin muestra independiente."
   }
 }

@@ -71,7 +71,7 @@ Mínimos de referencia suministrados: L=15, W=10,6, H=20,6 mm; pliego 1.000 × 7
 | 10001006 | 15 × 10,6 × 15,6 | 1.000 × 700 |
 | 200010 | 30 × 24 × 20,6 | 1.200 × 2.300 |
 | 187000 | 20 × 20 × 6,67 | 330 × 480 |
-| 188060 | 100,6 × 40,6 × 181,6 (fija) | no definido |
+| 188060 | 20 × 20 × 20 (experimental) | no definido |
 
 Se admite giro de 90°. Los límites de cada campo se recalculan con las otras medidas; el motor comprueba ambas dimensiones del plano antes de aceptar el cambio. Para 12109002, las dimensiones iniciales del editor son 200 × 140 × 120 mm: el plano resultante de 609,13 × 742,18 mm cabe girado. Su geometría capturada original permanece separada, ya que no cabe en el nuevo pliego. Estos límites de material sustituyen los rangos arbitrarios de exploración; no amplían la validación de la reconstrucción geométrica.
 
@@ -93,4 +93,4 @@ La restricción es **L ≤ 2W**. Por encima de esa relación el servidor cambia 
 
 ## Caja hexagonal 188060
 
-Captura 2D exacta de la caja hexagonal de Pacdora: **100,6 × 40,6 × 181,6 mm**, cartón blanco de 0,5 mm, 19 caras, 26 pliegues y 28 cortes. El plano mide 336,7 × 262,8 mm. L, W y H quedan fijos: no se probaron variaciones ni la topología del cierre hexagonal, por lo que no se habilita un motor paramétrico. La miniatura es una rasterización local de la geometría, no una imagen oficial.
+Motor de paneles L/W/H sobre la caja hexagonal de Pacdora: **100,6 × 40,6 × 181,6 mm** de base, cartón blanco de 0,5 mm, 19 caras, 26 pliegues y 28 cortes. `totalX = 135,5 + 2L`, `totalY = 2W + H`; los radios se conservan. Base exacta y L=110 validado con error máximo 0,7 mm. W/H son analíticos y quedan experimentales hasta capturar una muestra independiente. La miniatura es el mockup oficial de Pacdora.

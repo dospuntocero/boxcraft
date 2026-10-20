@@ -23,6 +23,7 @@
   }
   function extents(model,dims){
     if(model.engine==='pillow187000')return [dims.L+dims.H,(dims.W>=100?18:15)+2*dims.W];
+    if(model.engine==='panel188060')return [135.5+2*dims.L,2*dims.W+dims.H];
     if(model.engine==='affine')return ['totalX','totalY'].map(key=>{const r=model.rule.rules['/'+key],axes=['L','W','H'];return r.base+r.slopes_LWH.reduce((sum,s,i)=>sum+s*(dims[axes[i]]-model.rule.base[i]),0);});
     if(model.engine==='derived')return ['totalX','totalY'].map(key=>{const r=model.rule.rules['/'+key];return r[0]+model.rule.axes.reduce((sum,axis,i)=>sum+r[i+1]*(dims[axis]-model.rule.base[i]),0);});
     if(model.engine==='features'){const vector=featureVector(model.rule,dims);return ['totalX','totalY'].map(key=>model.rule.rules['/'+key].reduce((sum,c,i)=>sum+c*vector[i],0));}
@@ -80,6 +81,36 @@
       science:{id:103,name:'350g white paperboard(0.5mm)'},bleedline:0,thickness:0.5
     };
   }
+  // 188060 · hexagonal box. Panel-wise warp: X follows the six panel widths,
+  // Y follows top flap (W), body (H), bottom flap (W). Radii stay fixed.
+  function buildPanel188060(model,dims){
+    const L=Number(dims.L),W=Number(dims.W),H=Number(dims.H);
+    if(!(L>0&&W>0&&H>0))throw Error(I18n.t("Introduce dimensiones positivas y válidas."));
+    const bL=100.6,bW=40.6,bH=181.6;
+    const xb=[0,16,46,46+bL,76+bL,106+bL,106+2*bL,135.5+2*bL];
+    const xn=[0,16,46,46+L,76+L,106+L,106+2*L,135.5+2*L];
+    const yb=[0,bW,bW+bH,2*bW+bH],yn=[0,W,W+H,2*W+H];
+    const map=(v,b,n)=>{for(let i=0;i<b.length-1;i++){if(v<=b[i+1]+1e-9)return n[i]+(v-b[i])*(n[i+1]-n[i])/(b[i+1]-b[i]);}return n[n.length-1]+(v-b[b.length-1]);};
+    const layer=clone(model.layer);
+    const point=p=>{if(typeof p.x==='number')p.x=map(p.x,xb,xn);if(typeof p.y==='number')p.y=map(p.y,yb,yn);};
+    for(const f of layer.faces||[]){
+      const x=f.x,y=f.y,w=f.w,h=f.h;
+      f.x=map(x,xb,xn);f.y=map(y,yb,yn);f.w=map(x+w,xb,xn)-f.x;f.h=map(y+h,yb,yn)-f.y;
+      for(const p of f.dlist||[])point(p);
+      for(const hole of f.holes||[])for(const p of hole)point(p);
+    }
+    for(const c of layer.cuts||[])point(c);
+    for(const f of layer.folds||[]){
+      if(typeof f.x1==='number')f.x1=map(f.x1,xb,xn);
+      if(typeof f.x2==='number')f.x2=map(f.x2,xb,xn);
+      if(typeof f.y1==='number')f.y1=map(f.y1,yb,yn);
+      if(typeof f.y2==='number')f.y2=map(f.y2,yb,yn);
+      point(f);
+    }
+    layer.totalX=135.5+2*L;layer.totalY=2*W+H;
+    if(layer.knifeSize)layer.knifeSize={...layer.knifeSize,L,W,H};
+    return layer;
+  }
   function generate(model,dims,physical){
     if(physical&&model.materialCapability){
       const cap=model.materialCapability;
@@ -91,7 +122,7 @@
       else if(Math.abs(value-model.dims[axis])>1e-8)throw Error(I18n.t("Esta medida se conserva en su valor original."));
     }
     if(model.id==='102010'&&dims.L>2*dims.W+1e-6)throw Error(I18n.t("Para este fondo, la longitud no puede superar el doble de la anchura (L ≤ 2W)."));
-    let layer=model.engine==='pillow187000'?buildPillow187000(dims):clone(model.layer);
+    let layer=model.engine==='pillow187000'?buildPillow187000(dims):model.engine==='panel188060'?buildPanel188060(model,dims):clone(model.layer);
     const rule=model.rule;
     if(model.engine==='derived')for(const [path,r] of Object.entries(rule.rules))assign(layer,path,r[0]+rule.axes.reduce((sum,axis,i)=>sum+r[i+1]*(dims[axis]-rule.base[i]),0));
     if(model.engine==='panels'){
@@ -151,6 +182,6 @@
     }
     return bounds;
   }
-  root.TroquelEngines={generate,fieldBounds,sheetFit,sheetYield,pillow187000:buildPillow187000};
+  root.TroquelEngines={generate,fieldBounds,sheetFit,sheetYield,pillow187000:buildPillow187000,panel188060:buildPanel188060};
   if(typeof module!=='undefined')module.exports=root.TroquelEngines;
 })(globalThis);

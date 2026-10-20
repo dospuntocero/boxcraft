@@ -18,7 +18,19 @@ Model **188060**, "Custom dimensions polygonal boxes hexagonal dieline" / "Hexag
 
 Pacdora exposes manufacturing, inner, and outer modes. The local base keeps only the manufacturing configuration; no independent inner/outer offsets were captured for other materials.
 
-The model is **fixed** at 100.6 × 40.6 × 181.6 mm and 0.5 mm. No parametric engine was enabled: L/W/H variations and the hexagonal closure topology were not tested.
+The model uses an **experimental L/W/H panel engine** for the original material and thickness. The base geometry is exact; L=110 was validated against the rendered SVG (max error 0.7 mm). W and H use the same panel map but have no independent captured sample.
+
+## L/W/H engine
+
+The blank is reconstructed by panels: width follows the six side panels and height follows flap-body-flap.
+
+- `totalX = 135.5 + 2L`
+- `totalY = 2W + H`
+- X breaks: `46`, `46+L`, `76+L`, `106+L`, `106+2L`, `135.5+2L`.
+- Y: top flap `0..W`, body `W..W+H`, bottom flap `W+H..2W+H`.
+- Corner radii stay fixed.
+
+The local editor was verified at **110 × 45 × 190 mm**, with a **355.5 × 280 mm** blank and all three fields editable. The TR face at L=110 matches; the maximum error over the face set was 0.7 mm. W/H remain analytical and experimental until an independent variation of each is captured.
 
 ## Files
 
@@ -42,11 +54,13 @@ python3 geometria/modelos/188060/generar.py
 
 - Valid JSON/XML; positive extent.
 - 19 faces, 26 folds, 28 cuts; base geometry reproduced unchanged.
-- Catalog entry and thumbnail checked.
-- Minimums, other materials/thicknesses, physical assembly, tolerances, and AI/DXF/PDF export were not verified.
+- Panel engine: exact base; L=110 validated (max error 0.7 mm); W/H analytical without an independent sample.
+- Catalog entry, thumbnail, and the 110 × 45 × 190 mm change checked.
+- Minimums, other materials/thicknesses, physical assembly, tolerances, and AI/DXF/PDF export were not verified. W/H have no independent sample.
 - The thumbnail was generated from local geometry; it is not presented as an official Pacdora image.
 
 ## Evidence
 
 - Page and initial dimensions: `ev_a75c36365ad2f0f766128a5055d1614f001124e94e80b155d14724abf291b669`.
 - Base geometry response: `ev_0c2b9e45f786350aba1b5f6dc8e284902db9d8c40694ea89a7f9010bc4f8ebbc`.
+- 110 × 45 × 190 editor change: `ev_f86e32d44ae650592412371043aced9524f23298655a6d2a1447849f962fefb3`.

@@ -3,7 +3,7 @@ const root=path.resolve(__dirname,'..');
 const models=JSON.parse(fs.readFileSync(path.join(root,'dist/assets/modelos.json')));
 const model=models.find(m=>m.id==='188060');
 assert.ok(model,'188060 missing');
-assert.strictEqual(model.engine,null);
+assert.strictEqual(model.engine,'panel188060');
 assert.deepStrictEqual(model.dims,{L:100.6,W:40.6,H:181.6});
 assert.strictEqual(model.layer.faces.length,19);
 assert.strictEqual(model.layer.folds.length,26);

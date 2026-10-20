@@ -37,17 +37,17 @@ def main():
         'material': 'Cartón blanco 350g',
         'thickness': 0.5,
         'layer': layer,
-        'engine': None,
+        'engine': 'panel188060',
         'minimumDims': None,
         'printMinimumDims': None,
         'offsets': {'internal': {'L': 0, 'W': 0, 'H': 0}, 'external': {'L': 0, 'W': 0, 'H': 0}},
-        'bounds': {k: [base['knifeSize'][k], base['knifeSize'][k]] for k in ('L', 'W', 'H')},
+        'bounds': {'L': [20, None], 'W': [20, None], 'H': [20, None]},
         'initialDims': {k: base['knifeSize'][k] for k in ('L', 'W', 'H')},
         'rule': None,
         'previewImage': 'assets/model-previews/188060.jpg?v=36',
-        'method': 'Captura 2D exacta del SVG de Pacdora; sin motor paramétrico verificado',
-        'experimental': False,
-        'limits': 'Solo 100,6 × 40,6 × 181,6 mm y 0,5 mm. No se verificaron mínimos, otros materiales ni armado físico.',
+        'method': 'Motor de paneles L/W/H; L=110 validado con error máximo 0,7 mm; W/H analíticos',
+        'experimental': True,
+        'limits': 'W/H no tienen muestra independiente; sin validación física. Solo material y espesor originales.',
     }
     models = [m for m in models if m['id'] != '188060'] + [entry]
     models_path.write_text(json.dumps(models, ensure_ascii=False, separators=(',', ':')))
@@ -62,8 +62,8 @@ def main():
         'source': 'geometria/modelos/188060/base/geometria.json',
         'samples': [{'manufacturing': {k: base['knifeSize'][k] for k in ('L', 'W', 'H')}}],
         'physicalProfiles': [],
-        'geometryStatus': 'exact-capture-2d',
-        'blockedReason': 'Solo la configuración 100,6 × 40,6 × 181,6 mm y 0,5 mm está verificada.',
+        'geometryStatus': 'parametric-panel-experimental',
+        'blockedReason': 'Solo el material y espesor originales; W/H analíticos sin muestra independiente.',
     }
     caps_path.write_text(json.dumps(caps, ensure_ascii=False, indent=2) + '\n')
 

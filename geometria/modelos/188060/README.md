@@ -18,7 +18,19 @@ Modelo **188060**, «Custom dimensions polygonal boxes hexagonal dieline» / «C
 
 La página muestra los modos **Dimensiones de manufactura**, **interiores** y **exteriores**. La base local conserva únicamente la configuración de manufactura; no se capturaron compensaciones internas/externas independientes para otros materiales.
 
-El modelo queda **fijo** en 100,6 × 40,6 × 181,6 mm y 0,5 mm. No se habilitó un motor paramétrico: no se probaron variaciones de L/W/H ni la topología del cierre hexagonal.
+El modelo usa un **motor de paneles L/W/H experimental** para el material y espesor originales. La geometría base se reproduce exactamente; L=110 se validó contra el SVG renderizado (error máximo 0,7 mm). W y H usan el mismo mapa de paneles, pero no tienen una muestra independiente capturada.
+
+## Motor L/W/H
+
+El plano se reconstruye por paneles: el ancho sigue los seis paneles laterales y el alto los tramos pestaña-cuerpo-pestaña.
+
+- `totalX = 135,5 + 2L`
+- `totalY = 2W + H`
+- X: cortes en `46`, `46+L`, `76+L`, `106+L`, `106+2L`, `135,5+2L`.
+- Y: pestaña superior `0..W`, cuerpo `W..W+H`, pestaña inferior `W+H..2W+H`.
+- Los radios de las esquinas se conservan; no se escalan.
+
+Se verificó en el editor local **110 × 45 × 190 mm**, con plano de **355,5 × 280 mm** y las tres medidas editables. La comparación de la cara TR a L=110 coincide; el error máximo del conjunto de caras fue 0,7 mm. W/H son analíticos y quedan marcados como experimentales hasta capturar una variación independiente de cada uno.
 
 ## Archivos
 
@@ -43,11 +55,13 @@ python3 geometria/modelos/188060/generar.py
 
 - JSON y XML válidos; extensión positiva.
 - 19 caras, 26 pliegues y 28 cortes; la geometría base se reproduce sin cambios.
-- Se comprobó el alta en el catálogo local y la miniatura.
-- No se validaron mínimos, otros materiales/espesores, armado físico, tolerancias ni exportación AI/DXF/PDF.
+- Motor de paneles: base exacta; L=110 validado (error máximo 0,7 mm); W/H analíticos sin muestra independiente.
+- Se comprobó el alta en el catálogo local, la miniatura y el cambio a 110 × 45 × 190 mm.
+- No se validaron mínimos, otros materiales/espesores, armado físico, tolerancias ni exportación AI/DXF/PDF. W/H no tienen muestra independiente.
 - La miniatura se generó desde la geometría local; no se presenta como imagen oficial de Pacdora.
 
 ## Evidencia
 
 - Página y medidas iniciales: `ev_a75c36365ad2f0f766128a5055d1614f001124e94e80b155d14724abf291b669`.
 - Respuesta de geometría base: `ev_0c2b9e45f786350aba1b5f6dc8e284902db9d8c40694ea89a7f9010bc4f8ebbc`.
+- Cambio 110 × 45 × 190 en el editor: `ev_f86e32d44ae650592412371043aced9524f23298655a6d2a1447849f962fefb3`.
