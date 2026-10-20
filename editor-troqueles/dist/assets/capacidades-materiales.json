@@ -167468,5 +167468,43 @@
     "physicalProfiles": [],
     "geometryStatus": "parametric-local",
     "blockedReason": "Solo manufactura y 0,5 mm; no hay medidas internas/externas ni otros materiales verificados."
+  },
+  "188060": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.5,
+      0.5
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": true,
+    "offsets": {
+      "inner": {
+        "L": 0,
+        "W": 0,
+        "H": 0
+      },
+      "outer": {
+        "L": 0,
+        "W": 0,
+        "H": 0
+      }
+    },
+    "source": "geometria/modelos/188060/base/geometria.json",
+    "samples": [
+      {
+        "manufacturing": {
+          "L": 100.6,
+          "W": 40.6,
+          "H": 181.6
+        }
+      }
+    ],
+    "physicalProfiles": [],
+    "geometryStatus": "exact-capture-2d",
+    "blockedReason": "Solo la configuración 100,6 × 40,6 × 181,6 mm y 0,5 mm está verificada."
   }
 }

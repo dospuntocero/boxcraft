@@ -26,4 +26,6 @@ def main():
     shutil.copyfile(SOURCE/'troquel-generado.svg',out/'15030101.svg');(out/'model-previews').mkdir(exist_ok=True);shutil.copyfile(SOURCE/'icono.png',out/'model-previews/15030101.png')
     # 187000: captura 2D exacta del troquel de caja almohada.
     spec2=importlib.util.spec_from_file_location('acquired187',ROOT.parent/'geometria/modelos/187000/integrar.py');m2=importlib.util.module_from_spec(spec2);spec2.loader.exec_module(m2);m2.main()
+    # 188060: captura 2D exacta de la caja hexagonal.
+    spec3=importlib.util.spec_from_file_location('acquired188',ROOT.parent/'geometria/modelos/188060/integrar.py');m3=importlib.util.module_from_spec(spec3);spec3.loader.exec_module(m3);m3.main()
 if __name__=='__main__':main()

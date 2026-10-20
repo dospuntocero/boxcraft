@@ -7,6 +7,8 @@ globalThis.TallerLocales.es={
   "Alimentos": "Alimentos",
   "Altura": "Altura",
   "Altura experimental": "Altura experimental",
+  "Solo la configuración 100,6 × 40,6 × 181,6 mm y 0,5 mm está verificada.": "Solo la configuración 100,6 × 40,6 × 181,6 mm y 0,5 mm está verificada.",
+  "Caja hexagonal": "Caja hexagonal",
   "Solo el material y espesor originales; L ≤ 2W. El fondo de 92 cortes no está reconstruido.": "Solo el material y espesor originales; L ≤ 2W. El fondo de 92 cortes no está reconstruido.",
   "Para este fondo, la longitud no puede superar el doble de la anchura (L ≤ 2W).": "Para este fondo, la longitud no puede superar el doble de la anchura (L ≤ 2W).",
   "Solo manufactura y 0,5 mm; no hay medidas internas/externas ni otros materiales verificados.": "Solo manufactura y 0,5 mm; no hay medidas internas/externas ni otros materiales verificados.",

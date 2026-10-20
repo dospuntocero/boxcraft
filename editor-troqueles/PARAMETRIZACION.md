@@ -71,6 +71,7 @@ Mínimos de referencia suministrados: L=15, W=10,6, H=20,6 mm; pliego 1.000 × 7
 | 10001006 | 15 × 10,6 × 15,6 | 1.000 × 700 |
 | 200010 | 30 × 24 × 20,6 | 1.200 × 2.300 |
 | 187000 | 20 × 20 × 6,67 | 330 × 480 |
+| 188060 | 100,6 × 40,6 × 181,6 (fija) | no definido |
 
 Se admite giro de 90°. Los límites de cada campo se recalculan con las otras medidas; el motor comprueba ambas dimensiones del plano antes de aceptar el cambio. Para 12109002, las dimensiones iniciales del editor son 200 × 140 × 120 mm: el plano resultante de 609,13 × 742,18 mm cabe girado. Su geometría capturada original permanece separada, ya que no cabe en el nuevo pliego. Estos límites de material sustituyen los rangos arbitrarios de exploración; no amplían la validación de la reconstrucción geométrica.
 
@@ -89,3 +90,7 @@ Rango editable: L 20–323,33 mm, W 20–231 mm, H 6,67–200 mm, con H < W. Pli
 Motor afín local para las tres medidas, ajustado con seis capturas de la topología de **80 cortes**. Error máximo observado: **1,82 mm** en los campos numéricos; la geometría base se reproduce exactamente. Los campos L, W y H son editables.
 
 La restricción es **L ≤ 2W**. Por encima de esa relación el servidor cambia el fondo de 80 a **92 cortes** (12 comandos extra en HB/FB); esa segunda topología no está reconstruida y el editor la rechaza. El pliego es 1.000 × 700 mm y el motor comprueba el encaje. El modelo queda marcado como experimental: no se validó una muestra física.
+
+## Caja hexagonal 188060
+
+Captura 2D exacta de la caja hexagonal de Pacdora: **100,6 × 40,6 × 181,6 mm**, cartón blanco de 0,5 mm, 19 caras, 26 pliegues y 28 cortes. El plano mide 336,7 × 262,8 mm. L, W y H quedan fijos: no se probaron variaciones ni la topología del cierre hexagonal, por lo que no se habilita un motor paramétrico. La miniatura es una rasterización local de la geometría, no una imagen oficial.

@@ -7,6 +7,8 @@ globalThis.TallerLocales.en={
   "Alimentos": "Food",
   "Altura": "Height",
   "Altura experimental": "Experimental height",
+  "Solo la configuración 100,6 × 40,6 × 181,6 mm y 0,5 mm está verificada.": "Only the 100.6 × 40.6 × 181.6 mm configuration at 0.5 mm is verified.",
+  "Caja hexagonal": "Hexagonal box",
   "Solo el material y espesor originales; L ≤ 2W. El fondo de 92 cortes no está reconstruido.": "Original material and thickness only; L ≤ 2W. The 92-cut base is not reconstructed.",
   "Para este fondo, la longitud no puede superar el doble de la anchura (L ≤ 2W).": "For this base, length cannot exceed twice the width (L ≤ 2W).",
   "Solo manufactura y 0,5 mm; no hay medidas internas/externas ni otros materiales verificados.": "Manufacturing only and 0.5 mm; no verified internal/external measurements or other materials.",

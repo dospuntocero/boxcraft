@@ -1,0 +1,64 @@
+{
+  "modelo": "188060",
+  "configuracion": {
+    "L": 100.6,
+    "W": 40.6,
+    "H": 181.6
+  },
+  "material": {
+    "id": 103,
+    "name": "Cartón blanco 350g (0,5mm)",
+    "image": "//cdn.pacdora.com/science/image/80f41cf6-a7ce-4842-b798-976ac88caba4.jpeg",
+    "des": null,
+    "unit": "m²",
+    "price": "0.1000",
+    "price_range": {},
+    "by_admin_id": null,
+    "sort": null,
+    "is_online": 1,
+    "science_type": 1,
+    "thickness": 0.5,
+    "min_thickness": 0.5,
+    "max_thickness": 0.5,
+    "inless": 0.3,
+    "outless": 0.2,
+    "bleedline": 5,
+    "can_set": 0,
+    "def_line_color": null,
+    "group_name": "white paperboard",
+    "group_key": "white paperboard",
+    "print_cfg": {},
+    "special_type": "",
+    "create_time": "1778841938662",
+    "update_time": null,
+    "is_delete": 0
+  },
+  "espesor_mm": 0.5,
+  "extension_mm": {
+    "x": 336.7,
+    "y": 262.8
+  },
+  "conteos": {
+    "caras": 19,
+    "pliegues": 26,
+    "cortes": 28,
+    "orificios": 0
+  },
+  "sha256": {
+    "troquel-generado.svg": "7b167e0321646579802684a02e99cdf7209fb8831f342a715aea3302dadabe67",
+    "troquel-generado.json": "fce357a9134d4856769853704f71801f9c0d592c845d402759cca2639dfb6e61",
+    "base/geometria.json": "b4a956964a022f7c8e4986c68e5f878361b3b6c1fbdfde9e51be0066574ce458",
+    "base/knife-00.json": "a381326ccd5873105f120e4eaffbc494e1de73a228feaa9e3bc99132a6e78dc6",
+    "README.md": "9b8d252420385cfd975df1937a18fedf1a6141fb8fbd3e35106e2aa89f405009"
+  },
+  "pruebas": {
+    "json_valido": true,
+    "svg_xml_valido": true,
+    "extension_positiva": true,
+    "geometria_base_exacta": true
+  },
+  "limites": [
+    "No se verificaron mínimos ni otros materiales.",
+    "No se validó armado físico ni exportación AI/DXF/PDF."
+  ]
+}

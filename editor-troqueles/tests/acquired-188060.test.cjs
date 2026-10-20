@@ -1,0 +1,16 @@
+const fs=require('fs'),path=require('path'),assert=require('assert');
+const root=path.resolve(__dirname,'..');
+const models=JSON.parse(fs.readFileSync(path.join(root,'dist/assets/modelos.json')));
+const model=models.find(m=>m.id==='188060');
+assert.ok(model,'188060 missing');
+assert.strictEqual(model.engine,null);
+assert.deepStrictEqual(model.dims,{L:100.6,W:40.6,H:181.6});
+assert.strictEqual(model.layer.faces.length,19);
+assert.strictEqual(model.layer.folds.length,26);
+assert.strictEqual(model.layer.cuts.length,28);
+const base=JSON.parse(fs.readFileSync(path.resolve(root,'..','geometria/modelos/188060/base/geometria.json')));
+assert.strictEqual(model.layer.totalX,base.totalX);
+assert.strictEqual(model.layer.totalY,base.totalY);
+for(const key of ['faces','folds','cuts'])assert.deepStrictEqual(model.layer[key],base[key]);
+assert.ok(fs.readFileSync(path.join(root,'dist/assets/188060.svg'),'utf8').includes('<svg'));
+console.log('188060 OK · captura exacta · 19 caras · 26 pliegues · 28 cortes');

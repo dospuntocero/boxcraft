@@ -67,6 +67,7 @@ Spanish documents remain unchanged. English companions use the `.en.md` suffix a
 | `geometria/modelos/150010/README.md` | [Original](geometria/modelos/150010/README.md) | [English](geometria/modelos/150010/README.en.md) |
 | `geometria/modelos/15030101/MATERIALES.md` | [Original](geometria/modelos/15030101/MATERIALES.md) | [English](geometria/modelos/15030101/MATERIALES.en.md) |
 | `geometria/modelos/15030101/README.md` | [Original](geometria/modelos/15030101/README.md) | [English](geometria/modelos/15030101/README.en.md) |
+| `geometria/modelos/188060/README.md` | [Original](geometria/modelos/188060/README.md) | [English](geometria/modelos/188060/README.en.md) |
 | `geometria/modelos/180320/README.md` | [Original](geometria/modelos/180320/README.md) | [English](geometria/modelos/180320/README.en.md) |
 | `geometria/modelos/180370/README.md` | [Original](geometria/modelos/180370/README.md) | [English](geometria/modelos/180370/README.en.md) |
 | `geometria/ruta-conversion-3d.md` | [Original](geometria/ruta-conversion-3d.md) | [English](geometria/ruta-conversion-3d.en.md) |
