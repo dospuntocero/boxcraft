@@ -1,0 +1,2721 @@
+{
+  "modelo": "366010",
+  "capturado": "2026-10-20",
+  "fuente": "Pacdora /api/v2/project/knife vía CDP controlado",
+  "bounds": {
+    "L": [
+      160,
+      220
+    ],
+    "W": [
+      80,
+      140
+    ],
+    "H": [
+      30,
+      70
+    ]
+  },
+  "muestras": [
+    {
+      "archivo": "L160-W100-H40.json",
+      "medidas": {
+        "L": 160,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 2.842170943040401e-14,
+      "sha256": "6ca6e39aad0739a707b25fa9a726b2c40297ca465c010643e690e48b751ca2e8",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 240,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 280.95000000000005,
+          "totalY": 220.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 249.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 290.75000000000006,
+          "totalY": 230.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L160-W80-H30.json",
+      "medidas": {
+        "L": 160,
+        "W": 80,
+        "H": 30
+      },
+      "regimen": "A",
+      "error_max_mm": 0.010000000000019327,
+      "sha256": "a7f241a2187a5eee66462dec583f1c70313153049e2f6fd158536c85b63aa59a",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 220,
+          "totalY": 140,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 260.95000000000005,
+          "totalY": 180.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 229.8,
+          "totalY": 149.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 270.75,
+          "totalY": 190.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W100-H30.json",
+      "medidas": {
+        "L": 180,
+        "W": 100,
+        "H": 30
+      },
+      "regimen": "A",
+      "error_max_mm": 1.1368683772161603e-13,
+      "sha256": "985fe85243cf769e3ba62dc9572893e5ba3bd4bb2c35e9b9bd8e6e98b7dd47fa",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 240,
+          "totalY": 160,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 280.95000000000005,
+          "totalY": 200.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 249.8,
+          "totalY": 169.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 290.75000000000006,
+          "totalY": 210.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W100-H42.json",
+      "medidas": {
+        "L": 180,
+        "W": 100,
+        "H": 42
+      },
+      "regimen": "A",
+      "error_max_mm": 0.0,
+      "sha256": "2f9a586d1ddd802d3e286ae86cfccac12a4220a0fc075e5033d1dc3a68b5118f",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 264,
+          "totalY": 184,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 304.95000000000005,
+          "totalY": 224.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 273.8,
+          "totalY": 193.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 314.75000000000006,
+          "totalY": 234.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W100-H45.json",
+      "medidas": {
+        "L": 180,
+        "W": 100,
+        "H": 45
+      },
+      "regimen": "A",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "4c33c79438e2a4fa77abc50d8c7ce65645fc5072fd9b748bd12996f6956e9bd0",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 270,
+          "totalY": 190,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 310.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 279.8,
+          "totalY": 199.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 320.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W100-H48.json",
+      "medidas": {
+        "L": 180,
+        "W": 100,
+        "H": 48
+      },
+      "regimen": "A",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "4d97a86be88cf3423c60f865325c09538e903d881e95563bc9f863b4c2183c47",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 276,
+          "totalY": 196,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 316.95000000000005,
+          "totalY": 236.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 285.8,
+          "totalY": 205.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 326.75000000000006,
+          "totalY": 246.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W100-H50.json",
+      "medidas": {
+        "L": 180,
+        "W": 100,
+        "H": 50
+      },
+      "regimen": "A",
+      "error_max_mm": 2.842170943040401e-14,
+      "sha256": "d3cbf96be7ffe381d6bd3f3b75be3f2197f45dfff19b2598da9540c70bbb0f5c",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 280,
+          "totalY": 200,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 320.95000000000005,
+          "totalY": 240.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 289.8,
+          "totalY": 209.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 330.75000000000006,
+          "totalY": 250.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W100-H55.json",
+      "medidas": {
+        "L": 180,
+        "W": 100,
+        "H": 55
+      },
+      "regimen": "A",
+      "error_max_mm": 2.842170943040401e-14,
+      "sha256": "46853497f582ecc01c0fa1580fc9dc7efbd9126f83dfcf753fc727ff703ad1f0",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 290,
+          "totalY": 210,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 330.95000000000005,
+          "totalY": 250.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 299.8,
+          "totalY": 219.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 340.75000000000006,
+          "totalY": 260.75,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W100-H60.json",
+      "medidas": {
+        "L": 180,
+        "W": 100,
+        "H": 60
+      },
+      "regimen": "A",
+      "error_max_mm": 0.0,
+      "sha256": "8bb3eca4a0e9b0488f1ddd3cd5607c369831610c8c1d574bf6ca0ffc571bb158",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 300,
+          "totalY": 220,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 340.95000000000005,
+          "totalY": 260.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 309.8,
+          "totalY": 229.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 350.75000000000006,
+          "totalY": 270.75,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W100-H70.json",
+      "medidas": {
+        "L": 180,
+        "W": 100,
+        "H": 70
+      },
+      "regimen": "A",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "84574a8369362b4542c58db0520cbd1eea1f55d8cdb6711ea11d94aad1beeb50",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 320,
+          "totalY": 240,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 360.95000000000005,
+          "totalY": 280.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 329.8,
+          "totalY": 249.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 370.75000000000006,
+          "totalY": 290.75000000000006,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W105-H40.json",
+      "medidas": {
+        "L": 180,
+        "W": 105,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 0.0024999999999977263,
+      "sha256": "905d153e155b388003927a728b6a27a9b7330369c44fea623ba41dda1b5a6fef",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 260,
+          "totalY": 185,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 300.95000000000005,
+          "totalY": 225.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 269.8,
+          "totalY": 194.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 310.75000000000006,
+          "totalY": 235.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W110-H40.json",
+      "medidas": {
+        "L": 180,
+        "W": 110,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 0.005000000000023874,
+      "sha256": "0a4d6f8f50ab7dab6ae0bc6f38ce2d9df3ef4c2b8cedc620d09345c4f9db10d1",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 260,
+          "totalY": 190,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 300.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 269.8,
+          "totalY": 199.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 310.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W115-H40.json",
+      "medidas": {
+        "L": 180,
+        "W": 115,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 0.0075000000000216005,
+      "sha256": "b3d2e4a3b981789554cf9c49510c2beb0dfb1608d393cd5f53407b77a6774861",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 260,
+          "totalY": 195,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 300.95000000000005,
+          "totalY": 235.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 269.8,
+          "totalY": 204.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 310.75000000000006,
+          "totalY": 245.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W120-H40.json",
+      "medidas": {
+        "L": 180,
+        "W": 120,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 1.4210854715202004e-14,
+      "sha256": "ee7dc4e760141381899828df2acd3d2049283fec999db9c68c0039d405025b54",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 260,
+          "totalY": 200,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 300.95000000000005,
+          "totalY": 240.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 269.8,
+          "totalY": 209.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 310.75000000000006,
+          "totalY": 250.76000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W125-H40.json",
+      "medidas": {
+        "L": 180,
+        "W": 125,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 0.0024999999999977263,
+      "sha256": "ee2f517a7d18abad6382a7f3a451d2cd16e7af936f478434d8e1ee5629d70856",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 260,
+          "totalY": 205,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 300.95000000000005,
+          "totalY": 245.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 269.8,
+          "totalY": 214.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 310.75000000000006,
+          "totalY": 255.76000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L180-W130-H40.json",
+      "medidas": {
+        "L": 180,
+        "W": 130,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 0.005000000000052296,
+      "sha256": "7a1b51932db80ad66295b59156e52153f3089b6dc10bd286f0616e37a4494c87",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 260,
+          "totalY": 210,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 300.95000000000005,
+          "totalY": 250.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 269.8,
+          "totalY": 219.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 310.75000000000006,
+          "totalY": 260.76,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L185-W100-H40.json",
+      "medidas": {
+        "L": 185,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 2.842170943040401e-14,
+      "sha256": "4ae993cb53eab497c508835f3255d5bdf4f198da57dfacb492cdea195591c87d",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 265,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 305.95000000000005,
+          "totalY": 220.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 274.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 315.75000000000006,
+          "totalY": 230.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L185-W105-H45.json",
+      "medidas": {
+        "L": 185,
+        "W": 105,
+        "H": 45
+      },
+      "regimen": "A",
+      "error_max_mm": 0.002500000000026148,
+      "sha256": "f43704a73a65e4028e49796665a92a0b2ea93c9be130156c367444853d50cc6b",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 275,
+          "totalY": 195,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 315.95000000000005,
+          "totalY": 235.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 284.8,
+          "totalY": 204.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 325.75000000000006,
+          "totalY": 245.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L190-W100-H40.json",
+      "medidas": {
+        "L": 190,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 2.842170943040401e-14,
+      "sha256": "4d6331ed5dfe0daa6a5ea002bd9f27ba468ee62670ac16896bd1f3aa8935e473",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 270,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 310.95000000000005,
+          "totalY": 220.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 279.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 320.75000000000006,
+          "totalY": 230.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L190-W100-H60.json",
+      "medidas": {
+        "L": 190,
+        "W": 100,
+        "H": 60
+      },
+      "regimen": "A",
+      "error_max_mm": 0.0,
+      "sha256": "11770d222ec7703b3b5265c14ce3e1c0782f4bc20f5dee09ac1f1c9a276079f8",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 310,
+          "totalY": 220,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 350.95000000000005,
+          "totalY": 260.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 319.8,
+          "totalY": 229.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 360.75000000000006,
+          "totalY": 270.75,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L190-W110-H50.json",
+      "medidas": {
+        "L": 190,
+        "W": 110,
+        "H": 50
+      },
+      "regimen": "A",
+      "error_max_mm": 0.005000000000023874,
+      "sha256": "daf2b771393d9b5e8368dd58b54aca3ec7ec522e93b500c1ba68c092314bae9e",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 290,
+          "totalY": 210,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 330.95000000000005,
+          "totalY": 250.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 299.8,
+          "totalY": 219.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 340.75000000000006,
+          "totalY": 260.75,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L190-W120-H50.json",
+      "medidas": {
+        "L": 190,
+        "W": 120,
+        "H": 50
+      },
+      "regimen": "A",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "28302c424ae203c027f3a40f1483060a94f2d9cde95706c0c3b185c872250eaa",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 290,
+          "totalY": 220,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 330.95000000000005,
+          "totalY": 260.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 299.8,
+          "totalY": 229.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 340.75000000000006,
+          "totalY": 270.76,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L195-W100-H40.json",
+      "medidas": {
+        "L": 195,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 2.842170943040401e-14,
+      "sha256": "90f317a9791b7e2f9a366669f4265a2d6360d94ed3e83ea55cd3d898648cc6ca",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 275,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 315.95000000000005,
+          "totalY": 220.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 284.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 325.75000000000006,
+          "totalY": 230.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L195-W100-H45.json",
+      "medidas": {
+        "L": 195,
+        "W": 100,
+        "H": 45
+      },
+      "regimen": "A",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "9ac34827e5ed83e7ccc7f4251aab256a9678ded97fdf02f1b65f837139e8c83d",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 285,
+          "totalY": 190,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 325.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 294.8,
+          "totalY": 199.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 335.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L195-W100-H60.json",
+      "medidas": {
+        "L": 195,
+        "W": 100,
+        "H": 60
+      },
+      "regimen": "A",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "b428a684d66282ce7ab05f72a4f097c08536d753b1803df691d06802ec253b03",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 315,
+          "totalY": 220,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 355.95000000000005,
+          "totalY": 260.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 324.8,
+          "totalY": 229.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 365.75000000000006,
+          "totalY": 270.75,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L199-W100-H40.json",
+      "medidas": {
+        "L": 199,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 2.842170943040401e-14,
+      "sha256": "0d97f314ca92a789d456f95e4ecc99802b4a711721bb2edefd76b01296cece31",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 279,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 319.95000000000005,
+          "totalY": 220.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 288.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 329.75000000000006,
+          "totalY": 230.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L199.5-W100-H40.json",
+      "medidas": {
+        "L": 199.5,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 2.842170943040401e-14,
+      "sha256": "a96cdd85a3bf915eab160c969dd246fc9281137a426c2059693b6c36b7b9ed8d",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 279.5,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 320.45000000000005,
+          "totalY": 220.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 289.3,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 330.25000000000006,
+          "totalY": 230.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H30.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 30
+      },
+      "regimen": "B",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "afa95aa6b6942bfb621f44edf20e685942c7e454f8ee193f4b7201d73bbbdde3",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 260,
+          "totalY": 160,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 300.95000000000005,
+          "totalY": 200.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 269.8,
+          "totalY": 169.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 310.75000000000006,
+          "totalY": 210.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H35.5.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 35.5
+      },
+      "regimen": "B",
+      "error_max_mm": 0.00029287032873526186,
+      "sha256": "9667bfeb9e725ef52498071af4ff02388dd35de846445257a5d673778eea6925",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 271,
+          "totalY": 171,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 315.95000000000005,
+          "totalY": 215.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 280.8,
+          "totalY": 180.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 325.75000000000006,
+          "totalY": 225.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H35.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 35
+      },
+      "regimen": "B",
+      "error_max_mm": 0.00029287032873526186,
+      "sha256": "fc62bf406d78553a9869749c609cdefb8afccedbaa1bc5b9f7ccb89e163fcf75",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 270,
+          "totalY": 170,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 314.95000000000005,
+          "totalY": 214.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 279.8,
+          "totalY": 179.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 324.75000000000006,
+          "totalY": 224.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H38.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 38
+      },
+      "regimen": "B",
+      "error_max_mm": 0.00017302072461689022,
+      "sha256": "b464ce8e431a07a1ceb52fdd391b95f0f375d7f9751ef0fccb30a006e60a4d93",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 276,
+          "totalY": 176,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 324.95000000000005,
+          "totalY": 224.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 285.8,
+          "totalY": 185.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 334.75000000000006,
+          "totalY": 234.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H39.5.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 39.5
+      },
+      "regimen": "B",
+      "error_max_mm": 0.00017302072461689022,
+      "sha256": "c7b5bd7d2344e3b0bfb94ae8f5ce8432a3715e791b5d1ed5aa52ca9c1fa696c6",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 279,
+          "totalY": 179,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 327.95000000000005,
+          "totalY": 227.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 288.8,
+          "totalY": 188.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 337.75000000000006,
+          "totalY": 237.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H39.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 39
+      },
+      "regimen": "B",
+      "error_max_mm": 0.00017302072461689022,
+      "sha256": "61f97579b2f78ccce5434d816900deac833ea3f75feb3cc9802898fc28f44b68",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 278,
+          "totalY": 178,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 326.95000000000005,
+          "totalY": 226.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 287.8,
+          "totalY": 187.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 336.75000000000006,
+          "totalY": 236.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H40.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.0,
+      "sha256": "13e97942940cd2f00bf3a1840562ee75447f14394b6511c97ba821460d2ae434",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 280,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 330.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 289.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 340.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H41.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 41
+      },
+      "regimen": "B",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "856885bff32f2c76bc7582629082384cd1f762c6ac9003c47574e32bda0401ab",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 282,
+          "totalY": 182,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 332.95000000000005,
+          "totalY": 232.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 291.8,
+          "totalY": 191.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 342.75000000000006,
+          "totalY": 242.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H42.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 42
+      },
+      "regimen": "B",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "97c28958f2e5957ec7bdc8c31082643cd2468c47948661e02d3f77ecf28e9451",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 284,
+          "totalY": 184,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 334.95000000000005,
+          "totalY": 234.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 293.8,
+          "totalY": 193.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 344.75000000000006,
+          "totalY": 244.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H45.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 45
+      },
+      "regimen": "B",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "8db1b88298c5eba0c9308594105f20bbd3f47a711f00643e6f310fd22b700e05",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 290,
+          "totalY": 190,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 340.95000000000005,
+          "totalY": 240.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 299.8,
+          "totalY": 199.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 350.75000000000006,
+          "totalY": 250.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H50.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 50
+      },
+      "regimen": "B",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "2510f5ec9949ec99b6bffdea52b6a67c557ca533c0cd3818f0c0d62ea5510405",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 300,
+          "totalY": 200,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 350.95000000000005,
+          "totalY": 250.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 309.8,
+          "totalY": 209.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 360.75000000000006,
+          "totalY": 260.75,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H60.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 60
+      },
+      "regimen": "B",
+      "error_max_mm": 0.0,
+      "sha256": "fd00bd4d65a0abb2100ffd359fb22c96b836bb57614fb297329140419a808978",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 320,
+          "totalY": 220,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 370.95000000000005,
+          "totalY": 270.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 329.8,
+          "totalY": 229.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 380.75000000000006,
+          "totalY": 280.75000000000006,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W100-H70.json",
+      "medidas": {
+        "L": 200,
+        "W": 100,
+        "H": 70
+      },
+      "regimen": "B",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "fd0a2d8bfead05e35bded996f966d80017ce5171a566c0ee95ee81df010e955e",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 340,
+          "totalY": 240,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 390.95000000000005,
+          "totalY": 290.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 349.8,
+          "totalY": 249.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 400.75000000000006,
+          "totalY": 300.75000000000006,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W110-H40.json",
+      "medidas": {
+        "L": 200,
+        "W": 110,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.005000000000023874,
+      "sha256": "aadcd340f63069dd945337372ceeb07555d42c965687f78367eaa652e77adaf4",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 280,
+          "totalY": 190,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 330.95000000000005,
+          "totalY": 240.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 289.8,
+          "totalY": 199.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 340.75000000000006,
+          "totalY": 250.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W110-H50.json",
+      "medidas": {
+        "L": 200,
+        "W": 110,
+        "H": 50
+      },
+      "regimen": "B",
+      "error_max_mm": 0.005000000000023874,
+      "sha256": "23d0d47449656733fdfc87de129cf7aa9ceb42a34a910fd50b4d28c972866b7e",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 300,
+          "totalY": 210,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 350.95000000000005,
+          "totalY": 260.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 309.8,
+          "totalY": 219.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 360.75000000000006,
+          "totalY": 270.75,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W120-H40.json",
+      "medidas": {
+        "L": 200,
+        "W": 120,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 1.4210854715202004e-14,
+      "sha256": "e6fe2f6eceea5edbf9fc5286b24c8851d3f4d794207082da04f856b0b2a7b0b8",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 280,
+          "totalY": 200,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 330.95000000000005,
+          "totalY": 250.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 289.8,
+          "totalY": 209.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 340.75000000000006,
+          "totalY": 260.76,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W120-H60.json",
+      "medidas": {
+        "L": 200,
+        "W": 120,
+        "H": 60
+      },
+      "regimen": "B",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "5548476cdc5cee4ab4cdad8ea7b29438b4efe30ff284a8446c20979636d786ba",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 320,
+          "totalY": 240,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 370.95000000000005,
+          "totalY": 290.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 329.8,
+          "totalY": 249.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 380.75000000000006,
+          "totalY": 300.76000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W140-H40.json",
+      "medidas": {
+        "L": 200,
+        "W": 140,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.010000000000047748,
+      "sha256": "126abc0fd279f6ce43588bbe15204cfc295ffeee7669fe411e29d198e517c4a1",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 280,
+          "totalY": 220,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 330.95000000000005,
+          "totalY": 270.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 289.8,
+          "totalY": 229.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 340.75000000000006,
+          "totalY": 280.76000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W80-H40.json",
+      "medidas": {
+        "L": 200,
+        "W": 80,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.010000000000019327,
+      "sha256": "71791701bfa92482412ed7a1883ee2c1e72187ea49c0a64c4067e7973efe7d6d",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 280,
+          "totalY": 160,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 330.95000000000005,
+          "totalY": 210.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 289.8,
+          "totalY": 169.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 340.75000000000006,
+          "totalY": 220.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L200-W90-H40.json",
+      "medidas": {
+        "L": 200,
+        "W": 90,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.005000000000023874,
+      "sha256": "2d7ef027425cc829de0f2017b8fee81f87b756e3042f1d1b13fcc805193a9613",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 280,
+          "totalY": 170,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 330.95000000000005,
+          "totalY": 220.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 289.8,
+          "totalY": 179.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 340.75000000000006,
+          "totalY": 230.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L205-W100-H35.json",
+      "medidas": {
+        "L": 205,
+        "W": 100,
+        "H": 35
+      },
+      "regimen": "B",
+      "error_max_mm": 0.00029287032873526186,
+      "sha256": "a719506a237b0dc91ad89f80a3c5bb31ef11d0e61082ed41a7eb339605aa5d8c",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 275,
+          "totalY": 170,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 319.95000000000005,
+          "totalY": 214.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 284.8,
+          "totalY": 179.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 329.75000000000006,
+          "totalY": 224.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L205-W100-H40.json",
+      "medidas": {
+        "L": 205,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.0,
+      "sha256": "20756ab6cf1dff3ef8d3c3c19c1254f458f93399f40cbb4f42115104e8306f8a",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 285,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 335.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 294.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 345.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L205-W90-H45.json",
+      "medidas": {
+        "L": 205,
+        "W": 90,
+        "H": 45
+      },
+      "regimen": "B",
+      "error_max_mm": 0.005000000000023874,
+      "sha256": "2821f7f9f93045fc5c2da048320272eb4343065096a673cc0b3605d97ec7789a",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 295,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 345.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 304.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 355.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L210-W100-H30.json",
+      "medidas": {
+        "L": 210,
+        "W": 100,
+        "H": 30
+      },
+      "regimen": "B",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "d3e4fceb4cb05877af13278d6189174f3c73e0602a5b5b3ac64b44373cce49b2",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 270,
+          "totalY": 160,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 310.95000000000005,
+          "totalY": 200.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 279.8,
+          "totalY": 169.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 320.75000000000006,
+          "totalY": 210.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L210-W100-H40.json",
+      "medidas": {
+        "L": 210,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.0,
+      "sha256": "07ea686e7db1159203eb1cb9749ae47ecff72a80a6e9207891588d42ee0d0821",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 290,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 340.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 299.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 350.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L210-W110-H50.json",
+      "medidas": {
+        "L": 210,
+        "W": 110,
+        "H": 50
+      },
+      "regimen": "B",
+      "error_max_mm": 0.005000000000023874,
+      "sha256": "d576e20b7acf1ff89e2256c591383a9c144f9e3a95df79f9dd5be62891da193a",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 310,
+          "totalY": 210,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 360.95000000000005,
+          "totalY": 260.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 319.8,
+          "totalY": 219.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 370.75000000000006,
+          "totalY": 270.75,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L210-W130-H60.json",
+      "medidas": {
+        "L": 210,
+        "W": 130,
+        "H": 60
+      },
+      "regimen": "B",
+      "error_max_mm": 0.005000000000052296,
+      "sha256": "322c0c4250b1d4ffc463da5b3411da89e232af0a4f8b0770770aa382154e7a83",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 330,
+          "totalY": 250,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 380.95000000000005,
+          "totalY": 300.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 339.8,
+          "totalY": 259.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 390.75000000000006,
+          "totalY": 310.76000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L220-W100-H30.json",
+      "medidas": {
+        "L": 220,
+        "W": 100,
+        "H": 30
+      },
+      "regimen": "B",
+      "error_max_mm": 5.684341886080802e-14,
+      "sha256": "f4493d267d2e1fe1f283448730b0c7d34167be744f93af4b720dcc2e402b6738",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 280,
+          "totalY": 160,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 320.95000000000005,
+          "totalY": 200.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 289.8,
+          "totalY": 169.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 330.75000000000006,
+          "totalY": 210.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L220-W100-H40.json",
+      "medidas": {
+        "L": 220,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.0,
+      "sha256": "e55ce28ae55a1389d3be816042c07b3a156de4b58aa30a07ab0e0aca4bc2ab31",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 300,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 350.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 309.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 360.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L220-W130-H60.json",
+      "medidas": {
+        "L": 220,
+        "W": 130,
+        "H": 60
+      },
+      "regimen": "B",
+      "error_max_mm": 0.005000000000052296,
+      "sha256": "5b448b97cd53d5f5a7c714413403c1a8f3fd99c70fd088c4e6be69913633dec3",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 340,
+          "totalY": 250,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 390.95000000000005,
+          "totalY": 300.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 349.8,
+          "totalY": 259.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 400.75000000000006,
+          "totalY": 310.76000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L220-W140-H70.json",
+      "medidas": {
+        "L": 220,
+        "W": 140,
+        "H": 70
+      },
+      "regimen": "B",
+      "error_max_mm": 0.010000000000047748,
+      "sha256": "42bee0534e5e0dcdafb729e6ed08cc2dc5e3757af9dcd6e5d4403db8a8188589",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 360,
+          "totalY": 280,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 410.95000000000005,
+          "totalY": 330.95000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 369.8,
+          "totalY": 289.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 420.75000000000006,
+          "totalY": 340.76000000000005,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L230-W100-H40.json",
+      "medidas": {
+        "L": 230,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": null,
+      "sha256": "056cce8572877713b727e0ebb63a37aa74f86584fad2e9076a19e89c3b6f717d",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 310,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 360.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 319.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 370.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    },
+    {
+      "archivo": "L240-W100-H40.json",
+      "medidas": {
+        "L": 240,
+        "W": 100,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": null,
+      "sha256": "f07351466d8d97f8bfbff809d612fd6c219d0b11f02d8613ad73c0b5511e378b",
+      "capas": {
+        "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+          "totalX": 320,
+          "totalY": 180,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+          "totalX": 370.95000000000005,
+          "totalY": 230.95000000000002,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        },
+        "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+          "totalX": 329.8,
+          "totalY": 189.8,
+          "caras": 5,
+          "cortes": 22,
+          "pliegues": 4,
+          "sangrados": 0
+        },
+        "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+          "totalX": 380.75000000000006,
+          "totalY": 240.75000000000003,
+          "caras": 25,
+          "cortes": 86,
+          "pliegues": 24,
+          "sangrados": 38
+        }
+      }
+    }
+  ]
+}

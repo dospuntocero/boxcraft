@@ -1,0 +1,184 @@
+{
+  "url": "https://www.pacdora.com/es/dielines-detail/tuck-end-software-box-dieline-10001006",
+  "date": "2026-10-20T22:02:52.327Z",
+  "materialId": 103,
+  "thickness": 0.5,
+  "report": [
+    {
+      "config": {
+        "L": 32,
+        "W": 37,
+        "H": 130
+      },
+      "saved": true,
+      "file": "000-L32-W37-H130.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184427&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 32,
+        "W": 37,
+        "H": 130,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 22
+    },
+    {
+      "config": {
+        "L": 37,
+        "W": 42,
+        "H": 130
+      },
+      "saved": true,
+      "file": "001-L37-W42-H130.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184427&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 37,
+        "W": 42,
+        "H": 130,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 22
+    },
+    {
+      "config": {
+        "L": 42,
+        "W": 47,
+        "H": 130
+      },
+      "saved": true,
+      "file": "002-L42-W47-H130.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184427&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 42,
+        "W": 47,
+        "H": 130,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 22
+    },
+    {
+      "config": {
+        "L": 47,
+        "W": 52,
+        "H": 130
+      },
+      "saved": true,
+      "file": "003-L47-W52-H130.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184427&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 47,
+        "W": 52,
+        "H": 130,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 22
+    },
+    {
+      "config": {
+        "L": 52,
+        "W": 57,
+        "H": 130
+      },
+      "saved": true,
+      "file": "004-L52-W57-H130.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184427&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 52,
+        "W": 57,
+        "H": 130,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 22
+    },
+    {
+      "config": {
+        "L": 57,
+        "W": 32,
+        "H": 130
+      },
+      "saved": true,
+      "file": "005-L57-W32-H130.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184427&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 57,
+        "W": 32,
+        "H": 130,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 22
+    },
+    {
+      "config": {
+        "L": 43,
+        "W": 43,
+        "H": 100
+      },
+      "saved": true,
+      "file": "006-L43-W43-H100.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184427&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 43,
+        "W": 43,
+        "H": 100,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 22
+    },
+    {
+      "config": {
+        "L": 58,
+        "W": 58,
+        "H": 160
+      },
+      "saved": true,
+      "file": "007-L58-W58-H160.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184427&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 58,
+        "W": 58,
+        "H": 160,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 22
+    }
+  ]
+}

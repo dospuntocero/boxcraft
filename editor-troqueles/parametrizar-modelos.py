@@ -81,7 +81,23 @@ def integrate():
             model['minimumDims'] = {'L': 40, 'W': 30}
             for bounds_key in ['bounds', 'referenceBounds', 'expandedBounds']:
                 model[bounds_key].update({'L': [40, None], 'W': [30, None]})
-        if code in sheet_limits:
+        compiled = GEOMETRY / code / 'reglas-parametricas.json'
+        if compiled.exists():
+            payload = json.loads(compiled.read_text())
+            if payload.get('engine') == 'compiled':
+                model['engine'] = 'compiled'
+                model['rule'] = {'features': payload['features'], 'tables': payload.get('tables'), 'tables2d': payload.get('tables2d'), 'rules': payload['rules']}
+                ranges = payload['validation']['validatedRange']
+                model['bounds'] = {axis: list(ranges[axis]) for axis in payload['validation']['axes']}
+                model['referenceBounds'] = {axis: list(ranges[axis]) for axis in payload['validation']['axes']}
+                model['expandedBounds'] = {axis: list(ranges[axis]) for axis in payload['validation']['axes']}
+                model['verifiedBounds'] = {axis: list(ranges[axis]) for axis in payload['validation']['axes']}
+                model['method'] = payload['validation']['method']
+                model['limits'] = payload['validation'].get('limits')
+                if code in sheet_limits:
+                    model['materialSheetMm'] = sheet_limits[code][1]
+                    model['minimumDims'] = dict(zip('LWH', sheet_limits[code][0]))
+        if code in sheet_limits and model.get('engine') != 'compiled':
             minimums, sheet = sheet_limits[code]
             model['materialSheetMm'] = sheet
             model['minimumDims'] = dict(zip('LWH', minimums))

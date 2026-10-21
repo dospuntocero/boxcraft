@@ -53,3 +53,19 @@ test('profiles without captured conversion offsets cannot reuse original convers
  assert.throws(()=>M.display(cap,{L:10},'inner',{materialId:1,thickness:2}),/Conversión/);
  assert.deepEqual(M.display(cap,{L:10},'manufacturing',{materialId:1,thickness:2}),{L:10});
 });
+
+test('187000: verified 210 g and 190 g reuse the captured layer at fixed dimensions',()=>{
+ const model=models.find(m=>m.id==='187000'),cap=caps['187000'],m={...model,materialCapability:cap};
+ assert.deepEqual(M.compatible(cap,catalog).map(x=>x.id).sort((a,b)=>a-b),[100,103,108]);
+ for(const [id,thickness] of [[100,.27],[108,.26]]){
+  const layer=M.generate(m,m.dims,{materialId:id,thickness},catalog);
+  assert.deepEqual(layer.cuts,model.layer.cuts);
+  assert.deepEqual(layer.faces,model.layer.faces);
+  assert.deepEqual(layer.folds,model.layer.folds);
+  assert.equal(layer.totalX,model.layer.totalX);
+  assert.equal(layer.totalY,model.layer.totalY);
+  assert.throws(()=>M.generate(m,{...m.dims,L:m.dims.L+1},{materialId:id,thickness},catalog));
+  assert.throws(()=>M.generate(m,m.dims,{materialId:id,thickness:thickness+.01},catalog));
+ }
+ assert.throws(()=>M.generate(m,m.dims,{materialId:101,thickness:.35},catalog));
+});

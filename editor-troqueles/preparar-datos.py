@@ -29,3 +29,8 @@ print(len(result),'modelos; assets',sum(p.stat().st_size for p in OUT.iterdir())
 import runpy
 runpy.run_path(str(ROOT/"parametrizar-modelos.py"),run_name="__main__")
 runpy.run_path(str(ROOT/"incorporar-modelos-adquiridos.py"),run_name="__main__")
+runpy.run_path(str(ROOT/"incorporar-materiales-187000.py"),run_name="__main__")
+# Aplica el estado derivado de las validaciones después de todas las altas.
+import sys
+sys.argv=[sys.argv[0]]+(["--check"] if "--check" in sys.argv else [])
+runpy.run_path(str(ROOT/"aplicar-estados.py"),run_name="__main__")

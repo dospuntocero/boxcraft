@@ -32,4 +32,6 @@ def main():
     spec2=importlib.util.spec_from_file_location('acquired187',ROOT.parent/'geometria/modelos/187000/integrar.py');m2=importlib.util.module_from_spec(spec2);spec2.loader.exec_module(m2);m2.main()
     # 188060: captura 2D exacta de la caja hexagonal.
     spec3=importlib.util.spec_from_file_location('acquired188',ROOT.parent/'geometria/modelos/188060/integrar.py');m3=importlib.util.module_from_spec(spec3);spec3.loader.exec_module(m3);m3.main()
+    # 366010: caja rígida de cuatro capas.
+    spec4=importlib.util.spec_from_file_location('acquired366',ROOT.parent/'geometria/modelos/366010/integrar.py');m4=importlib.util.module_from_spec(spec4);spec4.loader.exec_module(m4);m4.main()
 if __name__=='__main__':main()

@@ -2,24 +2,45 @@
 
 # Parameterization of the eight previously fixed-size models
 
+## Current parameterization status (2026-10-20)
+
+A model is marked **verified** only when its engine reproduces the reference captures exactly and independent holdouts pass. The status is derived from `geometria/modelos/<code>/validacion-parametrica.json`, never written by hand.
+
+| Model | Status | Evidence | Remaining work |
+|---|---|---|---|
+| 187000 | **Digitally verified** | 7 captures; cut 0.00007 mm; faces 0.00003 mm | Physical validation; extra `rt`/`y0` boundaries |
+| 366010 | **Digitally verified** | 58 captures; 0.000 mm outside `/bleeds`; A/B regimes | Physical validation; wider range |
+| 112047 | Experimental | 138 dense captures | `M` and `K3` exact; 1D W non-linearity with rounding notches at 48.2–48.6 and 54.4–54.6; closed formula remains |
+| 12109002 | Experimental | 3 holdouts up to 1.57 mm | Step/breakpoint detection |
+| 112310 | Experimental | 2 holdouts up to 2.50 mm | `H1,HT,K1,K3,SP,MR` formulas |
+| 10001006 | **Digitally verified** | 97 captures; 0.000 mm; compiled rules over `A/AR/C/CR/E/NX/NY` | Physical validation |
+| 10002003 | **Digitally verified** | 49 captures; 0.000 mm; compiled rules over `A/AR/C/CR/G/L1/NX/NY` | Physical validation |
+| 180370 | Experimental | 3 holdouts up to 0.54 mm | Arc formulas and `D1/L1/L2/W1` |
+| 180320 | Experimental | 150 captures; most parameters with exact formulas | Geometry is not affine in those parameters across the dense L sweep; the non-linear regime remains |
+| 15030101 | Experimental | 3.88 mm; `enabled=false` | Small topology and exact large rule |
+| 102010 | Experimental | 1.82 mm; only 80-cut topology | 92-cut topology and exact rule |
+| 188060 | Experimental | L 0.70 mm | Exact notch and independent W/H |
+
+Capture and fitting infrastructure lives in `investigacion/parametrico/`. New captures are stored per model and do not overwrite historical samples.
+
 All eight models now have local generators. Selection, dimension fields, mm/in conversion, layers, and SVG use the same generated geometry. Material and thickness remain fixed.
 
 | Model | New axes | Method | Scope |
 |---|---|---|---|
 | 150010 · Mailer | L/W/H | Per-coordinate rules derived from dimension variations | Two additional samples match all 1,297 numeric fields; observed range 315–330 / 202–212 / 62–66 mm |
-| 112047 · Gable and cord | L/W/H | Empirical per-coordinate rules | Experimental; maximum difference of 1.75 in the check samples' numeric fields |
+| 112047 · Gable and cord | L/W/H | Parameter rules + 1D W table | Experimental; parameters exact, but the W non-linearity has no closed formula and 1/2 mm tables miss 0.1 mm |
 | 12109002 · Cake | L/W/H | Empirical per-coordinate rules | Experimental; maximum difference 1.574 |
 | 112310 · Handle and bottom | L/W/H | Empirical per-coordinate rules | Experimental; maximum difference 2.5 |
-| 10001006 · Tuck flaps | L/W/H | Panel transformation with fixed glue strip and end tongues | Experimental reconstruction; not checked against variations of the original |
-| 10002003 · Hanging | L/W/H | Empirical per-coordinate rules | Experimental; maximum difference 0.5 |
+| 10001006 · Tuck flaps | L/W/H | Compiled rules over internal parameters | Digitally verified; 97 captures, 0.000 mm error |
+| 10002003 · Hanging | L/W/H | Compiled rules over internal parameters | Digitally verified; 49 captures, 0.000 mm error |
 | 180370 · French fries | L/W/H | Empirical per-coordinate rules preserving arcs | Experimental; maximum difference 0.536 |
-| 180320 · Sandwich | L/W | Panel and diagonal transformation | Experimental reconstruction; not checked against variations of the original |
+| 180320 · Sandwich | L/W | Panel and diagonal transformation | Experimental; 150 captures and most parameter formulas, but the non-linear regime remains |
 
 These differences include every numeric field in the blank; they are not physical manufacturing tolerances. Coordinate and length fields are in mm. Full values are in `validacion-parametrizacion.json`. A failed comparison is not presented as a passed validation.
 
-Experimental engines adapt geometry but do not reproduce every automatic adjustment and rounding operation of the original service. They are marked in the catalog and dimension panel. The expanded range for these eight models is 75–150% of each original dimension; outside the observed range, even 150010 is labeled experimental. A physical sample is needed to confirm assembly.
+Engines that are still experimental adapt geometry but do not reproduce every automatic adjustment and rounding operation of the original service. They are marked in the catalog and dimension panel. 187000, 366010, 10002003 and 10001006 are digitally verified; the rest keep observed ranges and warnings. A physical sample is needed to confirm assembly.
 
-The three previously editable models retain their rules: 200010 and 10001029 support L/W/H; 102010 retains height-only editing. The sandwich box retains its two original parameters without introducing a fictitious height.
+The three previously editable models retain their rules: 200010 and 10001029 support L/W/H; 102010 supports L/W/H with L <= 2W. The sandwich box retains its two original parameters without introducing a fictitious height. 102010 still lacks the 92-cut topology.
 
 ## Local verification
 

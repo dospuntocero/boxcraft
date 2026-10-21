@@ -1,0 +1,33 @@
+{
+ "status": "verified",
+ "method": "Reglas compiladas en parámetros internos (A, AR, C, CR, G, L1, NX, NY)",
+ "axes": [
+  "L",
+  "W",
+  "H"
+ ],
+ "sampleCount": 49,
+ "holdoutCount": 12,
+ "maxErrorMm": 3.069544618483633e-12,
+ "toleranceMm": 0.0001,
+ "topologyStable": true,
+ "validatedRange": {
+  "L": [
+   80.0,
+   120.0
+  ],
+  "W": [
+   30.0,
+   48.0
+  ],
+  "H": [
+   80.0,
+   150.0
+  ]
+ },
+ "physicalValidated": false,
+ "limits": "Solo material y espesor originales; sin validación física.",
+ "evidenceIds": [
+  "ev_da1553065cabada5c63e4a89bc115d334d059ff994b3da064b4b33ffde15041f"
+ ]
+}

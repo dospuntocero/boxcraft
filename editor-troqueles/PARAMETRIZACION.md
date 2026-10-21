@@ -1,23 +1,44 @@
 # Parametrización de los ocho modelos que tenían medidas fijas
 
+## Estado actual de la parametrización (20/10/2026)
+
+Solo se marca **verificado** un modelo cuyo motor reproduce exactamente las capturas de referencia y cuyos holdouts independientes pasan. El estado se deriva de `geometria/modelos/<código>/validacion-parametrica.json`; no se escribe a mano.
+
+| Modelo | Estado | Evidencia | Falta para cerrar |
+|---|---|---|---|
+| 187000 | **Verificado digital** | 7 capturas; corte 0,00007 mm; caras 0,00003 mm | Validación física; bordes adicionales de `rt`/`y0` |
+| 366010 | **Verificado digital** | 58 capturas; 0,000 mm fuera de `/bleeds`; regímenes A/B | Validación física; ampliar rango |
+| 112047 | Experimental | 138 capturas densas | `M` y `K3` exactos; no linealidad 1D de W con muescas de redondeo en 48,2–48,6 y 54,4–54,6; falta fórmula cerrada |
+| 12109002 | Experimental | 3 holdouts hasta 1,57 mm | Detección de escalones y puntos de quiebre |
+| 112310 | Experimental | 2 holdouts hasta 2,50 mm | Fórmulas de `H1,HT,K1,K3,SP,MR` |
+| 10001006 | **Verificado digital** | 97 capturas; 0,000 mm; reglas compiladas en `A/AR/C/CR/E/NX/NY` | Validación física |
+| 10002003 | **Verificado digital** | 49 capturas; 0,000 mm; reglas compiladas en `A/AR/C/CR/G/L1/NX/NY` | Validación física |
+| 180370 | Experimental | 3 holdouts hasta 0,54 mm | Fórmulas de arcos y `D1/L1/L2/W1` |
+| 180320 | Experimental | 150 capturas; la mayoría de parámetros con fórmulas exactas | La geometría no es afín en esos parámetros en el barrido denso de L; falta el régimen no lineal |
+| 15030101 | Experimental | 3,88 mm; `enabled=false` | Topología pequeña y regla exacta grande |
+| 102010 | Experimental | 1,82 mm; solo topología 80 cortes | Topología 92 cortes y regla exacta |
+| 188060 | Experimental | L 0,70 mm | Muesca exacta y W/H independientes |
+
+La infraestructura de captura y ajuste está en `investigacion/parametrico/`. Las capturas nuevas se guardan por modelo y no sobrescriben las históricas.
+
 Los ocho modelos ya tienen generadores locales. La selección, los campos de medidas, la conversión mm/in, las capas y el SVG usan la misma geometría generada. El material y el espesor siguen fijos.
 
 | Modelo | Ejes nuevos | Método | Alcance |
 |---|---|---|---|
 | 150010 · Mailer | L/W/H | Reglas por coordenada obtenidas de variaciones de dimensiones | Dos muestras adicionales coinciden en los 1.297 campos numéricos; rango observado 315–330 / 202–212 / 62–66 mm |
-| 112047 · Techo y cordón | L/W/H | Reglas empíricas por coordenada | Experimental; diferencia máxima de 1,75 en los campos numéricos de las muestras de comprobación |
+| 112047 · Techo y cordón | L/W/H | Reglas por parámetros + tabla 1D de W | Experimental; parámetros exactos, pero la no linealidad de W no tiene fórmula cerrada y las tablas de 1/2 mm no alcanzan 0,1 mm |
 | 12109002 · Pastel | L/W/H | Reglas empíricas por coordenada | Experimental; diferencia máxima 1,574 |
 | 112310 · Asa y fondo | L/W/H | Reglas empíricas por coordenada | Experimental; diferencia máxima 2,5 |
-| 10001006 · Solapas | L/W/H | Transformación por paneles, con tira de pegado y lengüetas terminales fijas | Reconstrucción experimental; sin comprobación con variaciones del original |
-| 10002003 · Colgar | L/W/H | Reglas empíricas por coordenada | Experimental; diferencia máxima 0,5 |
+| 10001006 · Solapas | L/W/H | Reglas compiladas en parámetros internos | Verificado digital; 97 capturas y error 0,000 mm |
+| 10002003 · Colgar | L/W/H | Reglas compiladas en parámetros internos | Verificado digital; 49 capturas y error 0,000 mm |
 | 180370 · Papas fritas | L/W/H | Reglas empíricas por coordenada, conservando arcos | Experimental; diferencia máxima 0,536 |
-| 180320 · Sándwich | L/W | Transformación por paneles y diagonales | Reconstrucción experimental; sin comprobación con variaciones del original |
+| 180320 · Sándwich | L/W | Transformación por paneles y diagonales | Experimental; 150 capturas y fórmulas de la mayoría de parámetros, pero falta el régimen no lineal |
 
 Las diferencias anteriores incluyen todos los campos numéricos del plano, no son una tolerancia física de fabricación. Los campos de coordenadas y longitudes están en mm. Los valores completos están en `validacion-parametrizacion.json`. No se presenta una comparación fallida como validación aprobada.
 
-Los motores experimentales ofrecen adaptación de la geometría, pero no reproducen todos los ajustes automáticos y redondeos del servicio original. Se señalan en el catálogo y el panel de medidas. El rango ampliado de estos ocho modelos es 75–150 % de cada medida original; fuera del rango observado, incluso 150010 se identifica como experimental. Se necesita una muestra física para confirmar el armado.
+Los motores aún experimentales ofrecen adaptación de la geometría, pero no reproducen todos los ajustes automáticos y redondeos del servicio original. Se señalan en el catálogo y el panel de medidas. 187000, 366010, 10002003 y 10001006 ya están verificados digitalmente; el resto conserva rangos observados y advertencias. Se necesita una muestra física para confirmar el armado.
 
-Los tres modelos que ya eran editables mantienen sus reglas: 200010 y 10001029 admiten L/W/H; 102010 admite L/W/H con L ≤ 2W. La caja sándwich conserva sus dos parámetros de origen y no introduce una altura ficticia.
+Los tres modelos que ya eran editables mantienen sus reglas: 200010 y 10001029 admiten L/W/H; 102010 admite L/W/H con L ≤ 2W. La caja sándwich conserva sus dos parámetros de origen y no introduce una altura ficticia. 102010 sigue pendiente de la topología de 92 cortes.
 
 ## Verificación local
 
@@ -42,7 +63,7 @@ Muestras originales en `../geometria/modelos/<código>/parametricas/`, con manif
 - 10002003: `ev_da1553065cabada5c63e4a89bc115d334d059ff994b3da064b4b33ffde15041f`.
 - 180370: `ev_9f15a6df8c23b64cf0650dd5bdfaa650770c22ebe822a4de8e305e2fccc72385`.
 
-Las capturas anteriores devolvieron `cleanup_incomplete`: se conservaron las acciones completadas y las respuestas geométricas; el cierre correcto del navegador no quedó acreditado. Las capturas de variaciones de 10001006 y 180320 no se completaron. Sus reglas se diseñaron a partir de los paneles y pliegues del plano inicial; no se atribuyen al código original.
+Las capturas anteriores devolvieron `cleanup_incomplete`: se conservaron las acciones completadas y las respuestas geométricas; el cierre correcto del navegador no quedó acreditado. Las variaciones de 10001006 y 180320 se capturaron después con Playwright; 10001006 quedó verificado y 180320 sigue pendiente de cerrar sus fórmulas.
 
 `parametrizar-modelos.py` integra las reglas y los metadatos en el JSON autocontenido que utiliza el navegador. `preparar-datos.py` vuelve a aplicar esta integración cuando se regeneran los datos originales. El editor publicado utiliza únicamente sus datos locales.
 
@@ -83,7 +104,7 @@ Se retiró la transformación por zonas: deformaba pestañas, ranuras y radios y
 
 Motor local `pillow187000`. Reconstruye corte, caras y pliegues con `x0 = H/2`, pestaña superior `y0 = 15` (18 mm para W ≥ 100), radio `R = (W²+H²)/(4H)` y muesca de cierre `rt = clamp(round((L+H)/25·2)/2, 6, 7,5)`. Extensión `totalX = L+H`, `totalY = 2W+y0`. Se validó contra 7 capturas del editor (error máximo 0,00007 mm en corte y 0,00003 mm en caras).
 
-Rango editable: L 20–323,33 mm, W 20–231 mm, H 6,67–200 mm, con H < W. Pliego 330 × 480 mm; el motor comprueba el ajuste y el editor calcula las cajas por pliego con sangría de 3 mm y giro. Queda marcado como experimental: no se verificó una exportación DXF/PDF ni una muestra física, y la regla de la pestaña/muesca tiene menor cobertura fuera de las muestras.
+Rango editable: L 20–323,33 mm, W 20–231 mm, H 6,67–200 mm, con H < W. Pliego 330 × 480 mm; el motor comprueba el ajuste y el editor calcula las cajas por pliego con sangría de 3 mm y giro. Queda **verificado digitalmente** con 7 capturas (ver `validacion-parametrica.json`). No se verificó una exportación DXF/PDF ni una muestra física; revisa el armado antes de fabricar.
 
 ## Caja con fondo encajable 102010
 
@@ -93,8 +114,12 @@ La restricción es **L ≤ 2W**. Por encima de esa relación el servidor cambia 
 
 ## Caja hexagonal 188060
 
-Motor de paneles L/W/H sobre la caja hexagonal de Pacdora: **100,6 × 40,6 × 181,6 mm** de base, cartón blanco de 0,5 mm, 19 caras, 26 pliegues y 28 cortes. `totalX = 135,5 + 2L`, `totalY = 2W + H`; los radios se conservan. Base exacta y L=110 validado con error máximo 0,7 mm. W=45 y H=190 se validaron con errores de 0,16 mm y 0,00 mm; L=110 tiene 0,70 mm. Queda experimental por falta de validación física. La miniatura es el mockup oficial de Pacdora.
+Motor de paneles L/W/H sobre la caja hexagonal de Pacdora: **100,6 × 40,6 × 181,6 mm** de base, cartón blanco de 0,5 mm, 19 caras, 26 pliegues y 28 cortes. `totalX = 135,5 + 2L`, `totalY = 2W + H`; los radios se conservan. Base exacta y L=110 validado con error máximo 0,7 mm. W=45 y H=190 se validaron con errores de 0,16 mm y 0,00 mm; L=110 tiene 0,70 mm. Queda experimental: el error máximo es 0,70 mm en L; faltan muestras independientes de W/H, la muesca exacta y validación física. La miniatura es el mockup oficial de Pacdora.
 
 ## Caja para tarta con ventana 15030101
 
 Motor afín L/W/H experimental para la topología grande (129 cortes/18 pliegues). Se ajustó con seis muestras; la base es exacta y el error máximo es **3,88 mm** en `totalX`. Límites: L/W ≥ 100 mm y H ≥ 30 mm. Por debajo de L/W 100 cambia la topología a 113 cortes/16 pliegues, que no está reconstruida. Sin validación física.
+
+## Caja rígida 366010
+
+Motor `rigid366010` de cuatro capas (cartón gris y papel de fondo/tapa). Se capturaron 58 configuraciones en L 160–220 mm, W 80–140 mm, H 30–70 mm; el ajuste es afín por régimen (A: L < 200; B: L ≥ 200 con profundidad exterior variable). Error máximo **0,000 mm** fuera de `/bleeds`; el sangrado dibujado se recalcula a 3 mm del corte. Queda **verificado digitalmente**; la validación física y la ampliación de rango siguen pendientes. Uso y límites en `geometria/modelos/366010/README.md`.

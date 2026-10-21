@@ -21,7 +21,19 @@ From /Users/fran/Herd/pacdora:
 python3 geometria/modelos/10002003/generar.py
 ```
 
-This replaces the output SVG and JSON while retaining the initial dimensions; it does not update the PNG preview. It provides no resizing or advanced controls: no parametric variations were captured for this model.
+This replaces the output SVG and JSON. The editor uses a `compiled` engine that adapts L/W/H through rules over the internal parameters `A, AR, C, CR, G, L1, NX, NY`; it does not update the PNG preview.
+
+## Verified engine
+
+The editor applies compiled rules over the internal parameters returned by Pacdora:
+
+- `A = floor(W/2) + (L >= 100 ? 8 : 7)`.
+- `AR = W < 31 ? 1 : W < 33 ? 5 : W < 41 ? 6 : 7`.
+- `C = L >= 100 ? 15 : 13`; `CR = L >= 100 ? 8 : 7`.
+- `G = L + W >= 129 ? 16 : 13`; `L1 = L - 1`.
+- `NX = NY = W < 31 ? 2 : 3`.
+
+**49 configurations** were captured (L 80–120, W 30–48, H 80–150 mm), with 12 held out. The maximum error was **0.000000000003 mm**; topology stays at 16 faces, 15 folds, 94 cuts and 2 openings. The report is in `reglas-parametricas.json` and `validacion-parametrica.json`.
 
 ## Verification and limitations
 

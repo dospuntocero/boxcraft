@@ -1,0 +1,109 @@
+{
+  "model": "187000",
+  "status": "verified",
+  "method": "Motor analítico pillow187000 (arcos, pestaña y muesca)",
+  "axes": [
+    "L",
+    "W",
+    "H"
+  ],
+  "sampleCount": 7,
+  "holdoutCount": 7,
+  "maxErrorMm": 0.0000661087815139183,
+  "toleranceMm": 0.0001,
+  "topologyStable": true,
+  "validatedRange": {
+    "L": [
+      20,
+      323.33
+    ],
+    "W": [
+      20,
+      231
+    ],
+    "H": [
+      6.67,
+      200
+    ]
+  },
+  "physicalValidated": false,
+  "evidenceIds": [
+    "ev_f86e32d44ae650592412371043aced9524f23298655a6d2a1447849f962fefb3"
+  ],
+  "limits": "H < W; el corte debe caber en 330 × 480 mm. Sin validación física.",
+  "notes": [
+    "Errores medidos contra las 7 capturas del editor; el corte y las caras conservan M/L/A y orden."
+  ],
+  "samples": [
+    {
+      "label": "118 × 70 × 25 mm",
+      "dims": {
+        "L": 118,
+        "W": 70,
+        "H": 25
+      },
+      "errorCutMm": 0.0000661087815139183,
+      "errorFaceMm": 0.000021108781517398256
+    },
+    {
+      "label": "160 × 70 × 25 mm",
+      "dims": {
+        "L": 160,
+        "W": 70,
+        "H": 25
+      },
+      "errorCutMm": 0.00003389121848584864,
+      "errorFaceMm": 0.000006715446488669841
+    },
+    {
+      "label": "118 × 100 × 25 mm",
+      "dims": {
+        "L": 118,
+        "W": 100,
+        "H": 25
+      },
+      "errorCutMm": 0.00004473323225084869,
+      "errorFaceMm": 0.000012959063099060586
+    },
+    {
+      "label": "118 × 70 × 30 mm",
+      "dims": {
+        "L": 118,
+        "W": 70,
+        "H": 30
+      },
+      "errorCutMm": 0.000029274813616808615,
+      "errorFaceMm": 0.000010299215141174045
+    },
+    {
+      "label": "150 × 90 × 40 mm",
+      "dims": {
+        "L": 150,
+        "W": 90,
+        "H": 40
+      },
+      "errorCutMm": 0.000023717783712129403,
+      "errorFaceMm": 0.000006455834295593377
+    },
+    {
+      "label": "118 × 118 × 25 mm",
+      "dims": {
+        "L": 118,
+        "W": 118,
+        "H": 25
+      },
+      "errorCutMm": 0.00003249168224783716,
+      "errorFaceMm": 0.00003249168224783716
+    },
+    {
+      "label": "118 × 95 × 25 mm",
+      "dims": {
+        "L": 118,
+        "W": 95,
+        "H": 25
+      },
+      "errorCutMm": 0.00003353280437679018,
+      "errorFaceMm": 0.000010879296624466406
+    }
+  ]
+}

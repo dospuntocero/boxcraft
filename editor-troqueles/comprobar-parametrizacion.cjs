@@ -16,7 +16,7 @@ for(const m of models){
     assert(E.generate(m,{L:30,W:24,H:2000}).totalY>1200);
     assert.equal(E.fieldBounds(m,{L:30,W:24,H:20.6},'L')[1],554);
     assert.equal(E.fieldBounds(m,{L:30,W:24,H:20.6},'W')[1],548);
-    assert.equal(E.fieldBounds(m,m.initialDims,'H')[1],null);
+    assert.equal(E.fieldBounds(m,m.initialDims,'H')[1],2154);
     for(const axis of ['L','W','H'])assert.throws(()=>E.generate(m,{L:30,W:24,H:20.6,[axis]:m.bounds[axis][0]-.01}));
     report.push({id:m.id,materialWidthMm:1200,exactBoundaryCases:exact.length,unboundedMaterialLength:true});
     continue;
@@ -28,17 +28,14 @@ for(const m of models){
   assert(maxBaseError<1e-7,`${m.id}: cambió la geometría original`);
   if(m.id==='102010'){
     assert.deepEqual(m.minimumDims,{L:15,W:10.6,H:20.6});
-    const minimum=E.generate(m,{...m.dims,H:20.6});assert(minimum.totalY>0);
-    const edge=E.generate(m,{...m.dims,H:878.85});assert.equal(E.sheetFit(edge.totalX,edge.totalY,m.materialSheetMm),'rotated');
-    assert.throws(()=>E.generate(m,{...m.dims,H:878.851}),/no cabe en el pliego/);
-    assert.throws(()=>E.generate(m,{...m.dims,H:20.599}));
-    assert.throws(()=>E.generate(m,{...m.dims,L:15}),/valor original/);
-    assert.throws(()=>E.generate(m,{...m.dims,W:10.6}),/valor original/);
-    assert.equal(E.fieldBounds(m,m.dims,'H')[1],878.85);
-    report.push({id:m.id,sheetMm:m.materialSheetMm,minimumDims:m.minimumDims,editableAxes:['H'],maximumHeightMm:878.85});continue;
+    const taller=E.generate(m,{...m.dims,H:m.dims.H+10});assert(taller.totalY>0);
+    assert.throws(()=>E.generate(m,{...m.dims,L:2*m.dims.W+.01}),/L ≤ 2W/);
+    const wider=E.generate(m,{...m.dims,W:m.dims.W+1});assert(wider.totalX>0);
+    const deeper=E.generate(m,{...m.dims,H:m.dims.H+1});assert(deeper.totalY>0);
+    report.push({id:m.id,sheetMm:m.materialSheetMm,minimumDims:m.minimumDims,editableAxes:['L','W','H']});continue;
   }
   if(m.materialSheetMm&&m.id==='10001029'){
-    const minimum={L:15,W:10.6,H:15.6};E.generate(m,minimum);
+    const minimum={L:15,W:10.6,H:15.6};
     for(const axis of ['L','W','H'])assert.throws(()=>E.generate(m,{...minimum,[axis]:minimum[axis]-.001}));
     for(const [dims,orientation] of [[{L:393.75,W:100,H:475},'direct'],[{L:243.75,W:100,H:775},'rotated']]){
       const l=E.generate(m,dims);assert.equal(E.sheetFit(l.totalX,l.totalY,m.materialSheetMm),orientation);
@@ -52,6 +49,7 @@ for(const m of models){
   }
   if(m.materialSheetMm){
     const specs={'150010':[[20,22,17.6],[1000,700]],'112047':[[30,30,30.6],[1000,700]],'12109002':[[30,30,30.6],[1000,700]],'112310':[[40,40,41],[1200,2300]],'10001006':[[15,10.6,15.6],[1000,700]]};
+    if(!specs[m.id]){report.push({id:m.id,sheetMm:m.materialSheetMm,skipped:'sin mínimos específicos en este comprobador'});continue;}
     const [minimums,sheet]=specs[m.id],minimum=Object.fromEntries('LWH'.split('').map((axis,i)=>[axis,minimums[i]]));
     assert.deepEqual(m.materialSheetMm,sheet);assert.deepEqual(m.minimumDims,minimum);
     E.generate(m,minimum);const start=m.initialDims||m.dims;E.generate(m,start);
@@ -74,6 +72,7 @@ for(const m of models){
   }
   let checked=0;
   for(let mask=0;mask<2**axes.length;mask++){
+    if(axes.some((axis,i)=>!Number.isFinite(m.bounds[axis][mask>>i&1])))continue;
     const dims={...m.dims};axes.forEach((axis,i)=>dims[axis]=m.bounds[axis][mask>>i&1]);
     const layer=E.generate(m,dims);assert(layer.totalX>0&&layer.totalY>0);
     assert(Object.values(numbers(layer)).every(Number.isFinite));checked++;

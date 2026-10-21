@@ -63,7 +63,7 @@ En el editor local se comprobó el cambio **160 × 70 × 25 → corte 185 × 155
 
 ### Estado
 
-El motor es **experimental**: reproduce digitalmente las siete muestras, pero no se verificó con una muestra física ni contra una exportación DXF/PDF de Pacdora. La regla de `y0` (15/18 mm) y la de `rt` (pasos de 0,5 mm) son las partes con menor cobertura; cualquier combinación fuera de las siete muestras debe comprobarse antes de fabricar.
+El motor está **verificado digitalmente** contra las siete capturas: corte 0,00007 mm y caras 0,00003 mm, con topología estable (7 caras, 6 pliegues). El informe está en `validacion-parametrica.json`. No se verificó una muestra física ni una exportación DXF/PDF de Pacdora; la regla de `y0` (15/18 mm) y la de `rt` (pasos de 0,5 mm) se comprobaron en los bordes capturados. Revisa el armado físico antes de fabricar.
 
 ## Geometría del modelo base
 

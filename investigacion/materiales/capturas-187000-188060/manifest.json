@@ -1,0 +1,77 @@
+{
+  "fecha": "2026-10-20",
+  "modelos": [
+    "187000",
+    "188060"
+  ],
+  "urls": {
+    "187000": "https://www.pacdora.com/es/dielines-detail/custom-pillow-box-dieline-187000",
+    "188060": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-polygonal-boxes-hexagonal-dieline-188060"
+  },
+  "nota": "Capturas de la interfaz pública con Chrome headless; no se usó cuenta ni se descargaron archivos. Los DOM son la página renderizada, no la respuesta project/knife.",
+  "capturas": [
+    {
+      "file": "187000-inicial.png",
+      "sha256": "72e543af98ddfa4b4c86ec856134cda1adde51f485b8c3d84f7f62316d4b236e",
+      "bytes": 198681,
+      "evidence_id": "ev_8dd9120eb4e35a747cf531a8d12b3259619232001583aeb1f8faa5191b6c0d0f",
+      "descripcion": "187000 sin interacción: 118 × 70 × 25 mm, Cartón blanco 350 g, 0,5 mm."
+    },
+    {
+      "file": "187000-menu-grupos.png",
+      "sha256": "5415ae4a9132a84d8b0f7b80e35407a059183851b737835f0399c673c6843a46",
+      "bytes": 197829,
+      "evidence_id": "ev_df244a6b793d04813d972eba7919265b7627ef99cb57dd2588a230bb2063f8a9",
+      "descripcion": "187000 con el selector de material abierto: cuatro grupos."
+    },
+    {
+      "file": "187000-base.html",
+      "sha256": "2fd53ad590ddb77c8ef09db37adba27a0f7a5dec68f69bf52de104c584131704",
+      "bytes": 141609,
+      "evidence_id": "ev_c172158c2b0fc36e8cd5274aa66a0e6af6347dd4b785dce741f3dd849c513221",
+      "descripcion": "DOM inicial de 187000 (geometría base y grupos de material)."
+    },
+    {
+      "file": "187000-210g.html",
+      "sha256": "fc2d2e078f6da2a036f9883e30a5f8e4288ac38c21957d5983344078bd26b095",
+      "bytes": 145258,
+      "evidence_id": "ev_e47c1be1a068592c16db62f1f7eafa053c00fdfe935c2bb5fae670c16e9ea5a3",
+      "descripcion": "DOM tras seleccionar Cartón blanco 210 g (0,27 mm)."
+    },
+    {
+      "file": "187000-kraft-190g.png",
+      "sha256": "1efd873b512b79c6d5db5e10539c70aaaa0d67a3ce31ffbf61dafeb49c5cb830",
+      "bytes": 198828,
+      "evidence_id": "ev_9f9f9c5433ef27591d4e864e7930435bd9757cb6124dfb6e3cc52c45251d99bb",
+      "descripcion": "187000 con Cartón kraft 190 g (0,26 mm); espesor fijo y solo manufactura."
+    },
+    {
+      "file": "187000-190g.html",
+      "sha256": "4599ae1ff8cca06672200ef503589712d45a2e7920a92336b6227045edb4ac69",
+      "bytes": 145269,
+      "evidence_id": "ev_9f9f9c5433ef27591d4e864e7930435bd9757cb6124dfb6e3cc52c45251d99bb",
+      "descripcion": "DOM tras seleccionar Cartón kraft 190 g (0,26 mm)."
+    },
+    {
+      "file": "188060-menu.html",
+      "sha256": "3b03c80436295afdbdad24a2f750e8c68d1f438baeacdfaf847083051d6e2707",
+      "bytes": 184580,
+      "evidence_id": "ev_f69dd90b62fe4f5034dc2cddb0ee8dceb321aa999d83056d2ecb49214002999a",
+      "descripcion": "DOM de 188060 con los grupos de material; corrugado habilitado hasta Onda E."
+    },
+    {
+      "file": "188060-onda-e.png",
+      "sha256": "4c6b2f69b47155bd0d654fcffa3374222e61d467d5471d34d693a14b198fd290",
+      "bytes": 207744,
+      "evidence_id": "ev_85a4da4fd67f92017e9649d0248bf12ba7c46f4b578bb2b47e4887f03bf62245",
+      "descripcion": "188060 con Onda E (1,5 mm): espesor a la medida 1,1–2 mm, interiores/exteriores recalculados."
+    },
+    {
+      "file": "188060-onda-e.html",
+      "sha256": "6879f0a2fc3dfc7b6ac965428147831acaa9a2524525a0ae91325efcf03f4c13",
+      "bytes": 180069,
+      "evidence_id": "ev_85a4da4fd67f92017e9649d0248bf12ba7c46f4b578bb2b47e4887f03bf62245",
+      "descripcion": "DOM tras seleccionar Onda E (1,5 mm)."
+    }
+  ]
+}

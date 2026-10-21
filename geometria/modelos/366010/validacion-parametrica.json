@@ -1,0 +1,269 @@
+{
+  "modelo": "366010",
+  "fecha": "2026-10-20",
+  "metodo": "Ajuste afín por régimen con variable exterior; sin extrapolación",
+  "limites": {
+    "L": [
+      160,
+      220
+    ],
+    "W": [
+      80,
+      140
+    ],
+    "H": [
+      30,
+      70
+    ]
+  },
+  "regimenes": [
+    {
+      "id": "A",
+      "L": [
+        160,
+        199.999999
+      ],
+      "outer": 15
+    },
+    {
+      "id": "B",
+      "L": [
+        200,
+        220
+      ],
+      "outer": "clamp(floor(H/2),15,20)"
+    }
+  ],
+  "muestras": 75,
+  "error_max_mm": 0.010000000000104592,
+  "resultado": "ok",
+  "detalle": [
+    {
+      "archivo": "L220-W140-H70-T2.5.json",
+      "tipo": "espesor",
+      "medidas": {
+        "L": 220,
+        "W": 140,
+        "H": 70
+      },
+      "espesor": 2.5,
+      "regimen": "B",
+      "error_max_mm": 0.010000000000104592,
+      "peor_campo": [
+        "tapa-papel",
+        "/cuts/53/y",
+        325.15000000000003,
+        325.13999999999993
+      ],
+      "sha256": "14ff61f09182882ce5e4282d264e2a89f793560cacd2a8962e029a5ba9420d93"
+    },
+    {
+      "archivo": "L160-W80-H30-T2.5.json",
+      "tipo": "espesor",
+      "medidas": {
+        "L": 160,
+        "W": 80,
+        "H": 30
+      },
+      "espesor": 2.5,
+      "regimen": "A",
+      "error_max_mm": 0.010000000000047748,
+      "peor_campo": [
+        "tapa-papel",
+        "/bleeds/24/y",
+        198.53999999999996,
+        198.55
+      ],
+      "sha256": "78e33c06981d5c3d1207d4049142362dd4b2b0172c899d84afe4265bb2ca51a2"
+    },
+    {
+      "archivo": "L200-W140-H40.json",
+      "tipo": "lwh",
+      "medidas": {
+        "L": 200,
+        "W": 140,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.010000000000047748,
+      "peor_campo": [
+        "tapa-papel",
+        "/bleeds/24/y",
+        284.6700000000001,
+        284.66
+      ],
+      "sha256": "126abc0fd279f6ce43588bbe15204cfc295ffeee7669fe411e29d198e517c4a1"
+    },
+    {
+      "archivo": "L220-W140-H70-T1.5.json",
+      "tipo": "espesor",
+      "medidas": {
+        "L": 220,
+        "W": 140,
+        "H": 70
+      },
+      "espesor": 1.5,
+      "regimen": "B",
+      "error_max_mm": 0.010000000000047748,
+      "peor_campo": [
+        "tapa-papel",
+        "/bleeds/24/y",
+        340.7700000000001,
+        340.76000000000005
+      ],
+      "sha256": "f457914e2f69c5a047cc2347ad01501b9fcabe4a20c38fde5aa6c90e09befee4"
+    },
+    {
+      "archivo": "L220-W140-H70.json",
+      "tipo": "lwh",
+      "medidas": {
+        "L": 220,
+        "W": 140,
+        "H": 70
+      },
+      "regimen": "B",
+      "error_max_mm": 0.010000000000047748,
+      "peor_campo": [
+        "tapa-papel",
+        "/bleeds/24/y",
+        344.6700000000001,
+        344.66
+      ],
+      "sha256": "42bee0534e5e0dcdafb729e6ed08cc2dc5e3757af9dcd6e5d4403db8a8188589"
+    },
+    {
+      "archivo": "L160-W80-H30-T1.5.json",
+      "tipo": "espesor",
+      "medidas": {
+        "L": 160,
+        "W": 80,
+        "H": 30
+      },
+      "espesor": 1.5,
+      "regimen": "A",
+      "error_max_mm": 0.010000000000019327,
+      "peor_campo": [
+        "tapa-papel",
+        "/bleeds/21/y",
+        142.64,
+        142.65
+      ],
+      "sha256": "76a05a30546f630fdbb39d380c24289d7429c875499d24d19b37b0f44c89691d"
+    },
+    {
+      "archivo": "L160-W80-H30.json",
+      "tipo": "lwh",
+      "medidas": {
+        "L": 160,
+        "W": 80,
+        "H": 30
+      },
+      "regimen": "A",
+      "error_max_mm": 0.010000000000019327,
+      "peor_campo": [
+        "tapa-papel",
+        "/bleeds/21/y",
+        145.33999999999997,
+        145.35
+      ],
+      "sha256": "a7f241a2187a5eee66462dec583f1c70313153049e2f6fd158536c85b63aa59a"
+    },
+    {
+      "archivo": "L200-W80-H40.json",
+      "tipo": "lwh",
+      "medidas": {
+        "L": 200,
+        "W": 80,
+        "H": 40
+      },
+      "regimen": "B",
+      "error_max_mm": 0.010000000000019327,
+      "peor_campo": [
+        "tapa-papel",
+        "/bleeds/21/y",
+        160.33999999999997,
+        160.35
+      ],
+      "sha256": "71791701bfa92482412ed7a1883ee2c1e72187ea49c0a64c4067e7973efe7d6d"
+    },
+    {
+      "archivo": "L210-W120-H50-T1.5.json",
+      "tipo": "espesor",
+      "medidas": {
+        "L": 210,
+        "W": 120,
+        "H": 50
+      },
+      "espesor": 1.5,
+      "regimen": "B",
+      "error_max_mm": 0.010000000000019327,
+      "peor_campo": [
+        "tapa-papel",
+        "/bleeds/21/y",
+        207.66000000000003,
+        207.65
+      ],
+      "sha256": "3609a7e5289e0e14588f16a8af67fb58da4686ad6a51ef719c4e82f2792353f7"
+    },
+    {
+      "archivo": "L180-W115-H40.json",
+      "tipo": "lwh",
+      "medidas": {
+        "L": 180,
+        "W": 115,
+        "H": 40
+      },
+      "regimen": "A",
+      "error_max_mm": 0.0075000000000216005,
+      "peor_campo": [
+        "tapa-papel",
+        "/bleeds/21/y",
+        190.35750000000002,
+        190.35
+      ],
+      "sha256": "b3d2e4a3b981789554cf9c49510c2beb0dfb1608d393cd5f53407b77a6774861"
+    }
+  ],
+  "sha256_reglas": "4bfe4da931b398da9d5662844020034dae67a2938d4b2707a7508a4ec1edcbad",
+  "notas": [
+    "La geometría de las cuatro capas se conserva; solo se ajustan campos numéricos.",
+    "El régimen B introduce un salto real en la profundidad exterior al cruzar L=200.",
+    "El sangrado se recalcula en el editor a 3 mm del corte para las piezas de papel."
+  ],
+  "status": "verified",
+  "axes": [
+    "L",
+    "W",
+    "H"
+  ],
+  "sampleCount": 58,
+  "holdoutCount": 49,
+  "maxErrorMm": 0.0,
+  "toleranceMm": 0.0001,
+  "topologyStable": true,
+  "validatedRange": {
+    "L": [
+      160,
+      220
+    ],
+    "W": [
+      80,
+      140
+    ],
+    "H": [
+      30,
+      70
+    ]
+  },
+  "physicalValidated": false,
+  "evidenceIds": [
+    "ev_9bbab1a9d4276e5f6454243d88be37c523f6071b25883dbfdd7913a043478f1a",
+    "ev_8a1f522b2feaaf33ae7d8b02bf6d78896d54af4583da1044013d07d7fba9017e"
+  ],
+  "limits": "L 160–220 mm, W 80–140 mm, H 30–70 mm. El sangrado se recalcula a 3 mm del corte; las rutas /bleeds originales no son geometría de producción. Sin validación física.",
+  "notes": [
+    "La geometría de las cuatro capas se conserva; solo se ajustan campos numéricos.",
+    "El régimen B introduce un salto real en la profundidad exterior al cruzar L=200.",
+    "La comparación excluye /bleeds y sizeArrowData; el contorno de sangrado se recalcula."
+  ]
+}

@@ -168,7 +168,7 @@ Se comprobaron XML, conteos y conservación de los campos geométricos incluidos
 
 Se generó geometria/modelos/10002003/troquel-generado.svg con las medidas iniciales 100 × 40 × 120 mm, cartón blanco 350 g de 0.5 mm. La familia PairWithHook contiene 16 caras, 15 pliegues, 94 comandos de corte exterior y 2 aberturas de colgado. El plano ocupa 295.5 × 263.75 mm.
 
-Se comprobaron XML, conteos y conservación de los campos geométricos incluidos. La suma de pliegues coincide con el valor declarado dentro del redondeo a centésimas. Se rasterizó e inspeccionó la salida local. Configuración inicial fija, sin sangría, anotaciones ni redimensionamiento. Uso y evidencia en geometria/modelos/10002003/README.md. No validado para fabricación.
+Se comprobaron XML, conteos y conservación de los campos geométricos incluidos. La suma de pliegues coincide con el valor declarado dentro del redondeo a centésimas. Se rasterizó e inspeccionó la salida local. El modelo quedó **verificado digitalmente** con reglas compiladas en parámetros internos: 49 capturas, error 0,000 mm, rango L 80–120, W 30–48, H 80–150 mm. No se validó fabricación. Uso y evidencia en geometria/modelos/10002003/README.md.
 
 ## Décimo modelo: 180370, envase para papas fritas
 
@@ -188,7 +188,7 @@ La ficha `custom-pillow-box-dieline-187000` expone 118 × 70 × 25 mm de manufac
 
 Se probó la interfaz para acotar los mínimos: 30 × 30 × 15 se convirtió en 30 × 30 × 10; 10 × 10 × 5 se elevó a 20 × 20 × 6,67; 118 × 70 × 5 volvió a 118 × 70 × 25. El mínimo efectivo observado es 20 × 20 × 6,67 mm, con advertencia de impresión por debajo de 30 × 30 × 10 mm; la altura está acoplada a las demás medidas. Con el pliego de 330 × 480 mm, el corte de 143 × 155 mm cabe y el editor calcula 6 cajas por pliego (2 × 3, giradas, con sangría de 3 mm); como cota geométrica del corte, W ≤ 231 mm y L + H ≤ 330 mm.
 
-El modelo se dio de alta con el motor local `pillow187000`, que reconstruye corte, caras y pliegues a partir de L/W/H con `x0 = H/2`, `y0 = 15/18`, `R = (W²+H²)/(4H)` y `totalX = L+H`, `totalY = 2W+y0`. Se validó contra 7 capturas del editor (error máximo 0,00007 mm en corte y 0,00003 mm en caras) y quedó editable entre 20–323,33 mm de L, 20–231 mm de W y 6,67–200 mm de H, con H < W y pliego de 330 × 480 mm. Es experimental: no se verificó una exportación DXF/PDF ni una muestra física, y no se inventaron offsets internos/externos. Uso, archivos, procedencia y evidencias en geometria/modelos/187000/README.md.
+El modelo se dio de alta con el motor local `pillow187000`, que reconstruye corte, caras y pliegues a partir de L/W/H con `x0 = H/2`, `y0 = 15/18`, `R = (W²+H²)/(4H)` y `totalX = L+H`, `totalY = 2W+y0`. Se validó contra 7 capturas del editor (error máximo 0,00007 mm en corte y 0,00003 mm en caras) y quedó editable entre 20–323,33 mm de L, 20–231 mm de W y 6,67–200 mm de H, con H < W y pliego de 330 × 480 mm. Queda **verificado digitalmente** contra las 7 capturas (corte 0,00007 mm; caras 0,00003 mm). No se verificó una exportación DXF/PDF ni una muestra física; no se inventaron offsets internos/externos. Uso, archivos, procedencia y evidencias en geometria/modelos/187000/README.md.
 
 ## Decimotercer modelo: 188060, caja hexagonal
 
@@ -197,3 +197,15 @@ La ficha `custom-dimensions-polygonal-boxes-hexagonal-dieline-188060` expone **1
 ### Motor afín de 15030101
 
 La topología grande de la caja con ventana se reconstruyó con un ajuste afín L/W/H de seis muestras. La base es exacta y el error máximo es **3,88 mm** en `totalX`. El editor permite L/W/H con L/W ≥ 100 mm y H ≥ 30 mm; por debajo cambia la topología pequeña (113 cortes/16 pliegues), que queda fuera. Se publica como experimental y sin validación física.
+
+## Decimocuarto modelo: 366010, caja rígida con tapa
+
+La ficha `custom-dimensions-box-with-lid-luxury-box-dieline-366010` corresponde al modelo 366010 (id interno 1563), familia de caja de dos piezas con tapa y fondo. La configuración inicial es **180 × 100 × 40 mm** de manufactura (interiores 180 × 100 × 40; exteriores 189,95 × 109,95 × 44,45), papel «Personalización premium» de 0,15 mm y cartón gris de 2 mm. La respuesta `project/knife` no contiene un pliego único, sino **cuatro capas**: cartón gris y papel de envoltura del fondo, y las mismas dos capas de la tapa.
+
+Se conservaron las cuatro geometrías: fondo gris 5 caras/22 cortes/4 pliegues (260 × 180 mm), fondo de papel 25/86/24 con 38 sangrados (300,95 × 220,95 mm), tapa gris 5/22/4 (269,8 × 189,8 mm) y tapa de papel 25/86/24 con 38 sangrados (310,75 × 230,75 mm). La lámina local las compone en una cuadrícula 2 × 2 de **605,55 × 476,7 mm**, con 60 caras, 56 pliegues y 216 comandos de corte. El SVG y la vista previa reproducen la disposición oficial; el icono es el mockup público.
+
+Se capturaron **60 configuraciones** L/W/H. El aparente fallo afín de 5,005 mm era un cambio de régimen: para **L ≥ 200** la profundidad exterior del papel pasa a `clamp(floor(H/2), 15, 20)`, mientras que para L < 200 queda en 15 mm. Dentro de cada régimen la geometría de las cuatro capas es afín; en B se añade la variable exterior. El ajuste se validó con **75 muestras** (58 L/W/H y 17 de espesor) dentro del rango L 160–220, W 80–140, H 30–70 y espesor 1,5–2,5 mm, con **error máximo de 0,01 mm** y topología constante (5/22/4/0 y 25/86/24/38).
+
+Se capturaron además **17 configuraciones de espesor** (1,5–2,5 mm). El cartón y el papel compensan distinto, así que cada espesor tiene plantillas base propias en L=180 y L=200; las pendientes L/W/H se aplican sobre la plantilla elegida. Se validaron **75 muestras** (58 L/W/H + 17 de espesor) con error máximo de 0,01 mm.
+
+El modelo se dio de alta con el motor local `rigid366010`, material compuesto con espesor editable de 1,5 a 2,5 mm y sangrado de 3 mm recalculado solo para las dos piezas de papel. El editor permite editar L/W/H y espesor, rechaza valores fuera del rango y exporta sin red. Se verificaron 17 comprobaciones de la base, 75 muestras paramétricas, la edición en la aplicación local y la exportación real del SVG; las 83 pruebas del proyecto pasan. Queda **verificado digitalmente**: 58 muestras, error 0,000 mm fuera de `/bleeds`; el sangrado dibujado se recalcula a 3 mm. Uso, archivos, reglas y límites en geometria/modelos/366010/README.md. No se validó armado físico ni se descargaron AI/PDF/DXF.

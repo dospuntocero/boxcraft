@@ -1,0 +1,428 @@
+{
+  "url": "https://www.pacdora.com/es/dielines-detail/sandwich-box-with-window-dieline-180320",
+  "date": "2026-10-20T22:19:08.438Z",
+  "materialId": 103,
+  "thickness": 0.5,
+  "report": [
+    {
+      "config": {
+        "L": 101,
+        "W": 72
+      },
+      "saved": true,
+      "file": "000-L101-W72-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 101,
+        "W": 72,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 103,
+        "W": 77
+      },
+      "saved": true,
+      "file": "001-L103-W77-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 103,
+        "W": 77,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 107,
+        "W": 68
+      },
+      "saved": true,
+      "file": "002-L107-W68-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 107,
+        "W": 68,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 109,
+        "W": 82
+      },
+      "saved": true,
+      "file": "003-L109-W82-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 109,
+        "W": 82,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 111,
+        "W": 73
+      },
+      "saved": true,
+      "file": "004-L111-W73-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 111,
+        "W": 73,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 113,
+        "W": 79
+      },
+      "saved": true,
+      "file": "005-L113-W79-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 113,
+        "W": 79,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 117,
+        "W": 71
+      },
+      "saved": true,
+      "file": "006-L117-W71-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 117,
+        "W": 71,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 119,
+        "W": 84
+      },
+      "saved": true,
+      "file": "007-L119-W84-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 119,
+        "W": 84,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 121,
+        "W": 76
+      },
+      "saved": true,
+      "file": "008-L121-W76-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 121,
+        "W": 76,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 123,
+        "W": 88
+      },
+      "saved": true,
+      "file": "009-L123-W88-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 123,
+        "W": 88,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 127,
+        "W": 75
+      },
+      "saved": true,
+      "file": "010-L127-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 127,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 129,
+        "W": 75
+      },
+      "saved": true,
+      "file": "011-L129-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 129,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 131,
+        "W": 75
+      },
+      "saved": true,
+      "file": "012-L131-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 131,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 133,
+        "W": 75
+      },
+      "saved": true,
+      "file": "013-L133-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 133,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 137,
+        "W": 75
+      },
+      "saved": true,
+      "file": "014-L137-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 137,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 139,
+        "W": 75
+      },
+      "saved": true,
+      "file": "015-L139-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 139,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 141,
+        "W": 75
+      },
+      "saved": true,
+      "file": "016-L141-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 141,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 143,
+        "W": 75
+      },
+      "saved": true,
+      "file": "017-L143-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 143,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 147,
+        "W": 75
+      },
+      "saved": true,
+      "file": "018-L147-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 147,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    },
+    {
+      "config": {
+        "L": 149,
+        "W": 75
+      },
+      "saved": true,
+      "file": "019-L149-W75-Hundefined.json",
+      "url": "https://www.pacdora.com/api/v2/project/knife?id=71184787&bleed=5&export_type=project",
+      "knifeSize": {
+        "L": 149,
+        "W": 75,
+        "H": 0,
+        "D": 0,
+        "id": 0,
+        "ed": 0,
+        "like": null
+      },
+      "science": 103,
+      "thickness": 0.5,
+      "openParams": 31
+    }
+  ]
+}

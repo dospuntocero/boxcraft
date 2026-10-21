@@ -1,0 +1,90 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "headless": true
+  },
+  "start_url": {
+    "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-polygonal-boxes-hexagonal-dieline-188060"
+  },
+  "actions": [
+    {
+      "action": "wait_for_timeout",
+      "duration_ms": 3000,
+      "step_id": "loaded"
+    },
+    {
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[gtm=\"ga-dieline_dieline_basic_mm\"]"
+      },
+      "step_id": "mm",
+      "timeout_ms": 8000
+    },
+    {
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": ".material-select"
+      },
+      "step_id": "open-188060-109-0_33",
+      "timeout_ms": 8000
+    },
+    {
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": ".tree-select-item-header:text-is(\"Cartulina kraft\")"
+      },
+      "button": "right",
+      "step_id": "group-188060-109-0_33",
+      "timeout_ms": 8000
+    },
+    {
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": ".tree-item:not(.disabled) .material-tree-item:has-text(\"Cartón kraft 250g\")"
+      },
+      "step_id": "pick-188060-109-0_33",
+      "timeout_ms": 8000
+    },
+    {
+      "action": "wait_for_timeout",
+      "duration_ms": 2500,
+      "step_id": "picked-188060-109-0_33"
+    },
+    {
+      "action": "wait_for_timeout",
+      "duration_ms": 5000,
+      "step_id": "settle-188060-109-0_33"
+    }
+  ],
+  "capture": {
+    "after_each_step": [
+      "url"
+    ],
+    "at_end": [
+      "url"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  },
+  "environment": {
+    "locale": "es-CL",
+    "timezone": "America/Santiago",
+    "service_workers": "block",
+    "viewport": {
+      "width": 1280,
+      "height": 900,
+      "device_scale_factor": 1
+    }
+  }
+}

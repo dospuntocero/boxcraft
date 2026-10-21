@@ -1,0 +1,100 @@
+{
+  "modelo": "366010",
+  "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-box-with-lid-luxury-box-dieline-366010",
+  "capturado": "2026-10-20T15:34:00-03:00",
+  "configuracion": {
+    "manufactura_mm": {
+      "L": 180,
+      "W": 100,
+      "H": 40
+    },
+    "interiores_mm": {
+      "L": 180,
+      "W": 100,
+      "H": 40
+    },
+    "exteriores_mm": {
+      "L": 189.95,
+      "W": 109.95,
+      "H": 44.45
+    },
+    "material_papel": {
+      "id": 48,
+      "name": "Personalización premium",
+      "image": "//cdn.pacdora.com/science/image/072e5427-ef0a-4c16-b682-8c2bcb5fdd79.png",
+      "des": null,
+      "unit": "m²",
+      "price": "0.1000",
+      "price_range": [],
+      "by_admin_id": 1,
+      "sort": 1,
+      "is_online": 1,
+      "science_type": 1,
+      "thickness": 0.15,
+      "min_thickness": 0.1,
+      "max_thickness": 0.2,
+      "inless": 0.07,
+      "outless": 0.08,
+      "bleedline": 3,
+      "can_set": 1,
+      "def_line_color": "#C1C1C1",
+      "group_name": "customize",
+      "group_key": "customize",
+      "print_cfg": [],
+      "special_type": "elaborate_face",
+      "create_time": "1631676159624",
+      "update_time": "1632627637637",
+      "is_delete": 0
+    },
+    "espesor_papel_mm": 0.15,
+    "espesor_carton_mm": 2.0
+  },
+  "capas": [
+    "BoutiqueboxDivideEquallyCoverBottomGreyboard",
+    "BoutiqueboxDivideEquallyCoverBottomFacepaper",
+    "BoutiqueboxDivideEquallyCoverTopGreyboard",
+    "BoutiqueboxDivideEquallyCoverTopFacepaper"
+  ],
+  "archivos": {
+    "base/knife-00.json": "3379e41e8f3cde6a1d4ac04227a04afacbc64df169caac465e8aa3d4b8381723",
+    "base/details.json": "c9d220d7aced50d4bb4ea88c2112c523e3b1d2618e0147ba9a54c7bdee0f9fa9",
+    "base/geometria.json": "abecc434960fc7328975098f1789869c8341e1aeb41c46bbc36ce0cb12a1a656",
+    "troquel-generado.svg": "156351bbd9bd41aba8506e46e81615ed72a8d9e347d2a2a8a43c7da509046496",
+    "troquel-generado.json": "7c885b192cb8e1f80f2f9eddff5b8a46ebd342dabbd192719d2524e3d32cf235",
+    "icono-3d.jpg": "0da2eeaa1160f3513b1467d040430a3d25204ec502966756e0369deec5bdd530",
+    "dieline-oficial.png": "f350368147a3fb84562dfd52b45ff8a4e5e0f7a9f980c611e6782254cc201b42",
+    "exportado-editor.svg": "ec31ffb1bdbdcba4555ff2ce871331d0517eb8d2192e09dfd7cd4bb9a4923bee",
+    "exportado-editor-210x120x50.svg": "737c6028b906e895b3ce4203b339aba07e635f5a6d8d6b304297f3cb16cc8c0d",
+    "exportado-editor-210x120x50-T2.5.svg": "a742c66c99e056de2aa8423035cc3672bbbdbfc0f6963c20434cd03bcd395b42",
+    "captura-espesor.png": "371414cdccd814f3a9fc2b9df3e90ddb80bfdf796453ca947996c88677a34e77",
+    "captura-editor.png": "470a9c8d3d75d196931b46ad8720cb34b073013622c840f5e57bfd757d762360",
+    "base/bleed-path.txt": "c9945257343c4d444aeabf90483986b252a936ba8cd87f0fe18ed58aaa4b67a2",
+    "muestras/base-cdp.json": "b8eea45066dc444ed091f5c513e56405ac063bf292719d60ca274c25fb761841",
+    "muestras/L200.json": "798b4c24d896f0d9b89d0ba012c64c20e018066298b10f2217acb79f0166faef",
+    "muestras/W120.json": "b071c80e9608c5b087b0728b049a9d52a0e3e3840b7dac0d5038e583de09ca00",
+    "muestras/H60.json": "300a9b0494d9b63c947f0be6f6543d4e3fde6b9f592ad8e2a729c549144711a5",
+    "muestras/combo.json": "c50446057125b997694680b88037ebee051cec2685539b3bb1744bc302488fb5",
+    "reglas.json": "4bfe4da931b398da9d5662844020034dae67a2938d4b2707a7508a4ec1edcbad",
+    "validacion-parametrica.json": "ce94510d74c60b0b4431636d94429823c7bfe2db53034ac10eba3798ccd39e6e",
+    "parametricas/manifest.json": "d66c5eb19bbdb941fc6b7e83b4e59a68987d51220c9e409b51a05b6b253b15f7",
+    "espesor/manifest.json": "65ca3247d765aab3adc0109fc8513e17bfaba01f8c9fcfc403d9f0ce82feef26",
+    "bleed-node.cjs": "3786d9efe3bbff5415bc04342330f24e6613f2b785c9aab5c0acd99054d5438c"
+  },
+  "evidencia": {
+    "rea_captura_pagina_y_geometria": "ev_9bbab1a9d4276e5f6454243d88be37c523f6071b25883dbfdd7913a043478f1a",
+    "rea_segunda_captura_base": "ev_8a1f522b2feaaf33ae7d8b02bf6d78896d54af4583da1044013d07d7fba9017e",
+    "rea_pagina_l200": "ev_700ae83528d04468565ebaa8c797a41ee7ba549744bc572db355405341c67f77",
+    "cdp_matriz": "parametricas/manifest.json",
+    "cdp_espesor": "espesor/manifest.json",
+    "cdp_muestras_iniciales": [
+      "muestras/L200.json",
+      "muestras/W120.json",
+      "muestras/H60.json",
+      "muestras/combo.json"
+    ]
+  },
+  "iconos": {
+    "mockup": "https://cdn.pacdora.com/preview/mockup-366010.jpg",
+    "dieline": "https://cdn.pacdora.com/preview/dieline-366010.png"
+  }
+}

@@ -1,0 +1,31 @@
+{
+ "status": "verified",
+ "method": "Reglas compiladas en parámetros internos (A, AR, C, CR, E, NX, NY)",
+ "axes": [
+  "L",
+  "W",
+  "H"
+ ],
+ "sampleCount": 97,
+ "holdoutCount": 24,
+ "maxErrorMm": 2.8421709430404007e-13,
+ "toleranceMm": 0.0001,
+ "topologyStable": true,
+ "validatedRange": {
+  "L": [
+   30.0,
+   60.0
+  ],
+  "W": [
+   30.0,
+   60.0
+  ],
+  "H": [
+   80.0,
+   180.0
+  ]
+ },
+ "physicalValidated": false,
+ "limits": "Solo material y espesor originales; sin validación física.",
+ "evidenceIds": []
+}

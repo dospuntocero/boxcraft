@@ -1,0 +1,152 @@
+[
+  {
+    "config": {
+      "L": 200,
+      "W": 100,
+      "H": 40,
+      "T": 1.75
+    },
+    "file": "L200-W100-H40-T1.75.json",
+    "sha256": "3ea187af307924e52f6286b8a55a8336fb417a6126208fa55b84587acc8b043f",
+    "knifeSize": {
+      "L": 200,
+      "W": 100,
+      "H": 40,
+      "D": 0,
+      "id": 0,
+      "ed": 0,
+      "like": null
+    },
+    "size": {
+      "L": 200,
+      "W": 100,
+      "H": 40,
+      "D": 1.75,
+      "id": 0,
+      "ed": 0,
+      "like": null
+    },
+    "outSize": {
+      "L": 208.95,
+      "W": 108.95,
+      "H": 43.95,
+      "D": 0,
+      "id": 0,
+      "ed": 0,
+      "like": null
+    },
+    "layers": {
+      "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+        "totalX": 280,
+        "totalY": 180,
+        "thickness": 1.75,
+        "faces": 5,
+        "cuts": 22,
+        "folds": 4,
+        "bleeds": 0
+      },
+      "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+        "totalX": 329.65,
+        "totalY": 229.65000000000003,
+        "thickness": 0.15,
+        "faces": 25,
+        "cuts": 86,
+        "folds": 24,
+        "bleeds": 38
+      },
+      "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+        "totalX": 288.8,
+        "totalY": 188.8,
+        "thickness": 1.75,
+        "faces": 5,
+        "cuts": 22,
+        "folds": 4,
+        "bleeds": 0
+      },
+      "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+        "totalX": 338.3500000000001,
+        "totalY": 238.35000000000002,
+        "thickness": 0.15,
+        "faces": 25,
+        "cuts": 86,
+        "folds": 24,
+        "bleeds": 38
+      }
+    }
+  },
+  {
+    "config": {
+      "L": 200,
+      "W": 100,
+      "H": 40,
+      "T": 2.25
+    },
+    "file": "L200-W100-H40-T2.25.json",
+    "sha256": "0ea024655d081b41f90b7b65b5fe38db35334ffb86769f59d8f72fb5d5495eb7",
+    "knifeSize": {
+      "L": 200,
+      "W": 100,
+      "H": 40,
+      "D": 0,
+      "id": 0,
+      "ed": 0,
+      "like": null
+    },
+    "size": {
+      "L": 200,
+      "W": 100,
+      "H": 40,
+      "D": 2.25,
+      "id": 0,
+      "ed": 0,
+      "like": null
+    },
+    "outSize": {
+      "L": 210.95,
+      "W": 110.95,
+      "H": 44.95,
+      "D": 0,
+      "id": 0,
+      "ed": 0,
+      "like": null
+    },
+    "layers": {
+      "BoutiqueboxDivideEquallyCoverBottomGreyboard": {
+        "totalX": 280,
+        "totalY": 180,
+        "thickness": 2.25,
+        "faces": 5,
+        "cuts": 22,
+        "folds": 4,
+        "bleeds": 0
+      },
+      "BoutiqueboxDivideEquallyCoverBottomFacepaper": {
+        "totalX": 332.05,
+        "totalY": 232.05000000000004,
+        "thickness": 0.15,
+        "faces": 25,
+        "cuts": 86,
+        "folds": 24,
+        "bleeds": 38
+      },
+      "BoutiqueboxDivideEquallyCoverTopGreyboard": {
+        "totalX": 290.8,
+        "totalY": 190.8,
+        "thickness": 2.25,
+        "faces": 5,
+        "cuts": 22,
+        "folds": 4,
+        "bleeds": 0
+      },
+      "BoutiqueboxDivideEquallyCoverTopFacepaper": {
+        "totalX": 342.95000000000005,
+        "totalY": 242.95,
+        "thickness": 0.15,
+        "faces": 25,
+        "cuts": 86,
+        "folds": 24,
+        "bleeds": 38
+      }
+    }
+  }
+]

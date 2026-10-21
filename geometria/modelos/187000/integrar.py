@@ -6,8 +6,10 @@ ROOT = pathlib.Path(__file__).resolve().parent
 REPO = ROOT.parents[2]
 DIST = REPO / 'editor-troqueles' / 'dist'
 ASSETS = DIST / 'assets'
-sys.path.insert(0, str(ROOT))
-import generar as G
+import importlib.util
+_spec = importlib.util.spec_from_file_location('generar_187000', ROOT / 'generar.py')
+G = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(G)
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()

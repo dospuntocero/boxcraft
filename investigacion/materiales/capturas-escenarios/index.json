@@ -1,0 +1,178 @@
+[
+  {
+    "id": "187000-101-0_35",
+    "model": "187000",
+    "materialId": 101,
+    "thickness": 0.35,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/187000-101-0_35-scenario.json"
+  },
+  {
+    "id": "187000-102-0_42",
+    "model": "187000",
+    "materialId": 102,
+    "thickness": 0.42,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/187000-102-0_42-scenario.json"
+  },
+  {
+    "id": "187000-109-0_33",
+    "model": "187000",
+    "materialId": 109,
+    "thickness": 0.33,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/187000-109-0_33-scenario.json"
+  },
+  {
+    "id": "187000-110-0_46",
+    "model": "187000",
+    "materialId": 110,
+    "thickness": 0.46,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/187000-110-0_46-scenario.json"
+  },
+  {
+    "id": "187000-47-0_2",
+    "model": "187000",
+    "materialId": 47,
+    "thickness": 0.2,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/187000-47-0_2-scenario.json"
+  },
+  {
+    "id": "187000-42-0_32",
+    "model": "187000",
+    "materialId": 42,
+    "thickness": 0.32,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/187000-42-0_32-scenario.json"
+  },
+  {
+    "id": "188060-100-0_27",
+    "model": "188060",
+    "materialId": 100,
+    "thickness": 0.27,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/188060-100-0_27-scenario.json"
+  },
+  {
+    "id": "188060-101-0_35",
+    "model": "188060",
+    "materialId": 101,
+    "thickness": 0.35,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/188060-101-0_35-scenario.json"
+  },
+  {
+    "id": "188060-102-0_42",
+    "model": "188060",
+    "materialId": 102,
+    "thickness": 0.42,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/188060-102-0_42-scenario.json"
+  },
+  {
+    "id": "188060-104-0_55",
+    "model": "188060",
+    "materialId": 104,
+    "thickness": 0.55,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/188060-104-0_55-scenario.json"
+  },
+  {
+    "id": "188060-108-0_26",
+    "model": "188060",
+    "materialId": 108,
+    "thickness": 0.26,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/188060-108-0_26-scenario.json"
+  },
+  {
+    "id": "188060-109-0_33",
+    "model": "188060",
+    "materialId": 109,
+    "thickness": 0.33,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/188060-109-0_33-scenario.json"
+  },
+  {
+    "id": "188060-110-0_46",
+    "model": "188060",
+    "materialId": 110,
+    "thickness": 0.46,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/188060-110-0_46-scenario.json"
+  },
+  {
+    "id": "188060-47-0_2",
+    "model": "188060",
+    "materialId": 47,
+    "thickness": 0.2,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/188060-47-0_2-scenario.json"
+  },
+  {
+    "id": "188060-42-0_32",
+    "model": "188060",
+    "materialId": 42,
+    "thickness": 0.32,
+    "variableThickness": false,
+    "scenario": "capturas-escenarios/188060-42-0_32-scenario.json"
+  },
+  {
+    "id": "188060-10-0_8",
+    "model": "188060",
+    "materialId": 10,
+    "thickness": 0.8,
+    "variableThickness": true,
+    "scenario": "capturas-escenarios/188060-10-0_8-scenario.json"
+  },
+  {
+    "id": "188060-10-1_0",
+    "model": "188060",
+    "materialId": 10,
+    "thickness": 1.0,
+    "variableThickness": true,
+    "scenario": "capturas-escenarios/188060-10-1_0-scenario.json"
+  },
+  {
+    "id": "188060-6-1_0",
+    "model": "188060",
+    "materialId": 6,
+    "thickness": 1.0,
+    "variableThickness": true,
+    "scenario": "capturas-escenarios/188060-6-1_0-scenario.json"
+  },
+  {
+    "id": "188060-6-1_2",
+    "model": "188060",
+    "materialId": 6,
+    "thickness": 1.2,
+    "variableThickness": true,
+    "scenario": "capturas-escenarios/188060-6-1_2-scenario.json"
+  },
+  {
+    "id": "188060-5-1_1",
+    "model": "188060",
+    "materialId": 5,
+    "thickness": 1.1,
+    "variableThickness": true,
+    "scenario": "capturas-escenarios/188060-5-1_1-scenario.json"
+  },
+  {
+    "id": "188060-5-1_5",
+    "model": "188060",
+    "materialId": 5,
+    "thickness": 1.5,
+    "variableThickness": true,
+    "scenario": "capturas-escenarios/188060-5-1_5-scenario.json"
+  },
+  {
+    "id": "188060-5-2_0",
+    "model": "188060",
+    "materialId": 5,
+    "thickness": 2.0,
+    "variableThickness": true,
+    "scenario": "capturas-escenarios/188060-5-2_0-scenario.json"
+  }
+]
