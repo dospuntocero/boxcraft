@@ -1,6 +1,6 @@
 globalThis.TallerLocales=globalThis.TallerLocales||{};
 globalThis.TallerLocales.en={
-  "11 modelos en tu biblioteca": "11 models in your library",
+  "15 modelos en tu biblioteca": "15 models in your library",
   "Acercar": "Zoom in",
   "Ajustar al lienzo": "Fit to canvas",
   "Alejar": "Zoom out",
@@ -146,7 +146,9 @@ globalThis.TallerLocales.en={
   "Plano del troquel": "Dieline canvas",
   "Plano:": "Dieline:",
   "Plegables": "Folding cartons",
+  "Rígidas": "Rigid",
   "Pliego máximo:": "Maximum sheet:",
+  "Pliego: 70 × 100 cm": "Sheet: 70 × 100 cm",
   "Pliegue": "Fold",
   "Rango ampliado": "Extended range",
   "Rango ampliado activado": "Extended range enabled",
@@ -263,3 +265,20 @@ globalThis.TallerLocales.en={
 Object.assign(globalThis.TallerLocales.en,{'Caja para tarta con ventana':'Cake box with window','Solo configuración original verificada; alternativas pendientes.':'Only the original configuration is verified; alternatives are pending.'});
 
 Object.assign(globalThis.TallerLocales.en,{"Este modelo está disponible únicamente en las medidas comprobadas.": "This model is available only at the verified dimensions."});
+
+Object.assign(globalThis.TallerLocales.en,{"Materiales verificados: 350 g (original), 210 g (0,27 mm) y 190 g (0,26 mm). Faltan capturas para el resto del menú y para los espesores personalizados.": "Verified materials: 350 g (original), 210 g (0.27 mm) and 190 g (0.26 mm). Captures for the rest of the menu and for custom thicknesses are still pending."});
+
+Object.assign(globalThis.TallerLocales.en,{"Caja rígida con tapa": "Rigid box with lid", "Cartón gris 2 mm + papel 0,15 mm": "2 mm greyboard + 0.15 mm paper", "Rígido": "Rigid", "Solo la configuración capturada; no hay motor paramétrico para otras medidas.": "Only the captured configuration is available; there is no parametric engine for other dimensions."});
+
+Object.assign(globalThis.TallerLocales.en,{"El modelo no tiene reglas paramétricas.": "The model has no parametric rules.", "Introduce dimensiones válidas.": "Enter valid dimensions.", "La longitud está fuera del rango paramétrico verificado.": "Length is outside the verified parametric range."});
+
+Object.assign(globalThis.TallerLocales.en,{"L 160–220 mm, W 80–140 mm y H 30–70 mm. Fuera de ese rango no hay geometría verificada.": "L 160–220 mm, W 80–140 mm and H 30–70 mm. Outside this range there is no verified geometry."});
+
+Object.assign(globalThis.TallerLocales.en,{"El espesor está fuera del rango paramétrico verificado.": "Thickness is outside the verified parametric range."});
+
+Object.assign(globalThis.TallerLocales.en,{"L 160–220 mm, W 80–140 mm, H 30–70 mm y espesor 1,5–2,5 mm. Fuera de ese rango no hay geometría verificada.": "L 160–220 mm, W 80–140 mm, H 30–70 mm and thickness 1.5–2.5 mm. Outside this range there is no verified geometry."});
+
+Object.assign(globalThis.TallerLocales.en,{"Cartón gris + papel 0,15 mm": "Greyboard + 0.15 mm paper"});
+Object.assign(globalThis.TallerLocales.en,{"Operación de regla no soportada.": "Unsupported rule operation.", "Operación de parámetro no soportada.": "Unsupported parameter operation."});
+Object.assign(globalThis.TallerLocales.en,{"Estas medidas no corresponden a una topología reconstruida.": "These dimensions do not match a reconstructed topology."});
+Object.assign(globalThis.TallerLocales.en,{"Fuera del rango verificado": "Outside the verified range", "Geometría verificada": "Verified geometry", "Las medidas actuales están fuera del rango verificado. Comprueba solapas y encajes con una muestra antes de fabricar.": "The current dimensions are outside the verified range. Check flaps and joints with a sample before production.", "El plano coincide con las capturas de referencia en el rango verificado. Revisa el armado físico antes de fabricar.": "The dieline matches the reference captures within the verified range. Check physical assembly before production."});

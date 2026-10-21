@@ -1,6 +1,6 @@
 globalThis.TallerLocales=globalThis.TallerLocales||{};
 globalThis.TallerLocales.es={
-  "11 modelos en tu biblioteca": "11 modelos en tu biblioteca",
+  "15 modelos en tu biblioteca": "15 modelos en tu biblioteca",
   "Acercar": "Acercar",
   "Ajustar al lienzo": "Ajustar al lienzo",
   "Alejar": "Alejar",
@@ -146,7 +146,9 @@ globalThis.TallerLocales.es={
   "Plano del troquel": "Plano del troquel",
   "Plano:": "Plano:",
   "Plegables": "Plegables",
+  "Rígidas": "Rígidas",
   "Pliego máximo:": "Pliego máximo:",
+  "Pliego: 70 × 100 cm": "Pliego: 70 × 100 cm",
   "Pliegue": "Pliegue",
   "Rango ampliado": "Rango ampliado",
   "Rango ampliado activado": "Rango ampliado activado",
@@ -263,3 +265,20 @@ globalThis.TallerLocales.es={
 Object.assign(globalThis.TallerLocales.es,{'Caja para tarta con ventana':'Caja para tarta con ventana','Solo configuración original verificada; alternativas pendientes.':'Solo configuración original verificada; alternativas pendientes.'});
 
 Object.assign(globalThis.TallerLocales.es,{"Este modelo está disponible únicamente en las medidas comprobadas.": "Este modelo está disponible únicamente en las medidas comprobadas."});
+
+Object.assign(globalThis.TallerLocales.es,{"Materiales verificados: 350 g (original), 210 g (0,27 mm) y 190 g (0,26 mm). Faltan capturas para el resto del menú y para los espesores personalizados.": "Materiales verificados: 350 g (original), 210 g (0,27 mm) y 190 g (0,26 mm). Faltan capturas para el resto del menú y para los espesores personalizados."});
+
+Object.assign(globalThis.TallerLocales.es,{"Caja rígida con tapa": "Caja rígida con tapa", "Cartón gris 2 mm + papel 0,15 mm": "Cartón gris 2 mm + papel 0,15 mm", "Rígido": "Rígido", "Solo la configuración capturada; no hay motor paramétrico para otras medidas.": "Solo la configuración capturada; no hay motor paramétrico para otras medidas."});
+
+Object.assign(globalThis.TallerLocales.es,{"El modelo no tiene reglas paramétricas.": "El modelo no tiene reglas paramétricas.", "Introduce dimensiones válidas.": "Introduce dimensiones válidas.", "La longitud está fuera del rango paramétrico verificado.": "La longitud está fuera del rango paramétrico verificado."});
+
+Object.assign(globalThis.TallerLocales.es,{"L 160–220 mm, W 80–140 mm y H 30–70 mm. Fuera de ese rango no hay geometría verificada.": "L 160–220 mm, W 80–140 mm y H 30–70 mm. Fuera de ese rango no hay geometría verificada."});
+
+Object.assign(globalThis.TallerLocales.es,{"El espesor está fuera del rango paramétrico verificado.": "El espesor está fuera del rango paramétrico verificado."});
+
+Object.assign(globalThis.TallerLocales.es,{"L 160–220 mm, W 80–140 mm, H 30–70 mm y espesor 1,5–2,5 mm. Fuera de ese rango no hay geometría verificada.": "L 160–220 mm, W 80–140 mm, H 30–70 mm y espesor 1,5–2,5 mm. Fuera de ese rango no hay geometría verificada."});
+
+Object.assign(globalThis.TallerLocales.es,{"Cartón gris + papel 0,15 mm": "Cartón gris + papel 0,15 mm"});
+Object.assign(globalThis.TallerLocales.es,{"Operación de regla no soportada.": "Operación de regla no soportada.", "Operación de parámetro no soportada.": "Operación de parámetro no soportada."});
+Object.assign(globalThis.TallerLocales.es,{"Estas medidas no corresponden a una topología reconstruida.": "Estas medidas no corresponden a una topología reconstruida."});
+Object.assign(globalThis.TallerLocales.es,{"Fuera del rango verificado": "Fuera del rango verificado", "Geometría verificada": "Geometría verificada", "Las medidas actuales están fuera del rango verificado. Comprueba solapas y encajes con una muestra antes de fabricar.": "Las medidas actuales están fuera del rango verificado. Comprueba solapas y encajes con una muestra antes de fabricar.", "El plano coincide con las capturas de referencia en el rango verificado. Revisa el armado físico antes de fabricar.": "El plano coincide con las capturas de referencia en el rango verificado. Revisa el armado físico antes de fabricar."});

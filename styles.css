@@ -35,3 +35,16 @@
 .digital-sheet-yield:first-child{border-top:0;margin-top:0;padding-top:0}
 
 .language-control{display:flex;align-items:center;gap:4px;padding:3px;border:1px solid #dce1e9;border-radius:9px;background:#fff}.language-button{display:flex;align-items:center;justify-content:center;gap:5px;min-width:50px;min-height:32px;padding:4px 7px;border:1px solid transparent;border-radius:6px;background:transparent;color:#64748b;font-family:inherit;font-size:10px;font-weight:600;line-height:1.2;cursor:pointer;transition:background .15s,color .15s,border-color .15s}.language-button:hover{background:#f1f5f9;color:#27344a}.language-button.active{background:#edf4ff;border-color:#c9ddff;color:#0878ff}.language-button:focus-visible{outline:2px solid #0878ff;outline-offset:2px}.language-flag{font-size:20px;line-height:1}@media(max-width:800px){.language-button{min-width:34px;padding:4px}.language-button>span:last-child{display:none}}
+.field-slider{display:block;min-width:0;grid-column:1/-1;padding:6px 0 2px}
+.field-slider .field-head{display:flex;align-items:baseline;justify-content:space-between;gap:4px;margin-bottom:3px}
+.field-slider .field-label{margin-bottom:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px;font-weight:500;color:#6b7480}
+.field-value{font-size:15px;font-weight:600;color:#3d4654;font-variant-numeric:tabular-nums;white-space:nowrap}
+.field-value em{font-style:normal;font-size:10px;font-weight:500;color:#98a1ad;margin-left:1px}
+.field-slider input[type=range]{-webkit-appearance:none;appearance:none;display:block;width:100%;height:18px;margin:8px 0 0;background:transparent;cursor:pointer}
+.field-slider input[type=range]::-webkit-slider-runnable-track{height:5px;border-radius:99px;background:linear-gradient(90deg,var(--blue) 0 var(--fill,0%),#dfe4eb var(--fill,0%) 100%)}
+.field-slider input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:16px;height:16px;margin-top:-5.5px;border-radius:50%;background:#fff;border:2px solid var(--blue);box-shadow:0 1px 4px #0b2d6b2e}
+.field-slider input[type=range]::-moz-range-track{height:5px;border-radius:99px;background:#dfe4eb}
+.field-slider input[type=range]::-moz-range-progress{height:5px;border-radius:99px;background:var(--blue)}
+.field-slider input[type=range]::-moz-range-thumb{width:12px;height:12px;border:2px solid var(--blue);border-radius:50%;background:#fff;box-shadow:0 1px 4px #0b2d6b2e}
+.field-slider input[type=range]:focus-visible{outline:3px solid #9dc0ff;outline-offset:4px;border-radius:9px}
+.field-slider .field-range{font-size:9px;margin-top:4px}

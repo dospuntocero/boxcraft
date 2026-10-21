@@ -23,6 +23,7 @@
   }
   function extents(model,dims){
     if(model.engine==='pillow187000')return [dims.L+dims.H,(dims.W>=100?18:15)+2*dims.W];
+    if(model.engine==='compiled'){const layer=buildCompiled(model,dims);return [layer.totalX,layer.totalY];}
     if(model.engine==='panel188060')return [135.5+2*dims.L,2*dims.W+dims.H];
     if(model.engine==='affine')return ['totalX','totalY'].map(key=>{const r=model.rule.rules['/'+key],axes=['L','W','H'];return r.base+r.slopes_LWH.reduce((sum,s,i)=>sum+s*(dims[axes[i]]-model.rule.base[i]),0);});
     if(model.engine==='derived')return ['totalX','totalY'].map(key=>{const r=model.rule.rules['/'+key];return r[0]+model.rule.axes.reduce((sum,axis,i)=>sum+r[i+1]*(dims[axis]-model.rule.base[i]),0);});
@@ -111,6 +112,185 @@
     if(layer.knifeSize)layer.knifeSize={...layer.knifeSize,L,W,H};
     return layer;
   }
+
+  // 366010 · rigid two-piece box. The Pacdora server returns four layers and
+  // changes the outer wrap depth at L>=200: outer = clamp(floor(H/2), 15, 20).
+  // Within each regime the geometry is affine in L/W/H (and in outer for B);
+  // the coefficients below are fitted from controlled server captures.
+  function buildRigid366010Pieces(model,dims,physical){
+    const rule=model.rule;
+    if(!rule||!rule.regimes||!rule.pieces)throw Error(I18n.t("El modelo no tiene reglas paramétricas."));
+    const L=Number(dims.L),W=Number(dims.W),H=Number(dims.H);
+    const T=physical&&Number.isFinite(physical.thickness)?Number(physical.thickness):(rule.baseThickness||2);
+    if(![L,W,H,T].every(Number.isFinite))throw Error(I18n.t("Introduce dimensiones válidas."));
+    let regime=null;
+    for(const candidate of rule.regimes){
+      const [low,high]=candidate.L;
+      if(L>=low-1e-9&&L<=high+1e-9){regime=candidate;break;}
+    }
+    if(!regime)throw Error(I18n.t("La longitud está fuera del rango paramétrico verificado."));
+    const templates=regime.templatesByThickness&&regime.templatesByThickness[String(T)];
+    if(!templates)throw Error(I18n.t("El espesor está fuera del rango paramétrico verificado."));
+    const ref=regime.ref;
+    const outer=regime.id==='B'?Math.min(20,Math.max(15,Math.floor(H/2))):15;
+    return rule.pieces.map(piece=>{
+      const layer=clone(templates[piece.id]);
+      const slopes=regime.slopes[piece.id]||{};
+      for(const [path,s] of Object.entries(slopes)){
+        const parts=path.slice(1).split('/');
+        let target=layer;
+        for(let i=0;i<parts.length-1;i++)target=target[parts[i]];
+        const key=parts[parts.length-1];
+        target[key]+=s[0]*(L-ref.L)+s[1]*(W-ref.W)+s[2]*(H-ref.H)+(s[3]?s[3]*(outer-20):0);
+      }
+      layer.thickness=piece.paper?0.15:T;
+      return {id:piece.id,prefix:piece.prefix,name:piece.name,row:piece.row,col:piece.col,paper:!!piece.paper,layer};
+    });
+  }
+  function translateRigidLayer(layer,dx,dy){
+    for(const face of layer.faces||[]){
+      face.x+=dx;face.y+=dy;
+      for(const p of face.dlist||[]){if(typeof p.x==='number')p.x+=dx;if(typeof p.y==='number')p.y+=dy;}
+      for(const hole of face.holes||[])for(const p of hole){if(typeof p.x==='number')p.x+=dx;if(typeof p.y==='number')p.y+=dy;}
+    }
+    for(const c of layer.cuts||[]){if(typeof c.x==='number')c.x+=dx;if(typeof c.y==='number')c.y+=dy;}
+    for(const c of layer.bleeds||[]){if(typeof c.x==='number')c.x+=dx;if(typeof c.y==='number')c.y+=dy;}
+    for(const f of layer.folds||[]){
+      if(typeof f.x1==='number')f.x1+=dx;
+      if(typeof f.x2==='number')f.x2+=dx;
+      if(typeof f.y1==='number')f.y1+=dy;
+      if(typeof f.y2==='number')f.y2+=dy;
+    }
+    return layer;
+  }
+  function buildRigid366010(model,dims,physical,withPieces=false){
+    const pieces=buildRigid366010Pieces(model,dims,physical);
+    const T=physical&&Number.isFinite(physical.thickness)?Number(physical.thickness):(model.rule.baseThickness||2);
+    const gap=25,widths=[0,0],heights=[0,0];
+    for(const p of pieces){
+      widths[p.col]=Math.max(widths[p.col],p.layer.totalX);
+      heights[p.row]=Math.max(heights[p.row],p.layer.totalY);
+    }
+    const origins=pieces.map(p=>({
+      x:p.col===0?0:widths[0]+gap,
+      y:p.row===0?0:heights[0]+gap,
+    }));
+    const totalX=widths[0]+gap+widths[1],totalY=heights[0]+gap+heights[1];
+    const composite={
+      faces:[],cuts:[],folds:[],holes:[],bleeds:[],bleedCuts:[],bleedFaces:[],
+      pieceLabels:[],multiPiece:true,officialBleeds:false,bleedFromCuts:true,
+      totalX,totalY,thickness:T,bleedline:3,
+    };
+    pieces.forEach((p,index)=>{
+      const origin=origins[index];
+      translateRigidLayer(p.layer,origin.x,origin.y);
+      composite.faces.push(...p.layer.faces);
+      composite.cuts.push(...p.layer.cuts);
+      composite.folds.push(...p.layer.folds);
+      composite.holes.push(...p.layer.holes);
+      composite.bleeds.push(...p.layer.bleeds);
+      if(p.paper){composite.bleedCuts.push(...p.layer.cuts);composite.bleedFaces.push(...p.layer.faces);}
+      composite.pieceLabels.push({id:p.id,name:p.name,x:origin.x+2,y:origin.y+5});
+    });
+    const L=Number(dims.L),W=Number(dims.W),H=Number(dims.H);
+    composite.knifeSize={L,W,H,D:0,id:0,ed:0,like:null};
+    composite.size={L,W,H,D:T,id:0,ed:0,like:null};
+    composite.outSize={L:L+9.95,W:W+9.95,H:H+4.45,D:0,id:0,ed:0,like:null};
+    composite.science=model.layer&&model.layer.science;
+    if(withPieces)composite.pieces=pieces.map(p=>({id:p.id,prefix:p.prefix,name:p.name,paper:p.paper,layer:p.layer}));
+    return composite;
+  }
+  // Compiled rules: features derived from L/W/H (linear, rounded, clamped,
+  // or simple nonlinear arcs) plus per-path affine coefficients and optional
+  // topology regimes. This keeps server-exposed intermediate parameters exact.
+  function matchesCondition(cond,dims,features){
+    for(const [key,rule] of Object.entries(cond||{})){
+      const value=key in dims?dims[key]:features[key];
+      if(!Number.isFinite(value))return false;
+      if(rule.min!=null&&value<rule.min-1e-9)return false;
+      if(rule.max!=null&&value>rule.max+1e-9)return false;
+      if(rule.lt!=null&&!(value<rule.lt))return false;
+      if(rule.lte!=null&&!(value<=rule.lte))return false;
+      if(rule.gt!=null&&!(value>rule.gt))return false;
+      if(rule.gte!=null&&!(value>=rule.gte))return false;
+    }
+    return true;
+  }
+  function evalExpr(expr,dims,features){
+    if(expr==null)return 0;
+    if(typeof expr==='number')return expr;
+    if(expr.expr&&!expr.op)return evalExpr(expr.expr,dims,features);
+    if(expr.op==='piecewise'){
+      for(const item of expr.cases||[])if(matchesCondition(item.when,dims,features))return evalExpr(item.value,dims,features);
+      return 0;
+    }
+    if(expr.op){
+      const args=(expr.args||[]).map(a=>evalExpr(a,dims,features));
+      if(expr.op==='sqrt')return Math.sqrt(Math.max(0,args[0]));
+      if(expr.op==='hypot')return Math.hypot(...args);
+      if(expr.op==='atan2')return Math.atan2(args[0],args[1]);
+      if(expr.op==='min')return Math.min(...args);
+      if(expr.op==='max')return Math.max(...args);
+      throw Error(I18n.t("Operación de regla no soportada."));
+    }
+    let value=expr.const||0;
+    for(const [key,coef] of Object.entries(expr)){
+      if(key==='const')continue;
+      const v=key in dims?dims[key]:(features?.[key]||0);
+      value+=coef*v;
+    }
+    return value;
+  }
+  function evalFeature(spec,dims,features){
+    if(spec.op==='piecewise'||spec.op==='min'||spec.op==='max')return evalExpr(spec,dims,features);
+    let value=evalExpr(spec.expr,dims,features);
+    const step=spec.step||1;
+    if(spec.op==='round')value=Math.round(value/step)*step;
+    else if(spec.op==='floor')value=Math.floor(value/step)*step;
+    else if(spec.op==='ceil')value=Math.ceil(value/step)*step;
+    else if(spec.op==='clamp')value=Math.min(spec.max??Infinity,Math.max(spec.min??-Infinity,value));
+    else if(spec.op!=='none'&&spec.op)throw Error(I18n.t("Operación de parámetro no soportada."));
+    return value;
+  }
+  function compiledFeatures(model,dims){
+    const features={};
+    for(const [name,spec] of Object.entries(model.rule.tables||{})){
+      const raw=(dims[spec.key]-spec.from)/spec.step;
+      const index=Math.max(0,Math.min(spec.values.length-1,Math.round(raw)));
+      features[name]=spec.values[index];
+    }
+    for(const [name,spec] of Object.entries(model.rule.tables2d||{})){
+      const [k1,k2]=spec.keys;
+      const i=Math.max(0,Math.min(spec.size[0]-1,Math.round((dims[k1]-spec.from[0])/spec.step[0])));
+      const j=Math.max(0,Math.min(spec.size[1]-1,Math.round((dims[k2]-spec.from[1])/spec.step[1])));
+      features[name]=spec.values[i*spec.size[1]+j];
+    }
+    for(const [name,spec] of Object.entries(model.rule.features||{}))features[name]=evalFeature(spec,dims,features);
+    return features;
+  }
+  function selectCompiledRegime(model,dims,features){
+    const regimes=model.rule.regimes||[];
+    for(const regime of regimes)if(matchesCondition(regime.when,dims,features))return regime;
+    return regimes.find(regime=>!regime.when)||null;
+  }
+  function buildCompiled(model,dims){
+    const rule=model.rule;
+    if(!rule)throw Error(I18n.t("El modelo no tiene reglas paramétricas."));
+    const features=compiledFeatures(model,dims);
+    const regime=selectCompiledRegime(model,dims,features)||{template:model.layer,rules:rule.rules};
+    const layer=clone(regime.template||model.layer);
+    for(const [path,coeffs] of Object.entries(regime.rules||rule.rules||{})){
+      let value=coeffs.const||0;
+      for(const [key,coef] of Object.entries(coeffs)){
+        if(key==='const')continue;
+        const v=key in dims?dims[key]:features[key];
+        if(!Number.isFinite(v))throw Error(I18n.t("Estas medidas no producen una geometría válida."));
+        value+=coef*v;
+      }
+      assign(layer,path,value);
+    }
+    return layer;
+  }
   function generate(model,dims,physical){
     if(physical&&model.materialCapability){
       const cap=model.materialCapability;
@@ -122,7 +302,7 @@
       else if(Math.abs(value-model.dims[axis])>1e-8)throw Error(I18n.t("Esta medida se conserva en su valor original."));
     }
     if(model.id==='102010'&&dims.L>2*dims.W+1e-6)throw Error(I18n.t("Para este fondo, la longitud no puede superar el doble de la anchura (L ≤ 2W)."));
-    let layer=model.engine==='pillow187000'?buildPillow187000(dims):model.engine==='panel188060'?buildPanel188060(model,dims):clone(model.layer);
+    let layer=model.engine==='pillow187000'?buildPillow187000(dims):model.engine==='panel188060'?buildPanel188060(model,dims):model.engine==='rigid366010'?buildRigid366010(model,dims,physical):model.engine==='compiled'?buildCompiled(model,dims):clone(model.layer);
     const rule=model.rule;
     if(model.engine==='derived')for(const [path,r] of Object.entries(rule.rules))assign(layer,path,r[0]+rule.axes.reduce((sum,axis,i)=>sum+r[i+1]*(dims[axis]-rule.base[i]),0));
     if(model.engine==='panels'){
@@ -182,6 +362,6 @@
     }
     return bounds;
   }
-  root.TroquelEngines={generate,fieldBounds,sheetFit,sheetYield,pillow187000:buildPillow187000,panel188060:buildPanel188060};
+  root.TroquelEngines={generate,fieldBounds,sheetFit,sheetYield,pillow187000:buildPillow187000,panel188060:buildPanel188060,rigid366010:buildRigid366010,rigid366010Pieces:buildRigid366010Pieces,compiled:buildCompiled};
   if(typeof module!=='undefined')module.exports=root.TroquelEngines;
 })(globalThis);

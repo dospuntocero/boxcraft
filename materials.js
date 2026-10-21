@@ -4,9 +4,25 @@
   const modes={get manufacturing(){return I18n.t("Dimensiones de manufactura");},get inner(){return I18n.t("Dimensiones internas");},get outer(){return I18n.t("Dimensiones externas");}};
   const sameId=(a,b)=>String(a)===String(b);
   function profiles(cap){return [{materialIds:[cap.originalMaterialId],thickness:cap.originalThickness,offsets:cap.offsets,original:true},...(cap.physicalProfiles||[]).filter(p=>Number.isFinite(p.thickness)&&p.materialIds?.length&&!['unsupported','blocked','unverified'].includes(p.geometryStatus)&&(p.layer||p.original))];}
-  function profile(cap,physical){if(!physical)return profiles(cap)[0];return profiles(cap).find(p=>p.materialIds.some(id=>sameId(id,physical.materialId))&&Math.abs(p.thickness-physical.thickness)<epsilon);}
+  function rangeThicknesses(cap){
+    if(!Array.isArray(cap.thicknessRange)||cap.thicknessRange.length!==2)return [];
+    const [low,high]=cap.thicknessRange,step=Number(cap.thicknessStep)||.25,values=[];
+    if(!Number.isFinite(low)||!Number.isFinite(high)||!Number.isFinite(step)||step<=0||high<low)return [];
+    for(let value=low;value<=high+epsilon;value+=step)values.push(Number(value.toFixed(6)));
+    return values;
+  }
+  function profile(cap,physical){
+    if(!physical)return profiles(cap)[0];
+    const found=profiles(cap).find(p=>p.materialIds.some(id=>sameId(id,physical.materialId))&&Math.abs(p.thickness-physical.thickness)<epsilon);
+    if(found)return found;
+    if(Array.isArray(cap.thicknessRange)&&physical.thickness>=cap.thicknessRange[0]-epsilon&&physical.thickness<=cap.thicknessRange[1]+epsilon){
+      const base=profiles(cap)[0];
+      return base?{...base,thickness:physical.thickness,range:true}:null;
+    }
+    return null;
+  }
   function limits(cap,material){const observed=cap.observedThicknessLimits||[-Infinity,Infinity];return [Math.max(material.min,observed[0]),Math.min(material.max,observed[1])];}
-  function thicknesses(cap,material){const [lo,hi]=limits(cap,material);return [...new Set(profiles(cap).filter(p=>p.materialIds.some(id=>sameId(id,material.id))&&p.thickness>=lo-epsilon&&p.thickness<=hi+epsilon).map(p=>p.thickness))].sort((a,b)=>a-b);}
+  function thicknesses(cap,material){const [lo,hi]=limits(cap,material);const values=[...profiles(cap).filter(p=>p.materialIds.some(id=>sameId(id,material.id))&&p.thickness>=lo-epsilon&&p.thickness<=hi+epsilon).map(p=>p.thickness),...rangeThicknesses(cap).filter(value=>value>=lo-epsilon&&value<=hi+epsilon)];return [...new Set(values)].sort((a,b)=>a-b);}
   function compatible(cap,materials){return materials.filter(m=>thicknesses(cap,m).length);}
   function reason(cap,material){return thicknesses(cap,material).length?'':I18n.t("No hay geometría verificada para este material y espesor.");}
   function offset(cap,mode,axis,physical){if(!Object.hasOwn(modes,mode))throw Error(I18n.t("Modo de tamaño inválido."));if(mode==='manufacturing')return 0;if(cap.onlyManufacturing)throw Error(I18n.t("Este modelo solo admite dimensiones de manufactura."));const selected=profile(cap,physical);const value=selected?.offsets?.[mode]?.[axis];if(!Number.isFinite(value))throw Error(I18n.t("Conversión de tamaño no verificada para este espesor."));return value;}
