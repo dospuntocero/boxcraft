@@ -40,7 +40,7 @@ These differences include every numeric field in the blank; they are not physica
 
 Engines that are still experimental adapt geometry but do not reproduce every automatic adjustment and rounding operation of the original service. They are marked in the catalog and dimension panel. 187000, 366010, 10002003 and 10001006 are digitally verified; the rest keep observed ranges and warnings. A physical sample is needed to confirm assembly.
 
-The three previously editable models retain their rules: 200010 and 10001029 support L/W/H; 102010 supports L/W/H with L <= 2W. The sandwich box retains its two original parameters without introducing a fictitious height. 102010 still lacks the 92-cut topology.
+The two previously editable models retain their rules: 200010 and 102010 support L/W/H with L <= 2W. The sandwich box retains its two original parameters without introducing a fictitious height. 102010 still lacks the 92-cut topology.
 
 ## Local verification
 
@@ -74,10 +74,6 @@ These captures returned `cleanup_incomplete`: completed actions and geometric re
 The configured physical limit is 1,200 mm for the unfolded blank's `totalX`, in the displayed orientation. Automatic rotation is not applied. The observed relationship is `totalX = 44 + 2L + 2W`; form maxima are recalculated using the other dimension. Height has a 20.6 mm minimum and no configured material-length maximum. Minimums L=30 and W=24 mm are retained. The generator rejects any blank exceeding 1,200 mm and preserves the last valid geometry.
 
 Initial editor dimensions for this material are 434 × 144 × 278 mm; the original captured dimensions remain separate for empirical rules and identity tests. The expanded-range control is not shown for FEFCO because its limits depend on material width. Manufacturing limits and empirical verification ranges are separate concepts.
-
-## Sheet size for box 10001029
-
-User-specified minimums: L=15, W=10.6, H=15.6 mm. The complete dieline must fit 1,000 × 700 mm, or 700 × 1,000 mm when rotated. The engine validates both dimensions and the panel shows the fitting orientation. Each field's maximum is recalculated while retaining the other dimensions, using the blank-extent rules. The SVG retains the canvas orientation; it may be rotated when placed on the sheet. Ranges checked against captures remain separate from these physical limits.
 
 ## Sheet size for box 102010
 

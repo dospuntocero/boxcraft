@@ -16,7 +16,7 @@ function parse(d){const t=d.match(/[MLAZ]|-?\d+(?:\.\d+)?(?:e[+-]?\d+)?/g)||[];l
 function compare(expected,generated){let ei=0,gi=0,max=0;while(ei<expected.length||gi<generated.length){while(ei<expected.length&&expected[ei][0]==='Z')ei++;while(gi<generated.length&&generated[gi].mtd==='Z')gi++;if(ei>=expected.length||gi>=generated.length)break;const [t,a]=expected[ei],g=generated[gi];assert.equal(t,g.mtd);if(t==='A')max=Math.max(max,Math.abs(a[0]-g.rx),Math.abs(a[1]-g.ry),Math.abs(a[5]-g.x),Math.abs(a[6]-g.y),Math.abs(a[4]-g.dir));else if(t==='M'||t==='L')max=Math.max(max,Math.abs(a[0]-g.x),Math.abs(a[1]-g.y));ei++;gi++;}return max;}
 
 test('catálogo: los modelos verificados no son experimentales',()=>{
-  assert.equal(models.length,15);
+  assert.equal(models.length,14);
   for(const model of models){
     if(model.validation&&model.validation.status==='verified'){
       assert.ok(!model.experimental,`${model.id}: sigue experimental`);

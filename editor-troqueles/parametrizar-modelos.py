@@ -35,11 +35,6 @@ def integrate():
             model['experimental'] = True
             model['method'] = 'Reconstrucción afín L/W/H sobre la topología de 80 cortes; error máximo 1,82 mm'
             model['limits'] = 'L ≤ 2W: por encima cambia el fondo a 92 cortes y no está reconstruido. Sin validación física.'
-        if code == '10001029':
-            model['materialSheetMm'] = [1000, 700]
-            model['referenceBounds'] = {axis: [low, None] for axis, low in {'L': 15, 'W': 10.6, 'H': 15.6}.items()}
-            model['bounds'] = model['referenceBounds'].copy()
-            model['expandedBounds'] = model['referenceBounds'].copy()
         if code == '200010':
             # Width of the unfolded blank is the material constraint, not an arbitrary box maximum.
             minimums = {'L': 30, 'W': 24, 'H': 20.6}

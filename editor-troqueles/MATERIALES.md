@@ -11,7 +11,6 @@ La caja **366010** es una excepción controlada: mantiene un único material (ca
 | Modelo | Materiales adicionales observados | Combinaciones adicionales de material y espesor |
 |---|---:|---:|
 | 200010 — Caja de envío FEFCO | 1 | 2 |
-| 10001029 — Caja para loción | 7 | 7 |
 | 102010 — Caja con fondo encajable | 1 | 8 |
 | 150010 — Caja mailer con tapa | 9 | 16 |
 | 112047 — Caja con techo y cordón | 7 | 7 |

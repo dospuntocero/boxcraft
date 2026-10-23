@@ -1,6 +1,6 @@
 globalThis.TallerLocales=globalThis.TallerLocales||{};
 globalThis.TallerLocales.en={
-  "15 modelos en tu biblioteca": "15 models in your library",
+  "14 modelos en tu biblioteca": "14 models in your library",
   "Acercar": "Zoom in",
   "Ajustar al lienzo": "Fit to canvas",
   "Alejar": "Zoom out",

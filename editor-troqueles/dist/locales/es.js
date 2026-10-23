@@ -1,6 +1,6 @@
 globalThis.TallerLocales=globalThis.TallerLocales||{};
 globalThis.TallerLocales.es={
-  "15 modelos en tu biblioteca": "15 modelos en tu biblioteca",
+  "14 modelos en tu biblioteca": "14 modelos en tu biblioteca",
   "Acercar": "Acercar",
   "Ajustar al lienzo": "Ajustar al lienzo",
   "Alejar": "Alejar",

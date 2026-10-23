@@ -11,7 +11,6 @@ Thickness uses discrete observed values and depends on the material. New geometr
 | Model | Additional observed materials | Additional material and thickness combinations |
 |---|---:|---:|
 | 200010 — FEFCO shipping box | 1 | 2 |
-| 10001029 — Lotion box | 7 | 7 |
 | 102010 — Snap-lock bottom box | 1 | 8 |
 | 150010 — Mailer box with lid | 9 | 16 |
 | 112047 — Gable box with cord | 7 | 7 |

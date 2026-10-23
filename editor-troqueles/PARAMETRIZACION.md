@@ -38,7 +38,7 @@ Las diferencias anteriores incluyen todos los campos numéricos del plano, no so
 
 Los motores aún experimentales ofrecen adaptación de la geometría, pero no reproducen todos los ajustes automáticos y redondeos del servicio original. Se señalan en el catálogo y el panel de medidas. 187000, 366010, 10002003 y 10001006 ya están verificados digitalmente; el resto conserva rangos observados y advertencias. Se necesita una muestra física para confirmar el armado.
 
-Los tres modelos que ya eran editables mantienen sus reglas: 200010 y 10001029 admiten L/W/H; 102010 admite L/W/H con L ≤ 2W. La caja sándwich conserva sus dos parámetros de origen y no introduce una altura ficticia. 102010 sigue pendiente de la topología de 92 cortes.
+Los dos modelos que ya eran editables mantienen sus reglas: 200010 y 102010 admiten L/W/H con L ≤ 2W. La caja sándwich conserva sus dos parámetros de origen y no introduce una altura ficticia. 102010 sigue pendiente de la topología de 92 cortes.
 
 ## Verificación local
 
@@ -72,10 +72,6 @@ Las capturas anteriores devolvieron `cleanup_incomplete`: se conservaron las acc
 El material es un pliego completo de **1.200 × 2.300 mm**. El ancho de 1.200 mm sigue siendo el límite duro de `totalX` en la orientación mostrada; la longitud de 2.300 mm limita la altura. La relación observada es `totalX = 44 + 2L + 2W` y `totalY = H + W + 2`. Con 434 × 144 × 278 mm el plano mide 1.200 × 424 mm y el editor calcula **5 cajas por pliego** (1 columna × 5 filas, sin giro). La yield usa **0 mm de sangría lateral** porque el plano ocupa exactamente los 1.200 mm del pliego; los planos comparten borde. La altura máxima para W=144 es 2.154 mm. Se mantienen mínimos L=30 y W=24 mm; los máximos de L/W se recalculan con la otra medida para no superar 1.200 mm. El generador rechaza cualquier plano que exceda el pliego y conserva la última geometría válida.
 
 Las medidas iniciales del editor para este material son 434 × 144 × 278 mm; las medidas capturadas originales permanecen separadas para las reglas empíricas y las pruebas de identidad. El control de rango ampliado no se muestra para FEFCO, porque sus límites dependen del ancho del material. Los límites de fabricación y el rango de verificación empírica son conceptos separados.
-
-## Pliego de la caja 10001029
-
-Mínimos indicados por el usuario: L=15, W=10,6, H=15,6 mm. El troquel completo debe caber en 1.000 × 700 mm o en 700 × 1.000 mm girado. El motor valida ambas dimensiones y el panel muestra la orientación de encaje. Los máximos de cada campo se recalculan conservando las otras medidas, mediante las reglas de extensión del plano. El SVG conserva la orientación del lienzo; puede girarse al colocarlo en el pliego. Los rangos comprobados contra las capturas permanecen separados de estos límites físicos.
 
 ## Pliego de la caja 102010
 

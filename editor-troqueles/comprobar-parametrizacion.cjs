@@ -22,7 +22,7 @@ for(const m of models){
     continue;
   }
   const original=E.generate({...m,materialSheetMm:null},m.dims),a=numbers(original);
-  const baseline=m.id==='10001029'?require('../geometria/modelos/10001029/validacion/knife-04.json').data.layer.traditional:m.layer;
+  const baseline=m.layer;
   const b=numbers(Object.fromEntries(Object.keys(m.layer).map(k=>[k,baseline[k]])));
   const maxBaseError=Math.max(0,...Object.keys(b).map(k=>Math.abs(a[k]-b[k])));
   assert(maxBaseError<1e-7,`${m.id}: cambió la geometría original`);
@@ -33,19 +33,6 @@ for(const m of models){
     const wider=E.generate(m,{...m.dims,W:m.dims.W+1});assert(wider.totalX>0);
     const deeper=E.generate(m,{...m.dims,H:m.dims.H+1});assert(deeper.totalY>0);
     report.push({id:m.id,sheetMm:m.materialSheetMm,minimumDims:m.minimumDims,editableAxes:['L','W','H']});continue;
-  }
-  if(m.materialSheetMm&&m.id==='10001029'){
-    const minimum={L:15,W:10.6,H:15.6};
-    for(const axis of ['L','W','H'])assert.throws(()=>E.generate(m,{...minimum,[axis]:minimum[axis]-.001}));
-    for(const [dims,orientation] of [[{L:393.75,W:100,H:475},'direct'],[{L:243.75,W:100,H:775},'rotated']]){
-      const l=E.generate(m,dims);assert.equal(E.sheetFit(l.totalX,l.totalY,m.materialSheetMm),orientation);
-      assert.throws(()=>E.generate(m,{...dims,L:dims.L+.001}),/no cabe en el pliego/);
-      assert.throws(()=>E.generate(m,{...dims,H:dims.H+.001}),/no cabe en el pliego/);
-    }
-    assert.throws(()=>E.generate(m,{L:250,W:100,H:500}),/no cabe en el pliego/);
-    assert.equal(E.sheetFit(1001,10,m.materialSheetMm),null);
-    for(const axis of ['L','W','H']){const b=E.fieldBounds(m,m.dims,axis);E.generate(m,{...m.dims,[axis]:b[1]});assert.throws(()=>E.generate(m,{...m.dims,[axis]:b[1]+.02}),/no cabe en el pliego/);}
-    report.push({id:m.id,sheetMm:m.materialSheetMm,minimum,rotationAllowed:true,exactBoundaryCases:2});continue;
   }
   if(m.materialSheetMm){
     const specs={'150010':[[20,22,17.6],[1000,700]],'112047':[[30,30,30.6],[1000,700]],'12109002':[[30,30,30.6],[1000,700]],'112310':[[40,40,41],[1200,2300]],'10001006':[[15,10.6,15.6],[1000,700]]};
