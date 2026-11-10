@@ -19,6 +19,10 @@
           arc.setAttribute('d',`M${last.x} ${last.y} A${Math.abs(c.rx)} ${Math.abs(c.ry)} ${c.ang} ${Math.round(c.arc)} ${Math.round(c.dir)} ${c.x} ${c.y}`);
           const length=arc.getTotalLength(),steps=Math.max(1,Math.ceil(length/.1));
           for(let i=1;i<=steps;i++){const p=arc.getPointAtLength(length*i/steps);add(p.x,p.y);}last=c;
+        }else if(c.mtd==='Q'){
+          const steps=8;
+          for(let i=1;i<=steps;i++){const t=i/steps,u=1-t;add(u*u*last.x+2*u*t*c.cx+t*t*c.x,u*u*last.y+2*u*t*c.cy+t*t*c.y);}
+          last=c;
         }else if(c.mtd==='Z')finish();
       }
       finish();

@@ -352,6 +352,9 @@
       let cap=bounds[1]==null?Math.max(...model.materialSheetMm):Math.min(bounds[1],Math.max(...model.materialSheetMm));
       if(model.engine==='pillow187000'&&axis==='H')cap=Math.min(cap,Math.max(bounds[0],dims.W-0.01));
       if(model.id==='102010'&&axis==='L')cap=Math.min(cap,Math.max(bounds[0],2*dims.W));
+      const capDims={...dims,[axis]:cap};
+      const [capX,capY]=extents(model,capDims);
+      if(sheetFit(capX,capY,model.materialSheetMm))return [bounds[0],cap];
       let low=bounds[0],high=cap;
       for(let i=0;i<40;i++){
         const mid=(low+high)/2;
