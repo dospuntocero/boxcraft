@@ -1,0 +1,31 @@
+{
+ "status": "verified",
+ "method": "Reglas compiladas en parámetros internos (A, AR, C, CR, E, S, N, NX, NY) y regímenes por anchura",
+ "axes": [
+  "L",
+  "W",
+  "H"
+ ],
+ "sampleCount": 81,
+ "holdoutCount": 19,
+ "maxErrorMm": 1.5063505998114124e-12,
+ "toleranceMm": 0.0001,
+ "topologyStable": true,
+ "validatedRange": {
+  "L": [
+   30.0,
+   120.0
+  ],
+  "W": [
+   20.0,
+   50.0
+  ],
+  "H": [
+   30.0,
+   200.0
+  ]
+ },
+ "physicalValidated": false,
+ "limits": "L 30–120 mm, W 20–50 mm, H 30–200 mm. Material y espesor originales. Sin validación física.",
+ "evidenceIds": []
+}

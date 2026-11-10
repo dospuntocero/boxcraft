@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "svg_counts": {
+    "faces": 13,
+    "folds": 12,
+    "holes": 0
+  },
+  "viewBox": "0 0 377.9 311.29999999999995",
+  "included_geometry_matches_source": true,
+  "numeric_fields_compared": 803,
+  "computed_fold_length_mm": 1331.3386752274164,
+  "declared_fold_length_mm": 1331.34,
+  "knife_size_mm": {
+    "L": 120.6,
+    "W": 60.6,
+    "H": 161.6
+  },
+  "excluded": [
+    "bleeds",
+    "sizeArrowData"
+  ],
+  "limits": "Sin validación física; material y espesor originales."
+}

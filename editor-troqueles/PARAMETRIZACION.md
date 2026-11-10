@@ -11,13 +11,15 @@ Solo se marca **verificado** un modelo cuyo motor reproduce exactamente las capt
 | 112047 | Experimental | 138 capturas densas | `M` y `K3` exactos; no linealidad 1D de W con muescas de redondeo en 48,2–48,6 y 54,4–54,6; falta fórmula cerrada |
 | 12109002 | Experimental | 3 holdouts hasta 1,57 mm | Detección de escalones y puntos de quiebre |
 | 112310 | Experimental | 2 holdouts hasta 2,50 mm | Fórmulas de `H1,HT,K1,K3,SP,MR` |
-| 10001006 | **Verificado digital** | 97 capturas; 0,000 mm; reglas compiladas en `A/AR/C/CR/E/NX/NY` | Validación física |
+| 10001006 | **Verificado digital** | 321 capturas (314 en rango); 0,000 mm; reglas compiladas en `A/AR/C/CR/E/S/G/NX/NY` con regímenes por ancho | Validación física |
 | 10002003 | **Verificado digital** | 49 capturas; 0,000 mm; reglas compiladas en `A/AR/C/CR/G/L1/NX/NY` | Validación física |
 | 180370 | Experimental | 3 holdouts hasta 0,54 mm | Fórmulas de arcos y `D1/L1/L2/W1` |
 | 180320 | Experimental | 150 capturas; la mayoría de parámetros con fórmulas exactas | La geometría no es afín en esos parámetros en el barrido denso de L; falta el régimen no lineal |
 | 15030101 | Experimental | 3,88 mm; `enabled=false` | Topología pequeña y regla exacta grande |
 | 102010 | Experimental | 1,82 mm; solo topología 80 cortes | Topología 92 cortes y regla exacta |
 | 188060 | Experimental | L 0,70 mm | Muesca exacta y W/H independientes |
+
+En 10001006 se amplió el rango el 28/10/2026 a **L 30–100 / W 20–60** y el 09/11/2026 a **W 10,6–60**, para admitir cajas estrechas como 74 × 14 × 124 mm. Se añadieron 55 capturas (40 únicas nuevas) con sondas decimales en los bordes (`W = 10,6`, `14`, `20,5`, `29,5`, `30,5`; `L = 64,5`, `99,5`; `L + W = 125,25`). El motor local se recompiló con `geometria/modelos/10001006/compilar-reglas.py`.
 
 La infraestructura de captura y ajuste está en `investigacion/parametrico/`. Las capturas nuevas se guardan por modelo y no sobrescriben las históricas.
 
@@ -29,7 +31,7 @@ Los ocho modelos ya tienen generadores locales. La selección, los campos de med
 | 112047 · Techo y cordón | L/W/H | Reglas por parámetros + tabla 1D de W | Experimental; parámetros exactos, pero la no linealidad de W no tiene fórmula cerrada y las tablas de 1/2 mm no alcanzan 0,1 mm |
 | 12109002 · Pastel | L/W/H | Reglas empíricas por coordenada | Experimental; diferencia máxima 1,574 |
 | 112310 · Asa y fondo | L/W/H | Reglas empíricas por coordenada | Experimental; diferencia máxima 2,5 |
-| 10001006 · Solapas | L/W/H | Reglas compiladas en parámetros internos | Verificado digital; 97 capturas y error 0,000 mm |
+| 10001006 · Solapas | L/W/H | Reglas compiladas en parámetros internos y regímenes por ancho | Verificado digital; 321 capturas, L 30–100 y W 10,6–60, error 0,000 mm |
 | 10002003 · Colgar | L/W/H | Reglas compiladas en parámetros internos | Verificado digital; 49 capturas y error 0,000 mm |
 | 180370 · Papas fritas | L/W/H | Reglas empíricas por coordenada, conservando arcos | Experimental; diferencia máxima 0,536 |
 | 180320 · Sándwich | L/W | Transformación por paneles y diagonales | Experimental; 150 capturas y fórmulas de la mayoría de parámetros, pero falta el régimen no lineal |
@@ -119,3 +121,15 @@ Motor afín L/W/H experimental para la topología grande (129 cortes/18 pliegues
 ## Caja rígida 366010
 
 Motor `rigid366010` de cuatro capas (cartón gris y papel de fondo/tapa). Se capturaron 58 configuraciones en L 160–220 mm, W 80–140 mm, H 30–70 mm; el ajuste es afín por régimen (A: L < 200; B: L ≥ 200 con profundidad exterior variable). Error máximo **0,000 mm** fuera de `/bleeds`; el sangrado dibujado se recalcula a 3 mm del corte. Queda **verificado digitalmente**; la validación física y la ampliación de rango siguen pendientes. Uso y límites en `geometria/modelos/366010/README.md`.
+
+## Caja para baraja 110060 (nueva adquisición)
+
+Modelo `PlayingCardBox` de 13 caras, 12 pliegues y 66 cortes, con plano inicial de 101,8 × 236,15 mm para 61,6 × 20,6 × 91,6 mm. Se capturaron 101 respuestas (81 dentro del rango habilitado) y se compiló un motor con regímenes de anchura en 20, 21–29, 30 y ≥ 31 mm.
+
+Rango habilitado: **L 30–120, W 20–50, H 30–200 mm**; 19 holdouts y error máximo **1,5 × 10⁻¹² mm**. Material fijado a cartón blanco de 0,5 mm. Se integró en `editor-troqueles` y se probó la generación en la interfaz hasta 120 × 50 × 200 mm. No se validó armado físico ni otros materiales.
+
+## Caja con apertura trasera 102610 (nueva adquisición)
+
+Modelo `PairBackopenForward` de 13 caras, 12 pliegues y 83 cortes, con plano inicial de 377,9 × 311,3 mm para 120,6 × 60,6 × 161,6 mm. Se capturaron 76 respuestas dentro del rango habilitado.
+
+Rango habilitado: **L 60–200, W 20–100, H 50–250 mm**; error máximo **1,93 × 10⁻¹² mm** con regímenes de anchura en 20, 21–29, 30 y > 30 mm. Material fijado a cartón blanco de 0,5 mm. Se añadió soporte de curvas `Q` en el visor y el sangrado. Integrada en `editor-troqueles` y probada en la interfaz hasta 200 × 100 × 250 mm.

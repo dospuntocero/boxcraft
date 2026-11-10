@@ -1,0 +1,44 @@
+{
+  "modelo": "110060",
+  "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-tuck-end-box-variations-dieline-110060",
+  "fecha": "2026-11-09T14:16:13.578Z",
+  "fuente": "captura Playwright de la respuesta /project/knife",
+  "materialId": 103,
+  "thickness": 0.5,
+  "knifeSize": {
+    "L": 61.6,
+    "W": 20.6,
+    "H": 91.6,
+    "D": 0,
+    "id": 0,
+    "ed": 0,
+    "like": null
+  },
+  "dims": {
+    "L": 60,
+    "W": 20,
+    "H": 90,
+    "D": 0.5,
+    "id": 0,
+    "ed": 0,
+    "like": null
+  },
+  "modeCate": {
+    "cate_no": "110060",
+    "name": "扑克牌卡盒",
+    "code": "PlayingCardBox",
+    "defaultSize": "[{\"length\":\"61.6\",\"width\":\"20.6\",\"height\":\"91.6\",\"remark\":\"\"}]",
+    "lengthLimit": "20,2000",
+    "widthLimit": "15,2000",
+    "heightLimit": "20,2000"
+  },
+  "archivo": {
+    "path": "knife-00.json",
+    "sha256": "905f5ddb8a4ce3e9889fbbdfefddfb5a5a3eb45e25995124c7f4d80edb6fcbf5",
+    "bytes": 30815
+  },
+  "captura": {
+    "estado": "completa",
+    "nota": "respuesta inicial de la página, sin cambiar medidas"
+  }
+}

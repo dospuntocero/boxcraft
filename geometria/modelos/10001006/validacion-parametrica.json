@@ -1,23 +1,23 @@
 {
  "status": "verified",
- "method": "Reglas compiladas en parámetros internos (A, AR, C, CR, E, NX, NY)",
+ "method": "Reglas compiladas en parámetros internos (A, AR, C, CR, E, S, G, NX, NY) y regímenes por anchura",
  "axes": [
   "L",
   "W",
   "H"
  ],
- "sampleCount": 97,
- "holdoutCount": 24,
- "maxErrorMm": 2.8421709430404007e-13,
+ "sampleCount": 314,
+ "holdoutCount": 79,
+ "maxErrorMm": 2.6147972675971687e-12,
  "toleranceMm": 0.0001,
  "topologyStable": true,
  "validatedRange": {
   "L": [
    30.0,
-   60.0
+   100.0
   ],
   "W": [
-   30.0,
+   10.6,
    60.0
   ],
   "H": [
@@ -26,6 +26,6 @@
   ]
  },
  "physicalValidated": false,
- "limits": "Solo material y espesor originales; sin validación física.",
+ "limits": "L 30–100 mm, W 10,6–60 mm, H 80–180 mm. Material y espesor originales. Sin validación física.",
  "evidenceIds": []
 }

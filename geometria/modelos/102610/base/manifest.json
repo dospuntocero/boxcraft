@@ -1,0 +1,53 @@
+{
+  "modelo": "102610",
+  "url": "https://www.pacdora.com/es/dielines-detail/custom-dimensions-back-open-boxes-double-tray-dieline-102610",
+  "fecha": "2026-11-10T00:53:30.011Z",
+  "fuente": "captura Playwright de /project/knife (página pública sin ?id)",
+  "materialId": 103,
+  "thickness": 0.5,
+  "knifeSize": {
+    "L": 120.6,
+    "W": 60.6,
+    "H": 161.6,
+    "D": 0,
+    "id": 0,
+    "ed": 0,
+    "like": null
+  },
+  "dims": {
+    "L": 120,
+    "W": 60,
+    "H": 160,
+    "D": 0.5,
+    "id": 0,
+    "ed": 0,
+    "like": null
+  },
+  "outSize": {
+    "L": 121,
+    "W": 61,
+    "H": 162,
+    "D": 0,
+    "id": 0,
+    "ed": 0,
+    "like": null
+  },
+  "modeCate": {
+    "cate_no": "102610",
+    "name": "后开正向插锁盒",
+    "code": "PairBackopenForward",
+    "defaultSize": "[{\"length\":\"120\",\"width\":\"60\",\"height\":\"160\",\"remark\":\"\"}]",
+    "lengthLimit": "20,2000",
+    "widthLimit": "10,2000",
+    "heightLimit": "40,2000"
+  },
+  "archivo": {
+    "path": "knife-00.json",
+    "sha256": "18ea2ef87c6754acc1d75be3a790e1601802017c6e74553fbca5bd727d0b36b9",
+    "bytes": 33775
+  },
+  "captura": {
+    "estado": "completa",
+    "nota": "la URL con ?id=72128964 exige inicio de sesión; se usó la página pública del modelo 102610"
+  }
+}

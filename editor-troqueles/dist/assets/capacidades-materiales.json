@@ -166459,5 +166459,65 @@
     "physicalProfiles": [],
     "geometryStatus": "parametric-piecewise",
     "blockedReason": "L 160–220 mm, W 80–140 mm, H 30–70 mm y espesor 1,5–2,5 mm. Fuera de ese rango no hay geometría verificada."
+  },
+  "110060": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.2,
+      0.5
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -1.6000000000000014,
+        "W": -0.6000000000000014,
+        "H": -1.5999999999999943
+      },
+      "outer": {
+        "L": 0.3999999999999986,
+        "W": 0.3999999999999986,
+        "H": 0.4000000000000057
+      }
+    },
+    "source": "geometria/modelos/110060/base/knife-00.json",
+    "samples": [],
+    "physicalProfiles": [],
+    "geometryStatus": "compiled-parametric",
+    "blockedReason": "Solo cartón blanco de 0,5 mm; no hay geometría para otros materiales o espesores."
+  },
+  "102610": {
+    "originalMaterialId": 103,
+    "originalThickness": 0.5,
+    "observedThicknessLimits": [
+      0.2,
+      0.5
+    ],
+    "verifiedThicknessRange": [
+      0.5,
+      0.5
+    ],
+    "onlyManufacturing": false,
+    "offsets": {
+      "inner": {
+        "L": -0.5999999999999943,
+        "W": -0.6000000000000014,
+        "H": -1.5999999999999943
+      },
+      "outer": {
+        "L": 0.4000000000000057,
+        "W": 0.3999999999999986,
+        "H": 0.4000000000000057
+      }
+    },
+    "source": "geometria/modelos/102610/base/knife-00.json",
+    "samples": [],
+    "physicalProfiles": [],
+    "geometryStatus": "compiled-parametric",
+    "blockedReason": "Solo cartón blanco de 0,5 mm; no hay geometría para otros materiales o espesores."
   }
 }

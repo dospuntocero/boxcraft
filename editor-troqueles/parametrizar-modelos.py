@@ -71,6 +71,12 @@ def integrate():
             report.append({'id': code, 'method': model['method'], 'experimental': True, 'validation': 'Identity at original dimensions; independent source variations unavailable'})
         if code == '10002003':
             model.pop('editabilityIssue', None)
+        if code == '110060':
+            model['minimumDims'] = {'L': 20.6, 'W': 15.6, 'H': 20.6}
+            model['previewImage'] = 'assets/model-previews/110060.png'
+        if code == '102610':
+            model['minimumDims'] = {'L': 60, 'W': 20, 'H': 50}
+            model['previewImage'] = 'assets/model-previews/102610.png'
         if code == '180370':
             model['materialSheetMm'] = [1000, 700]
             model['minimumDims'] = {'L': 40, 'W': 30}
@@ -81,7 +87,7 @@ def integrate():
             payload = json.loads(compiled.read_text())
             if payload.get('engine') == 'compiled':
                 model['engine'] = 'compiled'
-                model['rule'] = {'features': payload['features'], 'tables': payload.get('tables'), 'tables2d': payload.get('tables2d'), 'rules': payload['rules']}
+                model['rule'] = {'features': payload['features'], 'tables': payload.get('tables'), 'tables2d': payload.get('tables2d'), 'regimes': payload.get('regimes'), 'rules': payload['rules']}
                 ranges = payload['validation']['validatedRange']
                 model['bounds'] = {axis: list(ranges[axis]) for axis in payload['validation']['axes']}
                 model['referenceBounds'] = {axis: list(ranges[axis]) for axis in payload['validation']['axes']}

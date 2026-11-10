@@ -1,0 +1,1019 @@
+{
+ "modelo": "110060",
+ "fecha": "2026-11-09",
+ "fuente": "capturar-playwright.cjs",
+ "materialId": 103,
+ "thickness": 0.5,
+ "archivos": [
+  {
+   "file": "knife-L20-W20.6-H91.6.json",
+   "config": {
+    "L": 20,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "cef96536edcdcade7192c9eb8ee33ce86e673e8e57258b0b5348ef1096e3ae7e",
+   "bytes": 29529
+  },
+  {
+   "file": "knife-L20.6-W15.6-H20.6.json",
+   "config": {
+    "L": 20.6,
+    "W": 15.6,
+    "H": 20.6
+   },
+   "sha256": "fca495a731bef8a59121a7d1b7ff439c3ec0db8e8dc3ca50f9bce8f99f76a747",
+   "bytes": 29902
+  },
+  {
+   "file": "knife-L20.6-W15.6-H91.6.json",
+   "config": {
+    "L": 20.6,
+    "W": 15.6,
+    "H": 91.6
+   },
+   "sha256": "bc6081ecf391731067a2f3881572fc759364db9666f788b2f3eb3f2aab5feb4c",
+   "bytes": 31227
+  },
+  {
+   "file": "knife-L25-W20.6-H91.6.json",
+   "config": {
+    "L": 25,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "988a2f3adf69c82686068940d552dfad90ff5b4fe4a433c69414ec531e99db30",
+   "bytes": 29523
+  },
+  {
+   "file": "knife-L26-W20.6-H91.6.json",
+   "config": {
+    "L": 26,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "05adafbb34287e3e9f2e19810119c7e2282ad819fb38429db757debc249d64cc",
+   "bytes": 29478
+  },
+  {
+   "file": "knife-L27-W20.6-H91.6.json",
+   "config": {
+    "L": 27,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "f329757456dc0a67d0bcecd706cf81d3b90d4271f7c2d9d00a5bce14bf15b0c2",
+   "bytes": 29509
+  },
+  {
+   "file": "knife-L28-W20.6-H91.6.json",
+   "config": {
+    "L": 28,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "894efeae756eb5f6bdaa6de4fc06c2fa8ea1bafc383e92814b2dbc1d261c527b",
+   "bytes": 29491
+  },
+  {
+   "file": "knife-L29-W20.6-H91.6.json",
+   "config": {
+    "L": 29,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "b0cd2d57499c03e70f724ddc8c97f7444d5a0505f3d6cec9a11327ae10c07135",
+   "bytes": 29638
+  },
+  {
+   "file": "knife-L30-W15.6-H91.6.json",
+   "config": {
+    "L": 30,
+    "W": 15.6,
+    "H": 91.6
+   },
+   "sha256": "19da2aa5586d1f84c43024aa2068d18580b2413f3e123af7c1e1e5014c592c93",
+   "bytes": 31650
+  },
+  {
+   "file": "knife-L30-W20-H50.json",
+   "config": {
+    "L": 30,
+    "W": 20,
+    "H": 50
+   },
+   "sha256": "72d01e2f8f588072821e44a3d439f9a8e7c6b2b48c82fd80dd112e0b1d409554",
+   "bytes": 27627
+  },
+  {
+   "file": "knife-L30-W20-H200.json",
+   "config": {
+    "L": 30,
+    "W": 20,
+    "H": 200
+   },
+   "sha256": "cb006d5c71b045c70d0789e89c5917df15721526f9518b0402cb5cdd8f816227",
+   "bytes": 27765
+  },
+  {
+   "file": "knife-L30-W20.6-H91.6.json",
+   "config": {
+    "L": 30,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "8294f286081009ccc04726f7e96ec311890f8c7861028141c067c54f7f81312f",
+   "bytes": 29895
+  },
+  {
+   "file": "knife-L30-W30-H50.json",
+   "config": {
+    "L": 30,
+    "W": 30,
+    "H": 50
+   },
+   "sha256": "11342b38c28a6d8e3e910e4d6ef9319bf4705614e91e3087555cad4f74a772d4",
+   "bytes": 27938
+  },
+  {
+   "file": "knife-L30-W30-H200.json",
+   "config": {
+    "L": 30,
+    "W": 30,
+    "H": 200
+   },
+   "sha256": "0b868081c5eae209773fe38f953569b93f728758ef6c8d6d9cdf12440c2c3460",
+   "bytes": 28032
+  },
+  {
+   "file": "knife-L35-W20.6-H91.6.json",
+   "config": {
+    "L": 35,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "0bb3c6df353e4f25cd2ba84350f4a1e119a17a5930b0f5877b3f6a3df57f724c",
+   "bytes": 30106
+  },
+  {
+   "file": "knife-L39-W20.6-H91.6.json",
+   "config": {
+    "L": 39,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "f0c79940f461ff64cb2ae07fd1cd01d82e934beb76d23b7412558cb05671a5c9",
+   "bytes": 30098
+  },
+  {
+   "file": "knife-L40-W20-H50.json",
+   "config": {
+    "L": 40,
+    "W": 20,
+    "H": 50
+   },
+   "sha256": "d22b5eb44f2484893b01209023291ba6dac83b2e7c16a671f0a7f95fe4aa7d41",
+   "bytes": 27696
+  },
+  {
+   "file": "knife-L40-W20-H200.json",
+   "config": {
+    "L": 40,
+    "W": 20,
+    "H": 200
+   },
+   "sha256": "8a660c78a92fa53b6ebd3c882b6e23179f565f5da4a44f39d3b7af25414138d1",
+   "bytes": 27808
+  },
+  {
+   "file": "knife-L40-W20.6-H91.6.json",
+   "config": {
+    "L": 40,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "aa2e5d4f18e2d5bdc46fa156c847d5b82421fde929f6398cac18f64d54d7a2f0",
+   "bytes": 30108
+  },
+  {
+   "file": "knife-L40-W30-H50.json",
+   "config": {
+    "L": 40,
+    "W": 30,
+    "H": 50
+   },
+   "sha256": "11fba490ca5e8fa9e7c33a41ee03c2188cb8717730bdfb3b937e7b0198d93d03",
+   "bytes": 27991
+  },
+  {
+   "file": "knife-L40-W30-H120.json",
+   "config": {
+    "L": 40,
+    "W": 30,
+    "H": 120
+   },
+   "sha256": "e9c9ecbd3e8214b376d1d41d028d9f9a3f8a34d54292b853196d3be65e018f40",
+   "bytes": 28081
+  },
+  {
+   "file": "knife-L40-W30-H200.json",
+   "config": {
+    "L": 40,
+    "W": 30,
+    "H": 200
+   },
+   "sha256": "4b9632fa0866d39ae132dec2e581bb2e496e239f6a9a657e6432cee9c260c99a",
+   "bytes": 28094
+  },
+  {
+   "file": "knife-L40-W40-H70.json",
+   "config": {
+    "L": 40,
+    "W": 40,
+    "H": 70
+   },
+   "sha256": "2d8b8f0c3dd240b632e7c13169b03da20fe4bf4b42746be133e66f5e7508b1d1",
+   "bytes": 28036
+  },
+  {
+   "file": "knife-L40-W50-H30.json",
+   "config": {
+    "L": 40,
+    "W": 50,
+    "H": 30
+   },
+   "sha256": "b967b465932bc6952df6983b0e8c5ca1c28ec086770332d6c3ddff68c0ba3d5a",
+   "bytes": 28070
+  },
+  {
+   "file": "knife-L44-W20.6-H91.6.json",
+   "config": {
+    "L": 44,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "195571cc0bdd0f3df15c90c7bae4ba43e4472f8cfc6b3da1ab985464496a6d55",
+   "bytes": 30667
+  },
+  {
+   "file": "knife-L45-W20.6-H91.6.json",
+   "config": {
+    "L": 45,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "c5672607f99f728b1a6a6ae1c254ff14178b710a67c1c684b77d8f76fe5205e5",
+   "bytes": 30767
+  },
+  {
+   "file": "knife-L50-W20-H50.json",
+   "config": {
+    "L": 50,
+    "W": 20,
+    "H": 50
+   },
+   "sha256": "e39fdf1f21290876cff126660cc5aff3cf05515aec996ebcbf6de48c2a640458",
+   "bytes": 27687
+  },
+  {
+   "file": "knife-L50-W20-H200.json",
+   "config": {
+    "L": 50,
+    "W": 20,
+    "H": 200
+   },
+   "sha256": "8b8a8024d970454d2fd93a59736232f7ae8207c9b7645b70bdcbec68cb94ed76",
+   "bytes": 27800
+  },
+  {
+   "file": "knife-L50-W20.6-H91.6.json",
+   "config": {
+    "L": 50,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "6de5660eccbe315ad62449bd3f2273424bc57871c9bbbe0a296bd3144bd37881",
+   "bytes": 30693
+  },
+  {
+   "file": "knife-L50-W30-H50.json",
+   "config": {
+    "L": 50,
+    "W": 30,
+    "H": 50
+   },
+   "sha256": "f8422b3a9f3c64ce768ac644d61ff85ca3fb1fa5fff668f06b1952fb4d0fc669",
+   "bytes": 28011
+  },
+  {
+   "file": "knife-L50-W30-H200.json",
+   "config": {
+    "L": 50,
+    "W": 30,
+    "H": 200
+   },
+   "sha256": "c288a057523f1f7e18128b80ce8fbce1bc3106e7b481fbb6c138ec047463faad",
+   "bytes": 28113
+  },
+  {
+   "file": "knife-L55-W20.6-H91.6.json",
+   "config": {
+    "L": 55,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "2d72f013e4663863a28eb5f5f19c3c94bfb5548cf99be40cdfba2d087e9907c8",
+   "bytes": 30584
+  },
+  {
+   "file": "knife-L59-W20.6-H91.6.json",
+   "config": {
+    "L": 59,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "9298e2be117f3266320132af65d64ae8301bb3b98d24ec50c02ff0b9b4f59d0e",
+   "bytes": 30548
+  },
+  {
+   "file": "knife-L60-W20.6-H91.6.json",
+   "config": {
+    "L": 60,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "4c54c73cda38e9fd73086db7b8a6123125218974f8b646f491960ad6d1e7b73b",
+   "bytes": 30509
+  },
+  {
+   "file": "knife-L61.6-W15.6-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 15.6,
+    "H": 91.6
+   },
+   "sha256": "b86ca04ed8246cffbd3a09e35c4352cfe85591cf1533265a800da2aea0dc8f84",
+   "bytes": 31737
+  },
+  {
+   "file": "knife-L61.6-W16-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 16,
+    "H": 91.6
+   },
+   "sha256": "65b4f370cf4c00d898fa54bf846c1c2755f071e1e25c2b63a81cea15386666ab",
+   "bytes": 28539
+  },
+  {
+   "file": "knife-L61.6-W17-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 17,
+    "H": 91.6
+   },
+   "sha256": "5a3d758c8068a100172d5b43b5b4bac93597eed10fd98796c78984a46f899c56",
+   "bytes": 28558
+  },
+  {
+   "file": "knife-L61.6-W18-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 18,
+    "H": 91.6
+   },
+   "sha256": "10a9461eb107d3b7a0994d8acd7b4e0178c9e476d75e278523b4d0710de64d85",
+   "bytes": 28639
+  },
+  {
+   "file": "knife-L61.6-W19-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 19,
+    "H": 91.6
+   },
+   "sha256": "1826b57fd1106b3a59535de3b042babf024ba5d35a10754154a84fe9db80281f",
+   "bytes": 28478
+  },
+  {
+   "file": "knife-L61.6-W20-H50.json",
+   "config": {
+    "L": 61.6,
+    "W": 20,
+    "H": 50
+   },
+   "sha256": "17a73a3e596a3d2ce545ef879eca7d32be9e6adec4fab1681d93d12fcbe30238",
+   "bytes": 28445
+  },
+  {
+   "file": "knife-L61.6-W20-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 20,
+    "H": 91.6
+   },
+   "sha256": "ccde0688a0bf3e11601470377534f04b58ad4635060b0b9b465299fa158bbf6b",
+   "bytes": 28617
+  },
+  {
+   "file": "knife-L61.6-W20-H200.json",
+   "config": {
+    "L": 61.6,
+    "W": 20,
+    "H": 200
+   },
+   "sha256": "a8cc157189fc21f8a0109e036aa375977501a9b9504b7e41f39c3608453f8a9e",
+   "bytes": 28549
+  },
+  {
+   "file": "knife-L61.6-W20.6-H30.json",
+   "config": {
+    "L": 61.6,
+    "W": 20.6,
+    "H": 30
+   },
+   "sha256": "593bb0d728cfbb26a1db2c498d6904690fcc0a1a8a7ac897730e4b9de2185b89",
+   "bytes": 29204
+  },
+  {
+   "file": "knife-L61.6-W20.6-H50.json",
+   "config": {
+    "L": 61.6,
+    "W": 20.6,
+    "H": 50
+   },
+   "sha256": "8d35d37414b040035eac819eb8679758ed05d15f23926a10d93a431dda768b0c",
+   "bytes": 29714
+  },
+  {
+   "file": "knife-L61.6-W20.6-H70.json",
+   "config": {
+    "L": 61.6,
+    "W": 20.6,
+    "H": 70
+   },
+   "sha256": "419efbde358c65668ca86249c43d64600a1acee443e49aeb319938b508bcbbb2",
+   "bytes": 29773
+  },
+  {
+   "file": "knife-L61.6-W20.6-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "321ceeb6b7ed6a8bc9b8b819e47a4d23f099584273dfcd8b2f475238ef842103",
+   "bytes": 30815
+  },
+  {
+   "file": "knife-L61.6-W20.6-H120.json",
+   "config": {
+    "L": 61.6,
+    "W": 20.6,
+    "H": 120
+   },
+   "sha256": "26f6fd29790441ab0fe6c000db1355d80ca5701272793dce1c05aca71a57aa02",
+   "bytes": 29468
+  },
+  {
+   "file": "knife-L61.6-W20.6-H160.json",
+   "config": {
+    "L": 61.6,
+    "W": 20.6,
+    "H": 160
+   },
+   "sha256": "9f3fd8a69f2b9faae0fbb4a2213d67e630fe241c4a8a996405369e5ef9417309",
+   "bytes": 29470
+  },
+  {
+   "file": "knife-L61.6-W20.6-H200.json",
+   "config": {
+    "L": 61.6,
+    "W": 20.6,
+    "H": 200
+   },
+   "sha256": "12025b63aca4e24ceeb1afde38a1638f585021228a1bc58eaeedab30f18d7c7c",
+   "bytes": 29485
+  },
+  {
+   "file": "knife-L61.6-W21-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 21,
+    "H": 91.6
+   },
+   "sha256": "b8a560589b426c00491405b8d3792aa43381cdddb4121506cf603b8b9434fcbc",
+   "bytes": 28568
+  },
+  {
+   "file": "knife-L61.6-W22-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 22,
+    "H": 91.6
+   },
+   "sha256": "0f5831efa341d3974834d6e1f34cf6dc522542d55605bddc43ca04027608ad25",
+   "bytes": 28570
+  },
+  {
+   "file": "knife-L61.6-W23-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 23,
+    "H": 91.6
+   },
+   "sha256": "aa4dfdefcff9f57a5b8a42e2b765543512f31aff8b009a908f5350dd3c56bfcb",
+   "bytes": 28585
+  },
+  {
+   "file": "knife-L61.6-W24-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 24,
+    "H": 91.6
+   },
+   "sha256": "224a31c1332a7285c0797a91938954f6ecba8f87bf14a2983ca90d73490a77e9",
+   "bytes": 28610
+  },
+  {
+   "file": "knife-L61.6-W25-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 25,
+    "H": 91.6
+   },
+   "sha256": "6236f855940fa4cd1bcfea75d58b916a2dc2b87245eac5b47b393a02faa24334",
+   "bytes": 28619
+  },
+  {
+   "file": "knife-L61.6-W26-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 26,
+    "H": 91.6
+   },
+   "sha256": "c3c5fd561a52084207c81435f6d1d3b8f9af0e7af24335fd8a878fd3c612b271",
+   "bytes": 28604
+  },
+  {
+   "file": "knife-L61.6-W27-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 27,
+    "H": 91.6
+   },
+   "sha256": "87d7fa3d54cb7e003ae8a2c30581aece674493bc6e5455b745e1e38edb2079d8",
+   "bytes": 28617
+  },
+  {
+   "file": "knife-L61.6-W28-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 28,
+    "H": 91.6
+   },
+   "sha256": "d31d1d4640bd218b664afbfe7fa5f3593b93126c77958b97e1e27f82c711595a",
+   "bytes": 28589
+  },
+  {
+   "file": "knife-L61.6-W29-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 29,
+    "H": 91.6
+   },
+   "sha256": "eb4c86444396f6a59ade23c3cef5c8b2325b8f3a0e47370f85e6b3d8d8ccfd69",
+   "bytes": 28776
+  },
+  {
+   "file": "knife-L61.6-W30-H50.json",
+   "config": {
+    "L": 61.6,
+    "W": 30,
+    "H": 50
+   },
+   "sha256": "893c21435ab7aaea3c6785cd246dcbdf482bc4b13702bc6da015c33bd2552be7",
+   "bytes": 28718
+  },
+  {
+   "file": "knife-L61.6-W30-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 30,
+    "H": 91.6
+   },
+   "sha256": "a81c1a4fd5793d45b7cda1a4c27799807781bf8fd476752ed6cefd38f244d426",
+   "bytes": 28920
+  },
+  {
+   "file": "knife-L61.6-W30-H200.json",
+   "config": {
+    "L": 61.6,
+    "W": 30,
+    "H": 200
+   },
+   "sha256": "97e0e2b1063b020a6187c630bb8d3d2f7c6309361bad396eb4a6c63b22dfae2c",
+   "bytes": 28794
+  },
+  {
+   "file": "knife-L61.6-W31-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 31,
+    "H": 91.6
+   },
+   "sha256": "f4361fc8adb12e7a27b08612d4f44068868a1d76ac619a1f0807fbb4910423da",
+   "bytes": 29124
+  },
+  {
+   "file": "knife-L61.6-W32-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 32,
+    "H": 91.6
+   },
+   "sha256": "dde89116ea5853397cd3484aefa3fec759586fa7a5e96b0fe02f69607828302c",
+   "bytes": 29221
+  },
+  {
+   "file": "knife-L61.6-W33-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 33,
+    "H": 91.6
+   },
+   "sha256": "7071b391548530345bc2903e27c5e465f8ab23d0aca9bdb367988212ab68c1e1",
+   "bytes": 29169
+  },
+  {
+   "file": "knife-L61.6-W34-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 34,
+    "H": 91.6
+   },
+   "sha256": "c5c40c8c80356e39571503951d43f0220522de7f8f02d3fcdb0dd9110457b73c",
+   "bytes": 28902
+  },
+  {
+   "file": "knife-L61.6-W35-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 35,
+    "H": 91.6
+   },
+   "sha256": "27d40184e32a6bda1857c8239df8b0dc6c72657084bb7bc07d2eb5cbce27540f",
+   "bytes": 28816
+  },
+  {
+   "file": "knife-L61.6-W36-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 36,
+    "H": 91.6
+   },
+   "sha256": "80a31411d3b24d678c672bf183905986d4474ca33ff2294ab0e0aecc5326cbda",
+   "bytes": 28816
+  },
+  {
+   "file": "knife-L61.6-W38-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 38,
+    "H": 91.6
+   },
+   "sha256": "595a681790cae92ed3481a87b7a402b1343c09d25cf95b34be93943955418cb2",
+   "bytes": 28821
+  },
+  {
+   "file": "knife-L61.6-W40-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 40,
+    "H": 91.6
+   },
+   "sha256": "d6a1611b450b0b7d45ca0fb6d56e614789269591e68a7733d50258a4bc6088f7",
+   "bytes": 28896
+  },
+  {
+   "file": "knife-L61.6-W42-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 42,
+    "H": 91.6
+   },
+   "sha256": "4755c50a1b1f192b4abf68796a99a0443c9ee0778bfbb9d5c9c21fbd987758ac",
+   "bytes": 28862
+  },
+  {
+   "file": "knife-L61.6-W45-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 45,
+    "H": 91.6
+   },
+   "sha256": "98a707ccbb73ff4c17a5860c5cae659cd79b9be030cfb787f450638789892467",
+   "bytes": 28859
+  },
+  {
+   "file": "knife-L61.6-W48-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 48,
+    "H": 91.6
+   },
+   "sha256": "bf4735e0ade73257da46d99761b06476fb34c96409140972bc4b4461ea474645",
+   "bytes": 28864
+  },
+  {
+   "file": "knife-L61.6-W50-H91.6.json",
+   "config": {
+    "L": 61.6,
+    "W": 50,
+    "H": 91.6
+   },
+   "sha256": "72c8c3307615aaa6234912f2a2e4ff76ff6954cb29e6cc2e179feeaaafc8a4f7",
+   "bytes": 28855
+  },
+  {
+   "file": "knife-L64-W20.6-H91.6.json",
+   "config": {
+    "L": 64,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "0677e2ff5c2e87ced0156b92a83d5faf0756201eb63bbd516a9db0afdddbfc93",
+   "bytes": 30527
+  },
+  {
+   "file": "knife-L65-W20.6-H91.6.json",
+   "config": {
+    "L": 65,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "b5a2ae380e140dff9b1b6f5b5cba2c4e700003b0261a496e1ee8818b1b76ad72",
+   "bytes": 30489
+  },
+  {
+   "file": "knife-L70-W20-H50.json",
+   "config": {
+    "L": 70,
+    "W": 20,
+    "H": 50
+   },
+   "sha256": "279c88838d5eaa856369e9eed114bf564db0bd1d6cf4d1c9acfe7afe7d618199",
+   "bytes": 27757
+  },
+  {
+   "file": "knife-L70-W20-H200.json",
+   "config": {
+    "L": 70,
+    "W": 20,
+    "H": 200
+   },
+   "sha256": "2fdd7fcfcf38908689f331518d665ef3f2ddf9ffd0845453db275ab936135cc5",
+   "bytes": 27862
+  },
+  {
+   "file": "knife-L70-W20.6-H91.6.json",
+   "config": {
+    "L": 70,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "18351465cc58709894ff2d4969a960bc06036b30fde8f7cf8a08efc95f4931d7",
+   "bytes": 30434
+  },
+  {
+   "file": "knife-L70-W30-H50.json",
+   "config": {
+    "L": 70,
+    "W": 30,
+    "H": 50
+   },
+   "sha256": "bc6ccc24fc2894cddb656162667772ce99584fb2592a1396dee6efcff91a4ca1",
+   "bytes": 28173
+  },
+  {
+   "file": "knife-L70-W30-H200.json",
+   "config": {
+    "L": 70,
+    "W": 30,
+    "H": 200
+   },
+   "sha256": "879db4d68d62938f4bb067fbd7af80550bee6836daf0a1d0d048f377d62cee86",
+   "bytes": 28256
+  },
+  {
+   "file": "knife-L80-W20.6-H91.6.json",
+   "config": {
+    "L": 80,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "b832b83ebbc6021b801768e1dd91bb4c80df9d7842be780b82975d14ffba8167",
+   "bytes": 30462
+  },
+  {
+   "file": "knife-L90-W20-H50.json",
+   "config": {
+    "L": 90,
+    "W": 20,
+    "H": 50
+   },
+   "sha256": "acdbc2459c96a5873ecc716988e1b6a7a7be3016a4b2f5aa0f02a488784649f1",
+   "bytes": 27927
+  },
+  {
+   "file": "knife-L90-W20-H200.json",
+   "config": {
+    "L": 90,
+    "W": 20,
+    "H": 200
+   },
+   "sha256": "7081da7fb1d6ad85fb20a42584ef89c3caecf5ed66039d928b750e7d38189525",
+   "bytes": 28032
+  },
+  {
+   "file": "knife-L90-W20.6-H91.6.json",
+   "config": {
+    "L": 90,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "4c124cfb440999c47a01234721fdaf180e3cf9d045e7c0a4b046f6aae6213ac0",
+   "bytes": 30420
+  },
+  {
+   "file": "knife-L90-W30-H50.json",
+   "config": {
+    "L": 90,
+    "W": 30,
+    "H": 50
+   },
+   "sha256": "3ccb87e4cbe67e9803f3cff569afe95d4f0bfe8ffae44e44051351f38c3137b7",
+   "bytes": 28290
+  },
+  {
+   "file": "knife-L90-W30-H200.json",
+   "config": {
+    "L": 90,
+    "W": 30,
+    "H": 200
+   },
+   "sha256": "62e0cb9a2378003cd7c74f9121bd0a58754026a2b906226d04a41741ed4d5e21",
+   "bytes": 28380
+  },
+  {
+   "file": "knife-L90-W40-H150.json",
+   "config": {
+    "L": 90,
+    "W": 40,
+    "H": 150
+   },
+   "sha256": "cb666bb2d06c99c7b9ed1f4d621a1fc85933cf388360df362aa5349856666415",
+   "bytes": 28282
+  },
+  {
+   "file": "knife-L99-W20.6-H91.6.json",
+   "config": {
+    "L": 99,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "96d4818805f6e1e6afc02d4fa0eca0daaeced6b5c7081bfdb722f996238599f8",
+   "bytes": 30388
+  },
+  {
+   "file": "knife-L100-W15.6-H50.json",
+   "config": {
+    "L": 100,
+    "W": 15.6,
+    "H": 50
+   },
+   "sha256": "cb083b256ea0031658416eca24000c2e354fd5cfd37bcc6aceeb92d3fb9f641c",
+   "bytes": 30545
+  },
+  {
+   "file": "knife-L100-W20.6-H91.6.json",
+   "config": {
+    "L": 100,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "552b30e0cee0f4f754e839b34bbde0e34e27fd96579fb0b2af2887acbf40c9b2",
+   "bytes": 30370
+  },
+  {
+   "file": "knife-L120-W15.6-H160.json",
+   "config": {
+    "L": 120,
+    "W": 15.6,
+    "H": 160
+   },
+   "sha256": "c5aee9a29581fabf4e8c7200b4d63ec408de1a5634e6f51f14b86d060c4bf743",
+   "bytes": 30151
+  },
+  {
+   "file": "knife-L120-W15.6-H200.json",
+   "config": {
+    "L": 120,
+    "W": 15.6,
+    "H": 200
+   },
+   "sha256": "a3cae0ed0a90735f4d5145da489d251bf972fa5c8940d2bdcf6cecc90b7a62c3",
+   "bytes": 30165
+  },
+  {
+   "file": "knife-L120-W20-H50.json",
+   "config": {
+    "L": 120,
+    "W": 20,
+    "H": 50
+   },
+   "sha256": "541ad69f0f82555e0c3ef61267307a7384c78f544ddbf0ae44afe9eded0d9aba",
+   "bytes": 27979
+  },
+  {
+   "file": "knife-L120-W20-H200.json",
+   "config": {
+    "L": 120,
+    "W": 20,
+    "H": 200
+   },
+   "sha256": "04c6060d581df9f2e9e6ff861080cec9a184e0de44e223461ed5fd9772a32000",
+   "bytes": 28094
+  },
+  {
+   "file": "knife-L120-W20.6-H91.6.json",
+   "config": {
+    "L": 120,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "915f177aacdd6d08d968b9705be3dfd771d9877de1fe182c793f6695c3b85de7",
+   "bytes": 30367
+  },
+  {
+   "file": "knife-L120-W30-H50.json",
+   "config": {
+    "L": 120,
+    "W": 30,
+    "H": 50
+   },
+   "sha256": "2a5cff210ec5befd5306b351582aa7992a7a63c72d01f5bffcafb0b1cb4a3f5e",
+   "bytes": 28308
+  },
+  {
+   "file": "knife-L120-W30-H200.json",
+   "config": {
+    "L": 120,
+    "W": 30,
+    "H": 200
+   },
+   "sha256": "9012cfa126575b7b46936e64664cffa386b07c386943149a38d30150066bf75b",
+   "bytes": 28413
+  },
+  {
+   "file": "knife-L120-W50-H200.json",
+   "config": {
+    "L": 120,
+    "W": 50,
+    "H": 200
+   },
+   "sha256": "1909d113bf18ebb64758a510e699f0ad98a494ca45759009b25719c152e42ef2",
+   "bytes": 28394
+  },
+  {
+   "file": "knife-L149-W20.6-H91.6.json",
+   "config": {
+    "L": 149,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "23e307015d47861a1ad68e289562578ce95f7bca210e52592dac86986feb68b0",
+   "bytes": 29806
+  },
+  {
+   "file": "knife-L150-W20.6-H91.6.json",
+   "config": {
+    "L": 150,
+    "W": 20.6,
+    "H": 91.6
+   },
+   "sha256": "275b1f06610b8a4db60e673087fd8b2b9f725a058b247423e1e6eb865259c485",
+   "bytes": 29819
+  },
+  {
+   "file": "knife-L150-W50-H200.json",
+   "config": {
+    "L": 150,
+    "W": 50,
+    "H": 200
+   },
+   "sha256": "746addc8dfc92d849c81b8334e9368609b48f26cea719d3f04c1e6aabcfc853d",
+   "bytes": 28373
+  }
+ ]
+}

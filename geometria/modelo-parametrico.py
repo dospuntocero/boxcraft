@@ -101,6 +101,8 @@ def render_svg(layer):
                 out.append(f"{c['mtd']}{c['x']:g} {c['y']:g}")
             elif c['mtd']=='A':
                 out.append(f"A{c['rx']:g} {c['ry']:g} {c['ang']:g} {int(c['arc'])} {int(c['dir'])} {c['x']:g} {c['y']:g}")
+            elif c['mtd']=='Q':
+                out.append(f"Q{c['cx']:g} {c['cy']:g} {c['x']:g} {c['y']:g}")
             elif c['mtd']=='Z': out.append('Z')
             else: raise ValueError(f"Comando no soportado: {c['mtd']}")
         return ' '.join(out)

@@ -26,15 +26,16 @@
     const fmt=v=>new Intl.NumberFormat(I18n.locale,{maximumFractionDigits:unit==='in'?4:2}).format(v);
     let out='<defs><marker id="dimension-arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#0878ff"/></marker></defs><g id="cotas-caja" fill="none" stroke="#0878ff" stroke-width="'+stroke+'">';
     for(const a of anchors(model,layer)){
-      const value=dims[a.axis]/(unit==='in'?25.4:1),cx=(a.x1+a.x2)/2,cy=(a.y1+a.y2)/2;
-      const width=font*(unit==='in'?6.3:5.1),height=font*1.85,tick=font*.55;
-      const horizontal=Math.abs(a.y1-a.y2)<1e-7;
+      const value=dims[a.axis]/(unit==='in'?25.4:1),horizontal=Math.abs(a.y1-a.y2)<1e-7;
+      const label=`${fmt(value)} ${unit}`;
+      const cx=(a.x1+a.x2)/2+(horizontal?0:-font*1.15),cy=(a.y1+a.y2)/2+(horizontal?-font*1.15:0);
+      const width=Math.max(font*3.4,font*(label.length*.58+1.2)),height=font*1.85,tick=font*.55;
       out+=`<g data-dimension="${a.axis}"><path d="M${a.x1} ${a.y1}L${a.x2} ${a.y2}" marker-start="url(#dimension-arrow)" marker-end="url(#dimension-arrow)"/><path d="${horizontal?`M${a.x1} ${a.y1-tick}v${tick*2}M${a.x2} ${a.y2-tick}v${tick*2}`:`M${a.x1-tick} ${a.y1}h${tick*2}M${a.x2-tick} ${a.y2}h${tick*2}`}"/>`;
       if(interactive&&model.bounds[a.axis]&&model.bounds[a.axis][0]!==model.bounds[a.axis][1]){
         const inputValue=Number(value.toFixed(unit==='in'?5:3));
         out+=`<foreignObject x="${cx-width/2}" y="${cy-height/2}" width="${width}" height="${height}" style="overflow:visible"><div xmlns="http://www.w3.org/1999/xhtml" class="dimension-control" style="font-size:${font}px"><input data-canvas-axis="${a.axis}" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" aria-label="${names[a.axis]} ${I18n.t("sobre el plano en")} ${unit}" title="${I18n.t("Editar")} ${names[a.axis].toLowerCase()} ${I18n.t("· Enter para aplicar · Escape para cancelar")}" value="${inputValue}"/><span>${unit}</span></div></foreignObject>`;
       }else{
-        out+=`<rect x="${cx-width/2}" y="${cy-height/2}" width="${width}" height="${height}" rx="${font*.2}" fill="#eef6ff" stroke="none"/><text x="${cx}" y="${cy}" fill="#0878ff" stroke="none" font-family="Arial,sans-serif" font-size="${font}" text-anchor="middle" dominant-baseline="central">${fmt(value)} ${unit}</text>`;
+        out+=`<rect x="${cx-width/2}" y="${cy-height/2}" width="${width}" height="${height}" rx="${font*.2}" fill="#eef6ff" stroke="none"/><text x="${cx}" y="${cy}" fill="#0878ff" stroke="none" font-family="Arial,sans-serif" font-size="${font}" text-anchor="middle" dominant-baseline="central">${label}</text>`;
       }
       out+='</g>';
     }

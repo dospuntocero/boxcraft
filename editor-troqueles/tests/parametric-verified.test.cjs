@@ -16,7 +16,7 @@ function parse(d){const t=d.match(/[MLAZ]|-?\d+(?:\.\d+)?(?:e[+-]?\d+)?/g)||[];l
 function compare(expected,generated){let ei=0,gi=0,max=0;while(ei<expected.length||gi<generated.length){while(ei<expected.length&&expected[ei][0]==='Z')ei++;while(gi<generated.length&&generated[gi].mtd==='Z')gi++;if(ei>=expected.length||gi>=generated.length)break;const [t,a]=expected[ei],g=generated[gi];assert.equal(t,g.mtd);if(t==='A')max=Math.max(max,Math.abs(a[0]-g.rx),Math.abs(a[1]-g.ry),Math.abs(a[5]-g.x),Math.abs(a[6]-g.y),Math.abs(a[4]-g.dir));else if(t==='M'||t==='L')max=Math.max(max,Math.abs(a[0]-g.x),Math.abs(a[1]-g.y));ei++;gi++;}return max;}
 
 test('catálogo: los modelos verificados no son experimentales',()=>{
-  assert.equal(models.length,14);
+  assert.equal(models.length,16);
   for(const model of models){
     if(model.validation&&model.validation.status==='verified'){
       assert.ok(!model.experimental,`${model.id}: sigue experimental`);
@@ -106,7 +106,7 @@ test('10002003: reglas compiladas exactas contra 49 capturas',()=>{
   assert.ok(max<1e-4,`error ${max}`);
 });
 
-test('10001006: reglas compiladas exactas contra 83 capturas',()=>{
+test('10001006: reglas compiladas exactas contra las capturas del rango ampliado',()=>{
   const model=models.find(m=>m.id==='10001006');
   assert.equal(model.engine,'compiled');
   assert.equal(model.validation.status,'verified');
@@ -119,11 +119,40 @@ test('10001006: reglas compiladas exactas contra 83 capturas',()=>{
       const raw=JSON.parse(fs.readFileSync(path.join(dir,file),'utf8'));const data=raw.data||raw;
       if(!data.knifeSize||!data.layer||!data.layer.traditional)continue;
       const dims={L:data.knifeSize.L,W:data.knifeSize.W,H:data.knifeSize.H};
+      if(!Object.entries(dims).every(([axis,value])=>value>=model.bounds[axis][0]-1e-9&&value<=model.bounds[axis][1]+1e-9))continue;
       const actual=flat(E.generate(model,dims)),expected=flat(data.layer.traditional);
       for(const key of Object.keys(expected)){assert.ok(actual[key]!==undefined,`${file}: falta ${key}`);max=Math.max(max,Math.abs(actual[key]-expected[key]));}
       used++;
     }
   }
-  assert.ok(used>=80,`solo ${used} muestras`);
+  assert.ok(used>=270,`solo ${used} muestras`);
   assert.ok(max<1e-4,`error ${max}`);
+});
+
+test('10001006: rango ampliado L 30–100 y W 10,6–60',()=>{
+  const model=models.find(m=>m.id==='10001006');
+  assert.deepEqual(model.bounds,{L:[30,100],W:[10.6,60],H:[80,180]});
+  assert.deepEqual(model.verifiedBounds,{L:[30,100],W:[10.6,60],H:[80,180]});
+  assert.equal(model.experimental,false);
+  for(const dims of [{L:100,W:60,H:180},{L:30,W:10.6,H:80},{L:74,W:14,H:124},{L:100,W:20,H:130},{L:30,W:60,H:80},{L:99.5,W:29.5,H:130}]){
+    const layer=E.generate(model,dims);
+    assert.equal(layer.faces.length,13);
+    assert.equal(layer.folds.length,12);
+    assert.ok(layer.totalX>0&&layer.totalY>0);
+    assert.ok(E.sheetFit(layer.totalX,layer.totalY,model.materialSheetMm));
+  }
+  const narrow=E.generate(model,{L:74,W:14,H:124});
+  assert.ok(Math.abs(narrow.totalX-188)<1e-6);
+  assert.ok(Math.abs(narrow.totalY-177)<1e-6);
+});
+
+test('10001006: regímenes de anchura en 20 y 30 mm',()=>{
+  const model=models.find(m=>m.id==='10001006');
+  const a=E.generate(model,{L:40,W:20,H:130});
+  const b=E.generate(model,{L:40,W:20.5,H:130});
+  const c=E.generate(model,{L:40,W:30,H:130});
+  const d=E.generate(model,{L:40,W:30.5,H:130});
+  const differs=(x,y)=>Object.keys(flat(x)).some(key=>Math.abs(flat(x)[key]-flat(y)[key])>1e-9);
+  assert.ok(differs(a,b));
+  assert.ok(differs(c,d));
 });
