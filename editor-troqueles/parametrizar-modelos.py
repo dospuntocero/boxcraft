@@ -98,6 +98,12 @@ def integrate():
                 if code in sheet_limits:
                     model['materialSheetMm'] = sheet_limits[code][1]
                     model['minimumDims'] = dict(zip('LWH', sheet_limits[code][0]))
+                # Keep an existing report entry in sync with the compiled validation.
+                for index, item in enumerate(report):
+                    if item.get('id') == code:
+                        report[index] = {'id': code, 'method': payload['validation']['method'],
+                                         'experimental': False, 'validation': payload['validation']}
+                        break
         if code in sheet_limits and model.get('engine') != 'compiled':
             minimums, sheet = sheet_limits[code]
             model['materialSheetMm'] = sheet

@@ -27,13 +27,15 @@ This replaces the output SVG and JSON. The editor uses a `compiled` engine that 
 
 The editor applies compiled rules over the internal parameters returned by Pacdora:
 
-- `A = floor(W/2) + (L >= 100 ? 8 : 7)`.
-- `AR = W < 31 ? 1 : W < 33 ? 5 : W < 41 ? 6 : 7`.
+- `A = ceil((W - 1)/2) + (L >= 100 ? 8 : 7)`.
+- `AR` changes with the L regime: if L < 100, `W < 31 ? 1 : W < 35 ? 5 : W < 43 ? 6 : 7`; if L ≥ 100, `W < 31 ? 1 : W < 33 ? 5 : W < 41 ? 6 : 7`.
 - `C = L >= 100 ? 15 : 13`; `CR = L >= 100 ? 8 : 7`.
-- `G = L + W >= 129 ? 16 : 13`; `L1 = L - 1`.
+- `G = L + W >= 125.25 ? 16 : 13`; `L1 = L - 1`. The boundary was located with decimal probes: 125.2 → 13 and 125.25 → 16.
 - `NX = NY = W < 31 ? 2 : 3`.
 
-**49 configurations** were captured (L 80–120, W 30–48, H 80–150 mm), with 12 held out. The maximum error was **0.000000000003 mm**; topology stays at 16 faces, 15 folds, 94 cuts and 2 openings. The report is in `reglas-parametricas.json` and `validacion-parametrica.json`.
+**78 configurations** were captured (L 70–120, W 30–48, H 70–150 mm): 49 originals and 29 new ones (8 at H 70–75 and 21 at L 70–99). The 29 new captures were held out. The maximum error was **0.000000000014 mm**; topology stays at 16 faces, 15 folds, 94 cuts and 2 openings. The report is in `reglas-parametricas.json` and `validacion-parametrica.json`.
+
+The minimum height and length drop to 70 mm (length was 80 mm). Twenty-one captures at L 70–99 were added to pin the regime; `A` (`ceil((W - 1)/2)`, fixing decimal widths) and `AR` (35/43 mm thresholds when L < 100) were corrected in the process. The four dust flaps (`FRT`, `FLT`, `FRB`, `FLB`) are up to 28 mm deep and fold that depth in from each opening; at H = 70 mm they keep at least 14 mm of clearance (2 × 28 = 56 mm), so the closure fits without colliding. The new captures include H = 70, 71 and 75 mm, and L = 70, 71, 75 and 99 mm.
 
 ## Verification and limitations
 

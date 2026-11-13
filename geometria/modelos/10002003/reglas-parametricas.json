@@ -14,9 +14,10 @@
   },
   "A0": {
    "expr": {
+    "const": -0.5,
     "W": 0.5
    },
-   "op": "floor",
+   "op": "ceil",
    "step": 1
   },
   "Aoff": {
@@ -51,6 +52,36 @@
       }
      },
      "value": 1
+    },
+    {
+     "when": {
+      "L": {
+       "lt": 100
+      },
+      "W": {
+       "lt": 35
+      }
+     },
+     "value": 5
+    },
+    {
+     "when": {
+      "L": {
+       "lt": 100
+      },
+      "W": {
+       "lt": 43
+      }
+     },
+     "value": 6
+    },
+    {
+     "when": {
+      "L": {
+       "lt": 100
+      }
+     },
+     "value": 7
     },
     {
      "when": {
@@ -111,7 +142,7 @@
     {
      "when": {
       "LW": {
-       "gte": 129
+       "gte": 125.25
       }
      },
      "value": 16
@@ -7542,14 +7573,14 @@
    "W",
    "H"
   ],
-  "sampleCount": 49,
-  "holdoutCount": 12,
-  "maxErrorMm": 3.069544618483633e-12,
+  "sampleCount": 78,
+  "holdoutCount": 29,
+  "maxErrorMm": 1.364242e-11,
   "toleranceMm": 0.0001,
   "topologyStable": true,
   "validatedRange": {
    "L": [
-    80.0,
+    70.0,
     120.0
    ],
    "W": [
@@ -7557,7 +7588,7 @@
     48.0
    ],
    "H": [
-    80.0,
+    70.0,
     150.0
    ]
   },

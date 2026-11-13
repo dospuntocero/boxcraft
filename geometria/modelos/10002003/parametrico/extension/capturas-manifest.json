@@ -1,0 +1,314 @@
+{
+ "modelo": "10002003",
+ "fecha": "2026-11-13",
+ "fuente": "capturar-playwright.cjs",
+ "materialId": 103,
+ "thickness": 0.5,
+ "rango": {
+  "L": [
+   70,
+   120
+  ],
+  "W": [
+   30,
+   48
+  ],
+  "H": [
+   70,
+   150
+  ]
+ },
+ "nota": "Altura mínima 70 mm y longitud mínima 70 mm. Se corrigieron A (ceil((W-1)/2)) y las fronteras de AR para L<100 (35/43) y L>=100 (33/41). La frontera de G es L+W >= 125,25 mm.",
+ "archivos": [
+  {
+   "file": "ext-L70-W30-H70.json",
+   "config": {
+    "L": 70,
+    "W": 30,
+    "H": 70
+   },
+   "sha256": "c9bce658f3d5179d543bc878d23172912ed83015c1b631b23bc677a7a3e57fdf",
+   "bytes": 38057
+  },
+  {
+   "file": "ext-L70-W31-H120.json",
+   "config": {
+    "L": 70,
+    "W": 31,
+    "H": 120
+   },
+   "sha256": "f6d35d2a4f7de5bccebf2b590434fdf03687401bdd2b8faf53edb33442a203e2",
+   "bytes": 38372
+  },
+  {
+   "file": "ext-L70-W32-H120.json",
+   "config": {
+    "L": 70,
+    "W": 32,
+    "H": 120
+   },
+   "sha256": "ddfcf5a72d15b1d92407736cff6faed1c503e290cc1e27dbc88e9801d9f23625",
+   "bytes": 38383
+  },
+  {
+   "file": "ext-L70-W33-H120.json",
+   "config": {
+    "L": 70,
+    "W": 33,
+    "H": 120
+   },
+   "sha256": "2a77296387ec6c71ab309a5498df6a4f0a88542b2d24cf3a23eb3f341abe7808",
+   "bytes": 38598
+  },
+  {
+   "file": "ext-L70-W34-H120.json",
+   "config": {
+    "L": 70,
+    "W": 34,
+    "H": 120
+   },
+   "sha256": "f0415c838ee5a7925a9860505297b2ac3569512756f3f1025d0137291861d6fd",
+   "bytes": 38621
+  },
+  {
+   "file": "ext-L70-W35-H120.json",
+   "config": {
+    "L": 70,
+    "W": 35,
+    "H": 120
+   },
+   "sha256": "72990fb3971b53444dfc49d70502baba6f35e12162e3c616a265bb595d6142d7",
+   "bytes": 38371
+  },
+  {
+   "file": "ext-L70-W36-H70.json",
+   "config": {
+    "L": 70,
+    "W": 36,
+    "H": 70
+   },
+   "sha256": "253f7f0019dcb6e797ed21a60af5778a9014b99307a3f893a07d657dfa5a3a30",
+   "bytes": 38375
+  },
+  {
+   "file": "ext-L70-W40-H70.json",
+   "config": {
+    "L": 70,
+    "W": 40,
+    "H": 70
+   },
+   "sha256": "7d1dc34d498026c02dddda2070e686d6b95d79c75ac324f5e20a5dd6a09cc377",
+   "bytes": 38414
+  },
+  {
+   "file": "ext-L70-W40-H120.json",
+   "config": {
+    "L": 70,
+    "W": 40,
+    "H": 120
+   },
+   "sha256": "cd75a3995d83da3c56cc535c9e03eb55408dc49fafea77056b88a40f0189613d",
+   "bytes": 38478
+  },
+  {
+   "file": "ext-L70-W40-H150.json",
+   "config": {
+    "L": 70,
+    "W": 40,
+    "H": 150
+   },
+   "sha256": "86949815cb78c21214d593bc377f7871ef32e71667e97c65f62e1bdebf4e0bb6",
+   "bytes": 38490
+  },
+  {
+   "file": "ext-L70-W41-H120.json",
+   "config": {
+    "L": 70,
+    "W": 41,
+    "H": 120
+   },
+   "sha256": "0f31e1340e03803c492303a92dea9163c10c60b17cd1b3c200687d2e789fe34b",
+   "bytes": 38601
+  },
+  {
+   "file": "ext-L70-W41.5-H120.json",
+   "config": {
+    "L": 70,
+    "W": 41.5,
+    "H": 120
+   },
+   "sha256": "e68fdcf47e4112b90865835dde91e6357ff33f94029a85f8c5f38c1eb4325a00",
+   "bytes": 38621
+  },
+  {
+   "file": "ext-L70-W42-H120.json",
+   "config": {
+    "L": 70,
+    "W": 42,
+    "H": 120
+   },
+   "sha256": "5b8d2d5cad9a64a3f1810903b4027af67268fed2130ce844d270a3910736692b",
+   "bytes": 38526
+  },
+  {
+   "file": "ext-L70-W43-H120.json",
+   "config": {
+    "L": 70,
+    "W": 43,
+    "H": 120
+   },
+   "sha256": "1d4e07f02aec99b9e2924e641cbd19bff376a5ba3fa14f01320a8a277bae2580",
+   "bytes": 38653
+  },
+  {
+   "file": "ext-L70-W44-H120.json",
+   "config": {
+    "L": 70,
+    "W": 44,
+    "H": 120
+   },
+   "sha256": "d005718193157bc1c4d42a8715cd14e379cc5a51eca9dd9517d2a99b576d25d5",
+   "bytes": 38633
+  },
+  {
+   "file": "ext-L70-W45-H120.json",
+   "config": {
+    "L": 70,
+    "W": 45,
+    "H": 120
+   },
+   "sha256": "67ba04e28ae15d32c800acbe6a1aa80eef3a6a3ea483afb22ea1a13ff5589961",
+   "bytes": 38680
+  },
+  {
+   "file": "ext-L70-W48-H150.json",
+   "config": {
+    "L": 70,
+    "W": 48,
+    "H": 150
+   },
+   "sha256": "4af6f84d7d8682b75913ab9678b44be9bdcbb7d0a708c89c075e8de605aef90c",
+   "bytes": 38898
+  },
+  {
+   "file": "ext-L71-W40-H120.json",
+   "config": {
+    "L": 71,
+    "W": 40,
+    "H": 120
+   },
+   "sha256": "1a798737d6df27467fb2647f28045c87f9ec87f6d63da1f646a91b31e789e133",
+   "bytes": 38611
+  },
+  {
+   "file": "ext-L75-W40-H120.json",
+   "config": {
+    "L": 75,
+    "W": 40,
+    "H": 120
+   },
+   "sha256": "82c7883fd7f1b1753a4fd81859785ab7aa3e0eb966535e96f364104579851468",
+   "bytes": 38595
+  },
+  {
+   "file": "ext-L80-W30-H70.json",
+   "config": {
+    "L": 80,
+    "W": 30,
+    "H": 70
+   },
+   "sha256": "cfa406e3f88a30f2bbbb4ccf000c3d1123d888665b3617a549fef02790070ff6",
+   "bytes": 38052
+  },
+  {
+   "file": "ext-L90-W36-H70.json",
+   "config": {
+    "L": 90,
+    "W": 36,
+    "H": 70
+   },
+   "sha256": "4012fef1b22244792ffc775c33da5271e047968c14fbc1b6055bdb63ba6749f1",
+   "bytes": 38620
+  },
+  {
+   "file": "ext-L99-W35-H120.json",
+   "config": {
+    "L": 99,
+    "W": 35,
+    "H": 120
+   },
+   "sha256": "ef393a65514d9b3f668209d6d0b8789908557c7f91d49279ceb68d7b0ea53afc",
+   "bytes": 38627
+  },
+  {
+   "file": "ext-L99-W41-H120.json",
+   "config": {
+    "L": 99,
+    "W": 41,
+    "H": 120
+   },
+   "sha256": "aaaec95e9b8f9f8abcc268aedd61fd3952e7809b3053553155d6e37b474f70bf",
+   "bytes": 38940
+  },
+  {
+   "file": "ext-L100-W40-H70.json",
+   "config": {
+    "L": 100,
+    "W": 40,
+    "H": 70
+   },
+   "sha256": "4a2687db03ef188aac039c7df25fb426f77fbe295fc6d59f62528ee7f4674c45",
+   "bytes": 38720
+  },
+  {
+   "file": "ext-L100-W40-H71.json",
+   "config": {
+    "L": 100,
+    "W": 40,
+    "H": 71
+   },
+   "sha256": "40944605639b5a358aa7338accb655afa3d4c4b25f1331c8019eb91f3ae135cd",
+   "bytes": 38733
+  },
+  {
+   "file": "ext-L100-W40-H75.json",
+   "config": {
+    "L": 100,
+    "W": 40,
+    "H": 75
+   },
+   "sha256": "44923fb5b48b959069058febc3d89ccf3cf458ad4a8f4dbea39dc68cb5e7c491",
+   "bytes": 38733
+  },
+  {
+   "file": "ext-L101-W41-H71.json",
+   "config": {
+    "L": 101,
+    "W": 41,
+    "H": 71
+   },
+   "sha256": "98ee0440a4ff3619ce6d33bc210739061826a15fae41fb87e813190fb4a39bd1",
+   "bytes": 38736
+  },
+  {
+   "file": "ext-L110-W45-H70.json",
+   "config": {
+    "L": 110,
+    "W": 45,
+    "H": 70
+   },
+   "sha256": "7665312d0e3211633e0f1cfacdcf56cc98889a86863dc4882569ef0454acaf15",
+   "bytes": 38565
+  },
+  {
+   "file": "ext-L120-W48-H70.json",
+   "config": {
+    "L": 120,
+    "W": 48,
+    "H": 70
+   },
+   "sha256": "cbb24e98d30e820d40701de0a55f7317e0ec1d6b1a7208ac98c749ed87dc3912",
+   "bytes": 38651
+  }
+ ]
+}

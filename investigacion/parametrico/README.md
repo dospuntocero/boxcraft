@@ -41,7 +41,7 @@ python3 investigacion/parametrico/ajustar-playwright.py 112310 /tmp/capturas-112
 Limitaciones actuales del ajustador:
 
 - Las fórmulas candidatas cubren una o dos dimensiones con `round/floor/ceil/clamp`; no cubren todavía arcos, raíces ni funciones por tramos.
-- 112310 y 112047 exponen parámetros internos, pero parte de la geometría no se explica solo con ellos y el error residual supera 1e-4 mm. No se marcan como verificados. 10002003 sí se cerró con reglas compiladas y 49 capturas.
+- 112310 y 112047 exponen parámetros internos, pero parte de la geometría no se explica solo con ellos y el error residual supera 1e-4 mm. No se marcan como verificados. 10002003 sí se cerró con reglas compiladas y 78 capturas.
 - 12109002, 188060, 15030101, 102010 y los paneles requieren detección de topologías/arcos y capturas adicionales.
 
 ## Validar

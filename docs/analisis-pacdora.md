@@ -168,7 +168,7 @@ Se comprobaron XML, conteos y conservación de los campos geométricos incluidos
 
 Se generó geometria/modelos/10002003/troquel-generado.svg con las medidas iniciales 100 × 40 × 120 mm, cartón blanco 350 g de 0.5 mm. La familia PairWithHook contiene 16 caras, 15 pliegues, 94 comandos de corte exterior y 2 aberturas de colgado. El plano ocupa 295.5 × 263.75 mm.
 
-Se comprobaron XML, conteos y conservación de los campos geométricos incluidos. La suma de pliegues coincide con el valor declarado dentro del redondeo a centésimas. Se rasterizó e inspeccionó la salida local. El modelo quedó **verificado digitalmente** con reglas compiladas en parámetros internos: 49 capturas, error 0,000 mm, rango L 80–120, W 30–48, H 80–150 mm. No se validó fabricación. Uso y evidencia en geometria/modelos/10002003/README.md.
+Se comprobaron XML, conteos y conservación de los campos geométricos incluidos. La suma de pliegues coincide con el valor declarado dentro del redondeo a centésimas. Se rasterizó e inspeccionó la salida local. El modelo quedó **verificado digitalmente** con reglas compiladas en parámetros internos: 78 capturas, error 0,000 mm, rango L 70–120, W 30–48, H 70–150 mm. No se validó fabricación. Uso y evidencia en geometria/modelos/10002003/README.md.
 
 ## Décimo modelo: 180370, envase para papas fritas
 

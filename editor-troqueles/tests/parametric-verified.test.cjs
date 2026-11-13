@@ -82,28 +82,72 @@ test('motor compilado: features, redondeo y regímenes',()=>{
   assert.equal(E.generate(rmodel,{L:10,W:25,H:10}).totalX,20);
 });
 
-test('10002003: reglas compiladas exactas contra 49 capturas',()=>{
+test('10002003: reglas compiladas exactas contra 78 capturas (L 70–120, H 70–150)',()=>{
   const model=models.find(m=>m.id==='10002003');
   assert.equal(model.engine,'compiled');
   assert.equal(model.validation.status,'verified');
   assert.ok(!model.experimental);
-  const dirs=[path.resolve(root,'..','geometria/modelos/10002003/parametrico/full'),path.resolve(root,'..','geometria/modelos/10002003/parametrico/bordes'),path.resolve(root,'..','geometria/modelos/10002003/parametricas')];
-  let used=0,max=0;
+  assert.deepEqual(model.bounds,{L:[70,120],W:[30,48],H:[70,150]});
+  assert.deepEqual(model.verifiedBounds,{L:[70,120],W:[30,48],H:[70,150]});
+  const base=path.resolve(root,'..','geometria/modelos/10002003');
+  const dirs=[path.join(base,'parametrico/full'),path.join(base,'parametrico/bordes'),path.join(base,'parametricas'),path.join(base,'parametrico/extension')];
+  const seen=new Set();let max=0;
   for(const dir of dirs){
-    for(const file of fs.readdirSync(dir).filter(name=>name.endsWith('.json')&&name!=='manifest.json')){
+    for(const file of fs.readdirSync(dir).filter(name=>name.endsWith('.json')&&!name.includes('manifest'))){
       const raw=JSON.parse(fs.readFileSync(path.join(dir,file),'utf8'));const data=raw.data||raw;
       if(!data.knifeSize||!data.layer||!data.layer.traditional)continue;
       const dims={L:data.knifeSize.L,W:data.knifeSize.W,H:data.knifeSize.H};
+      seen.add(`${dims.L}/${dims.W}/${dims.H}`);
       const actual=flat(E.generate(model,dims)),expected=flat(data.layer.traditional);
       for(const key of Object.keys(expected)){
         assert.ok(actual[key]!==undefined,`${file}: falta ${key}`);
         max=Math.max(max,Math.abs(actual[key]-expected[key]));
       }
-      used++;
     }
   }
-  assert.ok(used>=45,`solo ${used} muestras`);
+  assert.ok(seen.size>=78,`solo ${seen.size} muestras únicas`);
   assert.ok(max<1e-4,`error ${max}`);
+});
+
+test('10002003: se arma desde H=70 y corrige la frontera de G',()=>{
+  const model=models.find(m=>m.id==='10002003');
+  for(const dims of [{L:80,W:30,H:70},{L:100,W:40,H:70},{L:120,W:48,H:70}]){
+    const layer=E.generate(model,dims);
+    assert.equal(layer.faces.length,16);
+    assert.equal(layer.folds.length,15);
+    assert.equal(layer.holes.length,2);
+    const faces=Object.fromEntries(layer.faces.map(face=>[face.name,face]));
+    // The dust flaps fold into the box from each opening. At H=70 the largest
+    // pair keeps clearance instead of colliding inside.
+    const dust=Math.max(...['FRT','FLT','FRB','FLB'].map(name=>faces[name].h));
+    assert.ok(2*dust<=dims.H,`H ${dims.H}: solapas interiores sin holgura`);
+    assert.ok(layer.totalX>0&&layer.totalY>0);
+  }
+  assert.throws(()=>E.generate(model,{L:100,W:40,H:69.99}),/70/);
+  // G = 16 from L+W >= 125.25 mm; the 125 mm case keeps the 13 mm paste tab.
+  assert.ok(Math.abs(E.generate(model,{L:85,W:40,H:70}).totalX-262.5)<1e-6);
+  assert.ok(Math.abs(E.generate(model,{L:90,W:36,H:70}).totalX-267.5)<1e-6);
+});
+
+test('10002003: longitud mínima 70 y fronteras de A/AR',()=>{
+  const model=models.find(m=>m.id==='10002003');
+  for(const dims of [{L:70,W:30,H:70},{L:70,W:40,H:120},{L:70,W:48,H:150}]){
+    const layer=E.generate(model,dims);
+    assert.equal(layer.faces.length,16);
+    assert.equal(layer.folds.length,15);
+    assert.equal(layer.holes.length,2);
+    assert.ok(layer.totalX>0&&layer.totalY>0);
+  }
+  assert.throws(()=>E.generate(model,{L:69.99,W:40,H:120}),/70/);
+  assert.ok(Math.abs(E.generate(model,{L:70,W:40,H:120}).totalX-232.5)<1e-6);
+  const dir=path.resolve(root,'..','geometria/modelos/10002003/parametrico/extension');
+  // L<100 uses AR thresholds 35/43 mm and A = ceil((W - 1) / 2).
+  for(const file of ['ext-L70-W33-H120.json','ext-L70-W41-H120.json','ext-L70-W41.5-H120.json']){
+    const data=JSON.parse(fs.readFileSync(path.join(dir,file),'utf8')).data;
+    const dims={L:data.knifeSize.L,W:data.knifeSize.W,H:data.knifeSize.H};
+    const actual=flat(E.generate(model,dims)),expected=flat(data.layer.traditional);
+    for(const key of Object.keys(expected))assert.ok(Math.abs(actual[key]-expected[key])<1e-4,`${file}: ${key}`);
+  }
 });
 
 test('10001006: reglas compiladas exactas contra las capturas del rango ampliado',()=>{

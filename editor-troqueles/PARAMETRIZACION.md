@@ -12,7 +12,7 @@ Solo se marca **verificado** un modelo cuyo motor reproduce exactamente las capt
 | 12109002 | Experimental | 3 holdouts hasta 1,57 mm | Detección de escalones y puntos de quiebre |
 | 112310 | Experimental | 2 holdouts hasta 2,50 mm | Fórmulas de `H1,HT,K1,K3,SP,MR` |
 | 10001006 | **Verificado digital** | 321 capturas (314 en rango); 0,000 mm; reglas compiladas en `A/AR/C/CR/E/S/G/NX/NY` con regímenes por ancho | Validación física |
-| 10002003 | **Verificado digital** | 49 capturas; 0,000 mm; reglas compiladas en `A/AR/C/CR/G/L1/NX/NY` | Validación física |
+| 10002003 | **Verificado digital** | 78 capturas; 0,000 mm; L 70–120 y H 70–150; reglas compiladas en `A/AR/C/CR/G/L1/NX/NY` | Validación física |
 | 180370 | Experimental | 3 holdouts hasta 0,54 mm | Fórmulas de arcos y `D1/L1/L2/W1` |
 | 180320 | Experimental | 150 capturas; la mayoría de parámetros con fórmulas exactas | La geometría no es afín en esos parámetros en el barrido denso de L; falta el régimen no lineal |
 | 15030101 | Experimental | 3,88 mm; `enabled=false` | Topología pequeña y regla exacta grande |
@@ -20,6 +20,8 @@ Solo se marca **verificado** un modelo cuyo motor reproduce exactamente las capt
 | 188060 | Experimental | L 0,70 mm | Muesca exacta y W/H independientes |
 
 En 10001006 se amplió el rango el 28/10/2026 a **L 30–100 / W 20–60** y el 09/11/2026 a **W 10,6–60**, para admitir cajas estrechas como 74 × 14 × 124 mm. Se añadieron 55 capturas (40 únicas nuevas) con sondas decimales en los bordes (`W = 10,6`, `14`, `20,5`, `29,5`, `30,5`; `L = 64,5`, `99,5`; `L + W = 125,25`). El motor local se recompiló con `geometria/modelos/10001006/compilar-reglas.py`.
+
+En 10002003 se redujeron a **70 mm** la altura y la longitud mínimas el 13/11/2026. Las solapas interiores de hasta 28 mm dejan al menos 14 mm de holgura al plegarse (2 × 28 = 56 < 70). Se añadieron 29 capturas (8 con H 70–75 y 21 con L 70–99) y se corrigieron `A` (`ceil((W − 1)/2)`) y las fronteras de `AR` (35/43 mm para L < 100; 33/41 mm para L ≥ 100). También se corrigió la frontera de `G` a **L + W ≥ 125,25 mm** (antes 129), que desplazaba 3 mm el bloque derecho entre 126 y 129 mm.
 
 La infraestructura de captura y ajuste está en `investigacion/parametrico/`. Las capturas nuevas se guardan por modelo y no sobrescriben las históricas.
 
@@ -32,7 +34,7 @@ Los ocho modelos ya tienen generadores locales. La selección, los campos de med
 | 12109002 · Pastel | L/W/H | Reglas empíricas por coordenada | Experimental; diferencia máxima 1,574 |
 | 112310 · Asa y fondo | L/W/H | Reglas empíricas por coordenada | Experimental; diferencia máxima 2,5 |
 | 10001006 · Solapas | L/W/H | Reglas compiladas en parámetros internos y regímenes por ancho | Verificado digital; 321 capturas, L 30–100 y W 10,6–60, error 0,000 mm |
-| 10002003 · Colgar | L/W/H | Reglas compiladas en parámetros internos | Verificado digital; 49 capturas y error 0,000 mm |
+| 10002003 · Colgar | L/W/H | Reglas compiladas en parámetros internos | Verificado digital; 78 capturas y error 0,000 mm; L 70–120, H 70–150 |
 | 180370 · Papas fritas | L/W/H | Reglas empíricas por coordenada, conservando arcos | Experimental; diferencia máxima 0,536 |
 | 180320 · Sándwich | L/W | Transformación por paneles y diagonales | Experimental; 150 capturas y fórmulas de la mayoría de parámetros, pero falta el régimen no lineal |
 

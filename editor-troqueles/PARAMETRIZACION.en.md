@@ -14,12 +14,14 @@ A model is marked **verified** only when its engine reproduces the reference cap
 | 12109002 | Experimental | 3 holdouts up to 1.57 mm | Step/breakpoint detection |
 | 112310 | Experimental | 2 holdouts up to 2.50 mm | `H1,HT,K1,K3,SP,MR` formulas |
 | 10001006 | **Digitally verified** | 97 captures; 0.000 mm; compiled rules over `A/AR/C/CR/E/NX/NY` | Physical validation |
-| 10002003 | **Digitally verified** | 49 captures; 0.000 mm; compiled rules over `A/AR/C/CR/G/L1/NX/NY` | Physical validation |
+| 10002003 | **Digitally verified** | 78 captures; 0.000 mm; L 70–120 and H 70–150; compiled rules over `A/AR/C/CR/G/L1/NX/NY` | Physical validation |
 | 180370 | Experimental | 3 holdouts up to 0.54 mm | Arc formulas and `D1/L1/L2/W1` |
 | 180320 | Experimental | 150 captures; most parameters with exact formulas | Geometry is not affine in those parameters across the dense L sweep; the non-linear regime remains |
 | 15030101 | Experimental | 3.88 mm; `enabled=false` | Small topology and exact large rule |
 | 102010 | Experimental | 1.82 mm; only 80-cut topology | 92-cut topology and exact rule |
 | 188060 | Experimental | L 0.70 mm | Exact notch and independent W/H |
+
+On 2026-11-13 the minimum height and length for 10002003 were lowered to **70 mm**. The dust flaps, up to 28 mm deep, leave at least 14 mm of clearance when folded (2 × 28 = 56 < 70). Twenty-nine captures were added (8 at H 70–75 and 21 at L 70–99), and `A` (`ceil((W − 1)/2)`) and the `AR` boundaries (35/43 mm for L < 100; 33/41 mm for L ≥ 100) were corrected. The `G` boundary was also corrected to **L + W ≥ 125.25 mm** (previously 129), which shifted the right-hand block by 3 mm between 126 and 129 mm.
 
 Capture and fitting infrastructure lives in `investigacion/parametrico/`. New captures are stored per model and do not overwrite historical samples.
 
@@ -32,7 +34,7 @@ All eight models now have local generators. Selection, dimension fields, mm/in c
 | 12109002 · Cake | L/W/H | Empirical per-coordinate rules | Experimental; maximum difference 1.574 |
 | 112310 · Handle and bottom | L/W/H | Empirical per-coordinate rules | Experimental; maximum difference 2.5 |
 | 10001006 · Tuck flaps | L/W/H | Compiled rules over internal parameters | Digitally verified; 97 captures, 0.000 mm error |
-| 10002003 · Hanging | L/W/H | Compiled rules over internal parameters | Digitally verified; 49 captures, 0.000 mm error |
+| 10002003 · Hanging | L/W/H | Compiled rules over internal parameters | Digitally verified; 78 captures, 0.000 mm error; L 70–120, H 70–150 |
 | 180370 · French fries | L/W/H | Empirical per-coordinate rules preserving arcs | Experimental; maximum difference 0.536 |
 | 180320 · Sandwich | L/W | Panel and diagonal transformation | Experimental; 150 captures and most parameter formulas, but the non-linear regime remains |
 
